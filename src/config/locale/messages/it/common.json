@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "mogged | Editing immagini AI, image-to-image e strumenti online",
+    "description": "Usa mogged su {{app_domain}} per editing immagini AI, text-to-image, image-to-image, miglioramento immagine e strumenti immagine rapidi nel browser.",
+    "keywords": "image editor ai, editor di immagini AI, editing foto AI, image-to-image, text-to-image, editor immagini online, miglioramento immagine, {{app_domain}}"
+  },
+  "sign": {
+    "sign_in_title": "Accedi",
+    "sign_in_description": "Accedi al tuo account",
+    "sign_in_modal_title": "Benvenuto su PhotoEditorAI",
+    "sign_in_modal_description": "Accedi per ricevere 10 crediti gratuiti ogni giorno",
+    "sign_in_modal_kicker": "Benvenuto su PhotoEditorAI",
+    "sign_in_modal_benefit_1": "🎁 Completamente gratis! Accedi per ottenere 60 crediti gratuiti",
+    "sign_in_modal_benefit_2": "💾 Salvataggio automatico delle modifiche e della cronologia",
+    "sign_in_modal_benefit_3": "✨ Modifica, generazione e miglioramento foto con IA",
+    "sign_in_modal_security_note": "Continuando, accetti i nostri Termini di servizio e l'Informativa sulla privacy.",
+    "sign_up_title": "Registrati",
+    "sign_up_description": "Crea un account",
+    "sign_up_modal_title": "Benvenuto su PhotoEditorAI",
+    "sign_up_modal_description": "Crea un account per sbloccare crediti gratuiti giornalieri",
+    "sign_up_modal_kicker": "Benvenuto su PhotoEditorAI",
+    "sign_up_modal_benefit_1": "🎁 Completamente gratis! Accedi per ottenere 60 crediti gratuiti",
+    "sign_up_modal_benefit_2": "💾 Salvataggio automatico delle modifiche e della cronologia",
+    "sign_up_modal_benefit_3": "✨ Modifica, generazione e miglioramento foto con IA",
+    "sign_up_modal_security_note": "Continuando, accetti i nostri Termini di servizio e l'Informativa sulla privacy.",
+    "email_title": "Email",
+    "email_placeholder": "Inserisci la tua email",
+    "password_title": "Password",
+    "password_placeholder": "Inserisci la tua password",
+    "forgot_password": "Password dimenticata?",
+    "or": "Oppure",
+    "continue": "Continua",
+    "no_account": "Non hai un account?",
+    "already_have_account": "Hai già un account?",
+    "email_sign_in": "Accedi con Email",
+    "email_magic_link_title": "Invia un magic link via email",
+    "magic_link_email_required": "Inserisci la tua email per continuare con un magic link",
+    "magic_link_sent_toast": "Magic link inviato",
+    "magic_link_sign_in_sent": "Controlla {email} per trovare il tuo link di accesso sicuro.",
+    "magic_link_sign_up_sent": "Controlla {email} per trovare il tuo link di registrazione sicuro.",
+    "magic_link_failed": "Richiesta del magic link non riuscita",
+    "magic_link_error_invalid": "Questo magic link non è valido. Richiedine uno nuovo.",
+    "magic_link_error_expired": "Questo magic link è scaduto. Richiedine uno nuovo.",
+    "magic_link_error_attempts_exceeded": "Questo magic link è già stato usato. Richiedine uno nuovo.",
+    "magic_link_error_generic": "Non siamo riusciti a completare questa richiesta di magic link. Riprova.",
+    "magic_link_error_signup_disabled": "La registrazione con magic link non è attualmente disponibile.",
+    "google_sign_in_title": "Accedi con Google",
+    "github_sign_in_title": "Accedi con GitHub",
+    "close_title": "Chiudi",
+    "cancel_title": "Annulla",
+    "sign_out_title": "Esci",
+    "billing_title": "Fatturazione",
+    "name_title": "Nome",
+    "name_placeholder": "Inserisci il tuo nome",
+    "admin_title": "Area amministrativa",
+    "credits_title": "Crediti: {credits}",
+    "email_password_required": "Email e password sono obbligatorie",
+    "email_password_name_required": "Email, password e nome sono obbligatori",
+    "sign_in_failed": "Accesso non riuscito",
+    "sign_up_failed": "Registrazione non riuscita"
+  },
+  "payment": {
+    "choose_payment_method": "Scegli il metodo di pagamento",
+    "choose_payment_method_description": "Usa un provider di pagamento sicuro per continuare il checkout di {plan}.",
+    "cancel_title": "Annulla",
+    "select_payment_method_error": "Seleziona un metodo di pagamento",
+    "select_pricing_item_error": "Seleziona un'opzione tariffaria",
+    "invalid_payment_method_error": "Metodo di pagamento non valido",
+    "embedded_checkout_title": "Checkout sicuro",
+    "embedded_checkout_loading": "Caricamento del checkout sicuro...",
+    "embedded_checkout_finalizing": "Finalizzazione del pagamento...",
+    "embedded_checkout_load_error": "Impossibile caricare il checkout sicuro. Riprova.",
+    "selected_plan_fallback": "questo piano",
+    "choose_payment_method_description_image": "Usa un provider di pagamento sicuro per continuare il checkout di {plan} e sbloccare più crediti per generazione e editing immagini AI.",
+    "choose_payment_method_description_generic": "Usa un provider di pagamento sicuro per continuare il checkout di {plan}."
+  },
+  "locale_detector": {
+    "title": "Abbiamo rilevato che la lingua del tuo browser è {locale}. Vuoi passare a questa lingua?",
+    "switch_to": "Passa a {locale}",
+    "tip_label": "Suggerimento lingua",
+    "dismiss_label": "Chiudi",
+    "not_now": "Non ora"
+  },
+  "empty_state": {
+    "sign_in_required": "Accedi prima",
+    "no_permission": "Non sei autorizzato a visualizzare questa pagina",
+    "invalid_subscription_no": "Numero di abbonamento non valido",
+    "subscription_not_found": "Abbonamento non trovato",
+    "subscription_missing_payment_user": "A questo abbonamento manca il record cliente del pagamento",
+    "subscription_missing_payment_subscription": "A questo abbonamento manca il record dell'abbonamento nel sistema di pagamento",
+    "payment_provider_not_found": "Provider di pagamento non trovato",
+    "billing_url_not_found": "URL di fatturazione non trovato",
+    "billing_failed": "Caricamento del portale di fatturazione non riuscito",
+    "invalid_order_no": "Numero d'ordine non valido",
+    "order_not_found": "Ordine non trovato",
+    "order_missing_invoice": "A questo ordine non è ancora stata associata una fattura",
+    "invoice_url_not_found": "URL della fattura non trovato",
+    "invoice_failed": "Caricamento della fattura non riuscito",
+    "api_key_not_found": "Chiave API non trovata",
+    "user_not_found": "Utente non trovato",
+    "role_not_found": "Ruolo non trovato",
+    "task_not_found": "Attività non trovata",
+    "webhook_event_not_found": "Evento webhook non trovato"
+  },
+  "feedback": {
+    "copied": "Copiato",
+    "thinking": "Sto pensando...",
+    "thought_for_a_few_seconds": "Ha riflettuto per alcuni secondi",
+    "thought_for_seconds": "Ha riflettuto per {seconds} secondi",
+    "used_sources": "Ha usato {count} fonti"
+  },
+  "system_pages": {
+    "not_found": {
+      "title": "Pagina non trovata",
+      "back_home": "Torna alla home"
+    },
+    "route_error": {
+      "title": "Questa pagina non è stata caricata",
+      "description": "Prova a caricare di nuovo questa pagina oppure torna alla home.",
+      "retry": "Riprova",
+      "back_home": "Torna alla home",
+      "digest_label": "Identificativo"
+    },
+    "global_error": {
+      "title": "L'app ha incontrato un errore imprevisto",
+      "description": "Prova a renderizzare di nuovo questa sezione.",
+      "retry": "Riprova",
+      "digest_label": "Identificativo"
+    }
+  },
+  "a11y": {
+    "close": "Chiudi",
+    "open_menu": "Apri menu",
+    "close_menu": "Chiudi menu",
+    "toggle_theme": "Cambia tema",
+    "change_language": "Cambia lingua",
+    "menu": "Menu",
+    "previous_slide": "Slide precedente",
+    "next_slide": "Slide successiva",
+    "close_banner": "Chiudi banner",
+    "pagination": "Paginazione",
+    "breadcrumb": "Breadcrumb",
+    "go_to_previous_page": "Vai alla pagina precedente",
+    "go_to_next_page": "Vai alla pagina successiva",
+    "more_pages": "Altre pagine",
+    "more": "Altro",
+    "sidebar": "Barra laterale",
+    "mobile_sidebar_description": "Mostra la barra laterale mobile.",
+    "toggle_sidebar": "Attiva o disattiva la barra laterale"
+  },
+  "actions": {
+    "more": "Altro"
+  },
+  "upload": {
+    "limit_reached": "Numero massimo di immagini raggiunto",
+    "exceeds_limit": "{name} supera il limite di {size} MB",
+    "reference_alt": "Riferimento",
+    "uploading": "Caricamento...",
+    "failed": "Caricamento non riuscito",
+    "upload": "Carica",
+    "max_size_mb": "Max {size} MB"
+  },
+  "subscribe": {
+    "failed": "Iscrizione non riuscita",
+    "email_placeholder": "Inserisci la tua email",
+    "submit": "Invia"
+  },
+  "support_email": {
+    "copied": "{email} copiato. Se l’app di posta non si apre, puoi incollarlo manualmente.",
+    "unavailable": "Email di supporto: {email}. Se l’app di posta non è disponibile, copiala manualmente."
+  },
+  "contact_support": {
+    "menu_title": "Contatta il supporto",
+    "badge_eyebrow": "Enterprise",
+    "badge_title": "Mettiti in contatto",
+    "title": "Contattaci",
+    "description": "Parliamo delle tue esigenze personalizzate",
+    "mailto_subject": "Richiesta di supporto mogged",
+    "email_label": "Indirizzo email",
+    "message_label": "Messaggio",
+    "message_placeholder": "Raccontaci il tuo progetto...",
+    "message_help": "{count}/2000 caratteri",
+    "submit": "Invia messaggio",
+    "sending": "Invio...",
+    "direct_label": "Oppure invia un'email",
+    "direct_title": "Scrivici",
+    "success": "Messaggio inviato. Risponderemo via email.",
+    "validation_error": "Inserisci almeno 10 caratteri.",
+    "error": "Impossibile inviare il messaggio. Scrivici direttamente via email.",
+    "trust_reply": "Risposta 24h",
+    "trust_dedicated": "Dedicato",
+    "trust_secure": "Sicuro"
+  },
+  "verification_code_email": {
+    "title": "Codice di verifica",
+    "message": "Il tuo codice di verifica è: {code}"
+  },
+  "daily_claim": {
+    "title": "Dettagli crediti",
+    "description": "Richiedi il tuo bonus giornaliero e gestisci i tuoi crediti",
+    "available_credits": "Crediti disponibili",
+    "daily_bonus": {
+      "title": "Bonus giornaliero disponibile!",
+      "subtitle": "Richiedi +{credits} crediti",
+      "button_claim": "Richiedi +{credits} crediti",
+      "button_claimed": "Richiesto oggi",
+      "come_back": "Torna domani per un altro bonus!"
+    },
+    "buttons": {
+      "buy_more": "Acquista più crediti"
+    },
+    "messages": {
+      "success": "Richiedi {credits} crediti con successo!",
+      "already_claimed": "Hai già reclamato oggi",
+      "error": "Impossibile richiedere i crediti"
+    }
+  },
+  "notifications": {
+    "bell": "Apri notifiche",
+    "bell_with_count": "Apri notifiche ({count} non lette)"
+  }
+}

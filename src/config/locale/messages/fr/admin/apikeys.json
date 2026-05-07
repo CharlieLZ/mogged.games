@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "title": "Titre",
+    "key": "Clé",
+    "user": "Utilisateur",
+    "status": "Statut",
+    "created_at": "Créé à",
+    "action": "Action"
+  },
+  "list": {
+    "title": "API Touches",
+    "crumbs": {
+      "admin": "Administrateur",
+      "apikeys": "API Touches"
+    }
+  }
+}

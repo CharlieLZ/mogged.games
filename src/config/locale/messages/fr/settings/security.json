@@ -1,0 +1,77 @@
+{
+  "title": "Sécurité",
+  "description": "Gérez au même endroit le changement de mot de passe, l'envoi d'e-mails de réinitialisation et les actions irréversibles sur le compte.",
+  "fields": {
+    "email": "Courriel",
+    "current_password": "Mot de passe actuel",
+    "new_password": "Nouveau mot de passe",
+    "confirm_password": "Confirmer le nouveau mot de passe"
+  },
+  "change_password": {
+    "title": "Changer le mot de passe",
+    "description": "Mettez à jour votre mot de passe sans quitter la session en cours.",
+    "buttons": {
+      "submit": "Enregistrer le mot de passe",
+      "submitting": "Enregistrement..."
+    },
+    "messages": {
+      "currentPasswordRequired": "Saisissez d'abord votre mot de passe actuel.",
+      "newPasswordRequired": "Saisissez un nouveau mot de passe.",
+      "confirmPasswordRequired": "Confirmez le nouveau mot de passe.",
+      "passwordMismatch": "Les deux nouveaux mots de passe ne correspondent pas.",
+      "updated": "Mot de passe mis à jour.",
+      "updateFailed": "Impossible de mettre à jour le mot de passe. Veuillez réessayer."
+    }
+  },
+  "reset_password_request": {
+    "title": "Réinitialiser le mot de passe par courriel",
+    "description": "Envoyez un courriel de réinitialisation à l'adresse liée à votre compte.",
+    "tip": "Utilisez cette option si vous préférez un lien signé par courriel plutôt qu'un changement de mot de passe directement sur cette page.",
+    "sent_hint": "Si l'adresse est valide, le courriel de réinitialisation est en route.",
+    "email_placeholder": "you@example.com",
+    "buttons": {
+      "submit": "Envoyer l'e-mail de réinitialisation",
+      "submitting": "Envoi...",
+      "back_to_sign_in": "Retour à la connexion"
+    },
+    "messages": {
+      "emailRequired": "Saisissez d'abord une adresse e-mail.",
+      "sent": "Si cette adresse existe, un lien de réinitialisation a été envoyé.",
+      "sendFailed": "Impossible d'envoyer l'e-mail de réinitialisation. Veuillez réessayer."
+    }
+  },
+  "reset_password_confirm": {
+    "title": "Choisir un nouveau mot de passe",
+    "description": "Définissez un nouveau mot de passe pour votre compte et revenez dans votre espace de travail.",
+    "buttons": {
+      "submit": "Mettre à jour le mot de passe",
+      "submitting": "Mise à jour...",
+      "back_to_sign_in": "Retour à la connexion",
+      "request_new_link": "Demander un nouveau lien"
+    },
+    "messages": {
+      "tokenMissing": "Ce lien de réinitialisation est incomplet. Demandez-en un nouveau.",
+      "newPasswordRequired": "Saisissez un nouveau mot de passe.",
+      "confirmPasswordRequired": "Confirmez le nouveau mot de passe.",
+      "passwordMismatch": "Les deux nouveaux mots de passe ne correspondent pas.",
+      "updated": "Mot de passe réinitialisé avec succès. Redirection en cours.",
+      "updateFailed": "Impossible de réinitialiser le mot de passe. Demandez un nouvel e-mail et réessayez.",
+      "invalidOrExpiredLink": "Ce lien de réinitialisation est invalide ou expiré. Demandez un nouvel e-mail pour continuer."
+    }
+  },
+  "danger_zone": {
+    "title": "Zone dangereuse",
+    "description": "Actions irréversibles et destructrices",
+    "deleteAccount": "Supprimer le compte",
+    "deleteAccountDescription": "Supprimez définitivement votre compte et toutes les données associées",
+    "deleteButton": "Supprimer le compte",
+    "confirmTitle": "Supprimer le compte",
+    "confirmDescription": "Êtes-vous absolument sûr de vouloir supprimer votre compte ? Cette action ne peut pas être annulée.",
+    "warningMessage": "Tous vos crédits, historique de paiement, contenu généré et données personnelles seront définitivement supprimés. Cette action est irréversible et ne peut être récupérée.",
+    "confirmLabel": "Tapez {keyword} pour confirmer",
+    "cancelButton": "Annuler",
+    "confirmDeleteButton": "Supprimer le compte",
+    "deletingButton": "Suppression...",
+    "deleteError": "Échec de la suppression du compte. Veuillez réessayer."
+  }
+}

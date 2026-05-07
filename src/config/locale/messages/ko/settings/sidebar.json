@@ -1,0 +1,53 @@
+{
+  "title": "설정",
+  "support_text": "청구, 환불 또는 액세스에 도움이 필요하십니까? 이메일:",
+  "support_email": "{{support_email}}",
+  "nav": {
+    "items": [
+      {
+        "title": "프로필",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "보안",
+        "url": "/settings/security",
+        "icon": "Shield"
+      },
+      {
+        "title": "청구",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "사업자등록증",
+        "url": "/certificate",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "결제",
+        "url": "/settings/payments",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "크레딧",
+        "url": "/settings/credits",
+        "icon": "Coins"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "활동",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "설정",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "email": "Correo electrónico",
+    "name": "Nombre",
+    "avatar": "avatar"
+  },
+  "edit": {
+    "title": "Perfil",
+    "description": "Actualiza tu perfil",
+    "crumbs": {
+      "settings": "Configuración",
+      "profile": "Perfil"
+    },
+    "buttons": {
+      "submit": "Guardar"
+    },
+    "messages": {
+      "unauthenticated": "Por favor inicia sesión primero",
+      "nameRequired": "El nombre es obligatorio",
+      "updated": "Perfil actualizado"
+    }
+  }
+}

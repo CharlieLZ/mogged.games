@@ -1,0 +1,21 @@
+{
+  "title": "毎週の統計",
+  "description": "ユーザー、クレジット、注文に関する週ごとのビジネス データの変更を表示する",
+  "refresh": "リフレッシュ",
+  "crumbs": {
+    "admin": "管理者",
+    "weekly": "毎週の統計"
+  },
+  "table": {
+    "week": "週",
+    "period": "期間",
+    "users": "新規ユーザー",
+    "orders": "注文",
+    "payments": "支払い",
+    "subscriptions": "定期購入",
+    "credits_consumed": "使用したクレジット",
+    "credits_granted": "付与されるクレジット",
+    "total": "合計（12週間）",
+    "guest_credits_consumed": "ゲストコスト"
+  }
+}

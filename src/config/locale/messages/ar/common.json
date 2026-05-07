@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "mogged | تحرير الصور بالذكاء الاصطناعي و image-to-image وأدوات عبر الويب",
+    "description": "استخدم mogged على {{app_domain}} لتحرير الصور بالذكاء الاصطناعي و text-to-image و image-to-image وتحسين الصور وأدوات الصور السريعة في المتصفح.",
+    "keywords": "image editor ai, محرر صور بالذكاء الاصطناعي, تحرير الصور بالذكاء الاصطناعي, image-to-image, text-to-image, محرر صور عبر الإنترنت, تحسين الصور, {{app_domain}}"
+  },
+  "sign": {
+    "sign_in_title": "تسجيل الدخول",
+    "sign_in_description": "تسجيل الدخول إلى حسابك",
+    "sign_in_modal_title": "مرحبًا بك في PhotoEditorAI",
+    "sign_in_modal_description": "سجل الدخول لتحصل على 10 أرصدة مجانية كل يوم",
+    "sign_in_modal_kicker": "مرحبًا بك في PhotoEditorAI",
+    "sign_in_modal_benefit_1": "🎁 مجاني تمامًا! سجل الدخول لتحصل على 60 رصيد مجاني",
+    "sign_in_modal_benefit_2": "💾 حفظ تلقائي لتعديلاتك وسجل التوليد",
+    "sign_in_modal_benefit_3": "✨ تحرير وتوليد وتحسين الصور بالذكاء الاصطناعي",
+    "sign_in_modal_security_note": "بالمتابعة، أنت توافق على شروط الخدمة وسياسة الخصوصية.",
+    "sign_up_title": "إنشاء حساب",
+    "sign_up_description": "أنشئ حسابًا",
+    "sign_up_modal_title": "مرحبًا بك في PhotoEditorAI",
+    "sign_up_modal_description": "أنشئ حسابًا لفتح الأرصدة المجانية اليومية",
+    "sign_up_modal_kicker": "مرحبًا بك في PhotoEditorAI",
+    "sign_up_modal_benefit_1": "🎁 مجاني تمامًا! سجل الدخول لتحصل على 60 رصيد مجاني",
+    "sign_up_modal_benefit_2": "💾 حفظ تلقائي لتعديلاتك وسجل التوليد",
+    "sign_up_modal_benefit_3": "✨ تحرير وتوليد وتحسين الصور بالذكاء الاصطناعي",
+    "sign_up_modal_security_note": "بالمتابعة، أنت توافق على شروط الخدمة وسياسة الخصوصية.",
+    "email_title": "البريد الإلكتروني",
+    "email_placeholder": "أدخل بريدك الإلكتروني هنا",
+    "password_title": "كلمة المرور",
+    "password_placeholder": "أدخل كلمة المرور هنا",
+    "forgot_password": "هل نسيت كلمة المرور؟",
+    "or": "أو",
+    "continue": "متابعة",
+    "no_account": "لا تملك حسابًا؟",
+    "already_have_account": "هل لديك حساب بالفعل؟",
+    "email_sign_in": "تسجيل الدخول بالبريد الإلكتروني",
+    "email_magic_link_title": "أرسل رابطًا سحريًا بالبريد",
+    "magic_link_email_required": "أدخل بريدك الإلكتروني للمتابعة عبر الرابط السحري",
+    "magic_link_sent_toast": "تم إرسال الرابط السحري",
+    "magic_link_sign_in_sent": "تحقق من {email} للحصول على رابط تسجيل الدخول الآمن.",
+    "magic_link_sign_up_sent": "تحقق من {email} للحصول على رابط التسجيل الآمن.",
+    "magic_link_failed": "فشل طلب الرابط السحري",
+    "magic_link_error_invalid": "هذا الرابط السحري غير صالح. اطلب رابطًا جديدًا.",
+    "magic_link_error_expired": "انتهت صلاحية هذا الرابط السحري. اطلب رابطًا جديدًا.",
+    "magic_link_error_attempts_exceeded": "تم استخدام هذا الرابط السحري بالفعل. اطلب رابطًا جديدًا.",
+    "magic_link_error_generic": "تعذر إكمال طلب الرابط السحري. حاول مرة أخرى.",
+    "magic_link_error_signup_disabled": "التسجيل عبر الرابط السحري غير متاح حاليًا.",
+    "google_sign_in_title": "تسجيل الدخول عبر Google",
+    "github_sign_in_title": "تسجيل الدخول عبر GitHub",
+    "close_title": "إغلاق",
+    "cancel_title": "إلغاء",
+    "sign_out_title": "تسجيل الخروج",
+    "billing_title": "الفوترة",
+    "name_title": "الاسم",
+    "name_placeholder": "أدخل اسمك هنا",
+    "admin_title": "نظام الإدارة",
+    "credits_title": "رصيد: {credits}",
+    "email_password_required": "البريد الإلكتروني وكلمة المرور مطلوبان",
+    "email_password_name_required": "البريد الإلكتروني وكلمة المرور والاسم مطلوبة",
+    "sign_in_failed": "فشل تسجيل الدخول",
+    "sign_up_failed": "فشل إنشاء الحساب"
+  },
+  "payment": {
+    "choose_payment_method": "اختر طريقة الدفع",
+    "choose_payment_method_description": "استخدم موفر دفع آمنًا لمتابعة إتمام شراء {plan}.",
+    "cancel_title": "إلغاء",
+    "select_payment_method_error": "يرجى اختيار طريقة دفع",
+    "select_pricing_item_error": "يرجى اختيار خيار التسعير",
+    "invalid_payment_method_error": "طريقة دفع غير صالحة",
+    "embedded_checkout_title": "دفع آمن",
+    "embedded_checkout_loading": "جارٍ تحميل صفحة الدفع الآمنة...",
+    "embedded_checkout_finalizing": "جارٍ إنهاء الدفع...",
+    "embedded_checkout_load_error": "تعذر تحميل صفحة الدفع الآمنة. حاول مرة أخرى.",
+    "selected_plan_fallback": "هذه الخطة",
+    "choose_payment_method_description_image": "استخدم موفر دفع آمنًا لمتابعة إتمام شراء {plan} وفتح المزيد من الأرصدة لتوليد الصور وتحريرها بالذكاء الاصطناعي.",
+    "choose_payment_method_description_generic": "استخدم موفر دفع آمنًا لمتابعة إتمام شراء {plan}."
+  },
+  "locale_detector": {
+    "title": "اكتشفنا أن لغة متصفحك هي {locale}. التبديل إليها؟",
+    "switch_to": "التبديل إلى {locale}",
+    "tip_label": "نصيحة اللغة",
+    "dismiss_label": "إغلاق",
+    "not_now": "ليس الآن"
+  },
+  "empty_state": {
+    "sign_in_required": "يرجى تسجيل الدخول أولاً",
+    "no_permission": "ليس لديك إذن لعرض هذه الصفحة",
+    "invalid_subscription_no": "رقم اشتراك غير صالح",
+    "subscription_not_found": "الاشتراك غير موجود",
+    "subscription_missing_payment_user": "الاشتراك يفتقد سجل عميل الدفع",
+    "subscription_missing_payment_subscription": "الاشتراك يفتقد سجل اشتراك الدفع",
+    "payment_provider_not_found": "مزود الدفع غير موجود",
+    "billing_url_not_found": "رابط الفوترة غير موجود",
+    "billing_failed": "فشل تحميل بوابة الفوترة",
+    "invalid_order_no": "رقم طلب غير صالح",
+    "order_not_found": "الطلب غير موجود",
+    "order_missing_invoice": "لا يحتوي هذا الطلب على فاتورة بعد",
+    "invoice_url_not_found": "رابط الفاتورة غير موجود",
+    "invoice_failed": "فشل تحميل الفاتورة",
+    "api_key_not_found": "مفتاح API غير موجود",
+    "user_not_found": "المستخدم غير موجود",
+    "role_not_found": "الدور غير موجود",
+    "task_not_found": "المهمة غير موجودة",
+    "webhook_event_not_found": "حدث الويب هوك غير موجود"
+  },
+  "feedback": {
+    "copied": "تم النسخ",
+    "thinking": "جارٍ التفكير...",
+    "thought_for_a_few_seconds": "فكّر لبضع ثوانٍ",
+    "thought_for_seconds": "فكّر لمدة {seconds} ثوانٍ",
+    "used_sources": "استخدم {count} مصادر"
+  },
+  "system_pages": {
+    "not_found": {
+      "title": "الصفحة غير موجودة",
+      "back_home": "العودة إلى الرئيسية"
+    },
+    "route_error": {
+      "title": "تعذر تحميل هذه الصفحة",
+      "description": "حاول تحميل هذه الصفحة من جديد أو ارجع إلى الرئيسية.",
+      "retry": "إعادة المحاولة",
+      "back_home": "العودة إلى الرئيسية",
+      "digest_label": "المعرّف"
+    },
+    "global_error": {
+      "title": "واجه التطبيق خطأ غير متوقع",
+      "description": "حاول إعادة عرض هذا الجزء مرة أخرى.",
+      "retry": "إعادة المحاولة",
+      "digest_label": "المعرّف"
+    }
+  },
+  "a11y": {
+    "close": "إغلاق",
+    "open_menu": "فتح القائمة",
+    "close_menu": "إغلاق القائمة",
+    "toggle_theme": "تبديل السمة",
+    "change_language": "تغيير اللغة",
+    "menu": "القائمة",
+    "previous_slide": "الشريحة السابقة",
+    "next_slide": "الشريحة التالية",
+    "close_banner": "إغلاق الشريط",
+    "pagination": "التنقل بين الصفحات",
+    "breadcrumb": "مسار التنقل",
+    "go_to_previous_page": "الانتقال إلى الصفحة السابقة",
+    "go_to_next_page": "الانتقال إلى الصفحة التالية",
+    "more_pages": "صفحات إضافية",
+    "more": "المزيد",
+    "sidebar": "الشريط الجانبي",
+    "mobile_sidebar_description": "يعرض الشريط الجانبي على الجوال.",
+    "toggle_sidebar": "تبديل الشريط الجانبي"
+  },
+  "actions": {
+    "more": "المزيد"
+  },
+  "upload": {
+    "limit_reached": "تم الوصول إلى الحد الأقصى لعدد الصور",
+    "exceeds_limit": "يتجاوز {name} حد {size} MB",
+    "reference_alt": "مرجع",
+    "uploading": "جارٍ الرفع...",
+    "failed": "فشل الرفع",
+    "upload": "رفع",
+    "max_size_mb": "الحد الأقصى {size} MB"
+  },
+  "subscribe": {
+    "failed": "فشل الاشتراك",
+    "email_placeholder": "أدخل بريدك الإلكتروني",
+    "submit": "إرسال"
+  },
+  "support_email": {
+    "copied": "تم نسخ {email}. إذا لم يفتح تطبيق البريد، يمكنك لصقه يدويًا.",
+    "unavailable": "بريد الدعم هو {email}. إذا لم يتوفر تطبيق البريد، انسخه يدويًا."
+  },
+  "contact_support": {
+    "menu_title": "تواصل مع الدعم",
+    "badge_eyebrow": "Enterprise",
+    "badge_title": "تواصل معنا",
+    "title": "اتصل بنا",
+    "description": "لنتحدث عن متطلباتك المخصصة",
+    "mailto_subject": "طلب دعم mogged",
+    "email_label": "عنوان البريد الإلكتروني",
+    "message_label": "الرسالة",
+    "message_placeholder": "أخبرنا عن مشروعك...",
+    "message_help": "{count}/2000 حرف",
+    "submit": "إرسال الرسالة",
+    "sending": "جارٍ الإرسال...",
+    "direct_label": "أو أرسل بريدًا مباشرة",
+    "direct_title": "راسلنا",
+    "success": "تم إرسال الرسالة. سنرد عبر البريد الإلكتروني.",
+    "validation_error": "يرجى إدخال 10 أحرف على الأقل.",
+    "error": "تعذر إرسال رسالتك. راسلنا مباشرة عبر البريد الإلكتروني.",
+    "trust_reply": "رد خلال 24 ساعة",
+    "trust_dedicated": "دعم مخصص",
+    "trust_secure": "آمن"
+  },
+  "verification_code_email": {
+    "title": "رمز التحقق",
+    "message": "رمز التحقق الخاص بك هو: {code}"
+  },
+  "daily_claim": {
+    "title": "تفاصيل الاعتمادات",
+    "description": "المطالبة بمكافأتك اليومية وإدارة الاعتمادات الخاصة بك",
+    "available_credits": "الاعتمادات المتاحة",
+    "daily_bonus": {
+      "title": "المكافأة اليومية المتاحة!",
+      "subtitle": "احصل على +{credits} رصيدًا",
+      "button_claim": "احصل على +{credits} رصيدًا",
+      "button_claimed": "ادعى اليوم",
+      "come_back": "أعود غدا للحصول على مكافأة أخرى!"
+    },
+    "buttons": {
+      "buy_more": "شراء المزيد من الاعتمادات"
+    },
+    "messages": {
+      "success": "تمت المطالبة بـ {credits} من النقاط بنجاح!",
+      "already_claimed": "لقد طالبت بالفعل اليوم",
+      "error": "فشل في المطالبة بالاعتمادات"
+    }
+  },
+  "notifications": {
+    "bell": "افتح الإشعارات",
+    "bell_with_count": "افتح الإشعارات ({count} غير مقروءة)"
+  }
+}

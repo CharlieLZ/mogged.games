@@ -1,0 +1,46 @@
+{
+  "title": "Notifications",
+  "description": "Suivez les tâches IA terminées et échouées au même endroit.",
+  "empty": "Aucune notification pour le moment.",
+  "open_task": "Ouvrir la tâche",
+  "prompt_empty": "Aucun prompt fourni",
+  "scene_unknown": "Workflow indisponible",
+  "counts": {
+    "total": "{count} au total"
+  },
+  "pagination": {
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "badges": {
+    "unread": "Non lue",
+    "read": "Lue",
+    "completed": "Terminée",
+    "failed": "Échouée",
+    "canceled": "Annulée",
+    "info": "Info"
+  },
+  "scenes": {
+    "text_to_video": "Texte vers vidéo",
+    "image_to_video": "Image vers vidéo",
+    "reference_to_video": "Référence vers vidéo"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "Tâche IA terminée",
+      "description": "{scene} est prête. Prompt : {prompt}"
+    },
+    "ai_task_failed": {
+      "title": "La tâche IA a échoué",
+      "description": "{scene} a échoué. Prompt : {prompt}",
+      "description_with_error": "{scene} a échoué. Prompt : {prompt}. Erreur : {error}"
+    },
+    "ai_task_canceled": {
+      "title": "Tâche IA annulée"
+    },
+    "fallback": {
+      "title": "Notification",
+      "description": "Ouvrez cet élément pour voir plus de détails."
+    }
+  }
+}

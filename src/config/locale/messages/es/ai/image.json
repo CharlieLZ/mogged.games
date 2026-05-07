@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "title": "Editor de imagen IA | Text & Image to Image - mogged",
+    "description": "Usa el editor de imagen IA en {{app_domain}} para text-to-image, image-to-image, edición fotográfica IA y refinado desde imagen fuente.",
+    "keywords": "ai image editor, ai photo editor, editor de imagen IA, editor de foto IA, mejora imagen IA, text-to-image, image-to-image, {{app_domain}}"
+  },
+  "page": {
+    "title": "Workspace de editor de imagen IA",
+    "description": "Un workspace alojado para edición de imagen IA, text-to-image, image-to-image y refinado desde imagen fuente."
+  },
+  "generator": {
+    "title": "Workspace de editor de imagen IA",
+    "description": "Ejecuta generación guiada por prompt o ediciones guiadas por imagen fuente dentro del mismo editor de imagen IA alojado.",
+    "tabs": {
+      "text-to-image": "Texto a imagen",
+      "image-to-image": "Imagen a imagen"
+    },
+    "tabs_short": {
+      "text-to-image": "Text",
+      "image-to-image": "Image"
+    },
+    "form": {
+      "panel_title": "Editor de imagen IA",
+      "prompt": "Prompt",
+      "try_example": "Try Example",
+      "translate": "Translate",
+      "translating": "Translating...",
+      "prompt_placeholder": "Example: A premium skincare bottle on wet black stone, soft rim lighting, restrained reflections, crisp texture, clean luxury editorial composition.",
+      "prompt_too_long": "Prompt is too long, please delete some content",
+      "example_loaded": "Example prompt loaded.",
+      "translation_success": "Prompt translated to English.",
+      "translation_no_change": "Prompt already looks ready in English.",
+      "translation_stale": "You changed the prompt while translation was running, so we kept your latest version.",
+      "translation_failed": "Translation failed. Please try again.",
+      "copy_prompt": "Copy prompt",
+      "copy_failed": "Could not copy the prompt. Please copy it manually.",
+      "paste_prompt": "Paste prompt",
+      "paste_failed": "Clipboard access is unavailable. Please paste with your keyboard shortcut.",
+      "clear_prompt": "Clear prompt",
+      "expand_prompt": "Expand prompt editor",
+      "collapse_prompt": "Collapse prompt editor",
+      "prompt_copied": "Prompt copied.",
+      "prompt_pasted": "Clipboard pasted into the prompt.",
+      "prompt_cleared": "Prompt cleared.",
+      "advanced": "Generation Controls",
+      "advanced_count": "{count} options",
+      "workflow_runtime_hint": "These are the shared controls across both image workflows.",
+      "model": "Modelo",
+      "quick_select": "Seleccion rapida",
+      "generation_mode": "Modo de generacion",
+      "single_edit": "Single Edit",
+      "multi_fusion": "Multi Fusion",
+      "multi_fusion_hint": "Mezcla hasta 10 imagenes fuente para fusion de referencias, transferencia de estilo o variantes de producto.",
+      "resolution": "Resolution",
+      "aspect_ratio": "Aspect Ratio",
+      "output_format": "Output Format",
+      "web_search": "Web Search",
+      "web_search_hint": "Allow the provider to call web search for current information when supported.",
+      "web_search_guest_hint": "Inicia sesion para usar la busqueda web con creditos de cuenta.",
+      "source_image": "Source Image URL",
+      "source_images": "Source Image URLs",
+      "source_image_placeholder": "One public source image URL",
+      "source_images_placeholder": "Hasta {count} URL publicas de imagen, una por linea",
+      "source_image_hint": "Aceptamos formatos JPEG, PNG o WEBP de hasta 10 MB.",
+      "source_images_hint": "Maximo {count} imagenes. Aceptamos formatos JPEG, PNG o WEBP de hasta 10 MB cada una.",
+      "source_image_required": "Please provide one source image for image-to-image.",
+      "upload_media": "Upload",
+      "upload_media_with_limit": "Subir (max. {count})",
+      "optional": "Optional",
+      "media_upload_success": "Media uploaded and URL added",
+      "media_upload_failed": "Upload failed, please try again",
+      "image_url_invalid": "Invalid image URL. Please use a direct https:// image link.",
+      "image_url_video": "This link does not point to a usable image file. Use a direct image URL instead of a video or download page.",
+      "image_url_cloud_drive": "Cloud-drive and social share links are blocked here. Upload the image or use a direct public image URL instead.",
+      "image_url_private": "This image URL looks private or local. Use a public direct image URL instead.",
+      "image_url_too_many": "Only one source image URL is allowed here.",
+      "image_url_too_many_single": "Single Edit solo acepta una URL de imagen fuente.",
+      "image_url_too_many_multi": "Multi Fusion acepta hasta 10 URL de imagen fuente.",
+      "notifications": "Task Notifications",
+      "notifications_hint": "Useful when provider queues are busy. We keep the current task switch separate from your future default.",
+      "notify_on_completion": "Email me when this task is ready",
+      "notify_on_completion_hint": "We send the prompt, task page link, and a direct download shortcut when the image is ready.",
+      "notify_on_completion_by_default": "Use this for future tasks too",
+      "notify_on_completion_by_default_hint": "Save this as your default so new tasks start with notifications already enabled."
+    },
+    "models": {
+      "badges": {
+        "new": "New",
+        "vip": "VIP",
+        "upgrade": "Upgrade"
+      },
+      "credits_fixed": "{credits} creditos",
+      "credits_by_resolution": "{credits} creditos",
+      "options": {
+        "nano_banana": {
+          "name": "Nano Banana",
+          "description": "Modelo de imagen Google Nano Banana para text-to-image rapido y ediciones de una imagen.",
+          "details": "1K 5 creditos, 2K 10 creditos, 4K 15 creditos."
+        },
+        "nano_banana_2": {
+          "name": "Nano Banana 2",
+          "description": "Ruta Nano Banana reciente para generar desde prompt y refinar imagenes fuente.",
+          "details": "1K 5 creditos, 2K 10 creditos, 4K 15 creditos."
+        },
+        "gpt_image_2": {
+          "name": "GPT Image 2",
+          "description": "Ruta de imagen OpenAI para seguir prompts con precision y hacer ediciones limpias.",
+          "details": "8 creditos en 1K, 2K o 4K."
+        },
+        "nano_banana_pro": {
+          "name": "Nano Banana Pro",
+          "description": "Ruta VIP Nano Banana para generacion image-to-image de mayor fidelidad.",
+          "details": "1K 10 creditos, 2K 18 creditos, 4K 30 creditos."
+        },
+        "seedream_4": {
+          "name": "SeeDream 4.0",
+          "description": "Ruta SeeDream economica para borradores rapidos y ediciones simples.",
+          "details": "3 creditos en 1K, 2K o 4K."
+        },
+        "seedream_45": {
+          "name": "SeeDream 4.5",
+          "description": "Ruta SeeDream mas nueva con buen equilibrio entre velocidad, coste y calidad.",
+          "details": "4 creditos en 1K, 2K o 4K."
+        },
+        "seedream_5": {
+          "name": "SeeDream 5.0",
+          "description": "Ruta SeeDream 5.0 Lite para generacion alojada limpia y ediciones.",
+          "details": "4 creditos en 1K, 2K o 4K."
+        },
+        "flux_2_pro": {
+          "name": "Flux 2 Pro",
+          "description": "Ruta premium Flux 2 Pro para renderizado de alta fidelidad de imagenes y texto.",
+          "details": "12 creditos en 1K, 2K o 4K."
+        },
+        "flux_2_flex": {
+          "name": "Flux 2 Flex",
+          "description": "Ruta economica Flux 2 para generacion rapida y rentable.",
+          "details": "6 creditos en 1K, 2K o 4K."
+        },
+        "grok_imagine": {
+          "name": "Grok Imagine",
+          "description": "Ruta Grok Imagine para generacion creativa de text-to-image.",
+          "details": "5 creditos en 1K, 2K o 4K."
+        },
+        "ideogram_v3": {
+          "name": "Ideogram V3",
+          "description": "Ruta Ideogram para texto y tipografia de alta calidad en imagenes generadas.",
+          "details": "10 creditos en 1K, 2K o 4K."
+        },
+        "ideogram_character": {
+          "name": "Ideogram Character",
+          "description": "Ruta Ideogram para generacion consistente de personajes y retratos.",
+          "details": "8 creditos en 1K, 2K o 4K."
+        },
+        "qwen_image": {
+          "name": "Qwen Image",
+          "description": "Ruta de modelo de imagen Qwen para text-to-image multilingue y ediciones.",
+          "details": "5 creditos en 1K, 2K o 4K."
+        },
+        "z_image": {
+          "name": "Z Image",
+          "description": "Ruta Z-Image para borradores y ediciones rapidas de bajo coste.",
+          "details": "4 creditos en 1K, 2K o 4K."
+        }
+      }
+    },
+    "generate": "Generate Image",
+    "checking_account": "Checking Account...",
+    "loading": "Loading...",
+    "generating": "Generating...",
+    "sign_in_to_generate": "Sign In to Generate",
+    "credits_cost": "Cost {credits} credits",
+    "credits_remaining": "Remaining {credits} credits",
+    "free_generations_today": "Generaciones gratis hoy: {remaining}/{limit}",
+    "guest_quota_used": "Usadas {used}/{limit}",
+    "buy_credits": "Buy Credits",
+    "queue_notice_free": "Los trabajos de imagen gratuitos pueden esperar {min}-{max} min según la carga. Los usuarios de pago se saltan esta cola.",
+    "queue_notice_paid": "Los trabajos de imagen de pago se saltan la cola gratuita y arrancan cuando hay capacidad disponible del proveedor.",
+    "progress": "Progress",
+    "generated_results": "Preview",
+    "sample_preview": "Sample",
+    "sample_preview_title": "Sample mogged still",
+    "sample_preview_description": "A sample image stays here until you run your first generation.",
+    "ready_to_generate": "Ready to Generate",
+    "ready_for_generating": "Ready for Generating",
+    "no_results": "Nothing generated yet",
+    "error_nsfw_blocked": "Esta solicitud fue bloqueada por filtros de seguridad. Prueba un prompt más seguro.",
+    "error_input_validation": "La generación falló: el proveedor rechazó los parámetros de la solicitud. Simplifica el prompt o ajusta las entradas.",
+    "error_image_url_access": "No se pudo cargar la imagen de origen. Asegúrate de que la URL sea pública, directa y no haya expirado.",
+    "error_generic": "La generación falló: {reason}",
+    "error_unknown": "La generación falló debido a un problema temporal de red o servicio. Inténtalo de nuevo.",
+    "guest_generation_unavailable": "La generacion de imagen gratis para invitados no esta disponible temporalmente. Intentalo mas tarde o inicia sesion.",
+    "guest_web_search_unavailable": "La busqueda web es una funcion para cuentas con sesion iniciada. Inicia sesion para usarla con creditos de cuenta.",
+    "error_no_result": "El proveedor no devolvió ningún resultado. Vuelve a intentarlo con otro prompt.",
+    "task_submitted_eta": "Task submitted. Estimated time: {eta}.",
+    "task_submitted_detail": "We refresh automatically when the result is ready. Higher-resolution image jobs can sit in queue longer.",
+    "task_completion_notification_scheduled": "We will email this task's prompt, task page link, and first download shortcut when the result is ready.",
+    "activity_link_hint": "You can view all your tasks anytime at",
+    "activity_link_text": "Activity page",
+    "status": {
+      "pending": "Waiting for the job to start",
+      "processing": "Generating your image...",
+      "success": "Image generation completed",
+      "failed": "Generation failed",
+      "canceled": "Task canceled"
+    },
+    "task_still_processing": "Still processing on server. We keep polling, you can leave and check later.",
+    "task_completed": "Task completed successfully",
+    "image_generated": "Image generated successfully",
+    "video_generated": "Imagen generada correctamente",
+    "create_task_failed": "No se pudo crear la tarea de imagen",
+    "insufficient_credits": "No tienes créditos suficientes. Recarga para seguir generando.",
+    "guest_quota_exhausted": "Ya usaste las generaciones de imagen gratis de hoy.",
+    "guest_quota_exhausted_hint": "Inicia sesion para continuar con creditos de cuenta.",
+    "prompt_required": "Introduce un prompt antes de generar.",
+    "download_fetch_failed": "Failed to fetch the media file",
+    "download_success": "Image downloaded",
+    "download_failed": "Failed to download image",
+    "sample_preview_poster": "Sample preview image poster",
+    "sample_preview_item": "Show sample preview {index}",
+    "sample_generated_image": "Sample generated image",
+    "generated_image": "Generated image",
+    "recent_tasks_title": "Recent Tasks",
+    "recent_tasks_count": "({shown}/{total})",
+    "recent_tasks_empty": "Your recent generated images will appear here.",
+    "recent_tasks_guest_empty": "Generated guest images will appear here on this browser.",
+    "recent_tasks_loading": "Loading recent tasks...",
+    "recent_tasks_copy_prompt": "Copy prompt",
+    "recent_tasks_copy_prompt_success": "Prompt copied.",
+    "recent_tasks_copy_prompt_failed": "Could not copy the prompt.",
+    "recent_tasks_download": "Download",
+    "recent_tasks_preview": "Expand",
+    "recent_tasks_reprompt": "Reprompt",
+    "recent_tasks_regenerate": "Regenerate",
+    "recent_tasks_upscale": "Upscale",
+    "recent_tasks_delete": "Delete",
+    "recent_tasks_deleted": "Task removed.",
+    "recent_tasks_delete_failed": "Failed to remove the task.",
+    "recent_tasks_delete_confirm": "Delete this task?",
+    "recent_tasks_prompt_empty": "Untitled prompt",
+    "guest_history_title": "Local guest history",
+    "guest_history_notice": "Anonymous results are saved only in this browser. They will not sync into your account after sign-in, and clearing browser data or switching devices can remove them. Download anything important.",
+    "guest_history_empty": "Generated guest images will appear here on this browser.",
+    "guest_history_clear": "Clear local guest history",
+    "guest_history_cleared": "Local guest history cleared",
+    "guest_history_download": "Download local guest image",
+    "error_provider_unavailable": "Este generador no está disponible temporalmente. Inténtalo de nuevo en unos minutos.",
+    "error_invalid_request": "No pudimos enviar esta solicitud. Revisa el prompt y las entradas, y vuelve a intentarlo.",
+    "error_rate_limited": "Demasiados intentos en poco tiempo. Espera un momento y vuelve a intentarlo.",
+    "error_request_failed": "No se pudo completar la generación. Inténtalo de nuevo.",
+    "error_request_processing": "Esta misma solicitud ya se está procesando. Espera un momento antes de volver a intentarlo.",
+    "error_reference_unsupported": "Este material de origen no es compatible con el flujo actual. Sustitúyelo y vuelve a intentarlo."
+  }
+}

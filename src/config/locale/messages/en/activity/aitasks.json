@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "Title",
+    "media_type": "Media Type",
+    "provider": "Provider",
+    "model": "Model",
+    "prompt": "Prompt",
+    "options": "Options",
+    "status": "Status",
+    "result": "Result",
+    "cost_credits": "Cost Credits",
+    "created_at": "Created At",
+    "action": "Action",
+    "preview": "Preview"
+  },
+  "list": {
+    "title": "AI Tasks",
+    "tabs": {
+      "all": "All",
+      "image": "Image",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Text"
+    },
+    "buttons": {
+      "view": "View Task",
+      "refresh": "Refresh Task",
+      "preview": "Preview",
+      "download": "Download"
+    },
+    "download": {
+      "image": "Download image {index}",
+      "audio": "Download audio {index}",
+      "video": "Download video {index}",
+      "file": "Download file {index}"
+    },
+    "processing": "Processing... (status: {status})",
+    "failed_with_reason": "Failed: {reason}",
+    "failed_nsfw": "Blocked by safety filters (possible NSFW or sensitive content). Please try a safer prompt.",
+    "failed_image_url_access": "Image link is private or blocked. Cloud drive/social links need sharing permissions. Use a public direct image URL or upload the image.",
+    "failed": "Failed",
+    "canceled": "Canceled",
+    "no_result": "No downloadable file yet",
+    "result_ready": "{count} file(s) ready",
+    "parse_error": "Result data unavailable",
+    "empty_message": "No tasks found"
+  },
+  "detail": {
+    "title": "Task Detail",
+    "description": "Open the result, download the output, or jump back to your full task history.",
+    "back": "Back to task history",
+    "open_activity": "Open task history",
+    "refresh": "Refresh task now",
+    "open_result": "Open result",
+    "empty_result": "This task does not have a downloadable result yet.",
+    "prompt_empty": "No prompt was stored for this task.",
+    "not_found": "Task not found"
+  }
+}

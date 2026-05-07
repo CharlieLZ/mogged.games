@@ -1,0 +1,46 @@
+{
+  "title": "Notifications",
+  "description": "Track AI task completions and failures in one place.",
+  "empty": "No notifications yet.",
+  "open_task": "Open task",
+  "prompt_empty": "No prompt provided",
+  "scene_unknown": "Workflow unavailable",
+  "counts": {
+    "total": "{count} total"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "badges": {
+    "unread": "Unread",
+    "read": "Read",
+    "completed": "Completed",
+    "failed": "Failed",
+    "canceled": "Canceled",
+    "info": "Info"
+  },
+  "scenes": {
+    "text_to_video": "Text to video",
+    "image_to_video": "Image to video",
+    "reference_to_video": "Reference to video"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "AI task completed",
+      "description": "{scene} is ready. Prompt: {prompt}"
+    },
+    "ai_task_failed": {
+      "title": "AI task failed",
+      "description": "{scene} failed. Prompt: {prompt}",
+      "description_with_error": "{scene} failed. Prompt: {prompt}. Error: {error}"
+    },
+    "ai_task_canceled": {
+      "title": "AI task canceled"
+    },
+    "fallback": {
+      "title": "Notification",
+      "description": "Open this item to see more details."
+    }
+  }
+}

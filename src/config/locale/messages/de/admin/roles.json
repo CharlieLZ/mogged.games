@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "title": "Titel",
+    "description": "Beschreibung",
+    "status": "Status",
+    "sort": "Sortieren",
+    "created_at": "Erstellt am",
+    "updated_at": "Aktualisiert am",
+    "permissions": "Berechtigungen",
+    "actions": "Aktionen"
+  },
+  "list": {
+    "title": "Rollen",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Rollen"
+    },
+    "buttons": {
+      "create": "Rolle erstellen",
+      "edit": "Rolle bearbeiten",
+      "edit_permissions": "Berechtigungen bearbeiten",
+      "delete": "Rolle löschen"
+    }
+  },
+  "edit": {
+    "title": "Rolle bearbeiten",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Rollen",
+      "edit": "Rolle bearbeiten"
+    },
+    "buttons": {
+      "submit": "Aktualisieren"
+    }
+  },
+  "edit_permissions": {
+    "title": "Berechtigungen bearbeiten",
+    "crumbs": {
+      "admin": "Admin",
+      "roles": "Rollen",
+      "edit_permissions": "Berechtigungen bearbeiten"
+    },
+    "buttons": {
+      "submit": "Aktualisieren"
+    }
+  }
+}

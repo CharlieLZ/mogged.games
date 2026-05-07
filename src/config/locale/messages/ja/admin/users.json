@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "名前",
+    "avatar": "アバター",
+    "email": "電子メール",
+    "email_verified": "メール認証済み",
+    "remaining_credits": "残りのクレジット",
+    "locale_geo": "ロケール/地域",
+    "device_ip": "デバイス/IP",
+    "last_seen_at": "最後に見たもの",
+    "last_sign_in_at": "最終サインイン",
+    "event_type": "イベントの種類",
+    "path": "パス",
+    "referer": "リファラー",
+    "metadata": "メタデータ",
+    "provider": "プロバイダー",
+    "source": "ソース",
+    "event_id": "イベントID",
+    "status": "ステータス",
+    "delivery_count": "配達",
+    "replay_count": "リプレイ",
+    "received_at": "受信場所",
+    "first_received_at": "最初に受信したもの",
+    "last_received_at": "最後に受信したもの",
+    "processed_at": "処理場所",
+    "processing_started_at": "最後に開始された処理",
+    "processing_finished_at": "最後の処理が終了しました",
+    "processing_duration": "処理時間",
+    "delivery_status": "配送状況",
+    "processing_status": "処理状況",
+    "order_no": "注文番号",
+    "subscription_id": "サブスクリプションID",
+    "error_message": "エラー",
+    "error_stack": "エラースタック",
+    "payload": "ペイロード",
+    "user_agent": "ユーザーエージェント",
+    "created_at": "作成日",
+    "actions": "アクション",
+    "roles": "役割",
+    "utm_campaign": "UTM Campaign",
+    "utm_term": "UTM Term",
+    "funnel_stage": "Funnel Stage",
+    "first_successful_generation_at": "First Successful Generation",
+    "checkout_started_at": "Checkout Started",
+    "paid_at": "Paid At",
+    "product_name": "Product",
+    "utm_batch": "UTM Batch",
+    "utm_objective": "UTM Objective",
+    "utm_adgroup": "UTM Ad Group",
+    "utm_match": "UTM Match",
+    "utm_lang": "UTM Lang",
+    "utm_device": "UTM Device",
+    "utm_workflow": "UTM Workflow"
+  },
+  "list": {
+    "title": "ユーザー",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー"
+    },
+    "buttons": {
+      "add": "ユーザーの追加",
+      "edit": "ユーザーの編集",
+      "view": "ユーザーの表示",
+      "delete": "ユーザーの削除",
+      "edit_roles": "役割の編集"
+    },
+    "search": {
+      "email": {
+        "title": "電子メール",
+        "placeholder": "電子メール"
+      }
+    }
+  },
+  "edit": {
+    "title": "ユーザーの編集",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー",
+      "edit": "編集"
+    },
+    "buttons": {
+      "submit": "アップデート"
+    }
+  },
+  "detail": {
+    "title": "ユーザーコンテキスト",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー",
+      "detail": "コンテキスト"
+    },
+    "actions": {
+      "open_avatar": "アバターを開く"
+    },
+    "cards": {
+      "profile": {
+        "title": "プロファイルのスナップショット",
+        "description": "このユーザーの最新のアカウントの概要。"
+      },
+      "context": {
+        "title": "デバイスとアクティビティ",
+        "description": "最後に知られているロケール、デバイス、IP、およびブラウザーのフィンガープリント。"
+      },
+      "funnel": {
+        "title": "Four-Stage Funnel",
+        "description": "Connect this user from signup to first successful generation, checkout started, and paid."
+      }
+    },
+    "sections": {
+      "context_events": {
+        "title": "最近のコンテキスト イベント",
+        "description": "最新の {limit} 認証、チェックアウト、AI リクエスト イベントを表示します。"
+      },
+      "webhook_events": {
+        "title": "最近の支払い Webhook",
+        "description": "このユーザーに関連付けられた最新の {limit} 支払い Webhook 監査レコードを表示しています。イベント ID をクリックして完全な証跡を調べます。"
+      }
+    },
+    "funnel": {
+      "stage": {
+        "signup": "Signed Up",
+        "first_success": "First Success",
+        "checkout": "Checkout Started",
+        "paid": "Paid"
+      }
+    }
+  },
+  "webhook_detail": {
+    "title": "Webhook イベントの詳細",
+    "crumbs": {
+      "detail": "Webhook の詳細"
+    },
+    "actions": {
+      "back_to_user": "ユーザーコンテキストに戻る"
+    },
+    "attempt_label": "試行 #{number}",
+    "replay_note": "リプレイノート",
+    "replay_detected": "このイベントは、{replays} 回のリプレイ配信を含め、{deliveries} 回受信されました。",
+    "replay_clean": "このイベントではこれまでに 1 回の配信のみが記録されています。",
+    "timeline_empty": "この Webhook にはまだ試行タイムラインがありません。",
+    "timeline_partial": "履歴データは最新のスナップショットのみを再構築しました。 {missing} 以前の配信試行は、古い要約のみのスキーマから回復できません。",
+    "cards": {
+      "event": {
+        "title": "イベントのスナップショット",
+        "description": "この Webhook イベントのコア ID とその最新の配信状態。"
+      },
+      "timeline": {
+        "title": "納品スケジュール",
+        "description": "この Webhook の記録された配信試行 {count} を表示しています。"
+      },
+      "replay": {
+        "title": "スナップショットの再生",
+        "description": "このイベントが到着した回数と、最後の重複がいつ表示されたか。"
+      },
+      "processing": {
+        "title": "スナップショットの処理中",
+        "description": "最新の処理ウィンドウ、完了時間、および測定された期間。"
+      },
+      "request": {
+        "title": "スナップショットのリクエスト",
+        "description": "エッジでキャプチャされた最新のリクエストレベルの IP、パス、およびブラウザーのフィンガープリント。"
+      },
+      "binding": {
+        "title": "バインディングスナップショット",
+        "description": "現在この Webhook に関連付けられているユーザー、注文、およびサブスクリプションの参照。"
+      },
+      "error": {
+        "title": "エラーの詳細",
+        "description": "最新のエラー メッセージとスタック トレースは、トラブルシューティングのために保存されます。"
+      },
+      "payload": {
+        "title": "生のペイロード",
+        "description": "検証と正規化後に保存された Webhook ペイロード。"
+      }
+    }
+  },
+  "edit_roles": {
+    "title": "役割の編集",
+    "crumbs": {
+      "admin": "管理者",
+      "users": "ユーザー",
+      "edit_roles": "役割の編集"
+    },
+    "buttons": {
+      "submit": "アップデート"
+    }
+  }
+}

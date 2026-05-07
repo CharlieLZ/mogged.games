@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "mogged｜AI 图片编辑、图生图与在线工具",
+    "description": "在 {{app_domain}} 使用 mogged，统一完成 AI 图片编辑、文生图、图生图、图片优化和浏览器端图片工具。",
+    "keywords": "image editor ai, AI 图片编辑, AI 修图, 图生图, 文生图, 在线图片编辑, 图片优化, {{app_domain}}"
+  },
+  "sign": {
+    "sign_in_title": "登录",
+    "sign_in_description": "登录到您的账户",
+    "sign_in_modal_title": "欢迎来到 PhotoEditorAI",
+    "sign_in_modal_description": "登录即可每天获得 10 个免费积分",
+    "sign_in_modal_kicker": "欢迎来到 PhotoEditorAI",
+    "sign_in_modal_benefit_1": "🎁 完全免费！登录即可获得 60 个免费积分",
+    "sign_in_modal_benefit_2": "💾 自动保存您的编辑和生成历史",
+    "sign_in_modal_benefit_3": "✨ AI 驱动的照片编辑、生成和增强",
+    "sign_in_modal_security_note": "继续即表示您同意我们的服务条款和隐私政策。",
+    "sign_up_title": "注册",
+    "sign_up_description": "创建一个新账户",
+    "sign_up_modal_title": "欢迎来到 PhotoEditorAI",
+    "sign_up_modal_description": "创建账户以解锁每日免费积分",
+    "sign_up_modal_kicker": "欢迎来到 PhotoEditorAI",
+    "sign_up_modal_benefit_1": "🎁 完全免费！登录即可获得 60 个免费积分",
+    "sign_up_modal_benefit_2": "💾 自动保存您的编辑和生成历史",
+    "sign_up_modal_benefit_3": "✨ AI 驱动的照片编辑、生成和增强",
+    "sign_up_modal_security_note": "继续即表示您同意我们的服务条款和隐私政策。",
+    "email_title": "邮箱",
+    "email_placeholder": "请输入您的邮箱",
+    "password_title": "密码",
+    "password_placeholder": "请输入您的密码",
+    "forgot_password": "忘记密码？",
+    "or": "或",
+    "continue": "继续",
+    "no_account": "还没有账户？",
+    "already_have_account": "已经有一个账户？",
+    "email_sign_in": "使用邮箱登录",
+    "email_magic_link_title": "发送邮箱验证链接",
+    "magic_link_email_required": "请输入邮箱后再发送验证链接",
+    "magic_link_sent_toast": "验证链接已发送",
+    "magic_link_sign_in_sent": "登录链接已发送到 {email}，去邮箱里点一下就能进。",
+    "magic_link_sign_up_sent": "注册链接已发送到 {email}，去邮箱里点一下就能完成。",
+    "magic_link_failed": "发送验证链接失败",
+    "magic_link_error_invalid": "这个登录链接无效，请重新申请一封。",
+    "magic_link_error_expired": "这个登录链接已过期，请重新申请一封。",
+    "magic_link_error_attempts_exceeded": "这个登录链接已经用过了，请重新申请一封。",
+    "magic_link_error_generic": "这次验证链接没有完成，请再试一次。",
+    "magic_link_error_signup_disabled": "当前暂时不支持通过验证链接直接注册。",
+    "google_sign_in_title": "使用 Google 登录",
+    "github_sign_in_title": "使用 GitHub 登录",
+    "close_title": "关闭",
+    "cancel_title": "取消",
+    "sign_out_title": "登出",
+    "billing_title": "账单",
+    "name_title": "姓名",
+    "name_placeholder": "请输入您的姓名",
+    "admin_title": "管理后台",
+    "credits_title": "积分: {credits}",
+    "email_password_required": "请输入邮箱和密码",
+    "email_password_name_required": "请输入邮箱、密码和姓名",
+    "sign_in_failed": "登录失败",
+    "sign_up_failed": "注册失败"
+  },
+  "payment": {
+    "choose_payment_method": "选择支付方式",
+    "choose_payment_method_description": "使用安全支付方式继续结算 {plan}。",
+    "cancel_title": "取消",
+    "select_payment_method_error": "请选择支付方式",
+    "select_pricing_item_error": "请选择套餐",
+    "invalid_payment_method_error": "支付方式无效",
+    "embedded_checkout_title": "安全结账",
+    "embedded_checkout_loading": "正在加载安全结账...",
+    "embedded_checkout_finalizing": "正在确认支付...",
+    "embedded_checkout_load_error": "安全结账加载失败，请重试。",
+    "selected_plan_fallback": "当前方案",
+    "choose_payment_method_description_image": "使用安全支付方式继续结算 {plan}，解锁更多 AI 图片生成和图片编辑积分。",
+    "choose_payment_method_description_generic": "使用安全支付方式继续结算 {plan}。"
+  },
+  "locale_detector": {
+    "title": "检测到浏览器语言是: {locale}，是否切换？",
+    "switch_to": "切换到{locale}",
+    "tip_label": "语言建议",
+    "dismiss_label": "关闭",
+    "not_now": "暂不切换"
+  },
+  "empty_state": {
+    "sign_in_required": "请先登录",
+    "no_permission": "您没有权限查看此页面",
+    "invalid_subscription_no": "订阅编号无效",
+    "subscription_not_found": "未找到订阅",
+    "subscription_missing_payment_user": "该订阅缺少支付客户记录",
+    "subscription_missing_payment_subscription": "该订阅缺少支付订阅记录",
+    "payment_provider_not_found": "未找到支付提供商",
+    "billing_url_not_found": "未找到账单入口链接",
+    "billing_failed": "加载账单入口失败",
+    "invalid_order_no": "订单编号无效",
+    "order_not_found": "未找到订单",
+    "order_missing_invoice": "该订单暂时没有发票",
+    "invoice_url_not_found": "未找到发票链接",
+    "invoice_failed": "加载发票失败",
+    "api_key_not_found": "未找到 API 密钥",
+    "user_not_found": "未找到用户",
+    "role_not_found": "未找到角色",
+    "task_not_found": "未找到任务",
+    "webhook_event_not_found": "未找到 Webhook 事件"
+  },
+  "feedback": {
+    "copied": "已复制",
+    "thinking": "思考中...",
+    "thought_for_a_few_seconds": "已思考几秒",
+    "thought_for_seconds": "已思考 {seconds} 秒",
+    "used_sources": "使用了 {count} 个来源"
+  },
+  "system_pages": {
+    "not_found": {
+      "title": "页面不存在",
+      "back_home": "返回首页"
+    },
+    "route_error": {
+      "title": "页面加载失败",
+      "description": "可以重试加载这个页面，或先返回首页。",
+      "retry": "重试",
+      "back_home": "返回首页",
+      "digest_label": "错误摘要"
+    },
+    "global_error": {
+      "title": "应用遇到了意外错误",
+      "description": "可以尝试重新渲染这个页面片段。",
+      "retry": "重试",
+      "digest_label": "错误摘要"
+    }
+  },
+  "a11y": {
+    "close": "关闭",
+    "open_menu": "打开菜单",
+    "close_menu": "关闭菜单",
+    "toggle_theme": "切换主题",
+    "change_language": "切换语言",
+    "menu": "菜单",
+    "previous_slide": "上一张",
+    "next_slide": "下一张",
+    "close_banner": "关闭横幅",
+    "pagination": "分页",
+    "breadcrumb": "面包屑导航",
+    "go_to_previous_page": "上一页",
+    "go_to_next_page": "下一页",
+    "more_pages": "更多页面",
+    "more": "更多",
+    "sidebar": "侧边栏",
+    "mobile_sidebar_description": "显示移动端侧边栏。",
+    "toggle_sidebar": "切换侧边栏"
+  },
+  "actions": {
+    "more": "更多"
+  },
+  "upload": {
+    "limit_reached": "已达到图片数量上限",
+    "exceeds_limit": "{name} 超过 {size} MB 限制",
+    "reference_alt": "参考图",
+    "uploading": "上传中...",
+    "failed": "上传失败",
+    "upload": "上传",
+    "max_size_mb": "最大 {size} MB"
+  },
+  "subscribe": {
+    "failed": "订阅失败",
+    "email_placeholder": "输入你的邮箱",
+    "submit": "提交"
+  },
+  "support_email": {
+    "copied": "已复制 {email}。如果邮箱客户端没有自动打开，直接粘贴发送即可。",
+    "unavailable": "支持邮箱是 {email}。如果本机没有邮箱客户端，请手动复制后发送。"
+  },
+  "contact_support": {
+    "menu_title": "联系客服",
+    "badge_eyebrow": "企业咨询",
+    "badge_title": "联系我们",
+    "title": "联系我们",
+    "description": "聊聊你的定制需求",
+    "mailto_subject": "mogged 支持请求",
+    "email_label": "邮箱地址",
+    "message_label": "留言内容",
+    "message_placeholder": "说说你的项目需求...",
+    "message_help": "{count}/2000 个字符",
+    "submit": "发送消息",
+    "sending": "发送中...",
+    "direct_label": "或直接发邮件",
+    "direct_title": "邮件联系",
+    "success": "消息已发送，我们会通过邮件回复。",
+    "validation_error": "请至少输入 10 个字符。",
+    "error": "消息发送失败，请直接发邮件联系我们。",
+    "trust_reply": "24小时内回复",
+    "trust_dedicated": "专人跟进",
+    "trust_secure": "安全"
+  },
+  "verification_code_email": {
+    "title": "验证码",
+    "message": "你的验证码是：{code}"
+  },
+  "daily_claim": {
+    "title": "积分详情",
+    "description": "领取每日奖励并管理您的积分",
+    "available_credits": "可用积分",
+    "daily_bonus": {
+      "title": "每日奖励可领取！",
+      "subtitle": "领取 +{credits} 积分",
+      "button_claim": "领取 +{credits} 积分",
+      "button_claimed": "今日已领取",
+      "come_back": "明天再来领取奖励吧！"
+    },
+    "buttons": {
+      "buy_more": "购买更多积分"
+    },
+    "messages": {
+      "success": "成功领取 {credits} 积分！",
+      "already_claimed": "您今天已经领取过了",
+      "error": "领取积分失败"
+    }
+  },
+  "notifications": {
+    "bell": "打开通知",
+    "bell_with_count": "打开通知（{count} 条未读）"
+  }
+}

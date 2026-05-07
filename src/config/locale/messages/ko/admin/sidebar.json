@@ -1,0 +1,150 @@
+{
+  "header": {
+    "brand": {
+      "title": "{{app_name}} 관리자",
+      "logo": {
+        "src": "{{brand_mark_src}}",
+        "alt": "{{app_name}} 관리자"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "시스템",
+      "items": [
+        {
+          "title": "사용자 및 권한",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "사용자",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "역할",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "권한",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "결제 및 크레딧",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "결제",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "구독",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "크레딧",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "비즈니스",
+      "items": [
+        {
+          "title": "대시보드",
+          "url": "/admin",
+          "icon": "LayoutDashboard"
+        },
+        {
+          "title": "일일 통계",
+          "url": "/admin/daily",
+          "icon": "CalendarDays"
+        },
+        {
+          "title": "주간 통계",
+          "url": "/admin/weekly",
+          "icon": "CalendarRange"
+        },
+        {
+          "title": "월간 통계",
+          "url": "/admin/monthly",
+          "icon": "Calendar"
+        },
+        {
+          "title": "AI 작업",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "설정",
+        "url": "/admin/settings",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "프로필",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_공백"
+        },
+        {
+          "title": "사업자등록증",
+          "url": "/certificate",
+          "icon": "ShieldCheck",
+          "target": "_공백"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "홈",
+          "url": "/",
+          "icon": "Home",
+          "target": "_공백"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/CharlieLZ/mogged.games",
+          "icon": "Github",
+          "target": "_공백"
+        },
+        {
+          "title": "이메일",
+          "url": "mailto:{{support_email}}",
+          "icon": "Mail",
+          "target": "_공백"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "사이드바"
+}

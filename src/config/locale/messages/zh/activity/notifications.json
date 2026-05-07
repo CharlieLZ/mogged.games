@@ -1,0 +1,46 @@
+{
+  "title": "通知中心",
+  "description": "在一个地方查看 AI 任务完成和失败提醒。",
+  "empty": "暂时还没有通知。",
+  "open_task": "打开任务",
+  "prompt_empty": "未提供提示词",
+  "scene_unknown": "工作流未知",
+  "counts": {
+    "total": "共 {count} 条"
+  },
+  "pagination": {
+    "previous": "上一页",
+    "next": "下一页"
+  },
+  "badges": {
+    "unread": "未读",
+    "read": "已读",
+    "completed": "已完成",
+    "failed": "失败",
+    "canceled": "已取消",
+    "info": "提醒"
+  },
+  "scenes": {
+    "text_to_video": "文生视频",
+    "image_to_video": "图生视频",
+    "reference_to_video": "参考生视频"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "AI 任务已完成",
+      "description": "{scene} 已准备好。提示词：{prompt}"
+    },
+    "ai_task_failed": {
+      "title": "AI 任务失败",
+      "description": "{scene} 失败。提示词：{prompt}",
+      "description_with_error": "{scene} 失败。提示词：{prompt}。错误：{error}"
+    },
+    "ai_task_canceled": {
+      "title": "AI 任务已取消"
+    },
+    "fallback": {
+      "title": "通知",
+      "description": "打开这条通知查看详情。"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "이메일 인증",
+    "google_auth": "구글 인증",
+    "github_auth": "Github 인증",
+    "basic_payment": "기본결제",
+    "stripe": "스트라이프",
+    "creem": "크리엠",
+    "paypal": "페이팔",
+    "resend": "재전송",
+    "r2": "클라우드플레어 R2",
+    "s3": "AWS S3",
+    "openrouter": "오픈라우터",
+    "replicate": "복제",
+    "fal": "FAL API",
+    "google_analytics": "구글애널리틱스",
+    "clarity": "선명도",
+    "plausible": "그럴듯한",
+    "openpanel": "오픈패널",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "애드센스",
+    "affonso": "아폰소",
+    "promotekit": "프로모션킷",
+    "tawk": "탁",
+    "crisp": "바삭바삭",
+    "credit": "신용",
+    "seedance": "Seedance Runtime",
+    "kie": "KIE"
+  },
+  "edit": {
+    "title": "설정",
+    "crumbs": {
+      "admin": "관리자",
+      "settings": "설정"
+    },
+    "tabs": {
+      "general": "일반",
+      "auth": "인증",
+      "payment": "결제",
+      "credit": "신용",
+      "email": "이메일",
+      "storage": "저장",
+      "ai": "AI",
+      "analytics": "분석",
+      "ads": "광고",
+      "affiliate": "제휴",
+      "customer_service": "고객 서비스"
+    },
+    "buttons": {
+      "submit": "저장"
+    }
+  }
+}

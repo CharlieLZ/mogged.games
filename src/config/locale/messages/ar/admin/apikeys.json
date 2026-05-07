@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "title": "العنوان",
+    "key": "مفتاح",
+    "user": "المستخدم",
+    "status": "الحالة",
+    "created_at": "تم الإنشاء في",
+    "action": "العمل"
+  },
+  "list": {
+    "title": "API المفاتيح",
+    "crumbs": {
+      "admin": "المشرف",
+      "apikeys": "API المفاتيح"
+    }
+  }
+}

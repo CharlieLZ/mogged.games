@@ -1,0 +1,23 @@
+{
+  "title": "Aperçu",
+  "description": "Aperçu rapide de la croissance et des revenus récents avec des vues sur 7 jours ou 30 jours",
+  "crumbs": {
+    "admin": "Administrateur",
+    "dashboard": "Aperçu"
+  },
+  "cards": {
+    "users": "Nouveaux utilisateurs",
+    "payments": "Payé (Tous)",
+    "subscriptions": "Payant (abonnements)",
+    "credits": "Crédits consommés",
+    "guest_credits": "Coût invité",
+    "credits_granted": "Crédits accordés"
+  },
+  "unit": {
+    "money": "${value}",
+    "credits": "{value} crédits",
+    "users": "{value} utilisateurs"
+  },
+  "more": "Plus",
+  "refresh": "Actualiser"
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "商业资质证明 | {{app_name}}",
+    "description": "在 {{app_domain}} 下载你的商业资质证明，用于说明当前商业使用权限。",
+    "keywords": "mogged 商业资质证明, 商业授权证明, 年付计划, 商业使用"
+  },
+  "page": {
+    "title": "商业资质证明",
+    "description": "下载用于 mogged 生成视频版权归档的商业资质证明。",
+    "support_text": "证书或访问权限有问题，直接发邮件到：",
+    "badges": {
+      "required": "需要年付计划",
+      "active": "证明已就绪",
+      "unavailable": "暂时无法校验"
+    },
+    "states": {
+      "locked": "商业资质证明仅对年付订阅会员开放。",
+      "eligible": "你的年付订阅已生效，现在可以下载正式 PDF 证明，也可以打开公开验证地址。",
+      "unavailable": "暂时无法生成这份证明的校验信息，请稍后再试。"
+    },
+    "overview": {
+      "title": "商业授权证明",
+      "description": "下载正式 PDF 证明，内含稳定证书编号、订阅有效期，以及可公开访问的验证地址，用于说明 mogged 的商业使用权限。",
+      "yearly_plan_required": "需要年付计划",
+      "current_plan": "当前计划",
+      "status": "订阅状态",
+      "valid_until": "有效期至",
+      "subscription_no": "订阅编号",
+      "certificate_id": "证书编号",
+      "issued_on": "签发日期",
+      "verification_url": "验证地址"
+    },
+    "details": {
+      "title": "证明详情",
+      "verification_hint": "任何拿到这个地址的人都能在不登录的情况下核验证明状态和核心信息。"
+    },
+    "benefits": {
+      "title": "年付计划权益",
+      "items": ["商业使用授权", "全部套餐 5 折优惠", "年度积分配额"]
+    },
+    "actions": {
+      "upgrade": "升级到年付计划",
+      "download": "下载 PDF 证明",
+      "verify": "打开验证地址"
+    },
+    "statuses": {
+      "active": "生效中",
+      "pending_cancel": "已安排取消",
+      "trialing": "试用中",
+      "canceled": "已取消",
+      "cancelled": "已取消",
+      "expired": "已过期",
+      "paused": "已暂停",
+      "unknown": "暂时不可用"
+    }
+  },
+  "verify": {
+    "metadata": {
+      "title": "证明校验 | {{app_name}}",
+      "description": "校验一份由 mogged 签发的商业资质证明。",
+      "keywords": "mogged 证明校验, 商业资质证明校验"
+    },
+    "title": "证明校验",
+    "description": "校验一份由 mogged 签发、对应年付商业使用权限的商业资质证明。",
+    "support_text": "如果你在校验证明时遇到问题，可以发邮件到：",
+    "badges": {
+      "valid": "证明有效",
+      "expired": "证明已过期",
+      "invalid": "校验失败"
+    },
+    "states": {
+      "valid": "这份证明链接有效，且确实由 {{app_name}} 签发。",
+      "expired": "这份证明确实由 {{app_name}} 签发，但对应的年付有效期已经结束。",
+      "invalid": "这条校验链接无效、不完整，或者已经被篡改。"
+    },
+    "fields": {
+      "certificate_id": "证书编号",
+      "holder": "证书持有人",
+      "plan": "当前计划",
+      "email": "账户邮箱",
+      "subscription_reference": "订阅参考编号",
+      "issued_on": "签发日期",
+      "valid_from": "生效日期",
+      "valid_until": "有效期至",
+      "issuer": "签发方"
+    },
+    "actions": {
+      "pricing": "查看套餐",
+      "support": "联系支持"
+    }
+  }
+}

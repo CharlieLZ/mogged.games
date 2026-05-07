@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "transaction_no": "Numéro de transaction",
+    "user": "Utilisateur",
+    "amount": "Montant",
+    "remaining": "Restant",
+    "type": "Tapez",
+    "scene": "Scène",
+    "description": "Descriptif",
+    "created_at": "Créé à",
+    "expires_at": "Expire à",
+    "metadata": "Métadonnées",
+    "action": "Action"
+  },
+  "list": {
+    "title": "Crédits",
+    "crumbs": {
+      "admin": "Administrateur",
+      "credits": "Crédits"
+    },
+    "tabs": {
+      "all": "Tout",
+      "grant": "Subvention",
+      "consume": "Consommer",
+      "paid": "Payé"
+    },
+    "search": {
+      "email": {
+        "title": "E-mail de l'utilisateur",
+        "placeholder": "Rechercher par email"
+      }
+    }
+  }
+}

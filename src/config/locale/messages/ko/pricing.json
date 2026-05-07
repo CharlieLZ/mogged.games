@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "title": "mogged 요금 | AI 이미지 크레딧, 플랜, 결제",
+    "description": "{{app_domain}}에서 mogged 가격, AI 이미지 크레딧, 플랜, 결제 규칙을 비교해 이미지 생성, 이미지 편집, 팀 운영에 맞는 구성을 고를 수 있습니다.",
+    "keywords": "mogged 요금, AI 이미지 크레딧, AI 이미지 편집 플랜, 이미지 생성 가격, {{app_domain}}"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "{{app_name}} 요금제",
+    "title": "간단하고 투명한 요금제",
+    "description": "{{initial_credits_amount}} 크레딧으로 무료 시작. 이미지 생성, 이미지 편집, 팀 용량을 위한 저비용 플랜이며 환불은 공개된 환불 정책을 따릅니다.",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "일회성"
+      },
+      {
+        "name": "yearly",
+        "title": "연간",
+        "is_featured": true,
+        "label": "최대 41% 절약"
+      },
+      {
+        "name": "monthly",
+        "title": "월간"
+      }
+    ],
+    "items": [
+      {
+        "title": "체험",
+        "label": "소규모로 시작",
+        "description": "일회성 결제.",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "표준 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "고객 지원"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-onetime",
+        "product_name": "체험",
+        "group": "one-time"
+      },
+      {
+        "title": "맥스",
+        "label": "가장 경제적",
+        "description": "일회성 결제.",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "가장 빠른 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "전문 팀 지원"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-onetime",
+        "product_name": "맥스",
+        "group": "one-time"
+      },
+      {
+        "title": "프로",
+        "label": "일반 사용",
+        "description": "일회성 결제.",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "우선 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "우선 고객 지원"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-onetime",
+        "product_name": "프로",
+        "group": "one-time"
+      },
+      {
+        "title": "체험",
+        "label": "소규모로 시작",
+        "description": "월간, 언제든 취소 가능",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "표준 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "고객 지원"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-monthly",
+        "product_name": "체험(월간)",
+        "group": "monthly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "맥스",
+        "label": "가장 경제적",
+        "description": "월간, 언제든 취소 가능",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "가장 빠른 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "전문 팀 지원"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-monthly",
+        "product_name": "맥스(월간)",
+        "group": "monthly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "프로",
+        "label": "일반 사용",
+        "description": "월간, 언제든 취소 가능",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "우선 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "우선 고객 지원"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "프로(월간)",
+        "group": "monthly",
+        "plan_name": "Pro"
+      },
+      {
+        "title": "체험",
+        "label": "소규모로 시작",
+        "description": "연간 총액 {{billing_total_price}} 청구",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "표준 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "상업용 라이선스 + Business Certificate",
+          "고객 지원"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-yearly",
+        "product_name": "체험(연간)",
+        "group": "yearly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "맥스",
+        "label": "가장 경제적",
+        "description": "연간 총액 {{billing_total_price}} 청구",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "가장 빠른 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "상업용 라이선스 + Business Certificate",
+          "전문 팀 지원"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-yearly",
+        "product_name": "맥스(연간)",
+        "group": "yearly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "프로",
+        "label": "일반 사용",
+        "description": "연간 총액 {{billing_total_price}} 청구",
+        "features_title": "",
+        "features": [
+          "텍스트 투 이미지와 이미지 투 이미지 워크플로",
+          "프롬프트 생성과 원본 이미지 기반 편집",
+          "호스팅 이미지 작업의 무료 대기열 건너뛰기",
+          "우선 생성 속도",
+          "고해상도 이미지 내보내기",
+          "워터마크 없음",
+          "상업용 라이선스 + Business Certificate",
+          "우선 고객 지원"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "시작하기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "프로(연간)",
+        "group": "yearly",
+        "plan_name": "Pro"
+      }
+    ]
+  },
+  "page": {
+    "currency_selector": "통화",
+    "current_plan": "현재 요금제",
+    "processing": "처리 중",
+    "limited_time_badge": "연간 요금",
+    "limited_time_bonus": "연간 요금제 최대 41% 절약",
+    "limited_time_ends_in": "플랜 상태",
+    "metric_cost_per_100_credits": "100크레딧당 비용",
+    "snapshot_title": "요금제 요약",
+    "snapshot_credits": "크레딧",
+    "snapshot_credits_total_suffix": "총",
+    "snapshot_credits_monthly_suffix": "/월",
+    "snapshot_generation_speed": "생성 속도",
+    "snapshot_credit_cost": "{credits} 크레딧",
+    "speed_standard": "표준",
+    "speed_priority": "우선",
+    "speed_fastest": "가장 빠름",
+    "snapshot_text_to_image": "1K 이미지 생성",
+    "snapshot_image_edit": "2K 이미지 편집"
+  },
+  "faq": {
+    "title": "요금제 자주 묻는 질문",
+    "description": "플랜, 크레딧, 갱신, 그리고 {{app_domain}}에서 실제로 무엇에 비용을 내는지에 대한 직접적인 답변입니다.",
+    "tip": "플랜 선택이 어렵다면 <a href='mailto:{{support_email}}' class='text-primary font-medium hover:underline'>{{support_email}}</a> 로 메일을 보내세요.",
+    "categories": [
+      {
+        "title": "플랜과 접근",
+        "items": [
+          {
+            "question": "{{app_domain}}에서 무엇에 비용을 내는 건가요?",
+            "answer": "이 사이트의 호스팅형 AI 워크스페이스에 비용을 내는 것입니다. 여기에는 계정, 크레딧, 저장된 작업 기록, 결제, 지원이 포함됩니다. 브라우저 도구는 별개로 유지되며 브라우저 안에서 무료입니다."
+          },
+          {
+            "question": "mogged를 쓰려면 유료 플랜이 꼭 필요한가요?",
+            "answer": "아니요. 공개 사이트를 둘러보거나 브라우저 도구를 쓰는 데 유료 플랜은 필요 없습니다. 지속적인 크레딧, 저장된 워크플로, 더 높은 사용량이 필요할 때 유료 플랜이 의미가 있습니다."
+          },
+          {
+            "question": "처음에는 어떤 플랜으로 시작하는 게 좋나요?",
+            "answer": "가장 작은 플랜으로 시작해서 프롬프트, 원본 파일, 워크플로 적합성을 먼저 검증하세요. 실제 월 사용량이 분명해진 뒤 업그레이드하는 것이 좋습니다."
+          }
+        ]
+      },
+      {
+        "title": "크레딧과 비용",
+        "items": [
+          {
+            "question": "무료 브라우저 도구도 크레딧을 쓰나요?",
+            "answer": "아니요. 브라우저 도구는 별도로 동작하며 호스팅 생성 크레딧을 사용하지 않습니다."
+          },
+          {
+            "question": "같은 크레딧을 text-to-image와 image-to-image에 함께 쓸 수 있나요?",
+            "answer": "네. 같은 잔액을 text-to-image와 image-to-image 모두에 사용할 수 있습니다. 실제 사용량은 모델, 해상도, 편집 모드, 설정에 따라 달라집니다."
+          },
+          {
+            "question": "크레딧은 언제 만료되고, 그 기간이 지난 뒤 실패한 작업이 환불되면 어떻게 되나요?",
+            "answer": "만료 시점은 출처에 따라 달라서, 유료 플랜 크레딧은 플랜에 표시된 유효기간을 따르고 무료 가입 크레딧이나 일일 보상 크레딧은 더 짧은 보상 기간을 가질 수 있습니다. 작업이 실패하면 다시 쓸 수 있는 크레딧을 복구하며, 원래 크레딧에 만료 기한이 있었다면 환불 시점에는 그 크레딧을 사용했을 때 남아 있던 유효기간만 그대로 이어집니다."
+          },
+          {
+            "question": "이미지 크레딧 비용은 어떻게 달라지나요?",
+            "answer": "작업 비용은 생성 전에 표시됩니다. 선택한 모델에 따라 달라지고, 일부 경로에서는 해상도나 편집 설정의 영향도 받습니다."
+          },
+          {
+            "question": "프롬프트 번역과 자동 최적화도 크레딧을 쓰나요?",
+            "answer": "네. Translate to English 는 성공적으로 완료된 요청 1회당 1크레딧, Auto-optimize 는 성공적으로 완료된 요청 1회당 2크레딧을 사용합니다. 사용할 수 있는 결과가 반환되지 않으면 그 시도에는 크레딧을 차감하지 않습니다."
+          }
+        ]
+      },
+      {
+        "title": "구독과 지원",
+        "items": [
+          {
+            "question": "구독은 언제든 취소할 수 있나요?",
+            "answer": "네. 취소하면 다음 갱신부터 중단되며, 환불 정책이나 법률상 별도 요구가 없는 한 현재 결제 기간이 끝날 때까지는 계속 이용할 수 있습니다."
+          },
+          {
+            "question": "결제 문제나 플랜 선택은 어디에 문의하면 되나요?",
+            "answer": "플랜 비교, 크레딧 확인, 결제 문제 해결이 필요하면 {{support_email}} 로 메일을 보내세요."
+          }
+        ]
+      }
+    ]
+  },
+  "seo_sections": {
+    "schema": {
+      "product_disclaimer": "이 가격은 {{app_domain}}에서 호스팅하는 서비스의 가격을 설명하며, 공식 공급업체의 청구가 아닙니다.",
+      "product_keywords": [
+        "mogged 요금",
+        "mogged 이미지 요금",
+        "mogged 크레딧",
+        "AI 이미지 편집 플랜",
+        "{{app_domain}}"
+      ],
+      "webpage_name": "{{app_name}} 요금",
+      "webpage_description": "{{app_domain}} 에서 mogged의 AI 이미지 요금, 크레딧, 플랜, 구독, 결제 규칙을 설명합니다."
+    }
+  }
+}

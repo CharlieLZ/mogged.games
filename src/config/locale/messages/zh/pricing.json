@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "title": "mogged 定价｜AI 图片积分、套餐与计费",
+    "description": "对比 {{app_domain}} 上 mogged 的价格、AI 图片积分、套餐和计费规则，选择适合图片生成、图片编辑和团队交付的方案。",
+    "keywords": "mogged 定价, AI 图片积分, AI 图片编辑套餐, 图片生成定价, {{app_domain}}"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "{{app_name}} 价格",
+    "title": "{{app_name}} 定价",
+    "description": "先免费领取 {{initial_credits_amount}} 积分，后续按托管生成、图片编辑，以及“翻译成英文”“自动优化”这类轻量 prompt 工具的使用量再升级；退款按公开退款政策处理。",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "一次性付费"
+      },
+      {
+        "name": "yearly",
+        "title": "包年",
+        "is_featured": true,
+        "label": "至高省 41%"
+      },
+      {
+        "name": "monthly",
+        "title": "包月"
+      }
+    ],
+    "items": [
+      {
+        "title": "入门版",
+        "label": "先小步试",
+        "description": "一次付费。",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "标准生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "客服支持"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-onetime",
+        "product_name": "入门版",
+        "group": "one-time"
+      },
+      {
+        "title": "高级版",
+        "label": "最划算",
+        "description": "一次付费。",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "最快生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "专家团队支持"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-onetime",
+        "product_name": "高级版",
+        "group": "one-time"
+      },
+      {
+        "title": "标准版",
+        "label": "日常使用",
+        "description": "一次付费。",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "优先生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "优先客户支持"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-onetime",
+        "product_name": "标准版",
+        "group": "one-time"
+      },
+      {
+        "title": "入门版",
+        "label": "先小步试",
+        "description": "按月付费，可随时取消。",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "标准生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "客服支持"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-monthly",
+        "product_name": "入门版包月",
+        "group": "monthly",
+        "plan_name": "入门版"
+      },
+      {
+        "title": "高级版",
+        "label": "最划算",
+        "description": "按月付费，可随时取消。",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "最快生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "专家团队支持"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-monthly",
+        "product_name": "高级版包月",
+        "group": "monthly",
+        "plan_name": "高级版"
+      },
+      {
+        "title": "标准版",
+        "label": "日常使用",
+        "description": "按月付费，可随时取消。",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "优先生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "优先客户支持"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "标准版包月",
+        "group": "monthly",
+        "plan_name": "标准版"
+      },
+      {
+        "title": "入门版",
+        "label": "先小步试",
+        "description": "按年计费，总价 {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "标准生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "商业使用授权 + 商业资质证明",
+          "客服支持"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-yearly",
+        "product_name": "入门版包年",
+        "group": "yearly",
+        "plan_name": "入门版"
+      },
+      {
+        "title": "高级版",
+        "label": "最划算",
+        "description": "按年计费，总价 {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "最快生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "商业使用授权 + 商业资质证明",
+          "专家团队支持"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-yearly",
+        "product_name": "高级版包年",
+        "group": "yearly",
+        "plan_name": "高级版"
+      },
+      {
+        "title": "标准版",
+        "label": "日常使用",
+        "description": "按年计费，总价 {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "文生图与图生图工作流",
+          "提示词生成与原图定向编辑",
+          "托管图片任务跳过免费排队",
+          "优先生成速度",
+          "高分辨率图片导出",
+          "无水印",
+          "商业使用授权 + 商业资质证明",
+          "优先客户支持"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "标准版包年",
+        "group": "yearly",
+        "plan_name": "标准版"
+      }
+    ]
+  },
+  "page": {
+    "currency_selector": "币种",
+    "current_plan": "当前方案",
+    "processing": "处理中",
+    "limited_time_badge": "包年定价",
+    "limited_time_bonus": "包年方案至高省 41%",
+    "limited_time_ends_in": "方案状态",
+    "metric_cost_per_100_credits": "每 100 积分成本",
+    "snapshot_title": "方案速览",
+    "snapshot_credits": "积分",
+    "snapshot_credits_total_suffix": "总计",
+    "snapshot_credits_monthly_suffix": "/ 月",
+    "snapshot_generation_speed": "生成速度",
+    "snapshot_credit_cost": "{credits} 积分",
+    "speed_standard": "标准",
+    "speed_priority": "优先",
+    "speed_fastest": "最快",
+    "snapshot_text_to_image": "1K 文生图",
+    "snapshot_image_edit": "2K 图片编辑"
+  },
+  "faq": {
+    "title": "定价常见问题",
+    "description": "围绕套餐、积分、续费，以及你在 {{app_domain}} 上到底买的是什么的直接说明。",
+    "tip": "需要帮你选套餐？请发邮件到 <a href='mailto:{{support_email}}' class='text-primary font-medium hover:underline'>{{support_email}}</a>。",
+    "categories": [
+      {
+        "title": "套餐和使用门槛",
+        "items": [
+          {
+            "question": "我在 {{app_domain}} 上付费买的到底是什么？",
+            "answer": "你付费购买的是本站托管式 AI 工作台：账号、积分、任务历史、结算和支持。浏览器工具仍然是独立的，并且在浏览器里免费使用。"
+          },
+          {
+            "question": "使用 mogged 一定要买付费套餐吗？",
+            "answer": "不用。公开站点和浏览器工具不需要付费套餐。只有当你需要持续积分、账号内的工作流记录或更高频的生成能力时，付费套餐才有意义。"
+          },
+          {
+            "question": "我应该先买哪个套餐？",
+            "answer": "先从最小套餐开始，先验证提示词、源素材和工作流是否适合你。等你清楚真实月用量后，再决定是否升级。"
+          }
+        ]
+      },
+      {
+        "title": "积分和成本",
+        "items": [
+          {
+            "question": "免费浏览器工具会消耗积分吗？",
+            "answer": "不会。浏览器工具是独立运行的，不使用托管生成积分。"
+          },
+          {
+            "question": "同一份积分能同时用于文生图和图生图吗？",
+            "answer": "可以。同一余额可以用于文生图和图生图，具体消耗取决于模型、分辨率、编辑模式和设置。"
+          },
+          {
+            "question": "积分什么时候过期？如果失败任务在那个期限之后才退款，会怎样处理？",
+            "answer": "积分的过期时间取决于来源：付费套餐积分按套餐展示的有效期执行，注册送积分或每日领取奖励积分可能采用更短的奖励有效期。任务失败后我们会退回可用积分；如果原积分有有效期，退款会保留这笔积分在实际扣费时还剩下的有效时长。"
+          },
+          {
+            "question": "图片任务的积分成本会怎么变化？",
+            "answer": "生成前会直接显示任务成本。它会随着你选择的模型变化，部分链路还会受分辨率或编辑设置影响。"
+          },
+          {
+            "question": "提示词翻译和自动优化会消耗积分吗？",
+            "answer": "会。每次成功返回可用结果后，“翻译成英文”扣 1 积分，“自动优化”扣 2 积分。如果这次请求没有返回可用结果，这次尝试不会扣积分。"
+          }
+        ]
+      },
+      {
+        "title": "订阅和支持",
+        "items": [
+          {
+            "question": "订阅可以随时取消吗？",
+            "answer": "可以。取消后只会停止后续续费，当前已付费周期内的使用权会保留，除非退款政策另有批准或法律另有要求。"
+          },
+          {
+            "question": "如果我有账单问题或不会选套餐，该怎么找人？",
+            "answer": "如果你需要比较套餐、核对积分或处理账单问题，请发邮件到 {{support_email}}。"
+          }
+        ]
+      }
+    ]
+  },
+  "seo_sections": {
+    "schema": {
+      "product_disclaimer": "此价格描述的是 {{app_domain}} 自己的服务，不代表上游厂商官方计费。",
+      "product_keywords": [
+        "mogged 定价",
+        "mogged 图片定价",
+        "mogged 积分",
+        "AI 图片编辑套餐",
+        "{{app_domain}}"
+      ],
+      "webpage_name": "{{app_name}} 定价",
+      "webpage_description": "{{app_domain}} 上 mogged 的 AI 图片价格、积分、套餐、订阅和计费规则说明。"
+    }
+  }
+}

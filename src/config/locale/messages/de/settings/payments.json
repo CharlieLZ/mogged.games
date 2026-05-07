@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "Bestell-Nr",
+    "user": "Benutzer",
+    "amount": "Betrag",
+    "product_name": "Produktname",
+    "price": "Preis",
+    "paid_amount": "Bezahlter Betrag",
+    "discount_amount": "Rabattbetrag",
+    "description": "Beschreibung",
+    "type": "Typ",
+    "provider": "Anbieter",
+    "created_at": "Erstellt am",
+    "status": "Status",
+    "action": "Aktion",
+    "actions": {
+      "view_invoice": "Rechnung anzeigen"
+    }
+  },
+  "list": {
+    "title": "Zahlungen",
+    "description": "Sehen Sie sich Ihre Zahlungen an",
+    "tabs": {
+      "all": "Alle",
+      "one-time": "Einmalig",
+      "subscription": "Abonnement",
+      "renew": "Erneuern"
+    }
+  }
+}

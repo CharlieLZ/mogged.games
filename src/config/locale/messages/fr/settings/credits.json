@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "Numéro de transaction",
+    "description": "Descriptif",
+    "type": "Tapez",
+    "scene": "Scène",
+    "credits": "Crédits",
+    "expires_at": "Expire à",
+    "created_at": "Créé à",
+    "action": "Action"
+  },
+  "list": {
+    "title": "Enregistrements de crédits",
+    "tabs": {
+      "all": "Tout",
+      "grant": "Subvention",
+      "consume": "Consommer"
+    }
+  },
+  "view": {
+    "title": "Solde des crédits",
+    "buttons": {
+      "purchase": "Acheter des crédits"
+    }
+  }
+}

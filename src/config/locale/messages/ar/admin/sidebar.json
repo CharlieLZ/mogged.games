@@ -1,0 +1,150 @@
+{
+  "header": {
+    "brand": {
+      "title": "{{app_name}} المشرف",
+      "logo": {
+        "src": "{{brand_mark_src}}",
+        "alt": "{{app_name}} المشرف"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "النظام",
+      "items": [
+        {
+          "title": "المستخدمون والأذونات",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "المستخدمين",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "الأدوار",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "الأذونات",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "المدفوعات والاعتمادات",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "المدفوعات",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "الاشتراكات",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "الاعتمادات",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الأعمال",
+      "items": [
+        {
+          "title": "لوحة القيادة",
+          "url": "/admin",
+          "icon": "LayoutDashboard"
+        },
+        {
+          "title": "الإحصائيات اليومية",
+          "url": "/admin/daily",
+          "icon": "CalendarDays"
+        },
+        {
+          "title": "الإحصائيات الأسبوعية",
+          "url": "/admin/weekly",
+          "icon": "CalendarRange"
+        },
+        {
+          "title": "الإحصائيات الشهرية",
+          "url": "/admin/monthly",
+          "icon": "Calendar"
+        },
+        {
+          "title": "مهام الذكاء الاصطناعي",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "الإعدادات",
+        "url": "/admin/settings",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "الملف الشخصي",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_فارغ"
+        },
+        {
+          "title": "شهادة الأعمال",
+          "url": "/certificate",
+          "icon": "ShieldCheck",
+          "target": "_فارغ"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "الصفحة الرئيسية",
+          "url": "/",
+          "icon": "Home",
+          "target": "_فارغ"
+        },
+        {
+          "title": "جيثب",
+          "url": "https://github.com/CharlieLZ/mogged.games",
+          "icon": "Github",
+          "target": "_فارغ"
+        },
+        {
+          "title": "البريد الإلكتروني",
+          "url": "mailto:{{support_email}}",
+          "icon": "Mail",
+          "target": "_فارغ"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "الشريط الجانبي"
+}

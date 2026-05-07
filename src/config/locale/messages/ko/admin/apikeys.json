@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "title": "제목",
+    "key": "열쇠",
+    "user": "사용자",
+    "status": "상태",
+    "created_at": "생성 날짜",
+    "action": "액션"
+  },
+  "list": {
+    "title": "API 키",
+    "crumbs": {
+      "admin": "관리자",
+      "apikeys": "API 키"
+    }
+  }
+}

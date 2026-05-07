@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "名称",
+    "avatar": "头像",
+    "email": "邮箱",
+    "email_verified": "邮箱已验证",
+    "remaining_credits": "剩余积分",
+    "locale_geo": "语言 / 地区",
+    "device_ip": "设备 / IP",
+    "last_seen_at": "最近活跃",
+    "last_sign_in_at": "最近登录",
+    "event_type": "事件类型",
+    "path": "路径",
+    "referer": "来源页",
+    "metadata": "元数据",
+    "provider": "支付提供商",
+    "source": "来源",
+    "event_id": "事件 ID",
+    "status": "状态",
+    "delivery_count": "接收次数",
+    "replay_count": "重放次数",
+    "received_at": "接收时间",
+    "first_received_at": "首次接收",
+    "last_received_at": "最近接收",
+    "processed_at": "成功处理时间",
+    "processing_started_at": "最近处理开始",
+    "processing_finished_at": "最近处理结束",
+    "processing_duration": "处理耗时",
+    "delivery_status": "投递状态",
+    "processing_status": "处理状态",
+    "order_no": "订单号",
+    "subscription_id": "订阅 ID",
+    "error_message": "错误信息",
+    "error_stack": "错误栈",
+    "payload": "原始载荷",
+    "user_agent": "浏览器标识",
+    "created_at": "创建时间",
+    "actions": "操作",
+    "roles": "角色",
+    "utm_campaign": "UTM Campaign",
+    "utm_term": "UTM 关键词",
+    "funnel_stage": "漏斗阶段",
+    "first_successful_generation_at": "首次成功生成",
+    "checkout_started_at": "开始结账",
+    "paid_at": "付费时间",
+    "product_name": "产品",
+    "utm_batch": "UTM 批次",
+    "utm_objective": "UTM 目标",
+    "utm_adgroup": "UTM 广告组",
+    "utm_match": "UTM 匹配类型",
+    "utm_lang": "UTM 语言",
+    "utm_device": "UTM 设备",
+    "utm_workflow": "UTM 工作流"
+  },
+  "list": {
+    "title": "用户",
+    "crumbs": {
+      "admin": "管理后台",
+      "users": "用户"
+    },
+    "buttons": {
+      "add": "添加用户",
+      "edit": "编辑用户",
+      "view": "查看用户",
+      "delete": "删除用户",
+      "edit_roles": "编辑角色"
+    },
+    "search": {
+      "email": {
+        "title": "邮箱",
+        "placeholder": "邮箱"
+      }
+    }
+  },
+  "edit": {
+    "title": "编辑用户",
+    "crumbs": {
+      "admin": "管理后台",
+      "users": "用户",
+      "edit": "编辑用户"
+    },
+    "buttons": {
+      "submit": "更新"
+    }
+  },
+  "detail": {
+    "title": "用户上下文",
+    "crumbs": {
+      "admin": "管理后台",
+      "users": "用户",
+      "detail": "上下文"
+    },
+    "actions": {
+      "open_avatar": "打开头像"
+    },
+    "cards": {
+      "profile": {
+        "title": "账号快照",
+        "description": "这个用户当前最重要的账号摘要。"
+      },
+      "context": {
+        "title": "设备与活跃信息",
+        "description": "最近一次可确认的语言、地区、设备、IP 和浏览器信息。"
+      },
+      "funnel": {
+        "title": "四段漏斗",
+        "description": "把这位用户从注册到首次成功生成、开始结账、最终付费的关键节点串起来。"
+      }
+    },
+    "sections": {
+      "context_events": {
+        "title": "最近上下文事件",
+        "description": "展示最近 {limit} 条登录、下单、AI 生成等请求轨迹。"
+      },
+      "webhook_events": {
+        "title": "最近支付 Webhook",
+        "description": "展示最近 {limit} 条和这个用户关联的支付回调审计记录。点击事件 ID 可以下钻看完整审计链路。"
+      }
+    },
+    "funnel": {
+      "stage": {
+        "signup": "已注册",
+        "first_success": "已首次成功生成",
+        "checkout": "已开始结账",
+        "paid": "已付费"
+      }
+    }
+  },
+  "webhook_detail": {
+    "title": "Webhook 事件详情",
+    "crumbs": {
+      "detail": "Webhook 详情"
+    },
+    "actions": {
+      "back_to_user": "返回用户上下文"
+    },
+    "attempt_label": "第 {number} 次投递",
+    "replay_note": "重放说明",
+    "replay_detected": "这条事件一共收到了 {deliveries} 次，其中重放了 {replays} 次。",
+    "replay_clean": "目前只记录到 1 次投递，还没发现重复重放。",
+    "timeline_empty": "这条 webhook 目前还没有可展示的投递时间线。",
+    "timeline_partial": "老数据只能回填出最新快照，之前还有 {missing} 次更早投递无法从旧版摘要结构中完整还原。",
+    "cards": {
+      "event": {
+        "title": "事件快照",
+        "description": "这条 webhook 当前最关键的身份信息和最新投递状态。"
+      },
+      "timeline": {
+        "title": "投递时间线",
+        "description": "这里展示这条 webhook 已记录的 {count} 次投递明细。"
+      },
+      "replay": {
+        "title": "重放快照",
+        "description": "这条事件总共来了几次、最近一次重复投递是什么时候。"
+      },
+      "processing": {
+        "title": "处理快照",
+        "description": "最近一次处理从什么时候开始、什么时候结束、总共花了多久。"
+      },
+      "request": {
+        "title": "请求快照",
+        "description": "边缘层抓到的最新请求 IP、路径和浏览器指纹。"
+      },
+      "binding": {
+        "title": "关联对象",
+        "description": "这条 webhook 现在挂在哪个用户、订单和订阅上。"
+      },
+      "error": {
+        "title": "错误详情",
+        "description": "保留下来的最新错误信息和错误栈，方便直接排查。"
+      },
+      "payload": {
+        "title": "原始 Payload",
+        "description": "验签和归一化之后写入库里的原始 webhook 载荷。"
+      }
+    }
+  },
+  "edit_roles": {
+    "title": "编辑角色",
+    "crumbs": {
+      "admin": "管理后台",
+      "users": "用户",
+      "edit_roles": "编辑角色"
+    },
+    "buttons": {
+      "submit": "更新"
+    }
+  }
+}

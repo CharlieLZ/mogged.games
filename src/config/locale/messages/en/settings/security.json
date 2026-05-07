@@ -1,0 +1,77 @@
+{
+  "title": "Security",
+  "description": "Manage password changes, reset email delivery, and destructive account actions in one place.",
+  "fields": {
+    "email": "Email",
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm New Password"
+  },
+  "change_password": {
+    "title": "Change Password",
+    "description": "Update your password without leaving the current session.",
+    "buttons": {
+      "submit": "Save Password",
+      "submitting": "Saving..."
+    },
+    "messages": {
+      "currentPasswordRequired": "Enter your current password first.",
+      "newPasswordRequired": "Enter a new password.",
+      "confirmPasswordRequired": "Confirm the new password.",
+      "passwordMismatch": "The two new password fields do not match.",
+      "updated": "Password updated.",
+      "updateFailed": "Failed to update password. Please try again."
+    }
+  },
+  "reset_password_request": {
+    "title": "Reset Password",
+    "description": "Send a reset email to the address tied to your account.",
+    "tip": "Use this when you want a signed email link instead of changing the password in-place.",
+    "sent_hint": "If the address is valid, a reset email is on the way.",
+    "email_placeholder": "you@example.com",
+    "buttons": {
+      "submit": "Send Reset Email",
+      "submitting": "Sending...",
+      "back_to_sign_in": "Back to Sign In"
+    },
+    "messages": {
+      "emailRequired": "Enter an email address first.",
+      "sent": "If that email exists, a reset link has been sent.",
+      "sendFailed": "Failed to send reset email. Please try again."
+    }
+  },
+  "reset_password_confirm": {
+    "title": "Choose a New Password",
+    "description": "Set a new password for your account and get back into your workspace.",
+    "buttons": {
+      "submit": "Update Password",
+      "submitting": "Updating...",
+      "back_to_sign_in": "Back to Sign In",
+      "request_new_link": "Request New Link"
+    },
+    "messages": {
+      "tokenMissing": "This reset link is incomplete. Request a new one.",
+      "newPasswordRequired": "Enter a new password.",
+      "confirmPasswordRequired": "Confirm the new password.",
+      "passwordMismatch": "The two new password fields do not match.",
+      "updated": "Password reset successful. Redirecting you now.",
+      "updateFailed": "Failed to reset password. Request a fresh email and try again.",
+      "invalidOrExpiredLink": "This reset link is invalid or has expired. Request a fresh email to continue."
+    }
+  },
+  "danger_zone": {
+    "title": "Danger Zone",
+    "description": "Irreversible and destructive actions",
+    "deleteAccount": "Delete Account",
+    "deleteAccountDescription": "Permanently delete your account and all associated data",
+    "deleteButton": "Delete Account",
+    "confirmTitle": "Delete Account",
+    "confirmDescription": "Are you absolutely sure you want to delete your account? This action cannot be undone.",
+    "warningMessage": "All your credits, payment history, generated content, and personal data will be permanently deleted. This action is irreversible and cannot be recovered.",
+    "confirmLabel": "Type {keyword} to confirm",
+    "cancelButton": "Cancel",
+    "confirmDeleteButton": "Delete Account",
+    "deletingButton": "Deleting...",
+    "deleteError": "Failed to delete account. Please try again."
+  }
+}

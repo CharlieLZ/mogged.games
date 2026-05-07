@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "구독 번호",
+    "interval": "간격",
+    "provider": "공급자",
+    "current_period": "현재 기간",
+    "plan": "계획",
+    "status": "상태",
+    "amount": "금액",
+    "created_at": "생성 날짜",
+    "end_time": "종료 시간",
+    "action": "액션"
+  },
+  "view": {
+    "title": "현재 계획",
+    "tip": "구독이 {date}에 자동 갱신됩니다.",
+    "end_tip": "구독이 {date}에 자동으로 취소됩니다.",
+    "no_subscription": "계획 없음",
+    "buttons": {
+      "adjust": "계획 조정",
+      "subscribe": "구독",
+      "manage": "구독 관리",
+      "cancel": "구독 취소"
+    }
+  },
+  "list": {
+    "title": "구독 내역",
+    "tabs": {
+      "all": "모두",
+      "active": "활성",
+      "pending_cancel": "취소 보류 중",
+      "canceled": "취소됨",
+      "trialing": "재판",
+      "paused": "일시중지됨",
+      "expired": "만료됨"
+    }
+  },
+  "cancel": {
+    "title": "구독 취소",
+    "description": "구독을 취소하시겠습니까?",
+    "fields": {
+      "subscription_no": "구독 번호",
+      "subscription_amount": "구독 금액",
+      "interval_cycle": "간격주기",
+      "subscription_created_at": "구독 생성 날짜",
+      "current_period": "현재 기간",
+      "start_at": "시작 시간",
+      "end_at": "종료 시간"
+    },
+    "crumbs": {
+      "settings": "설정",
+      "billing": "청구",
+      "cancel": "구독 취소"
+    },
+    "buttons": {
+      "confirm_cancel": "확인 취소"
+    }
+  }
+}

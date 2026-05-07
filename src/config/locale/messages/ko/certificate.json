@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "title": "비즈니스 인증서 | {{app_name}}",
+    "description": "{{app_domain}}에서의 상업적 사용 접근을 위한 비즈니스 인증서를 다운로드하세요.",
+    "keywords": "mogged 인증서, 상업용 라이선스 인증서, 연간 요금제, 상업적 사용"
+  },
+  "page": {
+    "title": "비즈니스 인증서",
+    "description": "mogged에서 생성한 영상의 저작권을 위한 비즈니스 인증서를 다운로드하세요.",
+    "support_text": "인증서 또는 접근에 대해 도움이 필요하신가요? 이메일:",
+    "badges": {
+      "required": "연간 요금제 필요",
+      "active": "인증서 준비 완료",
+      "unavailable": "검증 불가"
+    },
+    "states": {
+      "locked": "비즈니스 인증서는 연간 구독 회원에게만 제공됩니다.",
+      "eligible": "연간 구독이 활성화되어 있습니다. PDF 인증서를 다운로드하거나 공개 검증 URL을 열어 확인할 수 있습니다.",
+      "unavailable": "지금은 인증서 증명을 생성할 수 없습니다. 잠시 후 다시 시도해 주세요."
+    },
+    "overview": {
+      "title": "상업적 사용 라이선스 인증서",
+      "description": "안정적인 인증서 ID, 구독 기간, 공개 검증 URL이 포함된 공식 PDF 인증서를 다운로드하여 mogged에서 생성된 상업적 사용 접근을 증명하세요.",
+      "yearly_plan_required": "연간 요금제 필요",
+      "current_plan": "현재 요금제",
+      "status": "상태",
+      "valid_until": "유효 기간",
+      "subscription_no": "구독 번호",
+      "certificate_id": "인증서 ID",
+      "issued_on": "발급일",
+      "verification_url": "검증 URL"
+    },
+    "details": {
+      "title": "인증서 상세 정보",
+      "verification_hint": "이 URL을 가진 누구나 로그인 없이 인증서 상태 및 주요 정보를 확인할 수 있습니다."
+    },
+    "benefits": {
+      "title": "연간 요금제 혜택",
+      "items": [
+        "상업적 사용 라이선스",
+        "모든 요금제 50% 할인",
+        "연간 크레딧 제공"
+      ]
+    },
+    "actions": {
+      "upgrade": "연간 요금제로 업그레이드",
+      "download": "PDF 인증서 다운로드",
+      "verify": "검증 URL 열기"
+    },
+    "statuses": {
+      "active": "활성",
+      "pending_cancel": "취소 예정",
+      "trialing": "체험 중",
+      "canceled": "취소됨",
+      "cancelled": "취소됨",
+      "expired": "만료됨",
+      "paused": "일시중지됨",
+      "unknown": "알 수 없음"
+    }
+  },
+  "verify": {
+    "metadata": {
+      "title": "인증서 검증 | {{app_name}}",
+      "description": "연간 상업적 사용 접근을 위해 발급된 mogged 비즈니스 인증서를 검증합니다.",
+      "keywords": "mogged 인증서 검증, 비즈니스 인증서 검증"
+    },
+    "title": "인증서 검증",
+    "description": "연간 상업적 사용 접근을 위해 발급된 mogged 비즈니스 인증서를 검증합니다.",
+    "support_text": "인증서 확인에 도움이 필요하신가요? 이메일:",
+    "badges": {
+      "valid": "검증된 인증서",
+      "expired": "만료된 인증서",
+      "invalid": "검증 실패"
+    },
+    "states": {
+      "valid": "이 인증서 토큰은 유효하며 {{app_name}}에서 발급했습니다.",
+      "expired": "이 인증서는 {{app_name}}에서 발급되었으나 연간 구독 기간이 종료되었습니다.",
+      "invalid": "이 검증 링크는 유효하지 않거나 불완전하거나 변조되었을 수 있습니다."
+    },
+    "fields": {
+      "certificate_id": "인증서 ID",
+      "holder": "인증서 소유자",
+      "plan": "요금제",
+      "email": "계정 이메일",
+      "subscription_reference": "구독 참조",
+      "issued_on": "발급일",
+      "valid_from": "유효 시작일",
+      "valid_until": "유효 종료일",
+      "issuer": "발급자"
+    },
+    "actions": {
+      "pricing": "요금 확인",
+      "support": "지원 문의"
+    }
+  }
+}

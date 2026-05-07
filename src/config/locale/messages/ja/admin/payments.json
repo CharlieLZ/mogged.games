@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "order_no": "注文番号",
+    "user": "ユーザー",
+    "amount": "金額",
+    "product": "製品",
+    "description": "説明",
+    "type": "種類",
+    "provider": "プロバイダー",
+    "created_at": "作成日",
+    "status": "ステータス",
+    "action": "アクション"
+  },
+  "list": {
+    "title": "支払い",
+    "crumbs": {
+      "admin": "管理者",
+      "payments": "支払い"
+    },
+    "tabs": {
+      "all": "すべて",
+      "subscription": "定期購入",
+      "one-time": "ワンタイム"
+    },
+    "filters": {
+      "status": {
+        "title": "ステータス",
+        "options": {
+          "all": "すべて",
+          "paid": "有料",
+          "created": "作成されました",
+          "failed": "失敗しました"
+        }
+      },
+      "provider": {
+        "title": "プロバイダー",
+        "options": {
+          "all": "すべて",
+          "stripe": "ストライプ",
+          "creem": "クリーム",
+          "paypal": "ペイパル"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "注文番号",
+        "placeholder": "注文番号"
+      },
+      "email": {
+        "title": "電子メール",
+        "placeholder": "メールで検索"
+      }
+    }
+  }
+}

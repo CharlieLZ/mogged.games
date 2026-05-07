@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "title": "Certificat commercial | {{app_name}}",
+    "description": "Téléchargez votre certificat commercial pour l'accès à usage commercial sur {{app_domain}}.",
+    "keywords": "mogged certificat commercial, attestation de licence commerciale, abonnement annuel, usage commercial"
+  },
+  "page": {
+    "title": "Certificat commercial",
+    "description": "Téléchargez votre certificat commercial attestant des droits d'auteur des vidéos générées par mogged.",
+    "support_text": "Besoin d'aide pour votre certificat ou l'accès ? Envoyez un e-mail :",
+    "badges": {
+      "required": "Abonnement annuel requis",
+      "active": "Certificat prêt",
+      "unavailable": "Vérification indisponible"
+    },
+    "states": {
+      "locked": "Les certificats commerciaux sont réservés aux abonnés annuels.",
+      "eligible": "Votre abonnement annuel est actif. Téléchargez le certificat au format PDF ou ouvrez son URL de vérification publique.",
+      "unavailable": "Nous n'avons pas pu générer la preuve de votre certificat pour le moment. Veuillez réessayer dans quelques instants."
+    },
+    "overview": {
+      "title": "Certificat de licence commerciale",
+      "description": "Téléchargez un certificat PDF officiel avec un ID de certificat stable, la période d'abonnement et une URL publique de vérification pour l'accès commercial aux contenus générés par mogged.",
+      "yearly_plan_required": "Abonnement annuel requis",
+      "current_plan": "Abonnement actuel",
+      "status": "Statut",
+      "valid_until": "Valide jusqu'au",
+      "subscription_no": "N° d'abonnement",
+      "certificate_id": "ID du certificat",
+      "issued_on": "Émis le",
+      "verification_url": "URL de vérification"
+    },
+    "details": {
+      "title": "Détails du certificat",
+      "verification_hint": "Toute personne disposant de cette URL peut vérifier le statut du certificat et les informations clés sans se connecter."
+    },
+    "benefits": {
+      "title": "Avantages de l'abonnement annuel",
+      "items": [
+        "Licence d'utilisation commerciale",
+        "50 % de réduction sur tous les forfaits",
+        "Attribution annuelle de crédits"
+      ]
+    },
+    "actions": {
+      "upgrade": "Passer à l'abonnement annuel",
+      "download": "Télécharger le certificat PDF",
+      "verify": "Ouvrir l'URL de vérification"
+    },
+    "statuses": {
+      "active": "Actif",
+      "pending_cancel": "Annulation programmée",
+      "trialing": "En essai",
+      "canceled": "Annulé",
+      "cancelled": "Annulé",
+      "expired": "Expiré",
+      "paused": "En pause",
+      "unknown": "Indisponible"
+    }
+  },
+  "verify": {
+    "metadata": {
+      "title": "Vérification du certificat | {{app_name}}",
+      "description": "Validez un certificat mogged émis pour un accès commercial annuel.",
+      "keywords": "Vérification certificat mogged, vérification certificat commercial"
+    },
+    "title": "Vérification du certificat",
+    "description": "Validez un certificat mogged émis pour un accès commercial annuel.",
+    "support_text": "Besoin d'aide pour vérifier un certificat ? Envoyez un e-mail :",
+    "badges": {
+      "valid": "Certificat vérifié",
+      "expired": "Certificat expiré",
+      "invalid": "Vérification échouée"
+    },
+    "states": {
+      "valid": "Ce jeton de certificat est valide et a été émis par {{app_name}}.",
+      "expired": "Ce certificat a été émis par {{app_name}}, mais la période de l'abonnement annuel est terminée.",
+      "invalid": "Ce lien de vérification est invalide, incomplet ou a été altéré."
+    },
+    "fields": {
+      "certificate_id": "ID du certificat",
+      "holder": "Titulaire du certificat",
+      "plan": "Forfait",
+      "email": "E-mail du compte",
+      "subscription_reference": "Référence d'abonnement",
+      "issued_on": "Émis le",
+      "valid_from": "Valide depuis",
+      "valid_until": "Valide jusqu'au",
+      "issuer": "Émis par"
+    },
+    "actions": {
+      "pricing": "Voir les tarifs",
+      "support": "Contacter le support"
+    }
+  }
+}

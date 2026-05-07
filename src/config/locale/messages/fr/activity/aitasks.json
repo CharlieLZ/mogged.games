@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "Titre",
+    "media_type": "Type de média",
+    "provider": "Fournisseur",
+    "model": "Modèle",
+    "prompt": "Invite",
+    "options": "Possibilités",
+    "status": "Statut",
+    "result": "Résultat",
+    "cost_credits": "Crédits de coût",
+    "created_at": "Créé à",
+    "action": "Action",
+    "preview": "Aperçu"
+  },
+  "list": {
+    "title": "Tâches d'IA",
+    "tabs": {
+      "all": "Tout",
+      "image": "Images",
+      "video": "Vidéo",
+      "audio": "Audio",
+      "text": "Texte"
+    },
+    "buttons": {
+      "view": "Afficher la tâche",
+      "refresh": "Actualiser la tâche",
+      "preview": "Aperçu",
+      "download": "Télécharger"
+    },
+    "download": {
+      "image": "Télécharger l'image {index}",
+      "audio": "Télécharger l'audio {index}",
+      "video": "Télécharger la vidéo {index}",
+      "file": "Télécharger le fichier {index}"
+    },
+    "processing": "En cours de traitement... (statut : {status})",
+    "failed_with_reason": "Échec : {reason}",
+    "failed_nsfw": "Bloqué par des filtres de sécurité (possible NSFW ou contenu sensible). Veuillez essayer une invite plus sûre.",
+    "failed_image_url_access": "Le lien de l'image est privé ou bloqué. Cloud Drive/liens sociaux nécessitent des autorisations de partage. Utilisez une URL d’image directe publique ou téléchargez l’image.",
+    "failed": "Échec",
+    "canceled": "Annulé",
+    "no_result": "Pas encore de fichier téléchargeable",
+    "result_ready": "{count} fichier(s) prêt(s)",
+    "parse_error": "Données de résultat indisponibles",
+    "empty_message": "Aucune tâche trouvée"
+  },
+  "detail": {
+    "title": "Détail de la tâche",
+    "description": "Ouvrez le résultat, téléchargez la sortie ou revenez à l'historique complet.",
+    "back": "Retour à l'historique",
+    "open_activity": "Ouvrir l'historique",
+    "refresh": "Actualiser la tâche",
+    "open_result": "Ouvrir le résultat",
+    "empty_result": "Cette tâche n'a pas encore de résultat téléchargeable.",
+    "prompt_empty": "Aucun prompt n'a été enregistré pour cette tâche.",
+    "not_found": "Tâche introuvable"
+  }
+}

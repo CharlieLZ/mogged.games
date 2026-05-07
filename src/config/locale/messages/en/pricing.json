@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "title": "mogged Pricing | AI Image Credits, Plans, Billing",
+    "description": "Compare mogged pricing, image credits, plans, and billing for image generation, image editing, and team delivery on {{app_domain}}.",
+    "keywords": "mogged pricing, AI image credits, AI image editor plans, image generation pricing, {{app_domain}}"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "{{app_name}} Pricing",
+    "title": "{{app_name}} Pricing",
+    "description": "Start free with {{initial_credits_amount}} credits. Low-cost plans cover hosted generation, image edits, and lightweight prompt tools like Translate to English or Auto-optimize. Refunds follow the published Refund Policy.",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "One-Time"
+      },
+      {
+        "name": "yearly",
+        "title": "Annually",
+        "is_featured": true,
+        "label": "Save up to 41%"
+      },
+      {
+        "name": "monthly",
+        "title": "Monthly"
+      }
+    ],
+    "items": [
+      {
+        "title": "Try",
+        "label": "Start Small",
+        "description": "Pay once.",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Standard generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Customer support"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-onetime",
+        "product_name": "Try",
+        "group": "one-time"
+      },
+      {
+        "title": "Max",
+        "label": "Best Value",
+        "description": "Pay once.",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Fastest generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Expert team support"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-onetime",
+        "product_name": "Max",
+        "group": "one-time"
+      },
+      {
+        "title": "Pro",
+        "label": "Regular Use",
+        "description": "Pay once.",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Priority generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Priority customer support"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-onetime",
+        "product_name": "Pro",
+        "group": "one-time"
+      },
+      {
+        "title": "Try",
+        "label": "Start Small",
+        "description": "Monthly, cancel anytime",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Standard generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Customer support"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-monthly",
+        "product_name": "Try Monthly",
+        "group": "monthly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "Max",
+        "label": "Best Value",
+        "description": "Monthly, cancel anytime",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Fastest generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Expert team support"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-monthly",
+        "product_name": "Max Monthly",
+        "group": "monthly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "Regular Use",
+        "description": "Monthly, cancel anytime",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Priority generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Priority customer support"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "Pro Monthly",
+        "group": "monthly",
+        "plan_name": "Pro"
+      },
+      {
+        "title": "Try",
+        "label": "Start Small",
+        "description": "Billed {{billing_total_price}} yearly",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Standard generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Commercial use license + Business Certificate",
+          "Customer support"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-yearly",
+        "product_name": "Try Annually",
+        "group": "yearly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "Max",
+        "label": "Best Value",
+        "description": "Billed {{billing_total_price}} yearly",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Fastest generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Commercial use license + Business Certificate",
+          "Expert team support"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-yearly",
+        "product_name": "Max Annually",
+        "group": "yearly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "Regular Use",
+        "description": "Billed {{billing_total_price}} yearly",
+        "features_title": "",
+        "features": [
+          "Text-to-image and image-to-image workflows",
+          "Prompt-led generation and source-image edits",
+          "Skip the free queue on hosted image jobs",
+          "Priority generation speed",
+          "High-resolution image exports",
+          "No watermark",
+          "Commercial use license + Business Certificate",
+          "Priority customer support"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "Pro Annually",
+        "group": "yearly",
+        "plan_name": "Pro"
+      }
+    ]
+  },
+  "page": {
+    "currency_selector": "Currency",
+    "current_plan": "Current Plan",
+    "processing": "Processing",
+    "limited_time_badge": "Annual pricing",
+    "limited_time_bonus": "Annual plans save up to 41%",
+    "limited_time_ends_in": "Plan status",
+    "metric_cost_per_100_credits": "Cost per 100 credits",
+    "snapshot_title": "Plan Snapshot",
+    "snapshot_credits": "Credits",
+    "snapshot_credits_total_suffix": "total",
+    "snapshot_credits_monthly_suffix": "/ mo",
+    "snapshot_generation_speed": "Generation speed",
+    "snapshot_credit_cost": "{credits} credits",
+    "speed_standard": "Standard",
+    "speed_priority": "Priority",
+    "speed_fastest": "Fastest",
+    "snapshot_text_to_image": "1K image generation",
+    "snapshot_image_edit": "2K image edit"
+  },
+  "faq": {
+    "title": "Pricing FAQ",
+    "description": "Direct answers about plans, credits, renewals, and what you are actually paying for on {{app_domain}}.",
+    "tip": "Need help choosing a plan? Email <a href='mailto:{{support_email}}' class='text-primary font-medium hover:underline'>{{support_email}}</a>.",
+    "categories": [
+      {
+        "title": "Plans and Access",
+        "items": [
+          {
+            "question": "What am I paying for on {{app_domain}}?",
+            "answer": "You are paying for this site’s hosted AI workspace: accounts, credits, saved task history, billing, and support. The browser tools remain separate and free in the browser."
+          },
+          {
+            "question": "Do I need a paid plan to use mogged?",
+            "answer": "No. You can browse the public site and use the browser tools without a paid plan. Paid plans matter when you need ongoing credits, saved account workflows, or higher-volume generation."
+          },
+          {
+            "question": "Which plan should I start with?",
+            "answer": "Start with the smallest plan while you validate prompts, source files, and workflow fit. Upgrade only after you understand your real monthly usage."
+          }
+        ]
+      },
+      {
+        "title": "Credits and Cost",
+        "items": [
+          {
+            "question": "Do free browser tools consume credits?",
+            "answer": "No. The browser tools run separately and do not use hosted generation credits."
+          },
+          {
+            "question": "Do the same credits work across text-to-image and image-to-image?",
+            "answer": "Yes. The same balance can be used across text-to-image and image-to-image. Exact usage depends on model, resolution, edit mode, and settings."
+          },
+          {
+            "question": "When do credits expire, and what happens if a failed task is refunded after that window?",
+            "answer": "Credit expiry depends on the source: paid plan credits follow the validity shown on the plan, while free signup or daily claim credits can use shorter reward windows. If a task fails, we restore usable credits, and when the original credits had an expiry window the refund keeps the remaining validity that was left when those credits were spent."
+          },
+          {
+            "question": "How do image credit costs change?",
+            "answer": "The task cost is shown before generation. It changes with the selected model and, for some routes, the resolution or edit settings you choose."
+          },
+          {
+            "question": "Do prompt translation and auto-optimize consume credits?",
+            "answer": "Yes. Translate to English costs 1 credit per successful request, and Auto-optimize costs 2 credits per successful request. If no usable result is returned, we do not deduct credits for that attempt."
+          }
+        ]
+      },
+      {
+        "title": "Subscription and Support",
+        "items": [
+          {
+            "question": "Can I cancel a subscription anytime?",
+            "answer": "Yes. Cancellation stops future renewals, and access continues through the current paid period unless a refund is separately approved under the refund policy or required by law."
+          },
+          {
+            "question": "How do I get help with billing or plan selection?",
+            "answer": "Email {{support_email}} if you need help comparing plans, checking credits, or fixing a billing issue."
+          }
+        ]
+      }
+    ]
+  },
+  "seo_sections": {
+    "schema": {
+      "product_disclaimer": "This price describes a {{app_domain}}-hosted service, not official upstream vendor billing.",
+      "product_keywords": [
+        "mogged pricing",
+        "mogged image pricing",
+        "mogged credits",
+        "AI image editor plans",
+        "{{app_domain}}"
+      ],
+      "webpage_name": "{{app_name}} Pricing",
+      "webpage_description": "AI image pricing, credits, plans, subscriptions, and billing rules for mogged on {{app_domain}}."
+    }
+  }
+}

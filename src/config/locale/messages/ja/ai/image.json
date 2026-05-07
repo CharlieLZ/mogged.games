@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "title": "AI画像編集 | Text & Image to Image - mogged",
+    "description": "{{app_domain}} の AI画像編集ワークスペースで、text-to-image、image-to-image、AI写真編集、元画像ベースの調整を進められます。",
+    "keywords": "ai image editor, ai photo editor, AI画像編集, AI写真編集, AI画像強化, text-to-image, image-to-image, {{app_domain}}"
+  },
+  "page": {
+    "title": "AI画像編集ワークスペース",
+    "description": "AI画像編集、text-to-image、image-to-image、AI写真編集、元画像ベースの調整をまとめて進めるホスト型ワークスペースです。"
+  },
+  "generator": {
+    "title": "AI画像編集ワークスペース",
+    "description": "同じホスト型 AI画像編集ワークスペースで、プロンプト生成と元画像ベースの編集を進められます。",
+    "tabs": {
+      "text-to-image": "テキストから画像",
+      "image-to-image": "画像から画像"
+    },
+    "tabs_short": {
+      "text-to-image": "Text",
+      "image-to-image": "Image"
+    },
+    "form": {
+      "panel_title": "AI画像編集",
+      "prompt": "Prompt",
+      "try_example": "Try Example",
+      "translate": "Translate",
+      "translating": "Translating...",
+      "prompt_placeholder": "Example: A premium skincare bottle on wet black stone, soft rim lighting, restrained reflections, crisp texture, clean luxury editorial composition.",
+      "prompt_too_long": "Prompt is too long, please delete some content",
+      "example_loaded": "Example prompt loaded.",
+      "translation_success": "Prompt translated to English.",
+      "translation_no_change": "Prompt already looks ready in English.",
+      "translation_stale": "You changed the prompt while translation was running, so we kept your latest version.",
+      "translation_failed": "Translation failed. Please try again.",
+      "copy_prompt": "Copy prompt",
+      "copy_failed": "Could not copy the prompt. Please copy it manually.",
+      "paste_prompt": "Paste prompt",
+      "paste_failed": "Clipboard access is unavailable. Please paste with your keyboard shortcut.",
+      "clear_prompt": "Clear prompt",
+      "expand_prompt": "Expand prompt editor",
+      "collapse_prompt": "Collapse prompt editor",
+      "prompt_copied": "Prompt copied.",
+      "prompt_pasted": "Clipboard pasted into the prompt.",
+      "prompt_cleared": "Prompt cleared.",
+      "advanced": "Generation Controls",
+      "advanced_count": "{count} options",
+      "workflow_runtime_hint": "These are the shared controls across both image workflows.",
+      "model": "モデル",
+      "quick_select": "クイック選択",
+      "generation_mode": "生成モード",
+      "single_edit": "Single Edit",
+      "multi_fusion": "Multi Fusion",
+      "multi_fusion_hint": "最大10枚の元画像を使い、参照融合、スタイル転送、商品バリエーションを作れます。",
+      "resolution": "Resolution",
+      "aspect_ratio": "Aspect Ratio",
+      "output_format": "Output Format",
+      "web_search": "Web Search",
+      "web_search_hint": "Allow the provider to call web search for current information when supported.",
+      "web_search_guest_hint": "ログインすると、アカウントのクレジットでWeb検索を使えます。",
+      "source_image": "Source Image URL",
+      "source_images": "Source Image URLs",
+      "source_image_placeholder": "One public source image URL",
+      "source_images_placeholder": "公開画像URLを最大{count}件、1行に1件",
+      "source_image_hint": "JPEG、PNG、WEBP形式、最大10MBまで対応しています。",
+      "source_images_hint": "最大{count}枚まで。JPEG、PNG、WEBP形式、各画像10MBまで対応しています。",
+      "source_image_required": "Please provide one source image for image-to-image.",
+      "upload_media": "Upload",
+      "upload_media_with_limit": "アップロード（最大{count}枚）",
+      "optional": "Optional",
+      "media_upload_success": "Media uploaded and URL added",
+      "media_upload_failed": "Upload failed, please try again",
+      "image_url_invalid": "Invalid image URL. Please use a direct https:// image link.",
+      "image_url_video": "This link does not point to a usable image file. Use a direct image URL instead of a video or download page.",
+      "image_url_cloud_drive": "Cloud-drive and social share links are blocked here. Upload the image or use a direct public image URL instead.",
+      "image_url_private": "This image URL looks private or local. Use a public direct image URL instead.",
+      "image_url_too_many": "Only one source image URL is allowed here.",
+      "image_url_too_many_single": "Single Edit で使える元画像URLは1件だけです。",
+      "image_url_too_many_multi": "Multi Fusion で使える元画像URLは最大10件です。",
+      "notifications": "Task Notifications",
+      "notifications_hint": "Useful when provider queues are busy. We keep the current task switch separate from your future default.",
+      "notify_on_completion": "Email me when this task is ready",
+      "notify_on_completion_hint": "We send the prompt, task page link, and a direct download shortcut when the image is ready.",
+      "notify_on_completion_by_default": "Use this for future tasks too",
+      "notify_on_completion_by_default_hint": "Save this as your default so new tasks start with notifications already enabled."
+    },
+    "models": {
+      "badges": {
+        "new": "New",
+        "vip": "VIP",
+        "upgrade": "Upgrade"
+      },
+      "credits_fixed": "{credits} クレジット",
+      "credits_by_resolution": "{credits} クレジット",
+      "options": {
+        "nano_banana": {
+          "name": "Nano Banana",
+          "description": "高速な text-to-image と単一画像編集向けの Google Nano Banana 画像モデルです。",
+          "details": "1K 5クレジット、2K 10クレジット、4K 15クレジット。"
+        },
+        "nano_banana_2": {
+          "name": "Nano Banana 2",
+          "description": "プロンプト生成と元画像リファイン向けの最新 Nano Banana ルートです。",
+          "details": "1K 5クレジット、2K 10クレジット、4K 15クレジット。"
+        },
+        "gpt_image_2": {
+          "name": "GPT Image 2",
+          "description": "プロンプト追従ときれいな編集に向いた OpenAI 画像モデルルートです。",
+          "details": "1K、2K、4K はいずれも8クレジット。"
+        },
+        "nano_banana_pro": {
+          "name": "Nano Banana Pro",
+          "description": "より高い忠実度の image-to-image 生成向け VIP Nano Banana ルートです。",
+          "details": "1K 10クレジット、2K 18クレジット、4K 30クレジット。"
+        },
+        "seedream_4": {
+          "name": "SeeDream 4.0",
+          "description": "素早いラフ案とシンプルな画像編集に向いた低コスト SeeDream ルートです。",
+          "details": "1K、2K、4K はいずれも3クレジット。"
+        },
+        "seedream_45": {
+          "name": "SeeDream 4.5",
+          "description": "速度、コスト、画質のバランスがよい新しい SeeDream ルートです。",
+          "details": "1K、2K、4K はいずれも4クレジット。"
+        },
+        "seedream_5": {
+          "name": "SeeDream 5.0",
+          "description": "ホスト型の画像生成と編集に使う SeeDream 5.0 Lite ルートです。",
+          "details": "1K、2K、4K はいずれも4クレジット。"
+        },
+        "flux_2_pro": {
+          "name": "Flux 2 Pro",
+          "description": "高品質な画像とテキストレンダリング向けのプレミアム Flux 2 Pro ルートです。",
+          "details": "1K、2K、4K はいずれも12クレジット。"
+        },
+        "flux_2_flex": {
+          "name": "Flux 2 Flex",
+          "description": "高速でコスト効率の良い生成向けのお手頃価格 Flux 2 ルートです。",
+          "details": "1K、2K、4K はいずれも6クレジット。"
+        },
+        "grok_imagine": {
+          "name": "Grok Imagine",
+          "description": "クリエイティブな text-to-image 生成向けの Grok Imagine ルートです。",
+          "details": "1K、2K、4K はいずれも5クレジット。"
+        },
+        "ideogram_v3": {
+          "name": "Ideogram V3",
+          "description": "高品質なテキストとタイポグラフィを含む画像生成向けの Ideogram ルートです。",
+          "details": "1K、2K、4K はいずれも10クレジット。"
+        },
+        "ideogram_character": {
+          "name": "Ideogram Character",
+          "description": "一貫性のあるキャラクターとポートレート生成向けの Ideogram ルートです。",
+          "details": "1K、2K、4K はいずれも8クレジット。"
+        },
+        "qwen_image": {
+          "name": "Qwen Image",
+          "description": "多言語 text-to-image と編集向けの Qwen 画像モデルルートです。",
+          "details": "1K、2K、4K はいずれも5クレジット。"
+        },
+        "z_image": {
+          "name": "Z Image",
+          "description": "高速で低コストな画像草案と編集向けの Z-Image ルートです。",
+          "details": "1K、2K、4K はいずれも4クレジット。"
+        }
+      }
+    },
+    "generate": "Generate Image",
+    "checking_account": "Checking Account...",
+    "loading": "Loading...",
+    "generating": "Generating...",
+    "sign_in_to_generate": "Sign In to Generate",
+    "credits_cost": "Cost {credits} credits",
+    "credits_remaining": "Remaining {credits} credits",
+    "free_generations_today": "本日の無料生成: {remaining}/{limit}",
+    "guest_quota_used": "使用済み {used}/{limit}",
+    "buy_credits": "Buy Credits",
+    "queue_notice_free": "無料の画像ジョブは混雑状況により {min}-{max} 分待つ場合があります。有料ユーザーはこのキューをスキップします。",
+    "queue_notice_paid": "有料の画像ジョブは無料キューをスキップし、プロバイダー側の空きが出しだい開始します。",
+    "progress": "Progress",
+    "generated_results": "Preview",
+    "sample_preview": "Sample",
+    "sample_preview_title": "Sample mogged still",
+    "sample_preview_description": "A sample image stays here until you run your first generation.",
+    "ready_to_generate": "Ready to Generate",
+    "ready_for_generating": "Ready for Generating",
+    "no_results": "Nothing generated yet",
+    "error_nsfw_blocked": "このリクエストはセーフティフィルタによりブロックされました。より安全なプロンプトでお試しください。",
+    "error_input_validation": "生成に失敗しました：プロバイダがリクエストパラメータを拒否しました。プロンプトを簡潔にするか入力を調整してください。",
+    "error_image_url_access": "元画像を読み込めませんでした。URL が公開され、直接アクセス可能で、有効期限切れでないことを確認してください。",
+    "error_generic": "生成に失敗しました：{reason}",
+    "error_unknown": "一時的なネットワークまたはサービスの問題により生成に失敗しました。再度お試しください。",
+    "guest_generation_unavailable": "ゲスト向けの無料画像生成は一時的に利用できません。後でもう一度試すか、ログインしてください。",
+    "guest_web_search_unavailable": "Web検索はログイン済みアカウント向けの機能です。ログインするとアカウントのクレジットで利用できます。",
+    "error_no_result": "プロバイダから結果が返されませんでした。別のプロンプトで再試行してください。",
+    "task_submitted_eta": "Task submitted. Estimated time: {eta}.",
+    "task_submitted_detail": "We refresh automatically when the result is ready. Higher-resolution image jobs can sit in queue longer.",
+    "task_completion_notification_scheduled": "We will email this task's prompt, task page link, and first download shortcut when the result is ready.",
+    "activity_link_hint": "You can view all your tasks anytime at",
+    "activity_link_text": "Activity page",
+    "status": {
+      "pending": "Waiting for the job to start",
+      "processing": "Generating your image...",
+      "success": "Image generation completed",
+      "failed": "Generation failed",
+      "canceled": "Task canceled"
+    },
+    "task_still_processing": "Still processing on server. We keep polling, you can leave and check later.",
+    "task_completed": "Task completed successfully",
+    "image_generated": "Image generated successfully",
+    "video_generated": "画像の生成が完了しました",
+    "create_task_failed": "画像タスクの作成に失敗しました",
+    "insufficient_credits": "クレジットが不足しています。生成を続けるには追加してください。",
+    "guest_quota_exhausted": "本日の無料画像生成を使い切りました。",
+    "guest_quota_exhausted_hint": "ログインするとアカウントのクレジットで続けられます。",
+    "prompt_required": "生成する前にプロンプトを入力してください。",
+    "download_fetch_failed": "Failed to fetch the media file",
+    "download_success": "Image downloaded",
+    "download_failed": "Failed to download image",
+    "sample_preview_poster": "Sample preview image poster",
+    "sample_preview_item": "Show sample preview {index}",
+    "sample_generated_image": "Sample generated image",
+    "generated_image": "Generated image",
+    "recent_tasks_title": "Recent Tasks",
+    "recent_tasks_count": "({shown}/{total})",
+    "recent_tasks_empty": "Your recent generated images will appear here.",
+    "recent_tasks_guest_empty": "Generated guest images will appear here on this browser.",
+    "recent_tasks_loading": "Loading recent tasks...",
+    "recent_tasks_copy_prompt": "Copy prompt",
+    "recent_tasks_copy_prompt_success": "Prompt copied.",
+    "recent_tasks_copy_prompt_failed": "Could not copy the prompt.",
+    "recent_tasks_download": "Download",
+    "recent_tasks_preview": "Expand",
+    "recent_tasks_reprompt": "Reprompt",
+    "recent_tasks_regenerate": "Regenerate",
+    "recent_tasks_upscale": "Upscale",
+    "recent_tasks_delete": "Delete",
+    "recent_tasks_deleted": "Task removed.",
+    "recent_tasks_delete_failed": "Failed to remove the task.",
+    "recent_tasks_delete_confirm": "Delete this task?",
+    "recent_tasks_prompt_empty": "Untitled prompt",
+    "guest_history_title": "Local guest history",
+    "guest_history_notice": "Anonymous results are saved only in this browser. They will not sync into your account after sign-in, and clearing browser data or switching devices can remove them. Download anything important.",
+    "guest_history_empty": "Generated guest images will appear here on this browser.",
+    "guest_history_clear": "Clear local guest history",
+    "guest_history_cleared": "Local guest history cleared",
+    "guest_history_download": "Download local guest image",
+    "error_provider_unavailable": "この生成機能は現在一時的に利用できません。数分後にもう一度お試しください。",
+    "error_invalid_request": "このリクエストは送信できませんでした。プロンプトと入力内容を確認してから再試行してください。",
+    "error_rate_limited": "短時間に試行回数が多すぎます。少し待ってからもう一度お試しください。",
+    "error_request_failed": "生成を完了できませんでした。もう一度お試しください。",
+    "error_request_processing": "同じリクエストがすでに処理中です。少し待ってから再試行してください。",
+    "error_reference_unsupported": "このソース入力は現在のワークフローではサポートされていません。差し替えてから再試行してください。"
+  }
+}

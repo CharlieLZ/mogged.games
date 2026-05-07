@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "transaction_no": "Transazione n",
+    "user": "Utente",
+    "amount": "Importo",
+    "remaining": "Rimanente",
+    "type": "Digitare",
+    "scene": "Scena",
+    "description": "Descrizione",
+    "created_at": "Creato a",
+    "expires_at": "Scade alle",
+    "metadata": "Metadati",
+    "action": "Azione"
+  },
+  "list": {
+    "title": "Crediti",
+    "crumbs": {
+      "admin": "Ammin",
+      "credits": "Crediti"
+    },
+    "tabs": {
+      "all": "Tutto",
+      "grant": "Concedere",
+      "consume": "Consumare",
+      "paid": "Pagato"
+    },
+    "search": {
+      "email": {
+        "title": "E-mail dell'utente",
+        "placeholder": "Cerca tramite e-mail"
+      }
+    }
+  }
+}

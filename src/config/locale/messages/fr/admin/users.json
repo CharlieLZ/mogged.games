@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Nom",
+    "avatar": "avatar",
+    "email": "Courriel",
+    "email_verified": "E-mail vérifié",
+    "remaining_credits": "Crédits restants",
+    "locale_geo": "Localité/Géo",
+    "device_ip": "Appareil/IP",
+    "last_seen_at": "Vu pour la dernière fois",
+    "last_sign_in_at": "Dernière connexion",
+    "event_type": "Type d'événement",
+    "path": "Chemin",
+    "referer": "Référent",
+    "metadata": "Métadonnées",
+    "provider": "Fournisseur",
+    "source": "Source",
+    "event_id": "ID d'événement",
+    "status": "Statut",
+    "delivery_count": "Livraisons",
+    "replay_count": "Rediffusions",
+    "received_at": "Reçu à",
+    "first_received_at": "Premier reçu",
+    "last_received_at": "Dernier reçu",
+    "processed_at": "Traité à",
+    "processing_started_at": "Dernier traitement démarré",
+    "processing_finished_at": "Dernier traitement terminé",
+    "processing_duration": "Durée du traitement",
+    "delivery_status": "Statut de livraison",
+    "processing_status": "Statut de traitement",
+    "order_no": "Numéro de commande",
+    "subscription_id": "Identifiant d'abonnement",
+    "error_message": "Erreur",
+    "error_stack": "Pile d'erreurs",
+    "payload": "Charge utile",
+    "user_agent": "Agent utilisateur",
+    "created_at": "Créé à",
+    "actions": "Actions",
+    "roles": "Rôles",
+    "utm_campaign": "UTM Campaign",
+    "utm_term": "UTM Term",
+    "funnel_stage": "Funnel Stage",
+    "first_successful_generation_at": "First Successful Generation",
+    "checkout_started_at": "Checkout Started",
+    "paid_at": "Paid At",
+    "product_name": "Product",
+    "utm_batch": "UTM Batch",
+    "utm_objective": "UTM Objective",
+    "utm_adgroup": "UTM Ad Group",
+    "utm_match": "UTM Match",
+    "utm_lang": "UTM Lang",
+    "utm_device": "UTM Device",
+    "utm_workflow": "UTM Workflow"
+  },
+  "list": {
+    "title": "Utilisateurs",
+    "crumbs": {
+      "admin": "Administrateur",
+      "users": "Utilisateurs"
+    },
+    "buttons": {
+      "add": "Ajouter un utilisateur",
+      "edit": "Modifier l'utilisateur",
+      "view": "Afficher l'utilisateur",
+      "delete": "Supprimer un utilisateur",
+      "edit_roles": "Modifier les rôles"
+    },
+    "search": {
+      "email": {
+        "title": "Courriel",
+        "placeholder": "Courriel"
+      }
+    }
+  },
+  "edit": {
+    "title": "Modifier l'utilisateur",
+    "crumbs": {
+      "admin": "Administrateur",
+      "users": "Utilisateurs",
+      "edit": "Modifier"
+    },
+    "buttons": {
+      "submit": "Mise à jour"
+    }
+  },
+  "detail": {
+    "title": "Contexte utilisateur",
+    "crumbs": {
+      "admin": "Administrateur",
+      "users": "Utilisateurs",
+      "detail": "Contexte"
+    },
+    "actions": {
+      "open_avatar": "Ouvrir l'avatar"
+    },
+    "cards": {
+      "profile": {
+        "title": "Aperçu du profil",
+        "description": "Dernier résumé du compte pour cet utilisateur."
+      },
+      "context": {
+        "title": "Appareil et activité",
+        "description": "Derniers paramètres régionaux, appareils, adresses IP et empreintes digitales connus du navigateur."
+      },
+      "funnel": {
+        "title": "Four-Stage Funnel",
+        "description": "Connect this user from signup to first successful generation, checkout started, and paid."
+      }
+    },
+    "sections": {
+      "context_events": {
+        "title": "Événements contextuels récents",
+        "description": "Affichage des derniers événements d'authentification, de paiement et de demande d'IA {limit}."
+      },
+      "webhook_events": {
+        "title": "Webhooks de paiement récents",
+        "description": "Affichage des derniers enregistrements d'audit du webhook de paiement {limit} liés à cet utilisateur. Cliquez sur l'ID de l'événement pour inspecter le parcours complet."
+      }
+    },
+    "funnel": {
+      "stage": {
+        "signup": "Signed Up",
+        "first_success": "First Success",
+        "checkout": "Checkout Started",
+        "paid": "Paid"
+      }
+    }
+  },
+  "webhook_detail": {
+    "title": "Détails de l'événement Webhook",
+    "crumbs": {
+      "detail": "Détail du webhook"
+    },
+    "actions": {
+      "back_to_user": "Retour au contexte utilisateur"
+    },
+    "attempt_label": "Tentative n°{number}",
+    "replay_note": "Note de rediffusion",
+    "replay_detected": "Cet événement a été reçu {deliveries} fois, y compris {replays} diffusions en rediffusion.",
+    "replay_clean": "Une seule livraison a été enregistrée pour cet événement jusqu'à présent.",
+    "timeline_empty": "Aucune chronologie de tentative n’est encore disponible pour ce webhook.",
+    "timeline_partial": "Les données historiques n'ont reconstruit que le dernier instantané. {missing} les tentatives de livraison antérieures ne sont pas récupérables à partir de l'ancien schéma de résumé uniquement.",
+    "cards": {
+      "event": {
+        "title": "Instantané de l'événement",
+        "description": "Identité principale de cet événement webhook et son dernier état de livraison."
+      },
+      "timeline": {
+        "title": "Délai de livraison",
+        "description": "Affichage des {count} tentatives de livraison enregistrées pour ce webhook."
+      },
+      "replay": {
+        "title": "Rejouer l'instantané",
+        "description": "Combien de fois cet événement est arrivé et quand le dernier double a été vu."
+      },
+      "processing": {
+        "title": "Instantané de traitement",
+        "description": "La dernière fenêtre de traitement, l’heure d’achèvement et la durée mesurée."
+      },
+      "request": {
+        "title": "Demander un instantané",
+        "description": "Dernières empreintes digitales IP, chemin et navigateur au niveau de la requête capturées en périphérie."
+      },
+      "binding": {
+        "title": "Instantané de liaison",
+        "description": "Les références d’utilisateur, de commande et d’abonnement actuellement liées à ce webhook."
+      },
+      "error": {
+        "title": "Détails de l'erreur",
+        "description": "Le dernier message d'erreur et la trace de la pile conservés pour le dépannage."
+      },
+      "payload": {
+        "title": "Charge utile brute",
+        "description": "La charge utile du webhook stockée après vérification et normalisation."
+      }
+    }
+  },
+  "edit_roles": {
+    "title": "Modifier les rôles",
+    "crumbs": {
+      "admin": "Administrateur",
+      "users": "Utilisateurs",
+      "edit_roles": "Modifier les rôles"
+    },
+    "buttons": {
+      "submit": "Mise à jour"
+    }
+  }
+}

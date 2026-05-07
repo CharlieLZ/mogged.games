@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "order_no": "Ordine n",
+    "user": "Utente",
+    "amount": "Importo",
+    "product": "Prodotto",
+    "description": "Descrizione",
+    "type": "Digitare",
+    "provider": "Fornitore",
+    "created_at": "Creato a",
+    "status": "Stato",
+    "action": "Azione"
+  },
+  "list": {
+    "title": "Pagamenti",
+    "crumbs": {
+      "admin": "Ammin",
+      "payments": "Pagamenti"
+    },
+    "tabs": {
+      "all": "Tutto",
+      "subscription": "Abbonamento",
+      "one-time": "Una volta"
+    },
+    "filters": {
+      "status": {
+        "title": "Stato",
+        "options": {
+          "all": "Tutto",
+          "paid": "Pagato",
+          "created": "Creato",
+          "failed": "Fallito"
+        }
+      },
+      "provider": {
+        "title": "Fornitore",
+        "options": {
+          "all": "Tutto",
+          "stripe": "Striscia",
+          "creem": "Crem",
+          "paypal": "PayPal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Ordine n",
+        "placeholder": "Ordine n"
+      },
+      "email": {
+        "title": "E-mail",
+        "placeholder": "Cerca tramite e-mail"
+      }
+    }
+  }
+}

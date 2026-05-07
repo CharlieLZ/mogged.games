@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "title": "AI 이미지 편집기 | Text/Image - mogged",
+    "description": "{{app_domain}}의 AI 이미지 편집기에서 text-to-image, image-to-image, AI 사진 편집, 원본 이미지 기반 보정을 진행할 수 있습니다.",
+    "keywords": "ai image editor, ai photo editor, AI 이미지 편집기, AI 사진 편집, AI 이미지 향상, text-to-image, image-to-image, {{app_domain}}"
+  },
+  "page": {
+    "title": "AI 이미지 편집기 워크스페이스",
+    "description": "AI 이미지 편집, text-to-image, image-to-image, AI 사진 편집, 원본 이미지 기반 보정을 위한 호스팅 워크스페이스입니다."
+  },
+  "generator": {
+    "title": "AI 이미지 편집기 워크스페이스",
+    "description": "같은 호스팅 AI 이미지 편집 워크스페이스에서 프롬프트 생성과 원본 이미지 기반 편집을 함께 진행하세요.",
+    "tabs": {
+      "text-to-image": "텍스트를 이미지로",
+      "image-to-image": "이미지를 이미지로"
+    },
+    "tabs_short": {
+      "text-to-image": "Text",
+      "image-to-image": "Image"
+    },
+    "form": {
+      "panel_title": "AI 이미지 편집기",
+      "prompt": "Prompt",
+      "try_example": "Try Example",
+      "translate": "Translate",
+      "translating": "Translating...",
+      "prompt_placeholder": "Example: A premium skincare bottle on wet black stone, soft rim lighting, restrained reflections, crisp texture, clean luxury editorial composition.",
+      "prompt_too_long": "Prompt is too long, please delete some content",
+      "example_loaded": "Example prompt loaded.",
+      "translation_success": "Prompt translated to English.",
+      "translation_no_change": "Prompt already looks ready in English.",
+      "translation_stale": "You changed the prompt while translation was running, so we kept your latest version.",
+      "translation_failed": "Translation failed. Please try again.",
+      "copy_prompt": "Copy prompt",
+      "copy_failed": "Could not copy the prompt. Please copy it manually.",
+      "paste_prompt": "Paste prompt",
+      "paste_failed": "Clipboard access is unavailable. Please paste with your keyboard shortcut.",
+      "clear_prompt": "Clear prompt",
+      "expand_prompt": "Expand prompt editor",
+      "collapse_prompt": "Collapse prompt editor",
+      "prompt_copied": "Prompt copied.",
+      "prompt_pasted": "Clipboard pasted into the prompt.",
+      "prompt_cleared": "Prompt cleared.",
+      "advanced": "Generation Controls",
+      "advanced_count": "{count} options",
+      "workflow_runtime_hint": "These are the shared controls across both image workflows.",
+      "model": "모델",
+      "quick_select": "빠른 선택",
+      "generation_mode": "생성 모드",
+      "single_edit": "Single Edit",
+      "multi_fusion": "Multi Fusion",
+      "multi_fusion_hint": "최대 10장의 원본 이미지를 섞어 참조 융합, 스타일 전환, 제품 변형을 만들 수 있습니다.",
+      "resolution": "Resolution",
+      "aspect_ratio": "Aspect Ratio",
+      "output_format": "Output Format",
+      "web_search": "Web Search",
+      "web_search_hint": "Allow the provider to call web search for current information when supported.",
+      "web_search_guest_hint": "로그인하면 계정 크레딧으로 웹 검색을 사용할 수 있습니다.",
+      "source_image": "Source Image URL",
+      "source_images": "Source Image URLs",
+      "source_image_placeholder": "One public source image URL",
+      "source_images_placeholder": "공개 이미지 URL 최대 {count}개, 한 줄에 하나씩",
+      "source_image_hint": "JPEG, PNG 또는 WEBP 형식, 최대 10MB까지 지원합니다.",
+      "source_images_hint": "최대 {count}장. JPEG, PNG 또는 WEBP 형식, 각 이미지 최대 10MB까지 지원합니다.",
+      "source_image_required": "Please provide one source image for image-to-image.",
+      "upload_media": "Upload",
+      "upload_media_with_limit": "업로드(최대 {count}장)",
+      "optional": "Optional",
+      "media_upload_success": "Media uploaded and URL added",
+      "media_upload_failed": "Upload failed, please try again",
+      "image_url_invalid": "Invalid image URL. Please use a direct https:// image link.",
+      "image_url_video": "This link does not point to a usable image file. Use a direct image URL instead of a video or download page.",
+      "image_url_cloud_drive": "Cloud-drive and social share links are blocked here. Upload the image or use a direct public image URL instead.",
+      "image_url_private": "This image URL looks private or local. Use a public direct image URL instead.",
+      "image_url_too_many": "Only one source image URL is allowed here.",
+      "image_url_too_many_single": "Single Edit은 원본 이미지 URL 1개만 허용합니다.",
+      "image_url_too_many_multi": "Multi Fusion은 원본 이미지 URL을 최대 10개까지 허용합니다.",
+      "notifications": "Task Notifications",
+      "notifications_hint": "Useful when provider queues are busy. We keep the current task switch separate from your future default.",
+      "notify_on_completion": "Email me when this task is ready",
+      "notify_on_completion_hint": "We send the prompt, task page link, and a direct download shortcut when the image is ready.",
+      "notify_on_completion_by_default": "Use this for future tasks too",
+      "notify_on_completion_by_default_hint": "Save this as your default so new tasks start with notifications already enabled."
+    },
+    "models": {
+      "badges": {
+        "new": "New",
+        "vip": "VIP",
+        "upgrade": "Upgrade"
+      },
+      "credits_fixed": "{credits} 크레딧",
+      "credits_by_resolution": "{credits} 크레딧",
+      "options": {
+        "nano_banana": {
+          "name": "Nano Banana",
+          "description": "빠른 text-to-image와 단일 이미지 편집을 위한 Google Nano Banana 이미지 모델입니다.",
+          "details": "1K 5 크레딧, 2K 10 크레딧, 4K 15 크레딧."
+        },
+        "nano_banana_2": {
+          "name": "Nano Banana 2",
+          "description": "프롬프트 생성과 원본 이미지 보정을 위한 최신 Nano Banana 경로입니다.",
+          "details": "1K 5 크레딧, 2K 10 크레딧, 4K 15 크레딧."
+        },
+        "gpt_image_2": {
+          "name": "GPT Image 2",
+          "description": "정확한 프롬프트 반영과 깔끔한 편집을 위한 OpenAI 이미지 모델 경로입니다.",
+          "details": "1K, 2K, 4K 모두 8 크레딧."
+        },
+        "nano_banana_pro": {
+          "name": "Nano Banana Pro",
+          "description": "더 높은 충실도의 image-to-image 생성을 위한 VIP Nano Banana 경로입니다.",
+          "details": "1K 10 크레딧, 2K 18 크레딧, 4K 30 크레딧."
+        },
+        "seedream_4": {
+          "name": "SeeDream 4.0",
+          "description": "빠른 초안과 간단한 이미지 편집에 적합한 저비용 SeeDream 경로입니다.",
+          "details": "1K, 2K, 4K 모두 3 크레딧."
+        },
+        "seedream_45": {
+          "name": "SeeDream 4.5",
+          "description": "속도, 비용, 품질의 균형을 맞춘 새로운 SeeDream 경로입니다.",
+          "details": "1K, 2K, 4K 모두 4 크레딧."
+        },
+        "seedream_5": {
+          "name": "SeeDream 5.0",
+          "description": "호스팅 이미지 생성과 편집을 위한 SeeDream 5.0 Lite 경로입니다.",
+          "details": "1K, 2K, 4K 모두 4 크레딧."
+        },
+        "flux_2_pro": {
+          "name": "Flux 2 Pro",
+          "description": "고품질 이미지 및 텍스트 렌더링을 위한 프리미엄 Flux 2 Pro 경로입니다.",
+          "details": "1K, 2K, 4K 모두 12 크레딧."
+        },
+        "flux_2_flex": {
+          "name": "Flux 2 Flex",
+          "description": "빠르고 비용 효율적인 생성을 위한 저렴한 Flux 2 경로입니다.",
+          "details": "1K, 2K, 4K 모두 6 크레딧."
+        },
+        "grok_imagine": {
+          "name": "Grok Imagine",
+          "description": "창의적인 text-to-image 생성을 위한 Grok Imagine 경로입니다.",
+          "details": "1K, 2K, 4K 모두 5 크레딧."
+        },
+        "ideogram_v3": {
+          "name": "Ideogram V3",
+          "description": "생성 이미지 내 고품질 텍스트와 타이포그래피를 위한 Ideogram 경로입니다.",
+          "details": "1K, 2K, 4K 모두 10 크레딧."
+        },
+        "ideogram_character": {
+          "name": "Ideogram Character",
+          "description": "일관된 캐릭터와 초상화 생성을 위한 Ideogram 경로입니다.",
+          "details": "1K, 2K, 4K 모두 8 크레딧."
+        },
+        "qwen_image": {
+          "name": "Qwen Image",
+          "description": "다국어 text-to-image 및 편집을 위한 Qwen 이미지 모델 경로입니다.",
+          "details": "1K, 2K, 4K 모두 5 크레딧."
+        },
+        "z_image": {
+          "name": "Z Image",
+          "description": "빠른 저비용 이미지 초안 및 편집을 위한 Z-Image 경로입니다.",
+          "details": "1K, 2K, 4K 모두 4 크레딧."
+        }
+      }
+    },
+    "generate": "Generate Image",
+    "checking_account": "Checking Account...",
+    "loading": "Loading...",
+    "generating": "Generating...",
+    "sign_in_to_generate": "Sign In to Generate",
+    "credits_cost": "Cost {credits} credits",
+    "credits_remaining": "Remaining {credits} credits",
+    "free_generations_today": "오늘 무료 생성: {remaining}/{limit}",
+    "guest_quota_used": "사용 {used}/{limit}",
+    "buy_credits": "Buy Credits",
+    "queue_notice_free": "무료 이미지 작업은 부하 상황에 따라 {min}-{max}분 대기할 수 있습니다. 유료 사용자는 이 대기열을 건너뜁니다.",
+    "queue_notice_paid": "유료 이미지 작업은 무료 대기열을 건너뛰고 공급자 용량이 확보되는 즉시 시작됩니다.",
+    "progress": "Progress",
+    "generated_results": "Preview",
+    "sample_preview": "Sample",
+    "sample_preview_title": "Sample mogged still",
+    "sample_preview_description": "A sample image stays here until you run your first generation.",
+    "ready_to_generate": "Ready to Generate",
+    "ready_for_generating": "Ready for Generating",
+    "no_results": "Nothing generated yet",
+    "error_nsfw_blocked": "이 요청은 안전 필터에 의해 차단되었습니다. 더 안전한 프롬프트로 다시 시도해 주세요.",
+    "error_input_validation": "생성 실패: 제공자가 요청 매개변수를 거부했습니다. 프롬프트를 단순화하거나 입력을 조정해 주세요.",
+    "error_image_url_access": "원본 이미지를 불러올 수 없습니다. URL이 공개되어 있고 직접 접근 가능하며 만료되지 않았는지 확인해 주세요.",
+    "error_generic": "생성 실패: {reason}",
+    "error_unknown": "일시적인 네트워크 또는 서비스 문제로 생성에 실패했습니다. 다시 시도해 주세요.",
+    "guest_generation_unavailable": "게스트 무료 이미지 생성은 일시적으로 사용할 수 없습니다. 나중에 다시 시도하거나 로그인해 주세요.",
+    "guest_web_search_unavailable": "웹 검색은 로그인한 계정 전용 기능입니다. 로그인하면 계정 크레딧으로 사용할 수 있습니다.",
+    "error_no_result": "제공자가 결과를 반환하지 않았습니다. 다른 프롬프트로 다시 시도해 주세요.",
+    "task_submitted_eta": "Task submitted. Estimated time: {eta}.",
+    "task_submitted_detail": "We refresh automatically when the result is ready. Higher-resolution image jobs can sit in queue longer.",
+    "task_completion_notification_scheduled": "We will email this task's prompt, task page link, and first download shortcut when the result is ready.",
+    "activity_link_hint": "You can view all your tasks anytime at",
+    "activity_link_text": "Activity page",
+    "status": {
+      "pending": "Waiting for the job to start",
+      "processing": "Generating your image...",
+      "success": "Image generation completed",
+      "failed": "Generation failed",
+      "canceled": "Task canceled"
+    },
+    "task_still_processing": "Still processing on server. We keep polling, you can leave and check later.",
+    "task_completed": "Task completed successfully",
+    "image_generated": "Image generated successfully",
+    "video_generated": "이미지가 성공적으로 생성되었습니다",
+    "create_task_failed": "이미지 작업을 생성하지 못했습니다",
+    "insufficient_credits": "크레딧이 부족합니다. 계속 생성하려면 충전해 주세요.",
+    "guest_quota_exhausted": "오늘의 무료 이미지 생성을 모두 사용했습니다.",
+    "guest_quota_exhausted_hint": "로그인하면 계정 크레딧으로 계속 생성할 수 있습니다.",
+    "prompt_required": "생성하기 전에 프롬프트를 입력해 주세요.",
+    "download_fetch_failed": "Failed to fetch the media file",
+    "download_success": "Image downloaded",
+    "download_failed": "Failed to download image",
+    "sample_preview_poster": "Sample preview image poster",
+    "sample_preview_item": "Show sample preview {index}",
+    "sample_generated_image": "Sample generated image",
+    "generated_image": "Generated image",
+    "recent_tasks_title": "Recent Tasks",
+    "recent_tasks_count": "({shown}/{total})",
+    "recent_tasks_empty": "Your recent generated images will appear here.",
+    "recent_tasks_guest_empty": "Generated guest images will appear here on this browser.",
+    "recent_tasks_loading": "Loading recent tasks...",
+    "recent_tasks_copy_prompt": "Copy prompt",
+    "recent_tasks_copy_prompt_success": "Prompt copied.",
+    "recent_tasks_copy_prompt_failed": "Could not copy the prompt.",
+    "recent_tasks_download": "Download",
+    "recent_tasks_preview": "Expand",
+    "recent_tasks_reprompt": "Reprompt",
+    "recent_tasks_regenerate": "Regenerate",
+    "recent_tasks_upscale": "Upscale",
+    "recent_tasks_delete": "Delete",
+    "recent_tasks_deleted": "Task removed.",
+    "recent_tasks_delete_failed": "Failed to remove the task.",
+    "recent_tasks_delete_confirm": "Delete this task?",
+    "recent_tasks_prompt_empty": "Untitled prompt",
+    "guest_history_title": "Local guest history",
+    "guest_history_notice": "Anonymous results are saved only in this browser. They will not sync into your account after sign-in, and clearing browser data or switching devices can remove them. Download anything important.",
+    "guest_history_empty": "Generated guest images will appear here on this browser.",
+    "guest_history_clear": "Clear local guest history",
+    "guest_history_cleared": "Local guest history cleared",
+    "guest_history_download": "Download local guest image",
+    "error_provider_unavailable": "이 생성기는 현재 일시적으로 사용할 수 없습니다. 몇 분 후 다시 시도해 주세요.",
+    "error_invalid_request": "이 요청을 전송할 수 없습니다. 프롬프트와 입력 내용을 확인한 뒤 다시 시도해 주세요.",
+    "error_rate_limited": "짧은 시간에 시도가 너무 많습니다. 잠시 후 다시 시도해 주세요.",
+    "error_request_failed": "생성을 완료하지 못했습니다. 다시 시도해 주세요.",
+    "error_request_processing": "동일한 요청이 이미 처리 중입니다. 잠시 기다린 후 다시 시도해 주세요.",
+    "error_reference_unsupported": "이 소스 입력은 현재 워크플로에서 지원되지 않습니다. 다른 입력으로 바꾼 뒤 다시 시도해 주세요."
+  }
+}

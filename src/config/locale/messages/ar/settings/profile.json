@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "email": "البريد الإلكتروني",
+    "name": "الاسم",
+    "avatar": "الصورة الرمزية"
+  },
+  "edit": {
+    "title": "الملف الشخصي",
+    "description": "قم بتحديث ملف التعريف الخاص بك",
+    "crumbs": {
+      "settings": "الإعدادات",
+      "profile": "الملف الشخصي"
+    },
+    "buttons": {
+      "submit": "حفظ"
+    },
+    "messages": {
+      "unauthenticated": "الرجاء تسجيل الدخول أولا",
+      "nameRequired": "الاسم مطلوب",
+      "updated": "تم تحديث الملف الشخصي"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "task_id": "タスクID",
+    "user": "ユーザー",
+    "status": "ステータス",
+    "cost_credits": "コストクレジット",
+    "media_type": "メディアの種類",
+    "scene": "シーン",
+    "provider": "プロバイダー",
+    "model": "モデル",
+    "trace": "フォールバック トレース",
+    "prompt": "プロンプト",
+    "options": "オプション",
+    "result": "結果",
+    "created_at": "作成日",
+    "preview": "プレビュー"
+  },
+  "list": {
+    "title": "AIタスク",
+    "crumbs": {
+      "admin": "管理者",
+      "ai-tasks": "AIタスク"
+    },
+    "tabs": {
+      "all": "すべて",
+      "image": "画像",
+      "video": "ビデオ",
+      "audio": "オーディオ",
+      "text": "テキスト"
+    },
+    "search": {
+      "email": {
+        "title": "メールで検索",
+        "placeholder": "ユーザーのメールアドレスを入力して検索します..."
+      }
+    },
+    "error_nsfw": "安全フィルター (NSFW または機密コンテンツ) によってブロックされています",
+    "error_image_url_access": "画像のロードに失敗しました。 URL がパブリックにアクセスできることを確認してください (クラウド ドライブ/ソーシャル リンクには共有権限が必要です)。"
+  },
+  "refresh": {
+    "pending_tasks": "{count} タスクはまだ処理中、{interval} 秒ごとに自動更新",
+    "completed_count": "{count} 完了",
+    "all_completed": "すべてのタスクが完了しました",
+    "last_check": "、最後のチェック: {time}",
+    "refresh_now": "今すぐ更新",
+    "refreshing": "爽やかな..."
+  },
+  "trace": {
+    "title": "プロバイダーのフォールバック トレース",
+    "description": "プロバイダー チェーン、フォールバック試行、およびこのタスクの最後にアクティブなモデルを確認します。",
+    "view": "トレースの表示",
+    "summary": "{attempts} 回の試行、{fallbacks} 回のフォールバック",
+    "requested": "希望ルート",
+    "active": "アクティブなルート",
+    "scene": "シーン",
+    "updated_at": "最終更新日",
+    "attempt_chain": "試行チェーン",
+    "attempt_index": "試行 #{index}",
+    "provider": "プロバイダー",
+    "model": "モデル",
+    "label": "ラベル",
+    "error": "エラー",
+    "status": {
+      "success": "成功",
+      "failed": "失敗しました",
+      "skipped": "スキップされました"
+    }
+  }
+}

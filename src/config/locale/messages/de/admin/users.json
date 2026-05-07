@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "avatar": "Avatar",
+    "email": "E-Mail",
+    "email_verified": "E-Mail bestätigt",
+    "remaining_credits": "Verbleibende Credits",
+    "locale_geo": "Gebietsschema/Geo",
+    "device_ip": "Gerät / IP",
+    "last_seen_at": "Zuletzt gesehen",
+    "last_sign_in_at": "Letzte Anmeldung",
+    "event_type": "Ereignistyp",
+    "path": "Pfad",
+    "referer": "Referent",
+    "metadata": "Metadaten",
+    "provider": "Anbieter",
+    "source": "Quelle",
+    "event_id": "Ereignis-ID",
+    "status": "Status",
+    "delivery_count": "Lieferungen",
+    "replay_count": "Wiederholungen",
+    "received_at": "Erhalten am",
+    "first_received_at": "Zuerst erhalten",
+    "last_received_at": "Zuletzt erhalten",
+    "processed_at": "Verarbeitet am",
+    "processing_started_at": "Letzte Verarbeitung gestartet",
+    "processing_finished_at": "Letzte Verarbeitung abgeschlossen",
+    "processing_duration": "Bearbeitungsdauer",
+    "delivery_status": "Lieferstatus",
+    "processing_status": "Bearbeitungsstatus",
+    "order_no": "Bestell-Nr",
+    "subscription_id": "Abonnement-ID",
+    "error_message": "Fehler",
+    "error_stack": "Fehlerstapel",
+    "payload": "Nutzlast",
+    "user_agent": "Benutzeragent",
+    "created_at": "Erstellt am",
+    "actions": "Aktionen",
+    "roles": "Rollen",
+    "utm_campaign": "UTM Campaign",
+    "utm_term": "UTM Term",
+    "funnel_stage": "Funnel Stage",
+    "first_successful_generation_at": "First Successful Generation",
+    "checkout_started_at": "Checkout Started",
+    "paid_at": "Paid At",
+    "product_name": "Product",
+    "utm_batch": "UTM Batch",
+    "utm_objective": "UTM Objective",
+    "utm_adgroup": "UTM Ad Group",
+    "utm_match": "UTM Match",
+    "utm_lang": "UTM Lang",
+    "utm_device": "UTM Device",
+    "utm_workflow": "UTM Workflow"
+  },
+  "list": {
+    "title": "Benutzer",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer"
+    },
+    "buttons": {
+      "add": "Benutzer hinzufügen",
+      "edit": "Benutzer bearbeiten",
+      "view": "Benutzer anzeigen",
+      "delete": "Benutzer löschen",
+      "edit_roles": "Rollen bearbeiten"
+    },
+    "search": {
+      "email": {
+        "title": "E-Mail",
+        "placeholder": "E-Mail"
+      }
+    }
+  },
+  "edit": {
+    "title": "Benutzer bearbeiten",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer",
+      "edit": "Bearbeiten"
+    },
+    "buttons": {
+      "submit": "Aktualisieren"
+    }
+  },
+  "detail": {
+    "title": "Benutzerkontext",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer",
+      "detail": "Kontext"
+    },
+    "actions": {
+      "open_avatar": "Öffnen Sie Avatar"
+    },
+    "cards": {
+      "profile": {
+        "title": "Profil-Schnappschuss",
+        "description": "Aktuelle Kontoübersicht für diesen Benutzer."
+      },
+      "context": {
+        "title": "Gerät und Aktivität",
+        "description": "Letzter bekannter Standort, Gerät, IP und Browser-Fingerabdruck."
+      },
+      "funnel": {
+        "title": "Four-Stage Funnel",
+        "description": "Connect this user from signup to first successful generation, checkout started, and paid."
+      }
+    },
+    "sections": {
+      "context_events": {
+        "title": "Aktuelle Kontextereignisse",
+        "description": "Zeigt die neuesten {limit} Authentifizierungs-, Checkout- und KI-Anfrageereignisse an."
+      },
+      "webhook_events": {
+        "title": "Aktuelle Zahlungs-Webhooks",
+        "description": "Zeigt die neuesten {limit} Zahlungs-Webhook-Überwachungsdatensätze an, die mit diesem Benutzer verknüpft sind. Klicken Sie auf die Ereignis-ID, um den vollständigen Trail anzuzeigen."
+      }
+    },
+    "funnel": {
+      "stage": {
+        "signup": "Signed Up",
+        "first_success": "First Success",
+        "checkout": "Checkout Started",
+        "paid": "Paid"
+      }
+    }
+  },
+  "webhook_detail": {
+    "title": "Details zum Webhook-Ereignis",
+    "crumbs": {
+      "detail": "Webhook-Details"
+    },
+    "actions": {
+      "back_to_user": "Zurück zum Benutzerkontext"
+    },
+    "attempt_label": "Versuch #{number}",
+    "replay_note": "Hinweis wiederholen",
+    "replay_detected": "Dieses Ereignis wurde {deliveries} Mal empfangen, einschließlich {replays} Wiederholungslieferungen.",
+    "replay_clean": "Bisher wurde für diese Veranstaltung nur eine Lieferung registriert.",
+    "timeline_empty": "Für diesen Webhook ist noch keine Versuchszeitleiste verfügbar.",
+    "timeline_partial": "Historische Daten rekonstruierten nur den neuesten Schnappschuss. {missing} Frühere Zustellungsversuche können mit dem alten Nur-Zusammenfassungsschema nicht wiederhergestellt werden.",
+    "cards": {
+      "event": {
+        "title": "Ereignisschnappschuss",
+        "description": "Kernidentität für dieses Webhook-Ereignis und sein aktueller Übermittlungsstatus."
+      },
+      "timeline": {
+        "title": "Lieferzeitplan",
+        "description": "Es werden {count} aufgezeichnete Zustellversuche für diesen Webhook angezeigt."
+      },
+      "replay": {
+        "title": "Schnappschuss erneut abspielen",
+        "description": "Wie oft ist dieses Ereignis aufgetreten und wann wurde das letzte Duplikat gesehen?"
+      },
+      "processing": {
+        "title": "Snapshot wird verarbeitet",
+        "description": "Das letzte Verarbeitungsfenster, die Abschlusszeit und die gemessene Dauer."
+      },
+      "request": {
+        "title": "Schnappschuss anfordern",
+        "description": "Die neueste IP-Adresse, der neueste Pfad und der neueste Browser-Fingerabdruck auf Anforderungsebene, die am Edge erfasst wurden."
+      },
+      "binding": {
+        "title": "Bindender Schnappschuss",
+        "description": "Die Benutzer-, Bestell- und Abonnementreferenzen, die derzeit mit diesem Webhook verknüpft sind."
+      },
+      "error": {
+        "title": "Fehlerdetails",
+        "description": "Die neueste Fehlermeldung und der Stack-Trace werden zur Fehlerbehebung aufbewahrt."
+      },
+      "payload": {
+        "title": "Rohe Nutzlast",
+        "description": "Die gespeicherte Webhook-Nutzlast nach Überprüfung und Normalisierung."
+      }
+    }
+  },
+  "edit_roles": {
+    "title": "Rollen bearbeiten",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Benutzer",
+      "edit_roles": "Rollen bearbeiten"
+    },
+    "buttons": {
+      "submit": "Aktualisieren"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Statistiche settimanali",
+  "description": "Visualizza le modifiche settimanali dei dati aziendali per utenti, crediti e ordini",
+  "refresh": "Aggiorna",
+  "crumbs": {
+    "admin": "Ammin",
+    "weekly": "Statistiche settimanali"
+  },
+  "table": {
+    "week": "Settimana",
+    "period": "Periodo",
+    "users": "Nuovi utenti",
+    "orders": "Ordini",
+    "payments": "Pagamenti",
+    "subscriptions": "Abbonamenti",
+    "credits_consumed": "Crediti utilizzati",
+    "credits_granted": "Crediti concessi",
+    "total": "Totale (12 settimane)",
+    "guest_credits_consumed": "Costo ospite"
+  }
+}

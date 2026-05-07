@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "mogged | Édition d'image IA, image-to-image et outils web",
+    "description": "Utilisez mogged sur {{app_domain}} pour l'édition d'image IA, text-to-image, image-to-image, l'amélioration d'image et des outils d'image web.",
+    "keywords": "image editor ai, éditeur d'image IA, retouche photo IA, image-to-image, text-to-image, éditeur d'image en ligne, amélioration d'image, {{app_domain}}"
+  },
+  "sign": {
+    "sign_in_title": "Se connecter",
+    "sign_in_description": "Connectez-vous à votre compte",
+    "sign_in_modal_title": "Bienvenue sur PhotoEditorAI",
+    "sign_in_modal_description": "Connectez-vous pour recevoir 10 crédits gratuits chaque jour",
+    "sign_in_modal_kicker": "Bienvenue sur PhotoEditorAI",
+    "sign_in_modal_benefit_1": "🎁 Entièrement gratuit ! Connectez-vous pour obtenir 60 crédits gratuits",
+    "sign_in_modal_benefit_2": "💾 Sauvegarde automatique de vos modifications et de votre historique",
+    "sign_in_modal_benefit_3": "✨ Retouche photo, génération et amélioration assistées par IA",
+    "sign_in_modal_security_note": "En continuant, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité.",
+    "sign_up_title": "S'inscrire",
+    "sign_up_description": "Créer un compte",
+    "sign_up_modal_title": "Bienvenue sur PhotoEditorAI",
+    "sign_up_modal_description": "Créez un compte pour débloquer des crédits gratuits quotidiens",
+    "sign_up_modal_kicker": "Bienvenue sur PhotoEditorAI",
+    "sign_up_modal_benefit_1": "🎁 Entièrement gratuit ! Connectez-vous pour obtenir 60 crédits gratuits",
+    "sign_up_modal_benefit_2": "💾 Sauvegarde automatique de vos modifications et de votre historique",
+    "sign_up_modal_benefit_3": "✨ Retouche photo, génération et amélioration assistées par IA",
+    "sign_up_modal_security_note": "En continuant, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité.",
+    "email_title": "E-mail",
+    "email_placeholder": "Entrez votre e-mail",
+    "password_title": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe",
+    "forgot_password": "Mot de passe oublié ?",
+    "or": "Ou",
+    "continue": "Continuer",
+    "no_account": "Vous n'avez pas de compte ?",
+    "already_have_account": "Vous avez déjà un compte ?",
+    "email_sign_in": "Connexion par e-mail",
+    "email_magic_link_title": "Envoyer un magic link",
+    "magic_link_email_required": "Saisissez votre e-mail pour continuer avec un magic link",
+    "magic_link_sent_toast": "Magic link envoyé",
+    "magic_link_sign_in_sent": "Vérifiez {email} pour récupérer votre lien de connexion sécurisé.",
+    "magic_link_sign_up_sent": "Vérifiez {email} pour récupérer votre lien d'inscription sécurisé.",
+    "magic_link_failed": "La demande de magic link a échoué",
+    "magic_link_error_invalid": "Ce magic link est invalide. Demandez-en un nouveau.",
+    "magic_link_error_expired": "Ce magic link a expiré. Demandez-en un nouveau.",
+    "magic_link_error_attempts_exceeded": "Ce magic link a déjà été utilisé. Demandez-en un nouveau.",
+    "magic_link_error_generic": "Nous n'avons pas pu terminer cette demande de magic link. Veuillez réessayer.",
+    "magic_link_error_signup_disabled": "L'inscription par magic link est actuellement indisponible.",
+    "google_sign_in_title": "Se connecter avec Google",
+    "github_sign_in_title": "Se connecter avec GitHub",
+    "close_title": "Fermer",
+    "cancel_title": "Annuler",
+    "sign_out_title": "Se déconnecter",
+    "billing_title": "Facturation",
+    "name_title": "Nom",
+    "name_placeholder": "Entrez votre nom",
+    "admin_title": "Système d'administration",
+    "credits_title": "Crédits : {credits}",
+    "email_password_required": "L'e-mail et le mot de passe sont requis",
+    "email_password_name_required": "L'e-mail, le mot de passe et le nom sont requis",
+    "sign_in_failed": "Échec de la connexion",
+    "sign_up_failed": "Échec de l'inscription"
+  },
+  "payment": {
+    "choose_payment_method": "Choisir le mode de paiement",
+    "choose_payment_method_description": "Utilisez un moyen de paiement sécurisé pour poursuivre le checkout de {plan}.",
+    "cancel_title": "Annuler",
+    "select_payment_method_error": "Veuillez sélectionner un mode de paiement",
+    "select_pricing_item_error": "Veuillez sélectionner une option tarifaire",
+    "invalid_payment_method_error": "Mode de paiement invalide",
+    "embedded_checkout_title": "Paiement sécurisé",
+    "embedded_checkout_loading": "Chargement du paiement sécurisé...",
+    "embedded_checkout_finalizing": "Finalisation du paiement...",
+    "embedded_checkout_load_error": "Impossible de charger le paiement sécurisé. Veuillez réessayer.",
+    "selected_plan_fallback": "ce forfait",
+    "choose_payment_method_description_image": "Utilisez un moyen de paiement sécurisé pour poursuivre le checkout de {plan} et débloquer plus de crédits pour la génération et la retouche d'images IA.",
+    "choose_payment_method_description_generic": "Utilisez un moyen de paiement sécurisé pour poursuivre le checkout de {plan}."
+  },
+  "locale_detector": {
+    "title": "Nous avons détecté que la langue de votre navigateur est {locale}. Souhaitez-vous passer à cette langue ?",
+    "switch_to": "Passer à {locale}",
+    "tip_label": "Astuce de langue",
+    "dismiss_label": "Fermer",
+    "not_now": "Pas maintenant"
+  },
+  "empty_state": {
+    "sign_in_required": "Veuillez vous connecter d'abord",
+    "no_permission": "Vous n'êtes pas autorisé à consulter cette page",
+    "invalid_subscription_no": "Numéro d'abonnement invalide",
+    "subscription_not_found": "Abonnement introuvable",
+    "subscription_missing_payment_user": "Cet abonnement n'a pas d'enregistrement client de paiement",
+    "subscription_missing_payment_subscription": "Cet abonnement n'a pas d'enregistrement de souscription de paiement",
+    "payment_provider_not_found": "Fournisseur de paiement introuvable",
+    "billing_url_not_found": "URL de facturation introuvable",
+    "billing_failed": "Échec du chargement du portail de facturation",
+    "invalid_order_no": "Numéro de commande invalide",
+    "order_not_found": "Commande introuvable",
+    "order_missing_invoice": "Cette commande n'a pas encore de facture",
+    "invoice_url_not_found": "URL de la facture introuvable",
+    "invoice_failed": "Échec du chargement de la facture",
+    "api_key_not_found": "Clé API introuvable",
+    "user_not_found": "Utilisateur introuvable",
+    "role_not_found": "Rôle introuvable",
+    "task_not_found": "Tâche introuvable",
+    "webhook_event_not_found": "Événement webhook introuvable"
+  },
+  "feedback": {
+    "copied": "Copié",
+    "thinking": "Réflexion en cours...",
+    "thought_for_a_few_seconds": "Réflexion pendant quelques secondes",
+    "thought_for_seconds": "Réflexion pendant {seconds} secondes",
+    "used_sources": "{count} sources utilisées"
+  },
+  "system_pages": {
+    "not_found": {
+      "title": "Page introuvable",
+      "back_home": "Retour à l'accueil"
+    },
+    "route_error": {
+      "title": "Cette page n'a pas pu se charger",
+      "description": "Essayez de recharger cette page ou revenez à l'accueil.",
+      "retry": "Réessayer",
+      "back_home": "Retour à l'accueil",
+      "digest_label": "Identifiant"
+    },
+    "global_error": {
+      "title": "L'application a rencontré une erreur inattendue",
+      "description": "Essayez de réafficher ce segment.",
+      "retry": "Réessayer",
+      "digest_label": "Identifiant"
+    }
+  },
+  "a11y": {
+    "close": "Fermer",
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu",
+    "toggle_theme": "Changer de thème",
+    "change_language": "Changer de langue",
+    "menu": "Menu",
+    "previous_slide": "Diapositive précédente",
+    "next_slide": "Diapositive suivante",
+    "close_banner": "Fermer la bannière",
+    "pagination": "Pagination",
+    "breadcrumb": "Fil d'Ariane",
+    "go_to_previous_page": "Aller à la page précédente",
+    "go_to_next_page": "Aller à la page suivante",
+    "more_pages": "Plus de pages",
+    "more": "Plus",
+    "sidebar": "Barre latérale",
+    "mobile_sidebar_description": "Affiche la barre latérale mobile.",
+    "toggle_sidebar": "Basculer la barre latérale"
+  },
+  "actions": {
+    "more": "Plus"
+  },
+  "upload": {
+    "limit_reached": "Nombre maximal d'images atteint",
+    "exceeds_limit": "{name} dépasse la limite de {size} MB",
+    "reference_alt": "Référence",
+    "uploading": "Téléversement...",
+    "failed": "Échec du téléversement",
+    "upload": "Téléverser",
+    "max_size_mb": "Max {size} MB"
+  },
+  "subscribe": {
+    "failed": "Échec de l'inscription",
+    "email_placeholder": "Entrez votre e-mail",
+    "submit": "Envoyer"
+  },
+  "support_email": {
+    "copied": "{email} a bien été copié. Si votre application mail ne s’ouvre pas, vous pouvez le coller manuellement.",
+    "unavailable": "Adresse de support : {email}. Si votre application mail n’est pas disponible, copiez-la manuellement."
+  },
+  "contact_support": {
+    "menu_title": "Contacter le support",
+    "badge_eyebrow": "Enterprise",
+    "badge_title": "Nous contacter",
+    "title": "Contact",
+    "description": "Parlons de vos besoins personnalisés",
+    "mailto_subject": "Demande de support mogged",
+    "email_label": "Adresse e-mail",
+    "message_label": "Message",
+    "message_placeholder": "Parlez-nous de votre projet...",
+    "message_help": "{count}/2000 caractères",
+    "submit": "Envoyer le message",
+    "sending": "Envoi...",
+    "direct_label": "Ou envoyer un e-mail directement",
+    "direct_title": "Nous écrire",
+    "success": "Message envoyé. Nous répondrons par e-mail.",
+    "validation_error": "Veuillez saisir au moins 10 caractères.",
+    "error": "Impossible d’envoyer le message. Écrivez-nous directement par e-mail.",
+    "trust_reply": "Réponse 24h",
+    "trust_dedicated": "Dédié",
+    "trust_secure": "Sécurisé"
+  },
+  "verification_code_email": {
+    "title": "Code de vérification",
+    "message": "Votre code de vérification est : {code}"
+  },
+  "daily_claim": {
+    "title": "Détails des crédits",
+    "description": "Réclamez votre bonus quotidien et gérez vos crédits",
+    "available_credits": "Crédits disponibles",
+    "daily_bonus": {
+      "title": "Bonus quotidien disponible !",
+      "subtitle": "Réclamez +{credits} crédits",
+      "button_claim": "Réclamez +{credits} crédits",
+      "button_claimed": "Réclamé aujourd'hui",
+      "come_back": "Revenez demain pour un autre bonus !"
+    },
+    "buttons": {
+      "buy_more": "Acheter plus de crédits"
+    },
+    "messages": {
+      "success": "Vous avez réclamé {credits} crédits avec succès !",
+      "already_claimed": "Vous avez déjà réclamé aujourd'hui",
+      "error": "Échec de la réclamation des crédits"
+    }
+  },
+  "notifications": {
+    "bell": "Ouvrir les notifications",
+    "bell_with_count": "Ouvrir les notifications ({count} non lues)"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Panoramica",
+  "description": "Rapida istantanea della crescita e dei ricavi recenti con visualizzazioni a 7 giorni e a 30 giorni",
+  "crumbs": {
+    "admin": "Ammin",
+    "dashboard": "Panoramica"
+  },
+  "cards": {
+    "users": "Nuovi utenti",
+    "payments": "A pagamento (tutti)",
+    "subscriptions": "A pagamento (Abbonamenti)",
+    "credits": "Crediti consumati",
+    "guest_credits": "Costo ospite",
+    "credits_granted": "Crediti concessi"
+  },
+  "unit": {
+    "money": "${value}",
+    "credits": "{value} crediti",
+    "users": "{value} utenti"
+  },
+  "more": "Di più",
+  "refresh": "Aggiorna"
+}

@@ -1,0 +1,20 @@
+#!/bin/sh
+set -eu
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+cd "$ROOT_DIR"
+
+REMOTE_NAME="${1:-origin}"
+UPDATES_FILE="$(mktemp "${TMPDIR:-/tmp}/happyhorse-pre-push.XXXXXX")"
+trap 'rm -f "$UPDATES_FILE"' EXIT HUP INT TERM
+
+cat > "$UPDATES_FILE"
+
+node scripts/run-in-sanitized-git-env.mjs \
+  node scripts/guard-env-commits.mjs \
+  --mode=push \
+  --remote-name="$REMOTE_NAME" \
+  --updates-file="$UPDATES_FILE"
+
+echo "[pre-push] running release gate"
+node scripts/run-in-sanitized-git-env.mjs pnpm gate:pre-push

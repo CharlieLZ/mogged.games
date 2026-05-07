@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "title": "Kommerzielles Zertifikat | {{app_name}}",
+    "description": "Laden Sie Ihr Business‑Zertifikat für kommerzielle Nutzung auf {{app_domain}} herunter.",
+    "keywords": "mogged Business-Zertifikat, kommerzielles Lizenzzertifikat, Yearly Plan, kommerzielle Nutzung"
+  },
+  "page": {
+    "title": "Business-Zertifikat",
+    "description": "Laden Sie das Business‑Zertifikat für das Urheberrecht an von mogged generierten Videos herunter.",
+    "support_text": "Benötigen Sie Hilfe mit Ihrem Zertifikat oder Zugang? E-Mail:",
+    "badges": {
+      "required": "Yearly Plan erforderlich",
+      "active": "Zertifikat bereit",
+      "unavailable": "Verifizierung nicht verfügbar"
+    },
+    "states": {
+      "locked": "Business‑Zertifikate sind ausschließlich für Inhaber eines Jahresabonnements verfügbar.",
+      "eligible": "Ihr Jahresabonnement ist aktiv. Laden Sie das PDF‑Zertifikat herunter oder öffnen Sie die öffentliche Verifizierungs‑URL.",
+      "unavailable": "Wir konnten Ihren Zertifikatsnachweis derzeit nicht erstellen. Bitte versuchen Sie es in Kürze erneut."
+    },
+    "overview": {
+      "title": "Zertifikat für kommerzielle Nutzung",
+      "description": "Laden Sie ein formelles PDF‑Zertifikat mit stabiler Zertifikats‑ID, Abonnementzeitraum und öffentlicher Verifizierungs‑URL für die kommerzielle Nutzung von mit mogged erstellten Inhalten.",
+      "yearly_plan_required": "Yearly Plan erforderlich",
+      "current_plan": "Aktueller Plan",
+      "status": "Status",
+      "valid_until": "Gültig bis",
+      "subscription_no": "Abonnement‑Nr.",
+      "certificate_id": "Zertifikats‑ID",
+      "issued_on": "Ausgestellt am",
+      "verification_url": "Verifizierungs‑URL"
+    },
+    "details": {
+      "title": "Zertifikatsdetails",
+      "verification_hint": "Jeder mit dieser URL kann den Zertifikatsstatus und die wichtigsten Angaben prüfen, ohne sich anzumelden."
+    },
+    "benefits": {
+      "title": "Vorteile des Yearly Plans",
+      "items": [
+        "Lizenz zur kommerziellen Nutzung",
+        "50% Rabatt auf alle Pläne",
+        "Jährliche Credits‑Zuteilung"
+      ]
+    },
+    "actions": {
+      "upgrade": "Auf Annual Plan upgraden",
+      "download": "PDF‑Zertifikat herunterladen",
+      "verify": "Verifizierungs‑URL öffnen"
+    },
+    "statuses": {
+      "active": "Aktiv",
+      "pending_cancel": "Kündigung geplant",
+      "trialing": "In Testphase",
+      "canceled": "Gekündigt",
+      "cancelled": "Gekündigt",
+      "expired": "Abgelaufen",
+      "paused": "Pausiert",
+      "unknown": "Nicht verfügbar"
+    }
+  },
+  "verify": {
+    "metadata": {
+      "title": "Zertifikatsprüfung | {{app_name}}",
+      "description": "Überprüfen Sie ein mogged Business‑Zertifikat, das für jährlichen kommerziellen Zugang ausgestellt wurde.",
+      "keywords": "mogged Zertifikatsprüfung, Business‑Zertifikatsprüfung"
+    },
+    "title": "Zertifikatsprüfung",
+    "description": "Überprüfen Sie ein mogged Business‑Zertifikat, das für jährlichen kommerziellen Zugang ausgestellt wurde.",
+    "support_text": "Benötigen Sie Hilfe bei der Prüfung eines Zertifikats? E‑Mail:",
+    "badges": {
+      "valid": "Verifiziertes Zertifikat",
+      "expired": "Abgelaufenes Zertifikat",
+      "invalid": "Verifizierung fehlgeschlagen"
+    },
+    "states": {
+      "valid": "Dieses Zertifikatstoken ist gültig und wurde von {{app_name}} ausgestellt.",
+      "expired": "Dieses Zertifikat wurde von {{app_name}} ausgestellt, aber der jährliche Abonnementzeitraum ist abgelaufen.",
+      "invalid": "Dieser Verifizierungslink ist ungültig, unvollständig oder verändert worden."
+    },
+    "fields": {
+      "certificate_id": "Zertifikats‑ID",
+      "holder": "Zertifikatsinhaber",
+      "plan": "Plan",
+      "email": "Account‑E‑Mail",
+      "subscription_reference": "Abonnement‑Referenz",
+      "issued_on": "Ausgestellt am",
+      "valid_from": "Gültig von",
+      "valid_until": "Gültig bis",
+      "issuer": "Ausgestellt von"
+    },
+    "actions": {
+      "pricing": "Preise anzeigen",
+      "support": "Support kontaktieren"
+    }
+  }
+}

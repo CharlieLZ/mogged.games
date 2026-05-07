@@ -1,0 +1,46 @@
+{
+  "title": "Benachrichtigungen",
+  "description": "Verfolge abgeschlossene und fehlgeschlagene KI-Aufgaben an einem Ort.",
+  "empty": "Noch keine Benachrichtigungen.",
+  "open_task": "Aufgabe öffnen",
+  "prompt_empty": "Kein Prompt angegeben",
+  "scene_unknown": "Workflow unbekannt",
+  "counts": {
+    "total": "{count} insgesamt"
+  },
+  "pagination": {
+    "previous": "Zurück",
+    "next": "Weiter"
+  },
+  "badges": {
+    "unread": "Ungelesen",
+    "read": "Gelesen",
+    "completed": "Abgeschlossen",
+    "failed": "Fehlgeschlagen",
+    "canceled": "Abgebrochen",
+    "info": "Info"
+  },
+  "scenes": {
+    "text_to_video": "Text zu Video",
+    "image_to_video": "Bild zu Video",
+    "reference_to_video": "Referenz zu Video"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "KI-Aufgabe abgeschlossen",
+      "description": "{scene} ist bereit. Prompt: {prompt}"
+    },
+    "ai_task_failed": {
+      "title": "KI-Aufgabe fehlgeschlagen",
+      "description": "{scene} ist fehlgeschlagen. Prompt: {prompt}",
+      "description_with_error": "{scene} ist fehlgeschlagen. Prompt: {prompt}. Fehler: {error}"
+    },
+    "ai_task_canceled": {
+      "title": "KI-Aufgabe abgebrochen"
+    },
+    "fallback": {
+      "title": "Benachrichtigung",
+      "description": "Öffne diesen Eintrag für weitere Details."
+    }
+  }
+}

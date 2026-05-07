@@ -1,0 +1,53 @@
+{
+  "title": "Einstellungen",
+  "support_text": "Benötigen Sie Hilfe bei der Abrechnung, Rückerstattung oder beim Zugriff? E-Mail:",
+  "support_email": "{{support_email}}",
+  "nav": {
+    "items": [
+      {
+        "title": "Profil",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "Sicherheit",
+        "url": "/settings/security",
+        "icon": "Shield"
+      },
+      {
+        "title": "Abrechnung",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Unternehmenszertifikat",
+        "url": "/certificate",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Zahlungen",
+        "url": "/settings/payments",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "Credits",
+        "url": "/settings/credits",
+        "icon": "Coins"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Aktivität",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Einstellungen",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

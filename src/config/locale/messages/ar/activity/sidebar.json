@@ -1,0 +1,31 @@
+{
+  "title": "النشاط",
+  "nav": {
+    "items": [
+      {
+        "title": "مهام الذكاء الاصطناعي",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "الإشعارات",
+        "url": "/activity/notifications",
+        "icon": "Bell"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "النشاط",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "الإعدادات",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "電子メール認証",
+    "google_auth": "Google認証",
+    "github_auth": "Github認証",
+    "basic_payment": "基本支払い",
+    "stripe": "ストライプ",
+    "creem": "クリーム",
+    "paypal": "ペイパル",
+    "resend": "再送信",
+    "r2": "クラウドフレアR2",
+    "s3": "AWS S3",
+    "openrouter": "オープンルーター",
+    "replicate": "複製する",
+    "fal": "FAL API",
+    "google_analytics": "Googleアナリティクス",
+    "clarity": "明瞭さ",
+    "plausible": "もっともらしい",
+    "openpanel": "オープンパネル",
+    "vercel_analytics": "バーセルアナリティクス",
+    "adsense": "アドセンス",
+    "affonso": "アフォンソ",
+    "promotekit": "プロモートキット",
+    "tawk": "タカ",
+    "crisp": "サクサク",
+    "credit": "クレジット",
+    "seedance": "Seedance Runtime",
+    "kie": "KIE"
+  },
+  "edit": {
+    "title": "設定",
+    "crumbs": {
+      "admin": "管理者",
+      "settings": "設定"
+    },
+    "tabs": {
+      "general": "一般",
+      "auth": "認証",
+      "payment": "お支払い",
+      "credit": "クレジット",
+      "email": "電子メール",
+      "storage": "ストレージ",
+      "ai": "AI",
+      "analytics": "分析",
+      "ads": "広告",
+      "affiliate": "アフィリエイト",
+      "customer_service": "カスタマーサービス"
+    },
+    "buttons": {
+      "submit": "保存"
+    }
+  }
+}

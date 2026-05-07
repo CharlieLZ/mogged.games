@@ -1,0 +1,21 @@
+{
+  "title": "Estadísticas semanales",
+  "description": "Ver cambios semanales en los datos comerciales de usuarios, créditos y pedidos",
+  "refresh": "Actualizar",
+  "crumbs": {
+    "admin": "administrador",
+    "weekly": "Estadísticas semanales"
+  },
+  "table": {
+    "week": "Semana",
+    "period": "Periodo",
+    "users": "Nuevos usuarios",
+    "orders": "Órdenes",
+    "payments": "Pagos",
+    "subscriptions": "Suscripciones",
+    "credits_consumed": "Créditos utilizados",
+    "credits_granted": "Créditos concedidos",
+    "total": "Total (12 semanas)",
+    "guest_credits_consumed": "Costo invitado"
+  }
+}

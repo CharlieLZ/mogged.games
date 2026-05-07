@@ -1,0 +1,46 @@
+{
+  "title": "الإشعارات",
+  "description": "تابع اكتمال وفشل مهام الذكاء الاصطناعي في مكان واحد.",
+  "empty": "لا توجد إشعارات بعد.",
+  "open_task": "افتح المهمة",
+  "prompt_empty": "لا يوجد وصف",
+  "scene_unknown": "سير العمل غير معروف",
+  "counts": {
+    "total": "الإجمالي {count}"
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي"
+  },
+  "badges": {
+    "unread": "غير مقروءة",
+    "read": "مقروءة",
+    "completed": "مكتملة",
+    "failed": "فشلت",
+    "canceled": "أُلغيت",
+    "info": "معلومة"
+  },
+  "scenes": {
+    "text_to_video": "نص إلى فيديو",
+    "image_to_video": "صورة إلى فيديو",
+    "reference_to_video": "مرجع إلى فيديو"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "اكتملت مهمة الذكاء الاصطناعي",
+      "description": "أصبحت {scene} جاهزة. الوصف: {prompt}"
+    },
+    "ai_task_failed": {
+      "title": "فشلت مهمة الذكاء الاصطناعي",
+      "description": "فشلت {scene}. الوصف: {prompt}",
+      "description_with_error": "فشلت {scene}. الوصف: {prompt}. الخطأ: {error}"
+    },
+    "ai_task_canceled": {
+      "title": "أُلغيت مهمة الذكاء الاصطناعي"
+    },
+    "fallback": {
+      "title": "إشعار",
+      "description": "افتح هذا العنصر لرؤية المزيد من التفاصيل."
+    }
+  }
+}

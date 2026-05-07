@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "title": "محرر صور AI | Text & Image to Image - mogged",
+    "description": "استخدم محرر الصور AI على {{app_domain}} لمساري text-to-image و image-to-image وتحرير الصور وتحسينها انطلاقًا من صورة مصدر.",
+    "keywords": "ai image editor, ai photo editor, محرر صور AI, تحرير صور بالذكاء الاصطناعي, تحسين صور AI, text-to-image, image-to-image, {{app_domain}}"
+  },
+  "page": {
+    "title": "مساحة محرر صور AI",
+    "description": "مساحة مستضافة لتحرير الصور بالذكاء الاصطناعي، و text-to-image، و image-to-image، وتحسين الصور من صورة مصدر."
+  },
+  "generator": {
+    "title": "مساحة محرر صور AI",
+    "description": "شغّل التوليد عبر المطالبات أو التعديلات الموجّهة بصورة مصدر داخل نفس مساحة تحرير الصور المستضافة.",
+    "tabs": {
+      "text-to-image": "نص إلى صورة",
+      "image-to-image": "صورة إلى صورة"
+    },
+    "tabs_short": {
+      "text-to-image": "Text",
+      "image-to-image": "Image"
+    },
+    "form": {
+      "panel_title": "محرر صور بالذكاء الاصطناعي",
+      "prompt": "Prompt",
+      "try_example": "Try Example",
+      "translate": "Translate",
+      "translating": "Translating...",
+      "prompt_placeholder": "Example: A premium skincare bottle on wet black stone, soft rim lighting, restrained reflections, crisp texture, clean luxury editorial composition.",
+      "prompt_too_long": "Prompt is too long, please delete some content",
+      "example_loaded": "Example prompt loaded.",
+      "translation_success": "Prompt translated to English.",
+      "translation_no_change": "Prompt already looks ready in English.",
+      "translation_stale": "You changed the prompt while translation was running, so we kept your latest version.",
+      "translation_failed": "Translation failed. Please try again.",
+      "copy_prompt": "Copy prompt",
+      "copy_failed": "Could not copy the prompt. Please copy it manually.",
+      "paste_prompt": "Paste prompt",
+      "paste_failed": "Clipboard access is unavailable. Please paste with your keyboard shortcut.",
+      "clear_prompt": "Clear prompt",
+      "expand_prompt": "Expand prompt editor",
+      "collapse_prompt": "Collapse prompt editor",
+      "prompt_copied": "Prompt copied.",
+      "prompt_pasted": "Clipboard pasted into the prompt.",
+      "prompt_cleared": "Prompt cleared.",
+      "advanced": "Generation Controls",
+      "advanced_count": "{count} options",
+      "workflow_runtime_hint": "These are the shared controls across both image workflows.",
+      "model": "النموذج",
+      "quick_select": "اختيار سريع",
+      "generation_mode": "وضع التوليد",
+      "single_edit": "Single Edit",
+      "multi_fusion": "Multi Fusion",
+      "multi_fusion_hint": "ادمج حتى 10 صور مصدر للمراجع، أو نقل الأسلوب، أو تنويعات المنتج.",
+      "resolution": "Resolution",
+      "aspect_ratio": "Aspect Ratio",
+      "output_format": "Output Format",
+      "web_search": "Web Search",
+      "web_search_hint": "Allow the provider to call web search for current information when supported.",
+      "web_search_guest_hint": "سجّل الدخول لاستخدام بحث الويب برصيد الحساب.",
+      "source_image": "Source Image URL",
+      "source_images": "Source Image URLs",
+      "source_image_placeholder": "One public source image URL",
+      "source_images_placeholder": "حتى {count} روابط صور عامة، رابط واحد في كل سطر",
+      "source_image_hint": "نقبل صيغ JPEG أو PNG أو WEBP بحجم يصل إلى 10 ميجابايت.",
+      "source_images_hint": "بحد أقصى {count} صور. نقبل صيغ JPEG أو PNG أو WEBP بحجم يصل إلى 10 ميجابايت لكل صورة.",
+      "source_image_required": "Please provide one source image for image-to-image.",
+      "upload_media": "Upload",
+      "upload_media_with_limit": "تحميل (الحد الأقصى {count})",
+      "optional": "Optional",
+      "media_upload_success": "Media uploaded and URL added",
+      "media_upload_failed": "Upload failed, please try again",
+      "image_url_invalid": "Invalid image URL. Please use a direct https:// image link.",
+      "image_url_video": "This link does not point to a usable image file. Use a direct image URL instead of a video or download page.",
+      "image_url_cloud_drive": "Cloud-drive and social share links are blocked here. Upload the image or use a direct public image URL instead.",
+      "image_url_private": "This image URL looks private or local. Use a public direct image URL instead.",
+      "image_url_too_many": "Only one source image URL is allowed here.",
+      "image_url_too_many_single": "Single Edit يقبل رابط صورة مصدر واحد فقط.",
+      "image_url_too_many_multi": "Multi Fusion يقبل حتى 10 روابط صور مصدر.",
+      "notifications": "Task Notifications",
+      "notifications_hint": "Useful when provider queues are busy. We keep the current task switch separate from your future default.",
+      "notify_on_completion": "Email me when this task is ready",
+      "notify_on_completion_hint": "We send the prompt, task page link, and a direct download shortcut when the image is ready.",
+      "notify_on_completion_by_default": "Use this for future tasks too",
+      "notify_on_completion_by_default_hint": "Save this as your default so new tasks start with notifications already enabled."
+    },
+    "models": {
+      "badges": {
+        "new": "New",
+        "vip": "VIP",
+        "upgrade": "Upgrade"
+      },
+      "credits_fixed": "{credits} رصيد",
+      "credits_by_resolution": "{credits} رصيد",
+      "options": {
+        "nano_banana": {
+          "name": "Nano Banana",
+          "description": "نموذج صور Google Nano Banana للتوليد السريع من النص وتحرير صورة واحدة.",
+          "details": "1K: 5 أرصدة، 2K: 10 أرصدة، 4K: 15 رصيدًا."
+        },
+        "nano_banana_2": {
+          "name": "Nano Banana 2",
+          "description": "مسار Nano Banana الأحدث للتوليد من المطالبة وتحسين صورة المصدر.",
+          "details": "1K: 5 أرصدة، 2K: 10 أرصدة، 4K: 15 رصيدًا."
+        },
+        "gpt_image_2": {
+          "name": "GPT Image 2",
+          "description": "مسار صور OpenAI لاتباع المطالبة بدقة وإجراء تعديلات نظيفة.",
+          "details": "8 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "nano_banana_pro": {
+          "name": "Nano Banana Pro",
+          "description": "مسار VIP من Nano Banana لتوليد image-to-image بجودة أعلى.",
+          "details": "1K: 10 أرصدة، 2K: 18 رصيدًا، 4K: 30 رصيدًا."
+        },
+        "seedream_4": {
+          "name": "SeeDream 4.0",
+          "description": "مسار SeeDream منخفض التكلفة للمسودات السريعة والتعديلات البسيطة.",
+          "details": "3 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "seedream_45": {
+          "name": "SeeDream 4.5",
+          "description": "مسار SeeDream أحدث يوازن بين السرعة والتكلفة وجودة الصورة.",
+          "details": "4 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "seedream_5": {
+          "name": "SeeDream 5.0",
+          "description": "مسار SeeDream 5.0 Lite للتوليد المستضاف النظيف وتحرير الصور.",
+          "details": "4 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "flux_2_pro": {
+          "name": "Flux 2 Pro",
+          "description": "مسار Flux 2 Pro المتميز لعرض النصوص والصور بجودة عالية.",
+          "details": "12 رصيدًا لدقات 1K أو 2K أو 4K."
+        },
+        "flux_2_flex": {
+          "name": "Flux 2 Flex",
+          "description": "مسار Flux 2 الاقتصادي للتوليد السريع وبتكلفة منخفضة.",
+          "details": "6 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "grok_imagine": {
+          "name": "Grok Imagine",
+          "description": "مسار Grok Imagine للتوليد الإبداعي من النص إلى صورة.",
+          "details": "5 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "ideogram_v3": {
+          "name": "Ideogram V3",
+          "description": "مسار Ideogram للنصوص والطباعة عالية الجودة في الصور المُنشأة.",
+          "details": "10 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "ideogram_character": {
+          "name": "Ideogram Character",
+          "description": "مسار Ideogram لتوليد شخصيات وصور متسقة.",
+          "details": "8 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "qwen_image": {
+          "name": "Qwen Image",
+          "description": "مسار نموذج صور Qwen للتوليد متعدد اللغات والتعديلات.",
+          "details": "5 أرصدة لدقات 1K أو 2K أو 4K."
+        },
+        "z_image": {
+          "name": "Z Image",
+          "description": "مسار Z-Image للمسودات والتعديلات السريعة بتكلفة منخفضة.",
+          "details": "4 أرصدة لدقات 1K أو 2K أو 4K."
+        }
+      }
+    },
+    "generate": "Generate Image",
+    "checking_account": "Checking Account...",
+    "loading": "Loading...",
+    "generating": "Generating...",
+    "sign_in_to_generate": "Sign In to Generate",
+    "credits_cost": "Cost {credits} credits",
+    "credits_remaining": "Remaining {credits} credits",
+    "free_generations_today": "الاجيال المجانية اليوم: {remaining}/{limit}",
+    "guest_quota_used": "مستخدم {used}/{limit}",
+    "buy_credits": "Buy Credits",
+    "queue_notice_free": "قد تنتظر مهام الصور المجانية من {min} إلى {max} دقائق حسب الضغط. المستخدمون المدفوعون يتجاوزون هذا الدور.",
+    "queue_notice_paid": "مهام الصور المدفوعة تتجاوز قائمة الانتظار المجانية وتبدأ فور توفر سعة المزود.",
+    "progress": "Progress",
+    "generated_results": "Preview",
+    "sample_preview": "Sample",
+    "sample_preview_title": "Sample mogged still",
+    "sample_preview_description": "A sample image stays here until you run your first generation.",
+    "ready_to_generate": "Ready to Generate",
+    "ready_for_generating": "Ready for Generating",
+    "no_results": "Nothing generated yet",
+    "error_nsfw_blocked": "تم حظر هذا الطلب بواسطة مرشحات الأمان. يرجى تجربة وصف أكثر أمانا.",
+    "error_input_validation": "فشل التوليد: رفض المزود معلمات الطلب. يرجى تبسيط الوصف أو تعديل المدخلات.",
+    "error_image_url_access": "تعذر تحميل الصورة المصدر. تأكد من أن الرابط عام ومباشر ولم تنته صلاحيته.",
+    "error_generic": "فشل التوليد: {reason}",
+    "error_unknown": "فشل التوليد بسبب مشكلة مؤقتة في الشبكة أو الخدمة. يرجى المحاولة مرة أخرى.",
+    "guest_generation_unavailable": "انشاء الصور المجاني للزوار غير متاح مؤقتا. حاول لاحقا او سجل الدخول.",
+    "guest_web_search_unavailable": "بحث الويب ميزة للحسابات المسجلة فقط. سجّل الدخول لاستخدامها برصيد الحساب.",
+    "error_no_result": "لم يرجع المزود أي نتيجة. حاول مرة أخرى باستخدام وصف مختلف.",
+    "task_submitted_eta": "Task submitted. Estimated time: {eta}.",
+    "task_submitted_detail": "We refresh automatically when the result is ready. Higher-resolution image jobs can sit in queue longer.",
+    "task_completion_notification_scheduled": "We will email this task's prompt, task page link, and first download shortcut when the result is ready.",
+    "activity_link_hint": "You can view all your tasks anytime at",
+    "activity_link_text": "Activity page",
+    "status": {
+      "pending": "Waiting for the job to start",
+      "processing": "Generating your image...",
+      "success": "Image generation completed",
+      "failed": "Generation failed",
+      "canceled": "Task canceled"
+    },
+    "task_still_processing": "Still processing on server. We keep polling, you can leave and check later.",
+    "task_completed": "Task completed successfully",
+    "image_generated": "Image generated successfully",
+    "video_generated": "تم إنشاء الصورة بنجاح",
+    "create_task_failed": "تعذر إنشاء مهمة الصورة",
+    "insufficient_credits": "الرصيد غير كاف. يرجى الشحن لمواصلة التوليد.",
+    "guest_quota_exhausted": "لقد استخدمت اجيال الصور المجانية لهذا اليوم.",
+    "guest_quota_exhausted_hint": "سجل الدخول للمتابعة باستخدام ارصدة الحساب.",
+    "prompt_required": "يرجى إدخال وصف قبل البدء في الإنشاء.",
+    "download_fetch_failed": "Failed to fetch the media file",
+    "download_success": "Image downloaded",
+    "download_failed": "Failed to download image",
+    "sample_preview_poster": "Sample preview image poster",
+    "sample_preview_item": "Show sample preview {index}",
+    "sample_generated_image": "Sample generated image",
+    "generated_image": "Generated image",
+    "recent_tasks_title": "Recent Tasks",
+    "recent_tasks_count": "({shown}/{total})",
+    "recent_tasks_empty": "Your recent generated images will appear here.",
+    "recent_tasks_guest_empty": "Generated guest images will appear here on this browser.",
+    "recent_tasks_loading": "Loading recent tasks...",
+    "recent_tasks_copy_prompt": "Copy prompt",
+    "recent_tasks_copy_prompt_success": "Prompt copied.",
+    "recent_tasks_copy_prompt_failed": "Could not copy the prompt.",
+    "recent_tasks_download": "Download",
+    "recent_tasks_preview": "Expand",
+    "recent_tasks_reprompt": "Reprompt",
+    "recent_tasks_regenerate": "Regenerate",
+    "recent_tasks_upscale": "Upscale",
+    "recent_tasks_delete": "Delete",
+    "recent_tasks_deleted": "Task removed.",
+    "recent_tasks_delete_failed": "Failed to remove the task.",
+    "recent_tasks_delete_confirm": "Delete this task?",
+    "recent_tasks_prompt_empty": "Untitled prompt",
+    "guest_history_title": "Local guest history",
+    "guest_history_notice": "Anonymous results are saved only in this browser. They will not sync into your account after sign-in, and clearing browser data or switching devices can remove them. Download anything important.",
+    "guest_history_empty": "Generated guest images will appear here on this browser.",
+    "guest_history_clear": "Clear local guest history",
+    "guest_history_cleared": "Local guest history cleared",
+    "guest_history_download": "Download local guest image",
+    "error_provider_unavailable": "أداة التوليد هذه غير متاحة مؤقتا الآن. حاول مرة أخرى بعد بضع دقائق.",
+    "error_invalid_request": "تعذر إرسال هذا الطلب. راجع الوصف والمدخلات ثم حاول مرة أخرى.",
+    "error_rate_limited": "تمت محاولات كثيرة خلال وقت قصير. انتظر قليلا ثم حاول مرة أخرى.",
+    "error_request_failed": "تعذر إكمال عملية التوليد. حاول مرة أخرى.",
+    "error_request_processing": "الطلب نفسه قيد المعالجة بالفعل. انتظر قليلا قبل إعادة المحاولة.",
+    "error_reference_unsupported": "هذا الإدخال المصدر غير مدعوم في سير العمل الحالي. استبدله ثم حاول مرة أخرى."
+  }
+}

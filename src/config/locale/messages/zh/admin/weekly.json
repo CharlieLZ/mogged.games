@@ -1,0 +1,21 @@
+{
+  "title": "每周统计",
+  "description": "查看用户、积分、订单的每周数据变化",
+  "refresh": "刷新",
+  "crumbs": {
+    "admin": "管理后台",
+    "weekly": "每周统计"
+  },
+  "table": {
+    "week": "周",
+    "period": "时间段",
+    "users": "新增用户",
+    "orders": "订单数",
+    "payments": "一次性付款",
+    "subscriptions": "订阅付款",
+    "credits_consumed": "消耗积分",
+    "credits_granted": "发放积分",
+    "total": "合计 (12周)",
+    "guest_credits_consumed": "访客成本"
+  }
+}

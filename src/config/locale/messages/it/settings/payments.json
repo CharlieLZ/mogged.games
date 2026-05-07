@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "Ordine n",
+    "user": "Utente",
+    "amount": "Importo",
+    "product_name": "Nome del prodotto",
+    "price": "Prezzo",
+    "paid_amount": "Importo pagato",
+    "discount_amount": "Importo dello sconto",
+    "description": "Descrizione",
+    "type": "Digitare",
+    "provider": "Fornitore",
+    "created_at": "Creato a",
+    "status": "Stato",
+    "action": "Azione",
+    "actions": {
+      "view_invoice": "Visualizza fattura"
+    }
+  },
+  "list": {
+    "title": "Pagamenti",
+    "description": "Visualizza i tuoi pagamenti",
+    "tabs": {
+      "all": "Tutto",
+      "one-time": "Una volta",
+      "subscription": "Abbonamento",
+      "renew": "Rinnovare"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "transaction_no": "Número de transacción",
+    "user": "Usuario",
+    "amount": "Cantidad",
+    "remaining": "restante",
+    "type": "Tipo",
+    "scene": "escena",
+    "description": "Descripción",
+    "created_at": "Creado en",
+    "expires_at": "Vence en",
+    "metadata": "Metadatos",
+    "action": "acción"
+  },
+  "list": {
+    "title": "Créditos",
+    "crumbs": {
+      "admin": "administrador",
+      "credits": "Créditos"
+    },
+    "tabs": {
+      "all": "Todos",
+      "grant": "subvención",
+      "consume": "consumir",
+      "paid": "Pagado"
+    },
+    "search": {
+      "email": {
+        "title": "Correo electrónico del usuario",
+        "placeholder": "Buscar por correo electrónico"
+      }
+    }
+  }
+}

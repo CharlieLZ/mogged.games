@@ -1,0 +1,23 @@
+{
+  "title": "개요",
+  "description": "7일 및 30일 보기를 통해 최근 성장 및 수익에 대한 빠른 스냅샷",
+  "crumbs": {
+    "admin": "관리자",
+    "dashboard": "개요"
+  },
+  "cards": {
+    "users": "신규 사용자",
+    "payments": "유료(전체)",
+    "subscriptions": "유료(구독)",
+    "credits": "소비된 크레딧",
+    "guest_credits": "게스트 비용",
+    "credits_granted": "부여된 학점"
+  },
+  "unit": {
+    "money": "${value}",
+    "credits": "{value} 크레딧",
+    "users": "{value} 사용자"
+  },
+  "more": "더보기",
+  "refresh": "새로고침"
+}

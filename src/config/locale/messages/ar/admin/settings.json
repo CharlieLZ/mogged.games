@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "مصادقة البريد الإلكتروني",
+    "google_auth": "مصادقة جوجل",
+    "github_auth": "مصادقة جيثب",
+    "basic_payment": "الدفع الأساسي",
+    "stripe": "شريط",
+    "creem": "كريم",
+    "paypal": "باي بال",
+    "resend": "إعادة الإرسال",
+    "r2": "كلاود فلير R2",
+    "s3": "أوس S3",
+    "openrouter": "OpenRouter",
+    "replicate": "تكرار",
+    "fal": "فال API",
+    "google_analytics": "تحليلات جوجل",
+    "clarity": "الوضوح",
+    "plausible": "معقول",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "تحليلات فيرسيل",
+    "adsense": "ادسنس",
+    "affonso": "أفونسو",
+    "promotekit": "ترقية كيت",
+    "tawk": "طوق",
+    "crisp": "هش",
+    "credit": "الائتمان",
+    "seedance": "Seedance Runtime",
+    "kie": "KIE"
+  },
+  "edit": {
+    "title": "الإعدادات",
+    "crumbs": {
+      "admin": "المشرف",
+      "settings": "الإعدادات"
+    },
+    "tabs": {
+      "general": "عام",
+      "auth": "مصادقة",
+      "payment": "الدفع",
+      "credit": "الائتمان",
+      "email": "البريد الإلكتروني",
+      "storage": "التخزين",
+      "ai": "منظمة العفو الدولية",
+      "analytics": "التحليلات",
+      "ads": "إعلانات",
+      "affiliate": "انضم",
+      "customer_service": "خدمة العملاء"
+    },
+    "buttons": {
+      "submit": "حفظ"
+    }
+  }
+}

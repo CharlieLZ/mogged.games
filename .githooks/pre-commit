@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+cd "$ROOT_DIR"
+
+node scripts/run-in-sanitized-git-env.mjs \
+  node scripts/guard-env-commits.mjs --mode=staged
+
+echo "[pre-commit] running typecheck gate"
+node scripts/run-in-sanitized-git-env.mjs pnpm gate:pre-commit

@@ -1,0 +1,21 @@
+{
+  "title": "Wöchentliche Statistiken",
+  "description": "Sehen Sie sich wöchentliche Geschäftsdatenänderungen für Benutzer, Credits und Bestellungen an",
+  "refresh": "Aktualisieren",
+  "crumbs": {
+    "admin": "Admin",
+    "weekly": "Wöchentliche Statistiken"
+  },
+  "table": {
+    "week": "Woche",
+    "period": "Zeitraum",
+    "users": "Neue Benutzer",
+    "orders": "Bestellungen",
+    "payments": "Zahlungen",
+    "subscriptions": "Abonnements",
+    "credits_consumed": "Verwendete Credits",
+    "credits_granted": "Credits gewährt",
+    "total": "Gesamt (12 Wochen)",
+    "guest_credits_consumed": "Gastkosten"
+  }
+}

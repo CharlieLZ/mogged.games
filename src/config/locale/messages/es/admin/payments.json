@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "order_no": "Número de pedido",
+    "user": "Usuario",
+    "amount": "Cantidad",
+    "product": "Producto",
+    "description": "Descripción",
+    "type": "Tipo",
+    "provider": "Proveedor",
+    "created_at": "Creado en",
+    "status": "Estado",
+    "action": "acción"
+  },
+  "list": {
+    "title": "Pagos",
+    "crumbs": {
+      "admin": "administrador",
+      "payments": "Pagos"
+    },
+    "tabs": {
+      "all": "Todos",
+      "subscription": "Suscripción",
+      "one-time": "una sola vez"
+    },
+    "filters": {
+      "status": {
+        "title": "Estado",
+        "options": {
+          "all": "Todos",
+          "paid": "Pagado",
+          "created": "Creado",
+          "failed": "Fallido"
+        }
+      },
+      "provider": {
+        "title": "Proveedor",
+        "options": {
+          "all": "Todos",
+          "stripe": "raya",
+          "creem": "creeme",
+          "paypal": "PayPal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Número de pedido",
+        "placeholder": "Número de pedido"
+      },
+      "email": {
+        "title": "Correo electrónico",
+        "placeholder": "Buscar por correo electrónico"
+      }
+    }
+  }
+}

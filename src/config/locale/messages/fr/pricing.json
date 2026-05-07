@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "title": "Tarifs mogged | Crédits image IA, forfaits, facturation",
+    "description": "Comparez les tarifs mogged, crédits image IA, forfaits et facturation sur {{app_domain}} pour générer, éditer et livrer des images en équipe.",
+    "keywords": "tarifs mogged, crédits image IA, forfaits éditeur image IA, prix génération image, {{app_domain}}"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "{{app_name}} Tarifs",
+    "title": "Tarifs simples et transparents",
+    "description": "Commencez gratuitement avec {{initial_credits_amount}} crédits. Des plans abordables pour la génération d'images, les retouches et la capacité équipe. Les remboursements suivent la politique de remboursement publiée.",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "Achat unique"
+      },
+      {
+        "name": "yearly",
+        "title": "Annuel",
+        "is_featured": true,
+        "label": "Économisez jusqu'à 41%"
+      },
+      {
+        "name": "monthly",
+        "title": "Mensuel"
+      }
+    ],
+    "items": [
+      {
+        "title": "Essai",
+        "label": "Commencez petit",
+        "description": "Paiement unique.",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération standard",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Support client"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-onetime",
+        "product_name": "Essai",
+        "group": "one-time"
+      },
+      {
+        "title": "Max",
+        "label": "Meilleure valeur",
+        "description": "Paiement unique.",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération la plus rapide",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Support équipe experte"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-onetime",
+        "product_name": "Max",
+        "group": "one-time"
+      },
+      {
+        "title": "Pro",
+        "label": "Usage régulier",
+        "description": "Paiement unique.",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération prioritaire",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Support client prioritaire"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-onetime",
+        "product_name": "Pro",
+        "group": "one-time"
+      },
+      {
+        "title": "Essai",
+        "label": "Commencez petit",
+        "description": "Mensuel, annulation à tout moment",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération standard",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Support client"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-monthly",
+        "product_name": "Essai Mensuel",
+        "group": "monthly",
+        "plan_name": "Essai"
+      },
+      {
+        "title": "Max",
+        "label": "Meilleure valeur",
+        "description": "Mensuel, annulation à tout moment",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération la plus rapide",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Support équipe experte"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-monthly",
+        "product_name": "Max Mensuel",
+        "group": "monthly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "Usage régulier",
+        "description": "Mensuel, annulation à tout moment",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération prioritaire",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Support client prioritaire"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "Pro Mensuel",
+        "group": "monthly",
+        "plan_name": "Pro"
+      },
+      {
+        "title": "Essai",
+        "label": "Commencez petit",
+        "description": "Facturé {{billing_total_price}} par an",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération standard",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Licence commerciale + Business Certificate",
+          "Support client"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-yearly",
+        "product_name": "Essai Annuel",
+        "group": "yearly",
+        "plan_name": "Essai"
+      },
+      {
+        "title": "Max",
+        "label": "Meilleure valeur",
+        "description": "Facturé {{billing_total_price}} par an",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération la plus rapide",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Licence commerciale + Business Certificate",
+          "Support équipe experte"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-yearly",
+        "product_name": "Max Annuel",
+        "group": "yearly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "Usage régulier",
+        "description": "Facturé {{billing_total_price}} par an",
+        "features_title": "",
+        "features": [
+          "Workflows texte-vers-image et image-vers-image",
+          "Génération par prompt et retouches guidées par image source",
+          "Évitez la file gratuite pour les tâches d'image hébergées",
+          "Vitesse de génération prioritaire",
+          "Exports d'images haute résolution",
+          "Sans filigrane",
+          "Licence commerciale + Business Certificate",
+          "Support client prioritaire"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Commencer",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "Pro Annuel",
+        "group": "yearly",
+        "plan_name": "Pro"
+      }
+    ]
+  },
+  "page": {
+    "currency_selector": "Devise",
+    "current_plan": "Forfait actuel",
+    "processing": "Traitement",
+    "limited_time_badge": "Tarifs annuels",
+    "limited_time_bonus": "Les abonnements annuels economisent jusqu'a 41 %",
+    "limited_time_ends_in": "Statut du plan",
+    "metric_cost_per_100_credits": "Coût pour 100 crédits",
+    "snapshot_title": "Aperçu du forfait",
+    "snapshot_credits": "Crédits",
+    "snapshot_credits_total_suffix": "au total",
+    "snapshot_credits_monthly_suffix": "/ mois",
+    "snapshot_generation_speed": "Vitesse de génération",
+    "snapshot_credit_cost": "{credits} crédits",
+    "speed_standard": "Standard",
+    "speed_priority": "Prioritaire",
+    "speed_fastest": "Le plus rapide",
+    "snapshot_text_to_image": "Génération image 1K",
+    "snapshot_image_edit": "Retouche image 2K"
+  },
+  "faq": {
+    "title": "FAQ tarifs",
+    "description": "Réponses directes sur les plans, les crédits, les renouvellements et ce que vous payez réellement sur {{app_domain}}.",
+    "tip": "Besoin d’aide pour choisir un plan ? Écrivez à <a href='mailto:{{support_email}}' class='text-primary font-medium hover:underline'>{{support_email}}</a>.",
+    "categories": [
+      {
+        "title": "Plans et accès",
+        "items": [
+          {
+            "question": "Que paie-t-on sur {{app_domain}} ?",
+            "answer": "Vous payez le workspace IA hébergé de ce site : comptes, crédits, historique des tâches, facturation et support. Les outils navigateur restent séparés et gratuits dans le navigateur."
+          },
+          {
+            "question": "Ai-je besoin d’un plan payant pour utiliser mogged ?",
+            "answer": "Non. Vous pouvez parcourir le site public et utiliser les outils navigateur sans plan payant. Les plans payants deviennent utiles quand vous avez besoin de crédits continus, de workflows enregistrés ou d’un volume plus élevé."
+          },
+          {
+            "question": "Quel plan devrais-je choisir pour commencer ?",
+            "answer": "Commencez par le plus petit plan pendant que vous validez vos prompts, vos fichiers source et l’adéquation du workflow. Passez au-dessus seulement quand votre usage mensuel réel est clair."
+          }
+        ]
+      },
+      {
+        "title": "Crédits et coût",
+        "items": [
+          {
+            "question": "Les outils navigateur gratuits consomment-ils des crédits ?",
+            "answer": "Non. Les outils navigateur fonctionnent séparément et n’utilisent pas de crédits de génération hébergée."
+          },
+          {
+            "question": "Les mêmes crédits fonctionnent-ils pour text-to-image et image-to-image ?",
+            "answer": "Oui. Le même solde peut être utilisé pour text-to-image et image-to-image. La consommation exacte dépend du modèle, de la résolution, du mode d’édition et des réglages."
+          },
+          {
+            "question": "Quand les crédits expirent-ils, et que se passe-t-il si une tâche échouée est remboursée après ce délai ?",
+            "answer": "L'expiration dépend de la source : les crédits d'un plan payant suivent la durée affichée sur le plan, tandis que les crédits gratuits d'inscription ou de bonus quotidien peuvent avoir une durée plus courte. Si une tâche échoue, nous recréditons un solde utilisable ; lorsque les crédits d'origine avaient une date d'expiration, le remboursement conserve la durée restante qu'il leur restait au moment où ils ont été dépensés."
+          },
+          {
+            "question": "Comment évolue le coût en crédits des images ?",
+            "answer": "Le coût de la tâche est affiché avant la génération. Il change selon le modèle choisi et, pour certaines routes, selon la résolution ou les réglages d’édition."
+          },
+          {
+            "question": "La traduction de prompt et l’auto-optimisation consomment-elles des crédits ?",
+            "answer": "Oui. Translate to English coûte 1 crédit par requête réussie, et Auto-optimize coûte 2 crédits par requête réussie. Si aucun résultat exploitable n’est renvoyé, nous ne déduisons pas de crédits pour cette tentative."
+          }
+        ]
+      },
+      {
+        "title": "Abonnement et support",
+        "items": [
+          {
+            "question": "Puis-je annuler un abonnement à tout moment ?",
+            "answer": "Oui. L’annulation arrête les futurs renouvellements, et l’accès continue jusqu’à la fin de la période déjà payée, sauf remboursement approuvé séparément par la politique ou exigé par la loi."
+          },
+          {
+            "question": "Comment obtenir de l’aide pour la facturation ou le choix du plan ?",
+            "answer": "Écrivez à {{support_email}} si vous avez besoin d’aide pour comparer les plans, vérifier les crédits ou résoudre un problème de facturation."
+          }
+        ]
+      }
+    ]
+  },
+  "seo_sections": {
+    "schema": {
+      "product_disclaimer": "Ce prix décrit un service hébergé par {{app_domain}}, et non la facturation officielle du fournisseur en amont.",
+      "product_keywords": [
+        "tarifs mogged",
+        "prix image mogged",
+        "crédits mogged",
+        "forfaits éditeur image IA",
+        "{{app_domain}}"
+      ],
+      "webpage_name": "{{app_name}} Tarifs",
+      "webpage_description": "Tarifs image IA, crédits, forfaits, abonnements et règles de facturation pour mogged sur {{app_domain}}."
+    }
+  }
+}

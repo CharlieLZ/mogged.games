@@ -1,0 +1,23 @@
+{
+  "title": "Overview",
+  "description": "Quick snapshot of recent growth and revenue with 7-day vs 30-day views",
+  "crumbs": {
+    "admin": "Admin",
+    "dashboard": "Overview"
+  },
+  "cards": {
+    "users": "New Users",
+    "payments": "Paid (All)",
+    "subscriptions": "Paid (Subscriptions)",
+    "credits": "Credits Consumed",
+    "guest_credits": "Guest Cost",
+    "credits_granted": "Credits Granted"
+  },
+  "unit": {
+    "money": "${value}",
+    "credits": "{value} credits",
+    "users": "{value} users"
+  },
+  "more": "More",
+  "refresh": "Refresh"
+}

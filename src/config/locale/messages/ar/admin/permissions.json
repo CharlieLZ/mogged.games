@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "id": "ID",
+    "code": "الكود",
+    "title": "العنوان",
+    "resource": "الموارد",
+    "action": "العمل",
+    "description": "الوصف",
+    "created_at": "تم الإنشاء في",
+    "updated_at": "تم التحديث في"
+  },
+  "list": {
+    "title": "الأذونات",
+    "crumbs": {
+      "admin": "المشرف",
+      "permissions": "الأذونات"
+    }
+  }
+}

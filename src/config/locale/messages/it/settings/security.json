@@ -1,0 +1,77 @@
+{
+  "title": "Sicurezza",
+  "description": "Gestisci in un solo posto il cambio password, l'invio dell'e-mail di reimpostazione e le azioni irreversibili sull'account.",
+  "fields": {
+    "email": "E-mail",
+    "current_password": "Password attuale",
+    "new_password": "Nuova password",
+    "confirm_password": "Conferma nuova password"
+  },
+  "change_password": {
+    "title": "Cambia password",
+    "description": "Aggiorna la password senza uscire dalla sessione corrente.",
+    "buttons": {
+      "submit": "Salva password",
+      "submitting": "Salvataggio..."
+    },
+    "messages": {
+      "currentPasswordRequired": "Inserisci prima la password attuale.",
+      "newPasswordRequired": "Inserisci una nuova password.",
+      "confirmPasswordRequired": "Conferma la nuova password.",
+      "passwordMismatch": "Le due nuove password non coincidono.",
+      "updated": "Password aggiornata.",
+      "updateFailed": "Impossibile aggiornare la password. Riprova."
+    }
+  },
+  "reset_password_request": {
+    "title": "Reimposta password via e-mail",
+    "description": "Invia un'e-mail di reimpostazione all'indirizzo collegato al tuo account.",
+    "tip": "Usa questa opzione se preferisci un link firmato via e-mail invece di cambiare la password direttamente qui.",
+    "sent_hint": "Se l'indirizzo è valido, l'e-mail di reimpostazione è già in arrivo.",
+    "email_placeholder": "you@example.com",
+    "buttons": {
+      "submit": "Invia e-mail di reimpostazione",
+      "submitting": "Invio...",
+      "back_to_sign_in": "Torna al login"
+    },
+    "messages": {
+      "emailRequired": "Inserisci prima un indirizzo e-mail.",
+      "sent": "Se quell'e-mail esiste, è stato inviato un link di reimpostazione.",
+      "sendFailed": "Impossibile inviare l'e-mail di reimpostazione. Riprova."
+    }
+  },
+  "reset_password_confirm": {
+    "title": "Scegli una nuova password",
+    "description": "Imposta una nuova password per il tuo account e torna nel tuo spazio di lavoro.",
+    "buttons": {
+      "submit": "Aggiorna password",
+      "submitting": "Aggiornamento...",
+      "back_to_sign_in": "Torna al login",
+      "request_new_link": "Richiedi un nuovo link"
+    },
+    "messages": {
+      "tokenMissing": "Questo link di reimpostazione è incompleto. Richiedine uno nuovo.",
+      "newPasswordRequired": "Inserisci una nuova password.",
+      "confirmPasswordRequired": "Conferma la nuova password.",
+      "passwordMismatch": "Le due nuove password non coincidono.",
+      "updated": "Password reimpostata con successo. Reindirizzamento in corso.",
+      "updateFailed": "Impossibile reimpostare la password. Richiedi una nuova e-mail e riprova.",
+      "invalidOrExpiredLink": "Questo link di reimpostazione non è valido o è scaduto. Richiedi una nuova email per continuare."
+    }
+  },
+  "danger_zone": {
+    "title": "Zona pericolosa",
+    "description": "Azioni irreversibili e distruttive",
+    "deleteAccount": "Elimina account",
+    "deleteAccountDescription": "Elimina definitivamente il tuo account e tutti i dati associati",
+    "deleteButton": "Elimina account",
+    "confirmTitle": "Elimina account",
+    "confirmDescription": "Sei assolutamente sicuro di voler eliminare il tuo account? Questa azione non può essere annullata.",
+    "warningMessage": "Tutti i tuoi crediti, la cronologia dei pagamenti, i contenuti generati e i dati personali verranno eliminati definitivamente. Questa azione è irreversibile e non può essere recuperata.",
+    "confirmLabel": "Digita {keyword} per confermare",
+    "cancelButton": "Annulla",
+    "confirmDeleteButton": "Elimina account",
+    "deletingButton": "Eliminazione...",
+    "deleteError": "Impossibile eliminare l'account. Per favore riprova."
+  }
+}

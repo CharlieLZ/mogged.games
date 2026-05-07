@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "task_id": "ID de tâche",
+    "user": "Utilisateur",
+    "status": "Statut",
+    "cost_credits": "Crédits de coût",
+    "media_type": "Type de média",
+    "scene": "Scène",
+    "provider": "Fournisseur",
+    "model": "Modèle",
+    "trace": "Trace de repli",
+    "prompt": "Invite",
+    "options": "Possibilités",
+    "result": "Résultat",
+    "created_at": "Créé à",
+    "preview": "Aperçu"
+  },
+  "list": {
+    "title": "Tâches d'IA",
+    "crumbs": {
+      "admin": "Administrateur",
+      "ai-tasks": "Tâches d'IA"
+    },
+    "tabs": {
+      "all": "Tout",
+      "image": "Images",
+      "video": "Vidéo",
+      "audio": "Audio",
+      "text": "Texte"
+    },
+    "search": {
+      "email": {
+        "title": "Rechercher par e-mail",
+        "placeholder": "Entrez l'adresse e-mail de l'utilisateur pour rechercher..."
+      }
+    },
+    "error_nsfw": "Bloqué par des filtres de sécurité (NSFW ou contenu sensible)",
+    "error_image_url_access": "Le chargement de l'image a échoué. Assurez-vous que l'URL est accessible au public (les lecteurs cloud/liens sociaux nécessitent des autorisations de partage)."
+  },
+  "refresh": {
+    "pending_tasks": "{count} tâches en cours de traitement, actualisation automatique toutes les {interval}s",
+    "completed_count": "{count} terminé",
+    "all_completed": "Toutes les tâches terminées",
+    "last_check": ", dernière vérification : {time}",
+    "refresh_now": "Actualiser maintenant",
+    "refreshing": "Rafraîchissant..."
+  },
+  "trace": {
+    "title": "Trace de secours du fournisseur",
+    "description": "Passez en revue la chaîne de fournisseurs, les tentatives de secours et le dernier modèle actif pour cette tâche.",
+    "view": "Afficher la trace",
+    "summary": "{attempts} tentatives, {fallbacks} repli(s)",
+    "requested": "Itinéraire demandé",
+    "active": "Itinéraire actif",
+    "scene": "Scène",
+    "updated_at": "Dernière mise à jour",
+    "attempt_chain": "Tentative en chaîne",
+    "attempt_index": "Tentative n°{index}",
+    "provider": "Fournisseur",
+    "model": "Modèle",
+    "label": "Étiquette",
+    "error": "Erreur",
+    "status": {
+      "success": "Succès",
+      "failed": "Échec",
+      "skipped": "Sauté"
+    }
+  }
+}

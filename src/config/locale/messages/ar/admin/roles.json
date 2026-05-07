@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "الاسم",
+    "title": "العنوان",
+    "description": "الوصف",
+    "status": "الحالة",
+    "sort": "فرز",
+    "created_at": "تم الإنشاء في",
+    "updated_at": "تم التحديث في",
+    "permissions": "الأذونات",
+    "actions": "الإجراءات"
+  },
+  "list": {
+    "title": "الأدوار",
+    "crumbs": {
+      "admin": "المشرف",
+      "roles": "الأدوار"
+    },
+    "buttons": {
+      "create": "إنشاء دور",
+      "edit": "تحرير الدور",
+      "edit_permissions": "تحرير الأذونات",
+      "delete": "حذف الدور"
+    }
+  },
+  "edit": {
+    "title": "تحرير الدور",
+    "crumbs": {
+      "admin": "المشرف",
+      "roles": "الأدوار",
+      "edit": "تحرير الدور"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  },
+  "edit_permissions": {
+    "title": "تحرير الأذونات",
+    "crumbs": {
+      "admin": "المشرف",
+      "roles": "الأدوار",
+      "edit_permissions": "تحرير الأذونات"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  }
+}

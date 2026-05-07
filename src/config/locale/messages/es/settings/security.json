@@ -1,0 +1,77 @@
+{
+  "title": "Seguridad",
+  "description": "Gestiona en un solo lugar los cambios de contraseña, el envío de correos de restablecimiento y las acciones irreversibles sobre la cuenta.",
+  "fields": {
+    "email": "Correo electrónico",
+    "current_password": "Contraseña actual",
+    "new_password": "Nueva contraseña",
+    "confirm_password": "Confirmar nueva contraseña"
+  },
+  "change_password": {
+    "title": "Cambiar contraseña",
+    "description": "Actualiza tu contraseña sin salir de la sesión actual.",
+    "buttons": {
+      "submit": "Guardar contraseña",
+      "submitting": "Guardando..."
+    },
+    "messages": {
+      "currentPasswordRequired": "Introduce primero tu contraseña actual.",
+      "newPasswordRequired": "Introduce una nueva contraseña.",
+      "confirmPasswordRequired": "Confirma la nueva contraseña.",
+      "passwordMismatch": "Las dos contraseñas nuevas no coinciden.",
+      "updated": "Contraseña actualizada.",
+      "updateFailed": "No se pudo actualizar la contraseña. Inténtalo de nuevo."
+    }
+  },
+  "reset_password_request": {
+    "title": "Restablecer contraseña por correo",
+    "description": "Envía un correo de restablecimiento a la dirección vinculada a tu cuenta.",
+    "tip": "Úsalo cuando prefieras un enlace firmado por correo en lugar de cambiar la contraseña directamente aquí.",
+    "sent_hint": "Si la dirección es válida, el correo de restablecimiento ya está en camino.",
+    "email_placeholder": "you@example.com",
+    "buttons": {
+      "submit": "Enviar correo de restablecimiento",
+      "submitting": "Enviando...",
+      "back_to_sign_in": "Volver a iniciar sesión"
+    },
+    "messages": {
+      "emailRequired": "Introduce primero una dirección de correo.",
+      "sent": "Si ese correo existe, se ha enviado un enlace de restablecimiento.",
+      "sendFailed": "No se pudo enviar el correo de restablecimiento. Inténtalo de nuevo."
+    }
+  },
+  "reset_password_confirm": {
+    "title": "Elegir una nueva contraseña",
+    "description": "Define una nueva contraseña para tu cuenta y vuelve a tu espacio de trabajo.",
+    "buttons": {
+      "submit": "Actualizar contraseña",
+      "submitting": "Actualizando...",
+      "back_to_sign_in": "Volver a iniciar sesión",
+      "request_new_link": "Solicitar un enlace nuevo"
+    },
+    "messages": {
+      "tokenMissing": "Este enlace de restablecimiento está incompleto. Solicita uno nuevo.",
+      "newPasswordRequired": "Introduce una nueva contraseña.",
+      "confirmPasswordRequired": "Confirma la nueva contraseña.",
+      "passwordMismatch": "Las dos contraseñas nuevas no coinciden.",
+      "updated": "La contraseña se restableció correctamente. Redirigiendo ahora.",
+      "updateFailed": "No se pudo restablecer la contraseña. Solicita un correo nuevo y vuelve a intentarlo.",
+      "invalidOrExpiredLink": "Este enlace de restablecimiento no es válido o ya venció. Solicita un correo nuevo para continuar."
+    }
+  },
+  "danger_zone": {
+    "title": "Zona de peligro",
+    "description": "Acciones irreversibles y destructivas.",
+    "deleteAccount": "Eliminar cuenta",
+    "deleteAccountDescription": "Eliminar permanentemente su cuenta y todos los datos asociados",
+    "deleteButton": "Eliminar cuenta",
+    "confirmTitle": "Eliminar cuenta",
+    "confirmDescription": "¿Estás absolutamente seguro de que quieres eliminar tu cuenta? Esta acción no se puede deshacer.",
+    "warningMessage": "Todos sus créditos, historial de pagos, contenido generado y datos personales se eliminarán permanentemente. Esta acción es irreversible y no se puede recuperar.",
+    "confirmLabel": "Escriba {keyword} para confirmar",
+    "cancelButton": "Cancelar",
+    "confirmDeleteButton": "Eliminar cuenta",
+    "deletingButton": "Eliminando...",
+    "deleteError": "No se pudo eliminar la cuenta. Por favor inténtalo de nuevo."
+  }
+}

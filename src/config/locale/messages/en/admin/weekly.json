@@ -1,0 +1,21 @@
+{
+  "title": "Weekly Statistics",
+  "description": "View weekly business data changes for users, credits, and orders",
+  "refresh": "Refresh",
+  "crumbs": {
+    "admin": "Admin",
+    "weekly": "Weekly Stats"
+  },
+  "table": {
+    "week": "Week",
+    "period": "Period",
+    "users": "New Users",
+    "orders": "Orders",
+    "payments": "Payments",
+    "subscriptions": "Subscriptions",
+    "credits_consumed": "Credits Used",
+    "credits_granted": "Credits Granted",
+    "total": "Total (12 weeks)",
+    "guest_credits_consumed": "Guest Cost"
+  }
+}

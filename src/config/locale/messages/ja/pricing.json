@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "title": "mogged 料金 | AI画像クレジット・プラン・課金",
+    "description": "{{app_domain}} 上の mogged の料金、AI画像クレジット、プラン、課金ルールを比較して、画像生成・画像編集・チーム運用に合う構成を選べます。",
+    "keywords": "mogged 料金, AI画像クレジット, AI画像編集プラン, 画像生成料金, {{app_domain}}"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "{{app_name}} の料金",
+    "title": "シンプルで分かりやすい料金",
+    "description": "{{initial_credits_amount}} クレジットで無料開始。画像生成、画像編集、チーム利用向けの低コストプランを用意し、返金は公開済みの返金ポリシーに従います。",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "一回払い"
+      },
+      {
+        "name": "yearly",
+        "title": "年額",
+        "is_featured": true,
+        "label": "最大41%節約"
+      },
+      {
+        "name": "monthly",
+        "title": "月額"
+      }
+    ],
+    "items": [
+      {
+        "title": "Try",
+        "label": "少額で始める",
+        "description": "買い切り。",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "標準の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "カスタマーサポート"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-onetime",
+        "product_name": "Try",
+        "group": "one-time"
+      },
+      {
+        "title": "Max",
+        "label": "最もお得",
+        "description": "買い切り。",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "最速の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "エキスパートチームのサポート"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-onetime",
+        "product_name": "Max",
+        "group": "one-time"
+      },
+      {
+        "title": "Pro",
+        "label": "通常利用向け",
+        "description": "買い切り。",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "優先の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "優先サポート"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-onetime",
+        "product_name": "Pro",
+        "group": "one-time"
+      },
+      {
+        "title": "Try",
+        "label": "少額で始める",
+        "description": "月額、いつでも解約可能",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "標準の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "カスタマーサポート"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-monthly",
+        "product_name": "Try Monthly",
+        "group": "monthly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "Max",
+        "label": "最もお得",
+        "description": "月額、いつでも解約可能",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "最速の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "エキスパートチームのサポート"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-monthly",
+        "product_name": "Max Monthly",
+        "group": "monthly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "通常利用向け",
+        "description": "月額、いつでも解約可能",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "優先の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "優先サポート"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "Pro Monthly",
+        "group": "monthly",
+        "plan_name": "Pro"
+      },
+      {
+        "title": "Try",
+        "label": "少額で始める",
+        "description": "年額請求 {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "標準の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "商用利用ライセンス + Business Certificate",
+          "カスタマーサポート"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-yearly",
+        "product_name": "Try Annually",
+        "group": "yearly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "Max",
+        "label": "最もお得",
+        "description": "年額請求 {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "最速の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "商用利用ライセンス + Business Certificate",
+          "エキスパートチームのサポート"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-yearly",
+        "product_name": "Max Annually",
+        "group": "yearly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "通常利用向け",
+        "description": "年額請求 {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "テキストから画像・画像から画像のワークフロー",
+          "プロンプト生成と元画像ガイド編集",
+          "ホスト型画像ジョブの無料キューをスキップ",
+          "優先の生成速度",
+          "高解像度画像エクスポート",
+          "透かしなし",
+          "商用利用ライセンス + Business Certificate",
+          "優先サポート"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "今すぐ始める",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "Pro Annually",
+        "group": "yearly",
+        "plan_name": "Pro"
+      }
+    ]
+  },
+  "page": {
+    "currency_selector": "通貨",
+    "current_plan": "現在のプラン",
+    "processing": "処理中",
+    "limited_time_badge": "年額料金",
+    "limited_time_bonus": "年額プランは最大41%お得",
+    "limited_time_ends_in": "プラン状況",
+    "metric_cost_per_100_credits": "100クレジットあたりの費用",
+    "snapshot_title": "プラン概要",
+    "snapshot_credits": "クレジット",
+    "snapshot_credits_total_suffix": "合計",
+    "snapshot_credits_monthly_suffix": "/ 月",
+    "snapshot_generation_speed": "生成速度",
+    "snapshot_credit_cost": "{credits} クレジット",
+    "speed_standard": "標準",
+    "speed_priority": "優先",
+    "speed_fastest": "最速",
+    "snapshot_text_to_image": "1K 画像生成",
+    "snapshot_image_edit": "2K 画像編集"
+  },
+  "faq": {
+    "title": "料金に関するよくある質問",
+    "description": "プラン、クレジット、更新、そして {{app_domain}} で実際に何に支払っているのかについての簡潔な回答です。",
+    "tip": "プラン選びで迷ったら <a href='mailto:{{support_email}}' class='text-primary font-medium hover:underline'>{{support_email}}</a> までメールしてください。",
+    "categories": [
+      {
+        "title": "プランと利用条件",
+        "items": [
+          {
+            "question": "{{app_domain}} で支払っているものは何ですか？",
+            "answer": "支払い対象は、このサイトのホスト型AIワークスペースです。具体的には、アカウント、クレジット、保存されたタスク履歴、請求、サポートです。ブラウザーツールは別で、引き続きブラウザー内で無料利用できます。"
+          },
+          {
+            "question": "mogged を使うのに有料プランは必要ですか？",
+            "answer": "いいえ。公開サイトの閲覧やブラウザーツールの利用に有料プランは不要です。有料プランが必要になるのは、継続的なクレジット、保存されたワークフロー、より高い生成量が必要なときです。"
+          },
+          {
+            "question": "最初はどのプランから始めるべきですか？",
+            "answer": "まずは最小プランで、プロンプト、元ファイル、ワークフローの相性を確認してください。実際の月間利用量が見えてからアップグレードを判断するのが安全です。"
+          }
+        ]
+      },
+      {
+        "title": "クレジットとコスト",
+        "items": [
+          {
+            "question": "無料のブラウザーツールはクレジットを消費しますか？",
+            "answer": "いいえ。ブラウザーツールは独立して動作し、ホスト型生成クレジットは使いません。"
+          },
+          {
+            "question": "同じクレジットを text-to-image と image-to-image の両方で使えますか？",
+            "answer": "はい。同じ残高を text-to-image と image-to-image の両方に使えます。実際の消費量はモデル、解像度、編集モード、設定によって変わります。"
+          },
+          {
+            "question": "クレジットはいつ失効し、その期限を過ぎてから失敗タスクが返金された場合はどうなりますか？",
+            "answer": "失効タイミングは付与元で変わり、購入したプランのクレジットはプラン表示の有効期間に従い、無料登録特典やデイリー受け取り分はより短い期限になることがあります。タスクが失敗した場合は使えるクレジットを戻し、元のクレジットに有効期限があったときは、そのクレジットを消費した時点で残っていた有効時間を引き継いで返金します。"
+          },
+          {
+            "question": "画像のクレジットコストはどのように変わりますか？",
+            "answer": "タスクのコストは生成前に表示されます。選択したモデルに応じて変わり、一部ルートでは解像度や編集設定でも変わります。"
+          },
+          {
+            "question": "プロンプト翻訳や自動最適化でもクレジットは消費されますか？",
+            "answer": "はい。Translate to English は成功した1リクエストごとに1クレジット、Auto-optimize は成功した1リクエストごとに2クレジット消費します。利用可能な結果が返らなかった場合、その試行ではクレジットを差し引きません。"
+          }
+        ]
+      },
+      {
+        "title": "サブスクリプションとサポート",
+        "items": [
+          {
+            "question": "サブスクリプションはいつでも解約できますか？",
+            "answer": "はい。解約すると次回以降の更新は停止されますが、返金ポリシーや法令で別途定めがない限り、現在の支払い期間の終了までは利用を継続できます。"
+          },
+          {
+            "question": "請求やプラン選びで困ったらどうすればいいですか？",
+            "answer": "プラン比較、クレジット確認、請求トラブルの解決が必要な場合は {{support_email}} までメールしてください。"
+          }
+        ]
+      }
+    ]
+  },
+  "seo_sections": {
+    "schema": {
+      "product_disclaimer": "この価格は {{app_domain}} でホストされるサービスを示すものであり、上流ベンダーの公式請求を示すものではありません。",
+      "product_keywords": [
+        "mogged 料金",
+        "mogged 画像料金",
+        "mogged クレジット",
+        "AI画像編集プラン",
+        "{{app_domain}}"
+      ],
+      "webpage_name": "{{app_name}} の料金",
+      "webpage_description": "{{app_domain}} 上の mogged における AI画像料金、クレジット、プラン、サブスクリプション、課金ルールの説明。"
+    }
+  }
+}

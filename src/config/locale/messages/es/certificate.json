@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "title": "Certificado empresarial | {{app_name}}",
+    "description": "Descargue su certificado empresarial para acceso de uso comercial en {{app_domain}}.",
+    "keywords": "mogged certificado empresarial, certificado de licencia comercial, plan anual, uso comercial"
+  },
+  "page": {
+    "title": "Certificado empresarial",
+    "description": "Descargue su certificado empresarial para los derechos de autor de videos generados por mogged.",
+    "support_text": "¿Necesita ayuda con su certificado o acceso? Envíe un correo a:",
+    "badges": {
+      "required": "Plan anual requerido",
+      "active": "Certificado listo",
+      "unavailable": "Verificación no disponible"
+    },
+    "states": {
+      "locked": "Los certificados empresariales están disponibles exclusivamente para miembros con suscripción anual.",
+      "eligible": "Su suscripción anual está activa. Descargue el certificado PDF o abra su URL pública de verificación.",
+      "unavailable": "No pudimos generar la prueba de su certificado en este momento. Vuelva a intentarlo en breve."
+    },
+    "overview": {
+      "title": "Certificado de licencia comercial",
+      "description": "Descargue un certificado PDF formal con un ID de certificado estable, el periodo de suscripción y una URL pública de verificación para acceso de uso comercial de contenido generado por mogged.",
+      "yearly_plan_required": "Plan anual requerido",
+      "current_plan": "Plan actual",
+      "status": "Estado",
+      "valid_until": "Válido hasta",
+      "subscription_no": "N.º de suscripción",
+      "certificate_id": "ID del certificado",
+      "issued_on": "Emitido el",
+      "verification_url": "URL de verificación"
+    },
+    "details": {
+      "title": "Detalles del certificado",
+      "verification_hint": "Cualquier persona con esta URL puede validar el estado del certificado y los datos clave sin iniciar sesión."
+    },
+    "benefits": {
+      "title": "Beneficios del plan anual",
+      "items": [
+        "Licencia de uso comercial",
+        "50% de descuento en todos los planes",
+        "Asignación anual de créditos"
+      ]
+    },
+    "actions": {
+      "upgrade": "Actualizar al plan anual",
+      "download": "Descargar certificado PDF",
+      "verify": "Abrir URL de verificación"
+    },
+    "statuses": {
+      "active": "Activo",
+      "pending_cancel": "Cancelación programada",
+      "trialing": "En periodo de prueba",
+      "canceled": "Cancelado",
+      "cancelled": "Cancelado",
+      "expired": "Expirado",
+      "paused": "Pausado",
+      "unknown": "No disponible"
+    }
+  },
+  "verify": {
+    "metadata": {
+      "title": "Verificación de certificado | {{app_name}}",
+      "description": "Valide un certificado empresarial mogged emitido para acceso comercial anual.",
+      "keywords": "mogged verificación de certificado, verificación de certificado empresarial"
+    },
+    "title": "Verificación de certificado",
+    "description": "Valide un certificado empresarial mogged emitido para acceso comercial anual.",
+    "support_text": "¿Necesita ayuda para verificar un certificado? Envíe un correo a:",
+    "badges": {
+      "valid": "Certificado verificado",
+      "expired": "Certificado expirado",
+      "invalid": "Verificación fallida"
+    },
+    "states": {
+      "valid": "Este token de certificado es válido y fue emitido por {{app_name}}.",
+      "expired": "Este certificado fue emitido por {{app_name}}, pero su periodo de suscripción anual ha finalizado.",
+      "invalid": "Este enlace de verificación es inválido, está incompleto o ha sido manipulado."
+    },
+    "fields": {
+      "certificate_id": "ID del certificado",
+      "holder": "Titular del certificado",
+      "plan": "Plan",
+      "email": "Correo electrónico de la cuenta",
+      "subscription_reference": "Referencia de suscripción",
+      "issued_on": "Emitido el",
+      "valid_from": "Válido desde",
+      "valid_until": "Válido hasta",
+      "issuer": "Emitido por"
+    },
+    "actions": {
+      "pricing": "Ver precios",
+      "support": "Contactar con soporte"
+    }
+  }
+}

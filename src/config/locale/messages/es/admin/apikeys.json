@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "title": "Título",
+    "key": "clave",
+    "user": "Usuario",
+    "status": "Estado",
+    "created_at": "Creado en",
+    "action": "acción"
+  },
+  "list": {
+    "title": "API Teclas",
+    "crumbs": {
+      "admin": "administrador",
+      "apikeys": "API Teclas"
+    }
+  }
+}

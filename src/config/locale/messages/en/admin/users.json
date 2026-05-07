@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "avatar": "Avatar",
+    "email": "Email",
+    "email_verified": "Email Verified",
+    "remaining_credits": "Remaining Credits",
+    "locale_geo": "Locale / Geo",
+    "device_ip": "Device / IP",
+    "last_seen_at": "Last Seen",
+    "last_sign_in_at": "Last Sign-In",
+    "event_type": "Event Type",
+    "path": "Path",
+    "referer": "Referer",
+    "metadata": "Metadata",
+    "provider": "Provider",
+    "source": "Source",
+    "event_id": "Event ID",
+    "status": "Status",
+    "delivery_count": "Deliveries",
+    "replay_count": "Replays",
+    "received_at": "Received At",
+    "first_received_at": "First Received",
+    "last_received_at": "Last Received",
+    "processed_at": "Processed At",
+    "processing_started_at": "Last Processing Started",
+    "processing_finished_at": "Last Processing Finished",
+    "processing_duration": "Processing Duration",
+    "delivery_status": "Delivery Status",
+    "processing_status": "Processing Status",
+    "order_no": "Order No",
+    "subscription_id": "Subscription ID",
+    "error_message": "Error",
+    "error_stack": "Error Stack",
+    "payload": "Payload",
+    "user_agent": "User Agent",
+    "created_at": "Created At",
+    "actions": "Actions",
+    "roles": "Roles",
+    "utm_campaign": "UTM Campaign",
+    "utm_term": "UTM Term",
+    "funnel_stage": "Funnel Stage",
+    "first_successful_generation_at": "First Successful Generation",
+    "checkout_started_at": "Checkout Started",
+    "paid_at": "Paid At",
+    "product_name": "Product",
+    "utm_batch": "UTM Batch",
+    "utm_objective": "UTM Objective",
+    "utm_adgroup": "UTM Ad Group",
+    "utm_match": "UTM Match",
+    "utm_lang": "UTM Lang",
+    "utm_device": "UTM Device",
+    "utm_workflow": "UTM Workflow"
+  },
+  "list": {
+    "title": "Users",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users"
+    },
+    "buttons": {
+      "add": "Add User",
+      "edit": "Edit User",
+      "view": "View User",
+      "delete": "Delete User",
+      "edit_roles": "Edit Roles"
+    },
+    "search": {
+      "email": {
+        "title": "Email",
+        "placeholder": "Email"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edit User",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users",
+      "edit": "Edit"
+    },
+    "buttons": {
+      "submit": "Update"
+    }
+  },
+  "detail": {
+    "title": "User Context",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users",
+      "detail": "Context"
+    },
+    "actions": {
+      "open_avatar": "Open Avatar"
+    },
+    "cards": {
+      "profile": {
+        "title": "Profile Snapshot",
+        "description": "Latest account summary for this user."
+      },
+      "context": {
+        "title": "Device & Activity",
+        "description": "Last known locale, device, IP, and browser fingerprint."
+      },
+      "funnel": {
+        "title": "Four-Stage Funnel",
+        "description": "Connect this user from signup to first successful generation, checkout started, and paid."
+      }
+    },
+    "sections": {
+      "context_events": {
+        "title": "Recent Context Events",
+        "description": "Showing the latest {limit} auth, checkout, and AI request events."
+      },
+      "webhook_events": {
+        "title": "Recent Payment Webhooks",
+        "description": "Showing the latest {limit} payment webhook audit records tied to this user. Click the event ID to inspect the full trail."
+      }
+    },
+    "funnel": {
+      "stage": {
+        "signup": "Signed Up",
+        "first_success": "First Success",
+        "checkout": "Checkout Started",
+        "paid": "Paid"
+      }
+    }
+  },
+  "webhook_detail": {
+    "title": "Webhook Event Detail",
+    "crumbs": {
+      "detail": "Webhook Detail"
+    },
+    "actions": {
+      "back_to_user": "Back to User Context"
+    },
+    "attempt_label": "Attempt #{number}",
+    "replay_note": "Replay Note",
+    "replay_detected": "This event was received {deliveries} times, including {replays} replay deliveries.",
+    "replay_clean": "Only one delivery has been recorded for this event so far.",
+    "timeline_empty": "No attempt timeline is available for this webhook yet.",
+    "timeline_partial": "Historical data only reconstructed the latest snapshot. {missing} earlier delivery attempts are not recoverable from the old summary-only schema.",
+    "cards": {
+      "event": {
+        "title": "Event Snapshot",
+        "description": "Core identity for this webhook event and its latest delivery state."
+      },
+      "timeline": {
+        "title": "Delivery Timeline",
+        "description": "Showing {count} recorded delivery attempts for this webhook."
+      },
+      "replay": {
+        "title": "Replay Snapshot",
+        "description": "How many times this event arrived and when the last duplicate was seen."
+      },
+      "processing": {
+        "title": "Processing Snapshot",
+        "description": "The latest processing window, completion time, and measured duration."
+      },
+      "request": {
+        "title": "Request Snapshot",
+        "description": "The latest request-level IP, path, and browser fingerprint captured at the edge."
+      },
+      "binding": {
+        "title": "Binding Snapshot",
+        "description": "The user, order, and subscription references currently tied to this webhook."
+      },
+      "error": {
+        "title": "Error Detail",
+        "description": "The latest error message and stack trace kept for troubleshooting."
+      },
+      "payload": {
+        "title": "Raw Payload",
+        "description": "The stored webhook payload after verification and normalization."
+      }
+    }
+  },
+  "edit_roles": {
+    "title": "Edit Roles",
+    "crumbs": {
+      "admin": "Admin",
+      "users": "Users",
+      "edit_roles": "Edit Roles"
+    },
+    "buttons": {
+      "submit": "Update"
+    }
+  }
+}

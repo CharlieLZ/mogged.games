@@ -1,0 +1,53 @@
+# 仓库只跟踪这个模板文件；真正部署时请复制为本地忽略的 `wrangler.toml`
+# 或把同样的值写进 Cloudflare Dashboard -> Worker -> Settings -> Variables。
+name = "mogged-games"
+main = "./worker.ts"
+compatibility_date = "2026-05-03"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["5 * * * *"]
+
+[assets]
+binding = "ASSETS"
+directory = ".open-next/assets"
+
+# Hyperdrive 连接池 — Worker↔Neon PostgreSQL 之间保持长连接
+# 创建命令: npx wrangler hyperdrive create nteai-db --connection-string="你的DATABASE_URL"
+# 创建后把返回的 id 填到下面
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "ec1599a79c734920af80ac8a0594f70d"
+# localConnectionString 仅用于本地部署验证，不会上传到 CF
+# localConnectionString = "你的本地DATABASE_URL"
+
+[observability]
+enabled = true
+
+# 非敏感配置（可在 CF 面板直接查看）
+[vars]
+NEXT_PUBLIC_APP_URL = "https://mogged.games"
+AUTH_URL = "https://mogged.games"
+NEXT_PUBLIC_APP_NAME = "mogged"
+NEXT_PUBLIC_THEME = "default"
+NEXT_PUBLIC_APPEARANCE = "system"
+DATABASE_PROVIDER = "postgresql"
+DB_SINGLETON_ENABLED = "true"
+DB_MAX_CONNECTIONS = "1"
+GOOGLE_ANALYTICS_ID = "G-D3SR4CETSK"
+PLAUSIBLE_DOMAIN = "mogged.games"
+PLAUSIBLE_SRC = "https://click.pageview.click/js/script.js"
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID = "G-D3SR4CETSK"
+NEXT_PUBLIC_DOMAIN = "mogged.games"
+NEXT_PUBLIC_PLAUSIBLE_URL = "https://click.pageview.click/js/script.js"
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN = "mogged.games"
+NEXT_PUBLIC_PLAUSIBLE_SCRIPT = "https://click.pageview.click/js/script.js"
+
+# 自定义域名（Worker 作为 origin，由 Cloudflare 自动处理 DNS/证书）
+[[routes]]
+pattern = "mogged.games"
+custom_domain = true
+
+[[routes]]
+pattern = "www.mogged.games"
+custom_domain = true

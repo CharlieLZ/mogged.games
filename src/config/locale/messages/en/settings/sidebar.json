@@ -1,0 +1,53 @@
+{
+  "title": "Settings",
+  "support_text": "Need help with billing, refunds, or access? Email:",
+  "support_email": "{{support_email}}",
+  "nav": {
+    "items": [
+      {
+        "title": "Profile",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "Security",
+        "url": "/settings/security",
+        "icon": "Shield"
+      },
+      {
+        "title": "Billing",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Business Certificate",
+        "url": "/certificate",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Payments",
+        "url": "/settings/payments",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "Credits",
+        "url": "/settings/credits",
+        "icon": "Coins"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Activity",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Settings",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

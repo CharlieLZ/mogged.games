@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "mogged | AI 이미지 편집, image-to-image, 온라인 도구",
+    "description": "{{app_domain}}에서 mogged를 사용해 AI 이미지 편집, text-to-image, image-to-image, 이미지 개선, 브라우저 이미지 도구를 한곳에서 진행할 수 있습니다.",
+    "keywords": "image editor ai, AI 이미지 편집기, AI 사진 편집, image-to-image, text-to-image, 온라인 이미지 편집, 이미지 개선, {{app_domain}}"
+  },
+  "sign": {
+    "sign_in_title": "로그인",
+    "sign_in_description": "계정으로 로그인하세요",
+    "sign_in_modal_title": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_in_modal_description": "로그인하고 매일 10 크레딧을 무료로 받으세요",
+    "sign_in_modal_kicker": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_in_modal_benefit_1": "🎁 완전 무료! 로그인하고 60 크레딧을 무료로 받으세요",
+    "sign_in_modal_benefit_2": "💾 편집 내용과 생성 기록 자동 저장",
+    "sign_in_modal_benefit_3": "✨ AI 기반 사진 편집, 생성 및 향상",
+    "sign_in_modal_security_note": "계속 진행하면 서비스 약관 및 개인정보처리방침에 동의하게 됩니다.",
+    "sign_up_title": "회원가입",
+    "sign_up_description": "계정 만들기",
+    "sign_up_modal_title": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_up_modal_description": "계정을 만들고 매일 무료 크레딧을 받으세요",
+    "sign_up_modal_kicker": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_up_modal_benefit_1": "🎁 완전 무료! 로그인하고 60 크레딧을 무료로 받으세요",
+    "sign_up_modal_benefit_2": "💾 편집 내용과 생성 기록 자동 저장",
+    "sign_up_modal_benefit_3": "✨ AI 기반 사진 편집, 생성 및 향상",
+    "sign_up_modal_security_note": "계속 진행하면 서비스 약관 및 개인정보처리방침에 동의하게 됩니다.",
+    "email_title": "이메일",
+    "email_placeholder": "이메일을 입력하세요",
+    "password_title": "비밀번호",
+    "password_placeholder": "비밀번호를 입력하세요",
+    "forgot_password": "비밀번호를 잊으셨나요?",
+    "or": "또는",
+    "continue": "계속",
+    "no_account": "계정이 없으신가요?",
+    "already_have_account": "이미 계정이 있으신가요?",
+    "email_sign_in": "이메일로 로그인",
+    "email_magic_link_title": "이메일 매직 링크 보내기",
+    "magic_link_email_required": "매직 링크를 계속하려면 이메일을 입력하세요",
+    "magic_link_sent_toast": "매직 링크를 보냈습니다",
+    "magic_link_sign_in_sent": "{email} 로 안전한 로그인 링크를 보냈습니다.",
+    "magic_link_sign_up_sent": "{email} 로 안전한 가입 링크를 보냈습니다.",
+    "magic_link_failed": "매직 링크 요청에 실패했습니다",
+    "magic_link_error_invalid": "이 매직 링크는 유효하지 않습니다. 새 링크를 요청하세요.",
+    "magic_link_error_expired": "이 매직 링크는 만료되었습니다. 새 링크를 요청하세요.",
+    "magic_link_error_attempts_exceeded": "이 매직 링크는 이미 사용되었습니다. 새 링크를 요청하세요.",
+    "magic_link_error_generic": "이 매직 링크 요청을 완료하지 못했습니다. 다시 시도하세요.",
+    "magic_link_error_signup_disabled": "현재 매직 링크 회원가입은 사용할 수 없습니다.",
+    "google_sign_in_title": "Google로 로그인",
+    "github_sign_in_title": "GitHub로 로그인",
+    "close_title": "닫기",
+    "cancel_title": "취소",
+    "sign_out_title": "로그아웃",
+    "billing_title": "결제",
+    "name_title": "이름",
+    "name_placeholder": "이름을 입력하세요",
+    "admin_title": "관리자 시스템",
+    "credits_title": "크레딧: {credits}",
+    "email_password_required": "이메일과 비밀번호는 필수입니다",
+    "email_password_name_required": "이메일, 비밀번호, 이름은 필수입니다",
+    "sign_in_failed": "로그인에 실패했습니다",
+    "sign_up_failed": "회원가입에 실패했습니다"
+  },
+  "payment": {
+    "choose_payment_method": "결제 수단 선택",
+    "choose_payment_method_description": "안전한 결제 수단으로 {plan} 체크아웃을 계속하세요.",
+    "cancel_title": "취소",
+    "select_payment_method_error": "결제 수단을 선택하세요",
+    "select_pricing_item_error": "요금제를 선택하세요",
+    "invalid_payment_method_error": "유효하지 않은 결제 수단입니다",
+    "embedded_checkout_title": "안전 결제",
+    "embedded_checkout_loading": "안전 결제를 불러오는 중...",
+    "embedded_checkout_finalizing": "결제를 마무리하는 중...",
+    "embedded_checkout_load_error": "안전 결제를 불러오지 못했습니다. 다시 시도해 주세요.",
+    "selected_plan_fallback": "이 플랜",
+    "choose_payment_method_description_image": "안전한 결제 수단으로 {plan} 체크아웃을 계속하고 AI 이미지 생성과 이미지 편집용 크레딧을 더 확보하세요.",
+    "choose_payment_method_description_generic": "안전한 결제 수단으로 {plan} 체크아웃을 계속하세요."
+  },
+  "locale_detector": {
+    "title": "브라우저 언어가 {locale}로 감지되었습니다. 해당 언어로 전환하시겠습니까?",
+    "switch_to": "{locale}로 전환",
+    "tip_label": "언어 팁",
+    "dismiss_label": "닫기",
+    "not_now": "나중에"
+  },
+  "empty_state": {
+    "sign_in_required": "먼저 로그인하세요",
+    "no_permission": "이 페이지를 볼 권한이 없습니다",
+    "invalid_subscription_no": "유효하지 않은 구독 번호",
+    "subscription_not_found": "구독을 찾을 수 없습니다",
+    "subscription_missing_payment_user": "이 구독에는 결제 고객 정보가 없습니다",
+    "subscription_missing_payment_subscription": "이 구독에는 결제 구독 정보가 없습니다",
+    "payment_provider_not_found": "결제 제공자를 찾을 수 없습니다",
+    "billing_url_not_found": "청구 URL을 찾을 수 없습니다",
+    "billing_failed": "결제 포털을 불러오지 못했습니다",
+    "invalid_order_no": "유효하지 않은 주문 번호",
+    "order_not_found": "주문을 찾을 수 없습니다",
+    "order_missing_invoice": "이 주문에는 아직 송장이 없습니다",
+    "invoice_url_not_found": "송장 URL을 찾을 수 없습니다",
+    "invoice_failed": "송장을 불러오지 못했습니다",
+    "api_key_not_found": "API 키를 찾을 수 없습니다",
+    "user_not_found": "사용자를 찾을 수 없습니다",
+    "role_not_found": "역할을 찾을 수 없습니다",
+    "task_not_found": "작업을 찾을 수 없습니다",
+    "webhook_event_not_found": "웹훅 이벤트를 찾을 수 없습니다"
+  },
+  "feedback": {
+    "copied": "복사됨",
+    "thinking": "생각 중...",
+    "thought_for_a_few_seconds": "몇 초 동안 생각함",
+    "thought_for_seconds": "{seconds}초 동안 생각함",
+    "used_sources": "{count}개 출처 사용"
+  },
+  "system_pages": {
+    "not_found": {
+      "title": "페이지를 찾을 수 없습니다",
+      "back_home": "홈으로 돌아가기"
+    },
+    "route_error": {
+      "title": "이 페이지를 불러오지 못했습니다",
+      "description": "이 페이지를 다시 불러오거나 홈으로 돌아가세요.",
+      "retry": "다시 시도",
+      "back_home": "홈으로 돌아가기",
+      "digest_label": "식별자"
+    },
+    "global_error": {
+      "title": "앱에서 예기치 않은 오류가 발생했습니다",
+      "description": "이 구간을 다시 렌더링해 보세요.",
+      "retry": "다시 시도",
+      "digest_label": "식별자"
+    }
+  },
+  "a11y": {
+    "close": "닫기",
+    "open_menu": "메뉴 열기",
+    "close_menu": "메뉴 닫기",
+    "toggle_theme": "테마 전환",
+    "change_language": "언어 전환",
+    "menu": "메뉴",
+    "previous_slide": "이전 슬라이드",
+    "next_slide": "다음 슬라이드",
+    "close_banner": "배너 닫기",
+    "pagination": "페이지 이동",
+    "breadcrumb": "경로 탐색",
+    "go_to_previous_page": "이전 페이지로 이동",
+    "go_to_next_page": "다음 페이지로 이동",
+    "more_pages": "더 많은 페이지",
+    "more": "더 보기",
+    "sidebar": "사이드바",
+    "mobile_sidebar_description": "모바일 사이드바를 표시합니다.",
+    "toggle_sidebar": "사이드바 전환"
+  },
+  "actions": {
+    "more": "더 보기"
+  },
+  "upload": {
+    "limit_reached": "최대 이미지 수에 도달했습니다",
+    "exceeds_limit": "{name} 파일이 {size} MB 제한을 초과했습니다",
+    "reference_alt": "참조 이미지",
+    "uploading": "업로드 중...",
+    "failed": "업로드 실패",
+    "upload": "업로드",
+    "max_size_mb": "최대 {size} MB"
+  },
+  "subscribe": {
+    "failed": "구독에 실패했습니다",
+    "email_placeholder": "이메일을 입력하세요",
+    "submit": "제출"
+  },
+  "support_email": {
+    "copied": "{email} 주소를 복사했습니다. 메일 앱이 열리지 않으면 직접 붙여 넣어 주세요.",
+    "unavailable": "지원 이메일은 {email} 입니다. 메일 앱을 사용할 수 없으면 직접 복사해 주세요."
+  },
+  "contact_support": {
+    "menu_title": "지원팀에 문의",
+    "badge_eyebrow": "Enterprise",
+    "badge_title": "문의하기",
+    "title": "문의하기",
+    "description": "맞춤 요구사항을 함께 이야기해 보세요",
+    "mailto_subject": "mogged 지원 요청",
+    "email_label": "이메일 주소",
+    "message_label": "메시지",
+    "message_placeholder": "프로젝트에 대해 알려주세요...",
+    "message_help": "{count}/2000자",
+    "submit": "메시지 보내기",
+    "sending": "보내는 중...",
+    "direct_label": "또는 이메일로 직접 문의",
+    "direct_title": "이메일 문의",
+    "success": "메시지를 보냈습니다. 이메일로 답변드리겠습니다.",
+    "validation_error": "10자 이상 입력해 주세요.",
+    "error": "메시지를 보낼 수 없습니다. 이메일로 직접 문의해 주세요.",
+    "trust_reply": "24시간 답변",
+    "trust_dedicated": "전담 지원",
+    "trust_secure": "보안"
+  },
+  "verification_code_email": {
+    "title": "인증 코드",
+    "message": "인증 코드는 {code} 입니다"
+  },
+  "daily_claim": {
+    "title": "크레딧 세부정보",
+    "description": "일일 보너스를 신청하고 크레딧을 관리하세요",
+    "available_credits": "사용 가능한 크레딧",
+    "daily_bonus": {
+      "title": "일일 보너스 이용 가능!",
+      "subtitle": "+{credits} 크레딧 받기",
+      "button_claim": "+{credits} 크레딧 받기",
+      "button_claimed": "오늘 청구됨",
+      "come_back": "또 다른 보너스를 받으려면 내일 다시 오세요!"
+    },
+    "buttons": {
+      "buy_more": "추가 크레딧 구매"
+    },
+    "messages": {
+      "success": "{credits} 크레딧을 성공적으로 획득했습니다!",
+      "already_claimed": "오늘 이미 청구하셨습니다.",
+      "error": "크레딧을 신청하지 못했습니다."
+    }
+  },
+  "notifications": {
+    "bell": "알림 열기",
+    "bell_with_count": "알림 열기 (읽지 않음 {count}개)"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "mogged | AI画像編集・image-to-image・オンラインツール",
+    "description": "{{app_domain}} で mogged を使い、AI画像編集、text-to-image、image-to-image、画像改善、ブラウザ画像ツールをまとめて進められます。",
+    "keywords": "image editor ai, AI画像編集, AI写真編集, image-to-image, text-to-image, オンライン画像編集, 画像改善, {{app_domain}}"
+  },
+  "sign": {
+    "sign_in_title": "サインイン",
+    "sign_in_description": "アカウントにサインインしてください",
+    "sign_in_modal_title": "PhotoEditorAI へようこそ",
+    "sign_in_modal_description": "ログインすると毎日10クレジット無料で獲得",
+    "sign_in_modal_kicker": "PhotoEditorAI へようこそ",
+    "sign_in_modal_benefit_1": "🎁 完全無料！ログインで60クレジットを獲得",
+    "sign_in_modal_benefit_2": "💾 編集内容と生成履歴を自動保存",
+    "sign_in_modal_benefit_3": "✨ AIによる写真編集、生成、強化",
+    "sign_in_modal_security_note": "続行することで、利用規約とプライバシーポリシーに同意したことになります。",
+    "sign_up_title": "サインアップ",
+    "sign_up_description": "アカウントを作成してください",
+    "sign_up_modal_title": "PhotoEditorAI へようこそ",
+    "sign_up_modal_description": "アカウントを作成して毎日の無料クレジットを解除",
+    "sign_up_modal_kicker": "PhotoEditorAI へようこそ",
+    "sign_up_modal_benefit_1": "🎁 完全無料！ログインで60クレジットを獲得",
+    "sign_up_modal_benefit_2": "💾 編集内容と生成履歴を自動保存",
+    "sign_up_modal_benefit_3": "✨ AIによる写真編集、生成、強化",
+    "sign_up_modal_security_note": "続行することで、利用規約とプライバシーポリシーに同意したことになります。",
+    "email_title": "メールアドレス",
+    "email_placeholder": "メールアドレスを入力してください",
+    "password_title": "パスワード",
+    "password_placeholder": "パスワードを入力してください",
+    "forgot_password": "パスワードをお忘れですか？",
+    "or": "または",
+    "continue": "続行",
+    "no_account": "アカウントをお持ちでないですか？",
+    "already_have_account": "既にアカウントをお持ちですか？",
+    "email_sign_in": "メールでサインイン",
+    "email_magic_link_title": "メールでマジックリンクを送る",
+    "magic_link_email_required": "マジックリンクを続けるにはメールアドレスを入力してください",
+    "magic_link_sent_toast": "マジックリンクを送信しました",
+    "magic_link_sign_in_sent": "{email} に安全なサインインリンクを送りました。",
+    "magic_link_sign_up_sent": "{email} に安全な登録リンクを送りました。",
+    "magic_link_failed": "マジックリンクの送信に失敗しました",
+    "magic_link_error_invalid": "このマジックリンクは無効です。新しいリンクをリクエストしてください。",
+    "magic_link_error_expired": "このマジックリンクは期限切れです。新しいリンクをリクエストしてください。",
+    "magic_link_error_attempts_exceeded": "このマジックリンクはすでに使用されています。新しいリンクをリクエストしてください。",
+    "magic_link_error_generic": "このマジックリンク要求を完了できませんでした。もう一度お試しください。",
+    "magic_link_error_signup_disabled": "現在、マジックリンクでの新規登録は利用できません。",
+    "google_sign_in_title": "Googleでサインイン",
+    "github_sign_in_title": "GitHubでサインイン",
+    "close_title": "閉じる",
+    "cancel_title": "キャンセル",
+    "sign_out_title": "サインアウト",
+    "billing_title": "請求",
+    "name_title": "名前",
+    "name_placeholder": "名前を入力してください",
+    "admin_title": "管理システム",
+    "credits_title": "クレジット: {credits}",
+    "email_password_required": "メールアドレスとパスワードは必須です",
+    "email_password_name_required": "メールアドレス、パスワード、名前は必須です",
+    "sign_in_failed": "サインインに失敗しました",
+    "sign_up_failed": "サインアップに失敗しました"
+  },
+  "payment": {
+    "choose_payment_method": "支払方法を選択",
+    "choose_payment_method_description": "安全な決済プロバイダーで {plan} のチェックアウトを続行します。",
+    "cancel_title": "キャンセル",
+    "select_payment_method_error": "支払方法を選択してください",
+    "select_pricing_item_error": "料金プランを選択してください",
+    "invalid_payment_method_error": "無効な支払方法です",
+    "embedded_checkout_title": "安全なチェックアウト",
+    "embedded_checkout_loading": "安全なチェックアウトを読み込み中...",
+    "embedded_checkout_finalizing": "支払いを確定しています...",
+    "embedded_checkout_load_error": "安全なチェックアウトを読み込めませんでした。もう一度お試しください。",
+    "selected_plan_fallback": "このプラン",
+    "choose_payment_method_description_image": "安全な決済プロバイダーで {plan} のチェックアウトを続行し、AI画像生成と画像編集用のクレジットをさらに解放します。",
+    "choose_payment_method_description_generic": "安全な決済プロバイダーで {plan} のチェックアウトを続行します。"
+  },
+  "locale_detector": {
+    "title": "ブラウザの言語が{locale}と検出されました。切り替えますか？",
+    "switch_to": "{locale}に切り替える",
+    "tip_label": "言語のヒント",
+    "dismiss_label": "閉じる",
+    "not_now": "あとで"
+  },
+  "empty_state": {
+    "sign_in_required": "まずサインインしてください",
+    "no_permission": "このページを表示する権限がありません",
+    "invalid_subscription_no": "無効なサブスクリプション番号です",
+    "subscription_not_found": "サブスクリプションが見つかりません",
+    "subscription_missing_payment_user": "このサブスクリプションには支払いの顧客情報がありません",
+    "subscription_missing_payment_subscription": "このサブスクリプションには支払いサブスクリプションの記録がありません",
+    "payment_provider_not_found": "支払いプロバイダが見つかりません",
+    "billing_url_not_found": "請求ページのURLが見つかりません",
+    "billing_failed": "請求ポータルの読み込みに失敗しました",
+    "invalid_order_no": "無効な注文番号です",
+    "order_not_found": "注文が見つかりません",
+    "order_missing_invoice": "この注文にはまだ請求書がありません",
+    "invoice_url_not_found": "請求書のURLが見つかりません",
+    "invoice_failed": "請求書の読み込みに失敗しました",
+    "api_key_not_found": "APIキーが見つかりません",
+    "user_not_found": "ユーザーが見つかりません",
+    "role_not_found": "ロールが見つかりません",
+    "task_not_found": "タスクが見つかりません",
+    "webhook_event_not_found": "Webhookイベントが見つかりません"
+  },
+  "feedback": {
+    "copied": "コピーしました",
+    "thinking": "考え中...",
+    "thought_for_a_few_seconds": "数秒間考えました",
+    "thought_for_seconds": "{seconds} 秒考えました",
+    "used_sources": "{count} 件のソースを使用"
+  },
+  "system_pages": {
+    "not_found": {
+      "title": "ページが見つかりません",
+      "back_home": "ホームに戻る"
+    },
+    "route_error": {
+      "title": "このページを読み込めませんでした",
+      "description": "このページをもう一度読み込むか、ホームに戻ってください。",
+      "retry": "再試行",
+      "back_home": "ホームに戻る",
+      "digest_label": "識別子"
+    },
+    "global_error": {
+      "title": "アプリで予期しないエラーが発生しました",
+      "description": "このセグメントをもう一度描画してみてください。",
+      "retry": "再試行",
+      "digest_label": "識別子"
+    }
+  },
+  "a11y": {
+    "close": "閉じる",
+    "open_menu": "メニューを開く",
+    "close_menu": "メニューを閉じる",
+    "toggle_theme": "テーマを切り替える",
+    "change_language": "言語を切り替える",
+    "menu": "メニュー",
+    "previous_slide": "前のスライド",
+    "next_slide": "次のスライド",
+    "close_banner": "バナーを閉じる",
+    "pagination": "ページ送り",
+    "breadcrumb": "パンくず",
+    "go_to_previous_page": "前のページへ",
+    "go_to_next_page": "次のページへ",
+    "more_pages": "さらにページを見る",
+    "more": "さらに見る",
+    "sidebar": "サイドバー",
+    "mobile_sidebar_description": "モバイル用サイドバーを表示します。",
+    "toggle_sidebar": "サイドバーを切り替える"
+  },
+  "actions": {
+    "more": "さらに見る"
+  },
+  "upload": {
+    "limit_reached": "画像の上限に達しました",
+    "exceeds_limit": "{name} は {size} MB の上限を超えています",
+    "reference_alt": "参照画像",
+    "uploading": "アップロード中...",
+    "failed": "アップロードに失敗しました",
+    "upload": "アップロード",
+    "max_size_mb": "最大 {size} MB"
+  },
+  "subscribe": {
+    "failed": "購読に失敗しました",
+    "email_placeholder": "メールアドレスを入力",
+    "submit": "送信"
+  },
+  "support_email": {
+    "copied": "{email} をコピーしました。メールアプリが開かない場合は、そのまま手動で貼り付けてください。",
+    "unavailable": "サポート用メールアドレスは {email} です。メールアプリが使えない場合は手動でコピーしてください。"
+  },
+  "contact_support": {
+    "menu_title": "サポートに連絡",
+    "badge_eyebrow": "Enterprise",
+    "badge_title": "お問い合わせ",
+    "title": "お問い合わせ",
+    "description": "カスタム要件についてご相談ください",
+    "mailto_subject": "mogged サポート依頼",
+    "email_label": "メールアドレス",
+    "message_label": "メッセージ",
+    "message_placeholder": "プロジェクトについてお聞かせください...",
+    "message_help": "{count}/2000 文字",
+    "submit": "メッセージを送信",
+    "sending": "送信中...",
+    "direct_label": "または直接メール",
+    "direct_title": "メールで問い合わせ",
+    "success": "メッセージを送信しました。メールで返信します。",
+    "validation_error": "10文字以上入力してください。",
+    "error": "メッセージを送信できませんでした。直接メールでお問い合わせください。",
+    "trust_reply": "24時間返信",
+    "trust_dedicated": "専任対応",
+    "trust_secure": "安全"
+  },
+  "verification_code_email": {
+    "title": "認証コード",
+    "message": "認証コードは {code} です"
+  },
+  "daily_claim": {
+    "title": "クレジットの詳細",
+    "description": "毎日のボーナスを受け取り、クレジットを管理しましょう",
+    "available_credits": "利用可能なクレジット",
+    "daily_bonus": {
+      "title": "毎日ボーナスが利用可能!",
+      "subtitle": "+{credits} クレジットを受け取る",
+      "button_claim": "+{credits} クレジットを受け取る",
+      "button_claimed": "今日請求されました",
+      "come_back": "明日もまたボーナスを手に入れましょう！"
+    },
+    "buttons": {
+      "buy_more": "さらにクレジットを購入する"
+    },
+    "messages": {
+      "success": "{credits} クレジットを正常に請求しました!",
+      "already_claimed": "あなたはすでに今日主張しています",
+      "error": "クレジットの請求に失敗しました"
+    }
+  },
+  "notifications": {
+    "bell": "通知を開く",
+    "bell_with_count": "通知を開く（未読 {count} 件）"
+  }
+}

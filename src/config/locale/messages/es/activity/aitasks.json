@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "Título",
+    "media_type": "Tipo de medio",
+    "provider": "Proveedor",
+    "model": "modelo",
+    "prompt": "rápido",
+    "options": "Opciones",
+    "status": "Estado",
+    "result": "Resultado",
+    "cost_credits": "Créditos de costos",
+    "created_at": "Creado en",
+    "action": "acción",
+    "preview": "Vista previa"
+  },
+  "list": {
+    "title": "Tareas de IA",
+    "tabs": {
+      "all": "Todos",
+      "image": "Imagen",
+      "video": "Vídeo",
+      "audio": "Audio",
+      "text": "Texto"
+    },
+    "buttons": {
+      "view": "Ver tarea",
+      "refresh": "Actualizar tarea",
+      "preview": "Vista previa",
+      "download": "Descargar"
+    },
+    "download": {
+      "image": "Descargar imagen {index}",
+      "audio": "Descargar audio {index}",
+      "video": "Descargar vídeo {index}",
+      "file": "Descargar archivo {index}"
+    },
+    "processing": "Procesando... (estado: {status})",
+    "failed_with_reason": "Error: {reason}",
+    "failed_nsfw": "Bloqueado por filtros de seguridad (posible NSFW o contenido sensible). Pruebe con un mensaje más seguro.",
+    "failed_image_url_access": "El enlace de la imagen es privado o está bloqueado. Los enlaces sociales o de unidad en la nube necesitan permisos para compartir. Utilice una URL de imagen pública directa o cargue la imagen.",
+    "failed": "Fallido",
+    "canceled": "Cancelado",
+    "no_result": "Aún no hay archivos descargables",
+    "result_ready": "{count} archivo(s) listo(s)",
+    "parse_error": "Datos de resultados no disponibles",
+    "empty_message": "No se encontraron tareas"
+  },
+  "detail": {
+    "title": "Detalle de la tarea",
+    "description": "Abre el resultado, descarga la salida o vuelve al historial completo de tareas.",
+    "back": "Volver al historial",
+    "open_activity": "Abrir historial",
+    "refresh": "Actualizar tarea ahora",
+    "open_result": "Abrir resultado",
+    "empty_result": "Esta tarea todavía no tiene un resultado descargable.",
+    "prompt_empty": "No se guardó un prompt para esta tarea.",
+    "not_found": "Tarea no encontrada"
+  }
+}

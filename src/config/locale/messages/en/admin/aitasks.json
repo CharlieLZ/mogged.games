@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "task_id": "Task ID",
+    "user": "User",
+    "status": "Status",
+    "cost_credits": "Cost Credits",
+    "media_type": "Media Type",
+    "scene": "Scene",
+    "provider": "Provider",
+    "model": "Model",
+    "trace": "Fallback Trace",
+    "prompt": "Prompt",
+    "options": "Options",
+    "result": "Result",
+    "created_at": "Created At",
+    "preview": "Preview"
+  },
+  "list": {
+    "title": "AI Tasks",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "AI Tasks"
+    },
+    "tabs": {
+      "all": "All",
+      "image": "Image",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Text"
+    },
+    "search": {
+      "email": {
+        "title": "Search by Email",
+        "placeholder": "Enter user email to search..."
+      }
+    },
+    "error_nsfw": "Blocked by safety filters (NSFW or sensitive content)",
+    "error_image_url_access": "Image load failed. Make sure the URL is publicly accessible (cloud drives/social links need sharing permissions)."
+  },
+  "refresh": {
+    "pending_tasks": "{count} tasks still processing, auto-refresh every {interval}s",
+    "completed_count": "{count} completed",
+    "all_completed": "All tasks completed",
+    "last_check": ", last check: {time}",
+    "refresh_now": "Refresh Now",
+    "refreshing": "Refreshing..."
+  },
+  "trace": {
+    "title": "Provider Fallback Trace",
+    "description": "Review the provider chain, fallback attempts, and the last active model for this task.",
+    "view": "View trace",
+    "summary": "{attempts} attempts, {fallbacks} fallback(s)",
+    "requested": "Requested route",
+    "active": "Active route",
+    "scene": "Scene",
+    "updated_at": "Last updated",
+    "attempt_chain": "Attempt chain",
+    "attempt_index": "Attempt #{index}",
+    "provider": "Provider",
+    "model": "Model",
+    "label": "Label",
+    "error": "Error",
+    "status": {
+      "success": "Success",
+      "failed": "Failed",
+      "skipped": "Skipped"
+    }
+  }
+}

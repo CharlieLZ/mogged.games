@@ -1,0 +1,23 @@
+{
+  "title": "Descripción general",
+  "description": "Panorama rápido del crecimiento y los ingresos recientes con vistas de 7 días frente a 30 días",
+  "crumbs": {
+    "admin": "administrador",
+    "dashboard": "Descripción general"
+  },
+  "cards": {
+    "users": "Nuevos usuarios",
+    "payments": "Pagado (Todos)",
+    "subscriptions": "Pagado (suscripciones)",
+    "credits": "Créditos consumidos",
+    "guest_credits": "Costo invitado",
+    "credits_granted": "Créditos concedidos"
+  },
+  "unit": {
+    "money": "${value}",
+    "credits": "{value} créditos",
+    "users": "{value} usuarios"
+  },
+  "more": "Más",
+  "refresh": "Actualizar"
+}

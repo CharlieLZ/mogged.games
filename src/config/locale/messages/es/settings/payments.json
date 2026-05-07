@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "order_no": "Número de pedido",
+    "user": "Usuario",
+    "amount": "Cantidad",
+    "product_name": "Nombre del producto",
+    "price": "Precio",
+    "paid_amount": "Monto pagado",
+    "discount_amount": "Cantidad de descuento",
+    "description": "Descripción",
+    "type": "Tipo",
+    "provider": "Proveedor",
+    "created_at": "Creado en",
+    "status": "Estado",
+    "action": "acción",
+    "actions": {
+      "view_invoice": "Ver factura"
+    }
+  },
+  "list": {
+    "title": "Pagos",
+    "description": "Ver tus pagos",
+    "tabs": {
+      "all": "Todos",
+      "one-time": "una sola vez",
+      "subscription": "Suscripción",
+      "renew": "Renovar"
+    }
+  }
+}

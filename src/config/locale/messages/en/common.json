@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "mogged | AI Image Editor & Photo Editor AI",
+    "description": "mogged is an online AI image editor for text-to-image, image-to-image, photo refinement, and browser-based image tools on {{app_domain}}.",
+    "keywords": "image editor ai, ai image editor, photo editor ai, ai photo editor, online image editor, image to image, text to image, {{app_domain}}"
+  },
+  "sign": {
+    "sign_in_title": "Sign In",
+    "sign_in_description": "Sign in to your account",
+    "sign_in_modal_title": "Welcome to PhotoEditorAI",
+    "sign_in_modal_description": "Log in to receive 10 free Credits every day",
+    "sign_in_modal_kicker": "Welcome to PhotoEditorAI",
+    "sign_in_modal_benefit_1": "🎁 Completely Free! Sign in to get free 60 credits",
+    "sign_in_modal_benefit_2": "💾 Auto Save your edits and generation history",
+    "sign_in_modal_benefit_3": "✨ AI-powered photo editing, generation, and enhancement",
+    "sign_in_modal_security_note": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+    "sign_up_title": "Sign Up",
+    "sign_up_description": "Create an account",
+    "sign_up_modal_title": "Welcome to PhotoEditorAI",
+    "sign_up_modal_description": "Create an account to unlock free daily credits",
+    "sign_up_modal_kicker": "Welcome to PhotoEditorAI",
+    "sign_up_modal_benefit_1": "🎁 Completely Free! Sign in to get free 60 credits",
+    "sign_up_modal_benefit_2": "💾 Auto Save your edits and generation history",
+    "sign_up_modal_benefit_3": "✨ AI-powered photo editing, generation, and enhancement",
+    "sign_up_modal_security_note": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+    "email_title": "Email",
+    "email_placeholder": "Input your email here",
+    "password_title": "Password",
+    "password_placeholder": "Input your password here",
+    "forgot_password": "Forgot password?",
+    "or": "Or",
+    "continue": "Continue",
+    "no_account": "Don't have an account?",
+    "already_have_account": "Already have an account?",
+    "email_sign_in": "Sign in with Email",
+    "email_magic_link_title": "Email me a magic link",
+    "magic_link_email_required": "Enter your email to continue with a magic link",
+    "magic_link_sent_toast": "Magic link sent",
+    "magic_link_sign_in_sent": "Check {email} for a secure sign-in link.",
+    "magic_link_sign_up_sent": "Check {email} for a secure sign-up link.",
+    "magic_link_failed": "Magic link request failed",
+    "magic_link_error_invalid": "This magic link is invalid. Request a new one.",
+    "magic_link_error_expired": "This magic link expired. Request a new one.",
+    "magic_link_error_attempts_exceeded": "This magic link was already used. Request a new one.",
+    "magic_link_error_generic": "We couldn't complete that magic link request. Please try again.",
+    "magic_link_error_signup_disabled": "Magic link sign-up is currently unavailable.",
+    "google_sign_in_title": "Sign In With Google",
+    "github_sign_in_title": "Sign in with GitHub",
+    "close_title": "Close",
+    "cancel_title": "Cancel",
+    "sign_out_title": "Sign Out",
+    "billing_title": "Billing",
+    "name_title": "Name",
+    "name_placeholder": "Input your name here",
+    "admin_title": "Admin System",
+    "credits_title": "Credits: {credits}",
+    "email_password_required": "Email and password are required",
+    "email_password_name_required": "Email, password, and name are required",
+    "sign_in_failed": "Sign in failed",
+    "sign_up_failed": "Sign up failed"
+  },
+  "payment": {
+    "choose_payment_method": "Choose Payment Method",
+    "choose_payment_method_description": "Use a secure payment provider to continue checkout for {plan}.",
+    "cancel_title": "Cancel",
+    "select_payment_method_error": "Please select a payment method",
+    "select_pricing_item_error": "Please select a pricing item",
+    "invalid_payment_method_error": "Invalid payment method",
+    "embedded_checkout_title": "Secure Checkout",
+    "embedded_checkout_loading": "Loading secure checkout...",
+    "embedded_checkout_finalizing": "Finalizing payment...",
+    "embedded_checkout_load_error": "Unable to load secure checkout. Please try again.",
+    "selected_plan_fallback": "this plan",
+    "choose_payment_method_description_image": "Use a secure payment provider to continue checkout for {plan} and unlock more AI image generation and image editing credits.",
+    "choose_payment_method_description_generic": "Use a secure payment provider to continue checkout for {plan}."
+  },
+  "locale_detector": {
+    "title": "We detected your browser language is {locale}. Switch to it?",
+    "switch_to": "Switch to {locale}",
+    "tip_label": "Language tip",
+    "dismiss_label": "Close",
+    "not_now": "Not now"
+  },
+  "empty_state": {
+    "sign_in_required": "Please sign in first",
+    "no_permission": "You do not have permission to view this page",
+    "invalid_subscription_no": "Invalid subscription number",
+    "subscription_not_found": "Subscription not found",
+    "subscription_missing_payment_user": "This subscription is missing a payment customer record",
+    "subscription_missing_payment_subscription": "This subscription is missing a payment subscription record",
+    "payment_provider_not_found": "Payment provider not found",
+    "billing_url_not_found": "Billing URL not found",
+    "billing_failed": "Failed to load the billing portal",
+    "invalid_order_no": "Invalid order number",
+    "order_not_found": "Order not found",
+    "order_missing_invoice": "This order does not have an invoice yet",
+    "invoice_url_not_found": "Invoice URL not found",
+    "invoice_failed": "Failed to load the invoice",
+    "api_key_not_found": "API key not found",
+    "user_not_found": "User not found",
+    "role_not_found": "Role not found",
+    "task_not_found": "Task not found",
+    "webhook_event_not_found": "Webhook event not found"
+  },
+  "feedback": {
+    "copied": "Copied",
+    "thinking": "Thinking...",
+    "thought_for_a_few_seconds": "Thought for a few seconds",
+    "thought_for_seconds": "Thought for {seconds} seconds",
+    "used_sources": "Used {count} sources"
+  },
+  "system_pages": {
+    "not_found": {
+      "title": "Page not found",
+      "back_home": "Back to Home"
+    },
+    "route_error": {
+      "title": "This page failed to load",
+      "description": "Try rendering this page again or go back home.",
+      "retry": "Retry",
+      "back_home": "Back Home",
+      "digest_label": "Digest"
+    },
+    "global_error": {
+      "title": "The app hit an unexpected error",
+      "description": "Try rendering this segment again.",
+      "retry": "Retry",
+      "digest_label": "Digest"
+    }
+  },
+  "a11y": {
+    "close": "Close",
+    "open_menu": "Open Menu",
+    "close_menu": "Close Menu",
+    "toggle_theme": "Toggle theme",
+    "change_language": "Change language",
+    "menu": "Menu",
+    "previous_slide": "Previous slide",
+    "next_slide": "Next slide",
+    "close_banner": "Close banner",
+    "pagination": "Pagination",
+    "breadcrumb": "Breadcrumb",
+    "go_to_previous_page": "Go to previous page",
+    "go_to_next_page": "Go to next page",
+    "more_pages": "More pages",
+    "more": "More",
+    "sidebar": "Sidebar",
+    "mobile_sidebar_description": "Displays the mobile sidebar.",
+    "toggle_sidebar": "Toggle sidebar"
+  },
+  "actions": {
+    "more": "More"
+  },
+  "upload": {
+    "limit_reached": "Maximum number of images reached",
+    "exceeds_limit": "{name} exceeds the {size} MB limit",
+    "reference_alt": "Reference",
+    "uploading": "Uploading...",
+    "failed": "Upload failed",
+    "upload": "Upload",
+    "max_size_mb": "Max {size} MB"
+  },
+  "subscribe": {
+    "failed": "Subscribe failed",
+    "email_placeholder": "Enter your email",
+    "submit": "Submit"
+  },
+  "support_email": {
+    "copied": "Copied {email}. If your mail app did not open, you can paste it manually.",
+    "unavailable": "Support email: {email}. If your mail app is unavailable, copy it manually."
+  },
+  "contact_support": {
+    "menu_title": "Contact Support",
+    "badge_eyebrow": "Enterprise",
+    "badge_title": "Get in Touch",
+    "title": "Contact Us",
+    "description": "Let's discuss your custom requirements",
+    "mailto_subject": "mogged support request",
+    "email_label": "Email Address",
+    "message_label": "Message",
+    "message_placeholder": "Tell us about your project...",
+    "message_help": "{count}/2000 characters",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "direct_label": "Or email directly",
+    "direct_title": "Email Us",
+    "success": "Message sent. We will reply by email.",
+    "validation_error": "Please enter at least 10 characters.",
+    "error": "Could not send your message. Email us directly.",
+    "trust_reply": "24h Reply",
+    "trust_dedicated": "Dedicated",
+    "trust_secure": "Secure"
+  },
+  "verification_code_email": {
+    "title": "Verification Code",
+    "message": "Your verification code is: {code}"
+  },
+  "daily_claim": {
+    "title": "Credits Details",
+    "description": "Claim your daily bonus and manage your credits",
+    "available_credits": "Available Credits",
+    "daily_bonus": {
+      "title": "Daily Bonus Available!",
+      "subtitle": "Claim +{credits} Credits",
+      "button_claim": "Claim +{credits} Credits",
+      "button_claimed": "Claimed Today",
+      "come_back": "Come back tomorrow for another bonus!"
+    },
+    "buttons": {
+      "buy_more": "Buy More Credits"
+    },
+    "messages": {
+      "success": "Claimed {credits} credits successfully!",
+      "already_claimed": "You have already claimed today",
+      "error": "Failed to claim credits"
+    }
+  },
+  "notifications": {
+    "bell": "Open notifications",
+    "bell_with_count": "Open notifications ({count} unread)"
+  }
+}

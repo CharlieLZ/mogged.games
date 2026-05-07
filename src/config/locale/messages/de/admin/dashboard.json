@@ -1,0 +1,23 @@
+{
+  "title": "Übersicht",
+  "description": "Kurzer Überblick über das jüngste Wachstum und den Umsatz mit 7-Tage- oder 30-Tage-Ansichten",
+  "crumbs": {
+    "admin": "Admin",
+    "dashboard": "Übersicht"
+  },
+  "cards": {
+    "users": "Neue Benutzer",
+    "payments": "Bezahlt (Alle)",
+    "subscriptions": "Bezahlt (Abonnements)",
+    "credits": "Credits verbraucht",
+    "guest_credits": "Gastkosten",
+    "credits_granted": "Credits gewährt"
+  },
+  "unit": {
+    "money": "${value}",
+    "credits": "{value} Credits",
+    "users": "{value} Benutzer"
+  },
+  "more": "Mehr",
+  "refresh": "Aktualisieren"
+}

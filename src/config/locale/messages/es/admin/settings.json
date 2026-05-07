@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "Autenticación de correo electrónico",
+    "google_auth": "Autenticación de Google",
+    "github_auth": "Autenticación de Github",
+    "basic_payment": "Pago Básico",
+    "stripe": "raya",
+    "creem": "creeme",
+    "paypal": "PayPal",
+    "resend": "Reenviar",
+    "r2": "Nubeflare R2",
+    "s3": "AWS S3",
+    "openrouter": "enrutador abierto",
+    "replicate": "replicar",
+    "fal": "FALAPI",
+    "google_analytics": "Google Analytics",
+    "clarity": "claridad",
+    "plausible": "plausible",
+    "openpanel": "Panel abierto",
+    "vercel_analytics": "Análisis de Vercel",
+    "adsense": "Adsense",
+    "affonso": "Alfonso",
+    "promotekit": "PromocionarKit",
+    "tawk": "Tawk",
+    "crisp": "Crujiente",
+    "credit": "Crédito",
+    "seedance": "Seedance Runtime",
+    "kie": "KIE"
+  },
+  "edit": {
+    "title": "Configuración",
+    "crumbs": {
+      "admin": "administrador",
+      "settings": "Configuración"
+    },
+    "tabs": {
+      "general": "generales",
+      "auth": "autenticación",
+      "payment": "Pago",
+      "credit": "Crédito",
+      "email": "Correo electrónico",
+      "storage": "Almacenamiento",
+      "ai": "IA",
+      "analytics": "Analítica",
+      "ads": "Anuncios",
+      "affiliate": "afiliado",
+      "customer_service": "Servicio al cliente"
+    },
+    "buttons": {
+      "submit": "Guardar"
+    }
+  }
+}

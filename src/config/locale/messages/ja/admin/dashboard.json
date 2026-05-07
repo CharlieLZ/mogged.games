@@ -1,0 +1,23 @@
+{
+  "title": "概要",
+  "description": "7 日間と 30 日間のビューによる最近の成長と収益のクイック スナップショット",
+  "crumbs": {
+    "admin": "管理者",
+    "dashboard": "概要"
+  },
+  "cards": {
+    "users": "新規ユーザー",
+    "payments": "有料(全て)",
+    "subscriptions": "有料（サブスクリプション）",
+    "credits": "消費されたクレジット",
+    "guest_credits": "ゲストコスト",
+    "credits_granted": "付与されるクレジット"
+  },
+  "unit": {
+    "money": "${value}",
+    "credits": "{value} クレジット",
+    "users": "{value} ユーザー"
+  },
+  "more": "もっと見る",
+  "refresh": "リフレッシュ"
+}

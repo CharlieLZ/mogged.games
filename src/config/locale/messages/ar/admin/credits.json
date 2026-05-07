@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "transaction_no": "رقم المعاملة",
+    "user": "المستخدم",
+    "amount": "المبلغ",
+    "remaining": "المتبقي",
+    "type": "اكتب",
+    "scene": "المشهد",
+    "description": "الوصف",
+    "created_at": "تم الإنشاء في",
+    "expires_at": "تنتهي في",
+    "metadata": "البيانات الوصفية",
+    "action": "العمل"
+  },
+  "list": {
+    "title": "الاعتمادات",
+    "crumbs": {
+      "admin": "المشرف",
+      "credits": "الاعتمادات"
+    },
+    "tabs": {
+      "all": "الكل",
+      "grant": "جرانت",
+      "consume": "تستهلك",
+      "paid": "مدفوعة"
+    },
+    "search": {
+      "email": {
+        "title": "البريد الإلكتروني للمستخدم",
+        "placeholder": "البحث عن طريق البريد الإلكتروني"
+      }
+    }
+  }
+}

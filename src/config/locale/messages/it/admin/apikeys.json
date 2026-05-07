@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "title": "Titolo",
+    "key": "Chiave",
+    "user": "Utente",
+    "status": "Stato",
+    "created_at": "Creato a",
+    "action": "Azione"
+  },
+  "list": {
+    "title": "API Tasti",
+    "crumbs": {
+      "admin": "Ammin",
+      "apikeys": "API Tasti"
+    }
+  }
+}

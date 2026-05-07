@@ -1,0 +1,53 @@
+{
+  "title": "Configuración",
+  "support_text": "¿Necesita ayuda con la facturación, los reembolsos o el acceso? Correo electrónico:",
+  "support_email": "{{support_email}}",
+  "nav": {
+    "items": [
+      {
+        "title": "Perfil",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "Seguridad",
+        "url": "/settings/security",
+        "icon": "Shield"
+      },
+      {
+        "title": "Facturación",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Certificado comercial",
+        "url": "/certificate",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Pagos",
+        "url": "/settings/payments",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "Créditos",
+        "url": "/settings/credits",
+        "icon": "Coins"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Actividad",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Configuración",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

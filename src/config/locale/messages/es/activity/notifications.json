@@ -1,0 +1,46 @@
+{
+  "title": "Notificaciones",
+  "description": "Sigue las tareas de IA completadas y fallidas en un solo lugar.",
+  "empty": "Todavía no hay notificaciones.",
+  "open_task": "Abrir tarea",
+  "prompt_empty": "No se proporcionó prompt",
+  "scene_unknown": "Flujo no disponible",
+  "counts": {
+    "total": "{count} en total"
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "badges": {
+    "unread": "Sin leer",
+    "read": "Leído",
+    "completed": "Completado",
+    "failed": "Fallido",
+    "canceled": "Cancelado",
+    "info": "Info"
+  },
+  "scenes": {
+    "text_to_video": "Texto a video",
+    "image_to_video": "Imagen a video",
+    "reference_to_video": "Referencia a video"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "Tarea de IA completada",
+      "description": "{scene} está lista. Prompt: {prompt}"
+    },
+    "ai_task_failed": {
+      "title": "La tarea de IA falló",
+      "description": "{scene} falló. Prompt: {prompt}",
+      "description_with_error": "{scene} falló. Prompt: {prompt}. Error: {error}"
+    },
+    "ai_task_canceled": {
+      "title": "Tarea de IA cancelada"
+    },
+    "fallback": {
+      "title": "Notificación",
+      "description": "Abre este elemento para ver más detalles."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "通知",
+  "description": "AI タスクの完了と失敗を一か所で確認できます。",
+  "empty": "通知はまだありません。",
+  "open_task": "タスクを開く",
+  "prompt_empty": "プロンプトがありません",
+  "scene_unknown": "ワークフロー不明",
+  "counts": {
+    "total": "合計 {count} 件"
+  },
+  "pagination": {
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "badges": {
+    "unread": "未読",
+    "read": "既読",
+    "completed": "完了",
+    "failed": "失敗",
+    "canceled": "キャンセル済み",
+    "info": "情報"
+  },
+  "scenes": {
+    "text_to_video": "テキストから動画",
+    "image_to_video": "画像から動画",
+    "reference_to_video": "参照から動画"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "AI タスクが完了しました",
+      "description": "{scene} の結果が準備できました。プロンプト: {prompt}"
+    },
+    "ai_task_failed": {
+      "title": "AI タスクが失敗しました",
+      "description": "{scene} が失敗しました。プロンプト: {prompt}",
+      "description_with_error": "{scene} が失敗しました。プロンプト: {prompt}。エラー: {error}"
+    },
+    "ai_task_canceled": {
+      "title": "AI タスクがキャンセルされました"
+    },
+    "fallback": {
+      "title": "通知",
+      "description": "詳細を見るにはこの項目を開いてください。"
+    }
+  }
+}

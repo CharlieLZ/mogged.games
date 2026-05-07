@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "task_id": "任务ID",
+    "media_type": "类型",
+    "provider": "提供商",
+    "model": "模型",
+    "trace": "回退链路",
+    "prompt": "提示词",
+    "options": "选项",
+    "user": "用户",
+    "status": "状态",
+    "cost_credits": "消耗积分",
+    "result": "结果",
+    "created_at": "创建时间",
+    "preview": "预览",
+    "scene": "场景"
+  },
+  "list": {
+    "title": "AI任务",
+    "crumbs": {
+      "admin": "管理后台",
+      "ai-tasks": "AI任务"
+    },
+    "tabs": {
+      "all": "全部",
+      "image": "图片",
+      "video": "视频",
+      "audio": "音频",
+      "text": "文本"
+    },
+    "search": {
+      "email": {
+        "title": "按邮箱搜索",
+        "placeholder": "输入用户邮箱搜索..."
+      }
+    },
+    "error_nsfw": "被安全过滤器拦截（NSFW或敏感内容）",
+    "error_image_url_access": "图片链接加载失败，请确认是公开可访问链接（网盘/社交链接需开放权限）。"
+  },
+  "refresh": {
+    "pending_tasks": "发现 {count} 个任务还在处理中，已开启自动刷新（每 {interval} 秒）",
+    "completed_count": "已完成 {count} 个",
+    "all_completed": "所有任务已完成",
+    "last_check": "，上次检查：{time}",
+    "refresh_now": "立即刷新",
+    "refreshing": "刷新中..."
+  },
+  "trace": {
+    "title": "提供商回退链路",
+    "description": "查看这条任务的主路由、回退尝试链，以及当前实际生效的模型。",
+    "view": "查看链路",
+    "summary": "共尝试 {attempts} 次，发生 {fallbacks} 次回退",
+    "requested": "请求入口",
+    "active": "当前生效",
+    "scene": "场景",
+    "updated_at": "最近更新时间",
+    "attempt_chain": "尝试链路",
+    "attempt_index": "第 {index} 次尝试",
+    "provider": "提供商",
+    "model": "模型",
+    "label": "标签",
+    "error": "错误信息",
+    "status": {
+      "success": "成功",
+      "failed": "失败",
+      "skipped": "跳过"
+    }
+  }
+}

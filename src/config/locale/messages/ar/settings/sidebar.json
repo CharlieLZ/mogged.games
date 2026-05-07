@@ -1,0 +1,53 @@
+{
+  "title": "الإعدادات",
+  "support_text": "هل تحتاج إلى مساعدة بشأن الفواتير أو المبالغ المستردة أو الوصول؟ البريد الإلكتروني:",
+  "support_email": "{{support_email}}",
+  "nav": {
+    "items": [
+      {
+        "title": "الملف الشخصي",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "الأمان",
+        "url": "/settings/security",
+        "icon": "Shield"
+      },
+      {
+        "title": "الفواتير",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "شهادة الأعمال",
+        "url": "/certificate",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "المدفوعات",
+        "url": "/settings/payments",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "الاعتمادات",
+        "url": "/settings/credits",
+        "icon": "Coins"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "النشاط",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "الإعدادات",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

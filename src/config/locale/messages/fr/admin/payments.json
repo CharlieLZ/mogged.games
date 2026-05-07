@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "order_no": "Numéro de commande",
+    "user": "Utilisateur",
+    "amount": "Montant",
+    "product": "Produit",
+    "description": "Descriptif",
+    "type": "Tapez",
+    "provider": "Fournisseur",
+    "created_at": "Créé à",
+    "status": "Statut",
+    "action": "Action"
+  },
+  "list": {
+    "title": "Paiements",
+    "crumbs": {
+      "admin": "Administrateur",
+      "payments": "Paiements"
+    },
+    "tabs": {
+      "all": "Tout",
+      "subscription": "Abonnement",
+      "one-time": "Une fois"
+    },
+    "filters": {
+      "status": {
+        "title": "Statut",
+        "options": {
+          "all": "Tout",
+          "paid": "Payé",
+          "created": "Créé",
+          "failed": "Échec"
+        }
+      },
+      "provider": {
+        "title": "Fournisseur",
+        "options": {
+          "all": "Tout",
+          "stripe": "Rayure",
+          "creem": "Crème",
+          "paypal": "Paypal"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "Numéro de commande",
+        "placeholder": "Numéro de commande"
+      },
+      "email": {
+        "title": "Courriel",
+        "placeholder": "Rechercher par email"
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "月次統計",
+  "description": "ユーザー、クレジット、注文に関する毎月のビジネス データの変更を表示する",
+  "refresh": "リフレッシュ",
+  "crumbs": {
+    "admin": "管理者",
+    "monthly": "月次統計"
+  },
+  "table": {
+    "month": "月",
+    "users": "新規ユーザー",
+    "orders": "注文",
+    "payments": "支払い",
+    "subscriptions": "定期購入",
+    "credits_consumed": "使用したクレジット",
+    "credits_granted": "付与されるクレジット",
+    "total": "合計（12か月）",
+    "guest_credits_consumed": "ゲストコスト"
+  },
+  "funnel": {
+    "title": "Monthly Signup Cohort Funnel",
+    "description": "Each row tracks users who signed up in that month and how far they later progressed from first successful generation to checkout and paid.",
+    "table": {
+      "date": "Signup Date",
+      "month": "Signup Month",
+      "signups": "Signups",
+      "first_successful_generations": "First Successes",
+      "checkout_starts": "Checkout Starts",
+      "paid_users": "Paid Users",
+      "signup_to_first_success": "Signup -> First Success",
+      "first_success_to_checkout": "First Success -> Checkout",
+      "checkout_to_paid": "Checkout -> Paid",
+      "signup_to_paid": "Signup -> Paid",
+      "total": "Total Cohort"
+    }
+  },
+  "acquisition": {
+    "title": "Acquisition Breakdown",
+    "description": "Group signup cohorts by campaign, ad group, workflow, and match type so you can see which acquisition slices actually move users toward paid.",
+    "cards": {
+      "campaign": "Campaign Breakdown",
+      "adgroup": "Ad Group Breakdown",
+      "workflow": "Workflow Breakdown",
+      "match": "Match Type Breakdown"
+    },
+    "value_labels": {
+      "campaign": "Campaign",
+      "adgroup": "Ad Group",
+      "workflow": "Workflow",
+      "match": "Match Type"
+    },
+    "table": {
+      "signup_to_paid": "Signup -> Paid"
+    },
+    "empty": "No attributed signups in this period yet.",
+    "unattributed": "Unattributed"
+  },
+  "tuning": {
+    "title": "Cold Start Tuning",
+    "description": "Compare signup cohorts by country, language, and device so you can decide which slices to lean into, cap, or pause during account cold start.",
+    "cards": {
+      "country": "Country Breakdown",
+      "language": "Language Breakdown",
+      "device": "Device Breakdown"
+    },
+    "value_labels": {
+      "country": "Country",
+      "language": "Language",
+      "device": "Device"
+    },
+    "table": {
+      "signup_to_paid": "Signup -> Paid"
+    },
+    "empty": "No signup data for this tuning view yet.",
+    "unknown": "Unknown"
+  }
+}

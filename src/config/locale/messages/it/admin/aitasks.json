@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "task_id": "ID attività",
+    "user": "Utente",
+    "status": "Stato",
+    "cost_credits": "Crediti di costo",
+    "media_type": "Tipo di supporto",
+    "scene": "Scena",
+    "provider": "Fornitore",
+    "model": "Modello",
+    "trace": "Traccia di fallback",
+    "prompt": "Richiedi",
+    "options": "Opzioni",
+    "result": "Risultato",
+    "created_at": "Creato a",
+    "preview": "Anteprima"
+  },
+  "list": {
+    "title": "Compiti dell'intelligenza artificiale",
+    "crumbs": {
+      "admin": "Ammin",
+      "ai-tasks": "Compiti dell'intelligenza artificiale"
+    },
+    "tabs": {
+      "all": "Tutto",
+      "image": "Immagine",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Testo"
+    },
+    "search": {
+      "email": {
+        "title": "Cerca per e-mail",
+        "placeholder": "Inserisci l'e-mail dell'utente per cercare..."
+      }
+    },
+    "error_nsfw": "Bloccato da filtri di sicurezza (NSFW o contenuti sensibili)",
+    "error_image_url_access": "Caricamento dell'immagine non riuscito. Assicurati che l'URL sia accessibile pubblicamente (le unità cloud/i collegamenti social necessitano di autorizzazioni di condivisione)."
+  },
+  "refresh": {
+    "pending_tasks": "{count} attività ancora in elaborazione, aggiornamento automatico ogni {interval}s",
+    "completed_count": "{count} completato",
+    "all_completed": "Tutte le attività completate",
+    "last_check": ", ultimo controllo: {time}",
+    "refresh_now": "Aggiorna ora",
+    "refreshing": "Rinfrescante..."
+  },
+  "trace": {
+    "title": "Traccia di fallback del provider",
+    "description": "Esamina la catena di provider, i tentativi di fallback e l'ultimo modello attivo per questa attività.",
+    "view": "Visualizza traccia",
+    "summary": "{attempts} tentativi, {fallbacks} fallback(i)",
+    "requested": "Itinerario richiesto",
+    "active": "Percorso attivo",
+    "scene": "Scena",
+    "updated_at": "Ultimo aggiornamento",
+    "attempt_chain": "Tentativo a catena",
+    "attempt_index": "Tentativo n.{index}",
+    "provider": "Fornitore",
+    "model": "Modello",
+    "label": "Etichetta",
+    "error": "Errore",
+    "status": {
+      "success": "Successo",
+      "failed": "Fallito",
+      "skipped": "Saltato"
+    }
+  }
+}

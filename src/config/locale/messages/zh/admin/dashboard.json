@@ -1,0 +1,23 @@
+{
+  "title": "后台概览",
+  "description": "最近7天/30天的新增与消耗汇总，一眼看清趋势",
+  "crumbs": {
+    "admin": "管理后台",
+    "dashboard": "概览"
+  },
+  "cards": {
+    "users": "新增用户",
+    "payments": "支付金额（全部）",
+    "subscriptions": "支付金额（订阅）",
+    "credits": "积分消耗",
+    "guest_credits": "访客成本",
+    "credits_granted": "积分发放"
+  },
+  "unit": {
+    "money": "¥{value}",
+    "credits": "{value} 积分",
+    "users": "{value} 用户"
+  },
+  "more": "更多",
+  "refresh": "刷新"
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mogged-games",
+  "main": "./worker.ts",
+  "compatibility_date": "2026-05-03",
+  "compatibility_flags": ["nodejs_compat"],
+  "triggers": {
+    "crons": ["5 * * * *"]
+  },
+
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".open-next/assets"
+  },
+
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "ec1599a79c734920af80ac8a0594f70d",
+      // OpenNext reads Wrangler's local platform proxy before deploy.
+      // Keep this non-secret placeholder here; production uses the Hyperdrive id above.
+      "localConnectionString": "postgres://postgres:postgres@127.0.0.1:5432/postgres"
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  },
+
+  "keep_vars": true,
+
+  "vars": {
+    "NEXT_PUBLIC_APP_URL": "https://mogged.games",
+    "AUTH_URL": "https://mogged.games",
+    "NEXT_PUBLIC_APP_NAME": "mogged",
+    "NEXT_PUBLIC_THEME": "default",
+    "NEXT_PUBLIC_APPEARANCE": "system",
+    "DATABASE_PROVIDER": "postgresql",
+    "DB_SINGLETON_ENABLED": "true",
+    "DB_MAX_CONNECTIONS": "1",
+    "DEFAULT_PAYMENT_PROVIDER": "stripe",
+    "STRIPE_ENABLED": "true",
+    "STRIPE_PAYMENT_METHODS": "card,wechat_pay,alipay",
+    "STRIPE_ALLOW_PROMOTION_CODES": "false",
+    "SELECT_PAYMENT_ENABLED": "false",
+    "PAYPAL_ENABLED": "false",
+    "PAYPAL_ENVIRONMENT": "sandbox",
+    "CREEM_ENABLED": "false",
+    "CREEM_ENVIRONMENT": "sandbox",
+    "INITIAL_CREDITS_ENABLED": "true",
+    "INITIAL_CREDITS_AMOUNT": "15",
+    "INITIAL_CREDITS_VALID_DAYS": "14",
+    "DAILY_CLAIM_CREDITS_AMOUNT": "5",
+    "GOOGLE_ANALYTICS_ID": "G-D3SR4CETSK",
+    "PLAUSIBLE_DOMAIN": "mogged.games",
+    "PLAUSIBLE_SRC": "https://click.pageview.click/js/script.js",
+    "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "G-D3SR4CETSK",
+    "NEXT_PUBLIC_DOMAIN": "mogged.games",
+    "NEXT_PUBLIC_EMAIL": "support@mogged.games",
+    "NEXT_PUBLIC_DEFAULT_LOCALE": "en",
+    "NEXT_PUBLIC_PLAUSIBLE_URL": "https://click.pageview.click/js/script.js",
+    "NEXT_PUBLIC_PLAUSIBLE_DOMAIN": "mogged.games",
+    "NEXT_PUBLIC_PLAUSIBLE_SCRIPT": "https://click.pageview.click/js/script.js"
+  },
+
+  "routes": [
+    {
+      "pattern": "mogged.games",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.mogged.games",
+      "custom_domain": true
+    }
+  ]
+}

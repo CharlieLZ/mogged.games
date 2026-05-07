@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "제목",
+    "media_type": "미디어 유형",
+    "provider": "공급자",
+    "model": "모델",
+    "prompt": "프롬프트",
+    "options": "옵션",
+    "status": "상태",
+    "result": "결과",
+    "cost_credits": "비용 크레딧",
+    "created_at": "생성 날짜",
+    "action": "액션",
+    "preview": "미리보기"
+  },
+  "list": {
+    "title": "AI 작업",
+    "tabs": {
+      "all": "모두",
+      "image": "이미지",
+      "video": "비디오",
+      "audio": "오디오",
+      "text": "텍스트"
+    },
+    "buttons": {
+      "view": "작업 보기",
+      "refresh": "작업 새로 고침",
+      "preview": "미리보기",
+      "download": "다운로드"
+    },
+    "download": {
+      "image": "이미지 다운로드 {index}",
+      "audio": "오디오 다운로드 {index}",
+      "video": "동영상 다운로드 {index}",
+      "file": "파일 다운로드 {index}"
+    },
+    "processing": "처리 중... (상태: {status})",
+    "failed_with_reason": "실패: {reason}",
+    "failed_nsfw": "안전 필터에 의해 차단되었습니다(NSFW 또는 민감한 콘텐츠일 수 있음). 좀 더 안전한 메시지를 시도해 보세요.",
+    "failed_image_url_access": "이미지 링크가 비공개이거나 차단되었습니다. 클라우드 드라이브/소셜 링크에는 공유 권한이 필요합니다. 공개 다이렉트 이미지 URL을 사용하거나 이미지를 업로드하세요.",
+    "failed": "실패",
+    "canceled": "취소됨",
+    "no_result": "아직 다운로드 가능한 파일이 없습니다.",
+    "result_ready": "{count} 파일이 준비되었습니다.",
+    "parse_error": "결과 데이터를 사용할 수 없습니다.",
+    "empty_message": "작업을 찾을 수 없습니다."
+  },
+  "detail": {
+    "title": "작업 상세",
+    "description": "결과를 열고, 출력물을 다운로드하거나, 전체 작업 기록으로 돌아갈 수 있습니다.",
+    "back": "작업 기록으로 돌아가기",
+    "open_activity": "작업 기록 열기",
+    "refresh": "지금 작업 새로고침",
+    "open_result": "결과 열기",
+    "empty_result": "이 작업에는 아직 다운로드 가능한 결과가 없습니다.",
+    "prompt_empty": "이 작업에는 저장된 프롬프트가 없습니다.",
+    "not_found": "작업을 찾을 수 없습니다"
+  }
+}

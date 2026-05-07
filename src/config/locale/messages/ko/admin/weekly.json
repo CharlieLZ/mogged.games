@@ -1,0 +1,21 @@
+{
+  "title": "주간통계",
+  "description": "사용자, 크레딧, 주문에 대한 주간 비즈니스 데이터 변경 사항을 봅니다.",
+  "refresh": "새로고침",
+  "crumbs": {
+    "admin": "관리자",
+    "weekly": "주간 통계"
+  },
+  "table": {
+    "week": "주",
+    "period": "기간",
+    "users": "신규 사용자",
+    "orders": "주문",
+    "payments": "결제",
+    "subscriptions": "구독",
+    "credits_consumed": "사용된 크레딧",
+    "credits_granted": "부여된 학점",
+    "total": "총계(12주)",
+    "guest_credits_consumed": "게스트 비용"
+  }
+}

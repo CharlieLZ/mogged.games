@@ -1,0 +1,53 @@
+{
+  "title": "Impostazioni",
+  "support_text": "Hai bisogno di aiuto con fatturazione, rimborsi o accesso? E-mail:",
+  "support_email": "{{support_email}}",
+  "nav": {
+    "items": [
+      {
+        "title": "Profilo",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "Sicurezza",
+        "url": "/settings/security",
+        "icon": "Shield"
+      },
+      {
+        "title": "Fatturazione",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Certificato aziendale",
+        "url": "/certificate",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Pagamenti",
+        "url": "/settings/payments",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "Crediti",
+        "url": "/settings/credits",
+        "icon": "Coins"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Attività",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Impostazioni",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

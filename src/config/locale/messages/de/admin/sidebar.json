@@ -1,0 +1,150 @@
+{
+  "header": {
+    "brand": {
+      "title": "{{app_name}} Admin",
+      "logo": {
+        "src": "{{brand_mark_src}}",
+        "alt": "{{app_name}} Admin"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "System",
+      "items": [
+        {
+          "title": "Benutzer und Berechtigungen",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Benutzer",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "Rollen",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "Berechtigungen",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "Zahlungen und Gutschriften",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Zahlungen",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "Abonnements",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "Credits",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Geschäft",
+      "items": [
+        {
+          "title": "Armaturenbrett",
+          "url": "/admin",
+          "icon": "LayoutDashboard"
+        },
+        {
+          "title": "Tägliche Statistiken",
+          "url": "/admin/daily",
+          "icon": "CalendarDays"
+        },
+        {
+          "title": "Wöchentliche Statistiken",
+          "url": "/admin/weekly",
+          "icon": "CalendarRange"
+        },
+        {
+          "title": "Monatliche Statistiken",
+          "url": "/admin/monthly",
+          "icon": "Calendar"
+        },
+        {
+          "title": "KI-Aufgaben",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Einstellungen",
+        "url": "/admin/settings",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Profil",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_leer"
+        },
+        {
+          "title": "Unternehmenszertifikat",
+          "url": "/certificate",
+          "icon": "ShieldCheck",
+          "target": "_leer"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Zuhause",
+          "url": "/",
+          "icon": "Home",
+          "target": "_leer"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/CharlieLZ/mogged.games",
+          "icon": "Github",
+          "target": "_leer"
+        },
+        {
+          "title": "E-Mail",
+          "url": "mailto:{{support_email}}",
+          "icon": "Mail",
+          "target": "_leer"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "Seitenleiste"
+}

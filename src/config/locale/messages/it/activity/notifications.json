@@ -1,0 +1,46 @@
+{
+  "title": "Notifiche",
+  "description": "Tieni traccia delle attività AI completate e non riuscite in un unico posto.",
+  "empty": "Nessuna notifica per ora.",
+  "open_task": "Apri task",
+  "prompt_empty": "Nessun prompt fornito",
+  "scene_unknown": "Flusso non disponibile",
+  "counts": {
+    "total": "{count} totali"
+  },
+  "pagination": {
+    "previous": "Precedente",
+    "next": "Successivo"
+  },
+  "badges": {
+    "unread": "Non letta",
+    "read": "Letta",
+    "completed": "Completato",
+    "failed": "Fallito",
+    "canceled": "Annullato",
+    "info": "Info"
+  },
+  "scenes": {
+    "text_to_video": "Testo in video",
+    "image_to_video": "Immagine in video",
+    "reference_to_video": "Riferimento in video"
+  },
+  "items": {
+    "ai_task_completed": {
+      "title": "Task AI completato",
+      "description": "{scene} è pronto. Prompt: {prompt}"
+    },
+    "ai_task_failed": {
+      "title": "Task AI non riuscito",
+      "description": "{scene} non è riuscito. Prompt: {prompt}",
+      "description_with_error": "{scene} non è riuscito. Prompt: {prompt}. Errore: {error}"
+    },
+    "ai_task_canceled": {
+      "title": "Task AI annullato"
+    },
+    "fallback": {
+      "title": "Notifica",
+      "description": "Apri questo elemento per vedere più dettagli."
+    }
+  }
+}

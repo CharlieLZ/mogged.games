@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "title": "mogged Preise | KI-Bild-Credits, Pläne, Abrechnung",
+    "description": "Vergleichen Sie mogged Preise, KI-Bild-Credits, Pläne und Abrechnung auf {{app_domain}} für Bildgenerierung, Bearbeitung und Team-Delivery.",
+    "keywords": "mogged Preise, KI-Bild-Credits, KI-Bildeditor Pläne, Bildgenerierung Preise, {{app_domain}}"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "{{app_name}} Preise",
+    "title": "Einfache, transparente Preise",
+    "description": "Starte kostenlos mit {{initial_credits_amount}} Credits. Günstige Pläne für Bildgenerierung, Bearbeitung und Team-Kapazität. Rückerstattungen folgen der veröffentlichten Rückerstattungsrichtlinie.",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "Einmalig"
+      },
+      {
+        "name": "yearly",
+        "title": "Jährlich",
+        "is_featured": true,
+        "label": "Sparen Sie bis zu 41%"
+      },
+      {
+        "name": "monthly",
+        "title": "Monatlich"
+      }
+    ],
+    "items": [
+      {
+        "title": "Try",
+        "label": "Klein anfangen",
+        "description": "Einmal zahlen.",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Standard Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Kundensupport"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-onetime",
+        "product_name": "Try",
+        "group": "one-time"
+      },
+      {
+        "title": "Max",
+        "label": "Bestes Angebot",
+        "description": "Einmal zahlen.",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Schnellste Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Support durch das Expertenteam"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-onetime",
+        "product_name": "Max",
+        "group": "one-time"
+      },
+      {
+        "title": "Pro",
+        "label": "Für regelmäßige Nutzung",
+        "description": "Einmal zahlen.",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Priorisierte Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Priorisierter Kundensupport"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-onetime",
+        "product_name": "Pro",
+        "group": "one-time"
+      },
+      {
+        "title": "Try",
+        "label": "Klein anfangen",
+        "description": "Monatlich, jederzeit kündbar",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Standard Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Kundensupport"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-monthly",
+        "product_name": "Try Monthly",
+        "group": "monthly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "Max",
+        "label": "Bestes Angebot",
+        "description": "Monatlich, jederzeit kündbar",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Schnellste Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Support durch das Expertenteam"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-monthly",
+        "product_name": "Max Monthly",
+        "group": "monthly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "Für regelmäßige Nutzung",
+        "description": "Monatlich, jederzeit kündbar",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Priorisierte Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Priorisierter Kundensupport"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "Pro Monthly",
+        "group": "monthly",
+        "plan_name": "Pro"
+      },
+      {
+        "title": "Try",
+        "label": "Klein anfangen",
+        "description": "Jährlich abgerechnet: {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Standard Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Kommerzielle Nutzungslizenz + Business Certificate",
+          "Kundensupport"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "try-yearly",
+        "product_name": "Try Annually",
+        "group": "yearly",
+        "plan_name": "Try"
+      },
+      {
+        "title": "Max",
+        "label": "Bestes Angebot",
+        "description": "Jährlich abgerechnet: {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Schnellste Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Kommerzielle Nutzungslizenz + Business Certificate",
+          "Support durch das Expertenteam"
+        ],
+        "is_featured": true,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "max-yearly",
+        "product_name": "Max Annually",
+        "group": "yearly",
+        "plan_name": "Max"
+      },
+      {
+        "title": "Pro",
+        "label": "Für regelmäßige Nutzung",
+        "description": "Jährlich abgerechnet: {{billing_total_price}}",
+        "features_title": "",
+        "features": [
+          "Text-zu-Bild- und Bild-zu-Bild-Workflows",
+          "Prompt-gesteuerte Generierung und Bearbeitung mit Ausgangsbild",
+          "Überspringe die kostenlose Warteschlange für gehostete Bildjobs",
+          "Priorisierte Generierungsgeschwindigkeit",
+          "Hochauflösende Bildexporte",
+          "Kein Wasserzeichen",
+          "Kommerzielle Nutzungslizenz + Business Certificate",
+          "Priorisierter Kundensupport"
+        ],
+        "is_featured": false,
+        "tip": "{{credits_tip}}",
+        "button": {
+          "title": "Jetzt starten",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "Pro Annually",
+        "group": "yearly",
+        "plan_name": "Pro"
+      }
+    ]
+  },
+  "page": {
+    "currency_selector": "Währung",
+    "current_plan": "Aktueller Plan",
+    "processing": "In Bearbeitung",
+    "limited_time_badge": "Jahrespreise",
+    "limited_time_bonus": "Jahresplane sparen bis zu 41%",
+    "limited_time_ends_in": "Planstatus",
+    "metric_cost_per_100_credits": "Kosten pro 100 Credits",
+    "snapshot_title": "Planübersicht",
+    "snapshot_credits": "Credits",
+    "snapshot_credits_total_suffix": "insgesamt",
+    "snapshot_credits_monthly_suffix": "/ Monat",
+    "snapshot_generation_speed": "Generierungsgeschwindigkeit",
+    "snapshot_credit_cost": "{credits} Credits",
+    "speed_standard": "Standard",
+    "speed_priority": "Priorität",
+    "speed_fastest": "Schnellste",
+    "snapshot_text_to_image": "1K Bildgenerierung",
+    "snapshot_image_edit": "2K Bildbearbeitung"
+  },
+  "faq": {
+    "title": "Preis-FAQ",
+    "description": "Direkte Antworten zu Plänen, Credits, Verlängerungen und dazu, wofür Sie auf {{app_domain}} tatsächlich bezahlen.",
+    "tip": "Brauchen Sie Hilfe bei der Tarifwahl? Schreiben Sie an <a href='mailto:{{support_email}}' class='text-primary font-medium hover:underline'>{{support_email}}</a>.",
+    "categories": [
+      {
+        "title": "Pläne und Zugang",
+        "items": [
+          {
+            "question": "Wofür bezahle ich auf {{app_domain}}?",
+            "answer": "Sie bezahlen für den gehosteten KI-Workspace dieser Website: Konten, Credits, gespeicherten Aufgabenverlauf, Abrechnung und Support. Die Browser-Tools bleiben davon getrennt und kostenlos im Browser."
+          },
+          {
+            "question": "Brauche ich einen kostenpflichtigen Plan, um mogged zu nutzen?",
+            "answer": "Nein. Sie können die öffentliche Website ansehen und die Browser-Tools ohne kostenpflichtigen Plan verwenden. Ein bezahlter Plan ist relevant, wenn Sie laufende Credits, gespeicherte Workflows oder höhere Volumen benötigen."
+          },
+          {
+            "question": "Mit welchem Plan sollte ich anfangen?",
+            "answer": "Starten Sie mit dem kleinsten Plan, während Sie Prompts, Quelldateien und Workflow-Fit validieren. Upgraden Sie erst, wenn Ihre echte monatliche Nutzung klar ist."
+          }
+        ]
+      },
+      {
+        "title": "Credits und Kosten",
+        "items": [
+          {
+            "question": "Verbrauchen kostenlose Browser-Tools Credits?",
+            "answer": "Nein. Die Browser-Tools laufen separat und verbrauchen keine gehosteten Generierungs-Credits."
+          },
+          {
+            "question": "Funktionieren dieselben Credits für text-to-image und image-to-image?",
+            "answer": "Ja. Dasselbe Guthaben kann für text-to-image und image-to-image genutzt werden. Der genaue Verbrauch hängt von Modell, Auflösung, Bearbeitungsmodus und Einstellungen ab."
+          },
+          {
+            "question": "Wann verfallen Credits, und was passiert, wenn eine fehlgeschlagene Aufgabe erst nach diesem Zeitraum erstattet wird?",
+            "answer": "Der Ablauf hängt von der Quelle ab: Credits aus bezahlten Plänen folgen der beim Plan angegebenen Gültigkeit, während kostenlose Startguthaben oder tägliche Bonus-Credits kürzere Aktionsfenster haben können. Wenn eine Aufgabe fehlschlägt, stellen wir nutzbare Credits wieder her; hatten die ursprünglichen Credits ein Ablaufdatum, behält die Erstattung genau die Restgültigkeit, die zum Zeitpunkt des Verbrauchs noch übrig war."
+          },
+          {
+            "question": "Wodurch ändern sich die Creditkosten für Bilder?",
+            "answer": "Die Aufgabenkosten werden vor der Generierung angezeigt. Sie ändern sich mit dem gewählten Modell und bei einigen Routen auch mit Auflösung oder Bearbeitungseinstellungen."
+          },
+          {
+            "question": "Verbrauchen Prompt-Übersetzung und Auto-Optimierung Credits?",
+            "answer": "Ja. Translate to English kostet 1 Credit pro erfolgreicher Anfrage, und Auto-Optimierung kostet 2 Credits pro erfolgreicher Anfrage. Wenn kein nutzbares Ergebnis zurückkommt, ziehen wir für diesen Versuch keine Credits ab."
+          }
+        ]
+      },
+      {
+        "title": "Abo und Support",
+        "items": [
+          {
+            "question": "Kann ich ein Abonnement jederzeit kündigen?",
+            "answer": "Ja. Die Kündigung stoppt zukünftige Verlängerungen, und der Zugriff läuft bis zum Ende des aktuellen bezahlten Zeitraums weiter, sofern keine separate Rückerstattung nach Richtlinie oder Gesetz greift."
+          },
+          {
+            "question": "Wie bekomme ich Hilfe bei Abrechnung oder Tarifwahl?",
+            "answer": "Schreiben Sie an {{support_email}}, wenn Sie Hilfe beim Tarifvergleich, bei Credits oder bei einem Abrechnungsproblem brauchen."
+          }
+        ]
+      }
+    ]
+  },
+  "seo_sections": {
+    "schema": {
+      "product_disclaimer": "Dieser Preis beschreibt einen von {{app_domain}} gehosteten Dienst, nicht die offizielle Abrechnung des ursprünglichen Anbieters.",
+      "product_keywords": [
+        "mogged Preise",
+        "mogged Bildpreise",
+        "mogged Credits",
+        "KI Bildeditor Tarife",
+        "{{app_domain}}"
+      ],
+      "webpage_name": "{{app_name}} Preise",
+      "webpage_description": "KI-Bildpreise, Credits, Pläne, Abos und Abrechnungsregeln für mogged auf {{app_domain}}."
+    }
+  }
+}

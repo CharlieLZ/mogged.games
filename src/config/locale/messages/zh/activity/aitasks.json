@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "标题",
+    "media_type": "类型",
+    "provider": "提供商",
+    "model": "模型",
+    "prompt": "提示词",
+    "options": "选项",
+    "status": "状态",
+    "result": "结果",
+    "cost_credits": "消耗积分",
+    "created_at": "创建时间",
+    "action": "操作",
+    "preview": "预览"
+  },
+  "list": {
+    "title": "AI 任务",
+    "tabs": {
+      "all": "全部",
+      "image": "图片",
+      "video": "视频",
+      "audio": "音频",
+      "text": "文本"
+    },
+    "buttons": {
+      "view": "查看任务",
+      "refresh": "刷新任务",
+      "preview": "预览",
+      "download": "下载"
+    },
+    "download": {
+      "image": "下载图片{index}",
+      "audio": "下载音频{index}",
+      "video": "下载视频{index}",
+      "file": "下载文件{index}"
+    },
+    "processing": "生成中...（状态：{status}）",
+    "failed_with_reason": "失败：{reason}",
+    "failed_nsfw": "因安全检查被阻止（可能包含不适当或敏感内容）。请尝试更安全的提示词。",
+    "failed_image_url_access": "图片链接访问失败（网盘/社交链接需开放权限或防盗链限制）。请换成公开直链或上传后再试。",
+    "failed": "生成失败",
+    "canceled": "已取消",
+    "no_result": "暂无可下载文件",
+    "result_ready": "已生成 {count} 个文件",
+    "parse_error": "结果数据异常，无法展示",
+    "empty_message": "无任务"
+  },
+  "detail": {
+    "title": "任务详情",
+    "description": "在这里直接看结果、下载成品，或者回到完整任务记录继续查。",
+    "back": "返回任务记录",
+    "open_activity": "打开任务记录",
+    "refresh": "立即刷新任务",
+    "open_result": "打开结果",
+    "empty_result": "这条任务暂时还没有可下载结果。",
+    "prompt_empty": "这条任务没有保存提示词。",
+    "not_found": "任务不存在"
+  }
+}

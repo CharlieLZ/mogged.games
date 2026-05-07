@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "email_auth": "Aut. e-mail",
+    "google_auth": "Aut. Google",
+    "github_auth": "Aut. Github",
+    "basic_payment": "Pagamento di base",
+    "stripe": "Striscia",
+    "creem": "Crem",
+    "paypal": "PayPal",
+    "resend": "Invia nuovamente",
+    "r2": "Cloudflare R2",
+    "s3": "AWS S3",
+    "openrouter": "OpenRouter",
+    "replicate": "Replicare",
+    "fal": "FAL API",
+    "google_analytics": "Google Analytics",
+    "clarity": "Chiarezza",
+    "plausible": "Plausibile",
+    "openpanel": "OpenPanel",
+    "vercel_analytics": "Vercel Analytics",
+    "adsense": "Adsense",
+    "affonso": "Affonso",
+    "promotekit": "PromuoviKit",
+    "tawk": "Tack",
+    "crisp": "Croccante",
+    "credit": "Credito",
+    "seedance": "Seedance Runtime",
+    "kie": "KIE"
+  },
+  "edit": {
+    "title": "Impostazioni",
+    "crumbs": {
+      "admin": "Ammin",
+      "settings": "Impostazioni"
+    },
+    "tabs": {
+      "general": "Generale",
+      "auth": "Aut",
+      "payment": "Pagamento",
+      "credit": "Credito",
+      "email": "E-mail",
+      "storage": "Stoccaggio",
+      "ai": "AI",
+      "analytics": "Analitica",
+      "ads": "Annunci",
+      "affiliate": "Affiliato",
+      "customer_service": "Servizio clienti"
+    },
+    "buttons": {
+      "submit": "Salva"
+    }
+  }
+}

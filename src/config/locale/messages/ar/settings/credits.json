@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "رقم المعاملة",
+    "description": "الوصف",
+    "type": "اكتب",
+    "scene": "المشهد",
+    "credits": "الاعتمادات",
+    "expires_at": "تنتهي في",
+    "created_at": "تم الإنشاء في",
+    "action": "العمل"
+  },
+  "list": {
+    "title": "سجلات الاعتمادات",
+    "tabs": {
+      "all": "الكل",
+      "grant": "جرانت",
+      "consume": "تستهلك"
+    }
+  },
+  "view": {
+    "title": "رصيد الاعتمادات",
+    "buttons": {
+      "purchase": "شراء الاعتمادات"
+    }
+  }
+}

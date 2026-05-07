@@ -1,0 +1,77 @@
+{
+  "title": "每日统计",
+  "description": "查看用户、积分、订单的每日数据变化",
+  "refresh": "刷新",
+  "crumbs": {
+    "admin": "管理后台",
+    "daily": "每日统计"
+  },
+  "table": {
+    "date": "日期",
+    "users": "新增用户",
+    "orders": "订单数",
+    "payments": "一次性付款",
+    "subscriptions": "订阅付款",
+    "credits_consumed": "消耗积分",
+    "credits_granted": "发放积分",
+    "total": "合计 (30天)",
+    "guest_credits_consumed": "访客成本"
+  },
+  "funnel": {
+    "title": "注册 Cohort 漏斗",
+    "description": "每一行代表当天注册的一批用户，后面看这批人后来有多少做到首次成功生成、开始结账、最终付费。",
+    "table": {
+      "date": "注册日期",
+      "month": "注册月份",
+      "signups": "注册数",
+      "first_successful_generations": "首次成功生成",
+      "checkout_starts": "开始结账",
+      "paid_users": "付费用户",
+      "signup_to_first_success": "注册 -> 首次成功生成",
+      "first_success_to_checkout": "首次成功生成 -> 结账",
+      "checkout_to_paid": "结账 -> 付费",
+      "signup_to_paid": "注册 -> 付费",
+      "total": "Cohort 合计"
+    }
+  },
+  "acquisition": {
+    "title": "获客维度拆解",
+    "description": "把注册 cohort 按 campaign、ad group、workflow、match type 拆开看，直接判断哪一类流量更容易把用户推到付费。",
+    "cards": {
+      "campaign": "Campaign 拆解",
+      "adgroup": "Ad Group 拆解",
+      "workflow": "Workflow 拆解",
+      "match": "匹配类型拆解"
+    },
+    "value_labels": {
+      "campaign": "Campaign",
+      "adgroup": "Ad Group",
+      "workflow": "Workflow",
+      "match": "匹配类型"
+    },
+    "table": {
+      "signup_to_paid": "注册 -> 付费"
+    },
+    "empty": "这个周期里还没有可归因的注册数据。",
+    "unattributed": "未归因"
+  },
+  "tuning": {
+    "title": "Cold Start Tuning",
+    "description": "Compare signup cohorts by country, language, and device so you can decide which slices to lean into, cap, or pause during account cold start.",
+    "cards": {
+      "country": "Country Breakdown",
+      "language": "Language Breakdown",
+      "device": "Device Breakdown"
+    },
+    "value_labels": {
+      "country": "Country",
+      "language": "Language",
+      "device": "Device"
+    },
+    "table": {
+      "signup_to_paid": "Signup -> Paid"
+    },
+    "empty": "No signup data for this tuning view yet.",
+    "unknown": "Unknown"
+  }
+}

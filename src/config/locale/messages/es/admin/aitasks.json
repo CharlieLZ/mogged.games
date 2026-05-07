@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "task_id": "ID de tarea",
+    "user": "Usuario",
+    "status": "Estado",
+    "cost_credits": "Créditos de costos",
+    "media_type": "Tipo de medio",
+    "scene": "escena",
+    "provider": "Proveedor",
+    "model": "modelo",
+    "trace": "Seguimiento de reserva",
+    "prompt": "rápido",
+    "options": "Opciones",
+    "result": "Resultado",
+    "created_at": "Creado en",
+    "preview": "Vista previa"
+  },
+  "list": {
+    "title": "Tareas de IA",
+    "crumbs": {
+      "admin": "administrador",
+      "ai-tasks": "Tareas de IA"
+    },
+    "tabs": {
+      "all": "Todos",
+      "image": "Imagen",
+      "video": "Vídeo",
+      "audio": "Audio",
+      "text": "Texto"
+    },
+    "search": {
+      "email": {
+        "title": "Buscar por correo electrónico",
+        "placeholder": "Ingrese el correo electrónico del usuario para buscar..."
+      }
+    },
+    "error_nsfw": "Bloqueado por filtros de seguridad (NSFW o contenido sensible)",
+    "error_image_url_access": "Error al cargar la imagen. Asegúrese de que la URL sea de acceso público (las unidades en la nube o los enlaces sociales necesitan permisos para compartir)."
+  },
+  "refresh": {
+    "pending_tasks": "{count} tareas aún procesándose, actualización automática cada {interval}s",
+    "completed_count": "{count} completado",
+    "all_completed": "Todas las tareas completadas",
+    "last_check": ", última comprobación: {time}",
+    "refresh_now": "Actualizar ahora",
+    "refreshing": "Refrescante..."
+  },
+  "trace": {
+    "title": "Seguimiento de reserva del proveedor",
+    "description": "Revise la cadena de proveedores, los intentos de respaldo y el último modelo activo para esta tarea.",
+    "view": "Ver seguimiento",
+    "summary": "{attempts} intentos, {fallbacks} respaldo(s)",
+    "requested": "Ruta solicitada",
+    "active": "Ruta activa",
+    "scene": "escena",
+    "updated_at": "Última actualización",
+    "attempt_chain": "cadena de intento",
+    "attempt_index": "Intento #{index}",
+    "provider": "Proveedor",
+    "model": "modelo",
+    "label": "Etiqueta",
+    "error": "error",
+    "status": {
+      "success": "Éxito",
+      "failed": "Fallido",
+      "skipped": "Saltado"
+    }
+  }
+}

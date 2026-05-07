@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "Titel",
+    "media_type": "Medientyp",
+    "provider": "Anbieter",
+    "model": "Modell",
+    "prompt": "Prompt",
+    "options": "Optionen",
+    "status": "Status",
+    "result": "Ergebnis",
+    "cost_credits": "Kostengutschriften",
+    "created_at": "Erstellt am",
+    "action": "Aktion",
+    "preview": "Vorschau"
+  },
+  "list": {
+    "title": "KI-Aufgaben",
+    "tabs": {
+      "all": "Alle",
+      "image": "Bild",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Text"
+    },
+    "buttons": {
+      "view": "Aufgabe anzeigen",
+      "refresh": "Aufgabe aktualisieren",
+      "preview": "Vorschau",
+      "download": "Herunterladen"
+    },
+    "download": {
+      "image": "Bild herunterladen {index}",
+      "audio": "Audio herunterladen {index}",
+      "video": "Video herunterladen {index}",
+      "file": "Datei herunterladen {index}"
+    },
+    "processing": "Wird bearbeitet... (Status: {status})",
+    "failed_with_reason": "Fehlgeschlagen: {reason}",
+    "failed_nsfw": "Blockiert durch Sicherheitsfilter (möglicherweise NSFW oder sensible Inhalte). Bitte versuchen Sie es mit einer sichereren Eingabeaufforderung.",
+    "failed_image_url_access": "Der Bildlink ist privat oder blockiert. Für Cloud-Laufwerke/soziale Links sind Freigabeberechtigungen erforderlich. Verwenden Sie eine öffentliche direkte Bild-URL oder laden Sie das Bild hoch.",
+    "failed": "Fehlgeschlagen",
+    "canceled": "Abgesagt",
+    "no_result": "Noch keine herunterladbare Datei",
+    "result_ready": "{count} Datei(en) bereit",
+    "parse_error": "Ergebnisdaten nicht verfügbar",
+    "empty_message": "Keine Aufgaben gefunden"
+  },
+  "detail": {
+    "title": "Task-Detail",
+    "description": "Öffnen Sie das Ergebnis, laden Sie die Ausgabe herunter oder springen Sie zur kompletten Task-Historie zurück.",
+    "back": "Zurück zur Task-Historie",
+    "open_activity": "Task-Historie öffnen",
+    "refresh": "Task jetzt aktualisieren",
+    "open_result": "Ergebnis öffnen",
+    "empty_result": "Für diesen Task gibt es noch kein downloadbares Ergebnis.",
+    "prompt_empty": "Für diesen Task wurde kein Prompt gespeichert.",
+    "not_found": "Task nicht gefunden"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "order_no": "رقم الطلب",
+    "user": "المستخدم",
+    "amount": "المبلغ",
+    "product": "المنتج",
+    "description": "الوصف",
+    "type": "اكتب",
+    "provider": "مزود",
+    "created_at": "تم الإنشاء في",
+    "status": "الحالة",
+    "action": "العمل"
+  },
+  "list": {
+    "title": "المدفوعات",
+    "crumbs": {
+      "admin": "المشرف",
+      "payments": "المدفوعات"
+    },
+    "tabs": {
+      "all": "الكل",
+      "subscription": "الاشتراك",
+      "one-time": "لمرة واحدة"
+    },
+    "filters": {
+      "status": {
+        "title": "الحالة",
+        "options": {
+          "all": "الكل",
+          "paid": "مدفوعة",
+          "created": "تم إنشاؤها",
+          "failed": "فشل"
+        }
+      },
+      "provider": {
+        "title": "مزود",
+        "options": {
+          "all": "الكل",
+          "stripe": "شريط",
+          "creem": "كريم",
+          "paypal": "باي بال"
+        }
+      }
+    },
+    "search": {
+      "order_no": {
+        "title": "رقم الطلب",
+        "placeholder": "رقم الطلب"
+      },
+      "email": {
+        "title": "البريد الإلكتروني",
+        "placeholder": "البحث عن طريق البريد الإلكتروني"
+      }
+    }
+  }
+}

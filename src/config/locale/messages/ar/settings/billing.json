@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "رقم الاشتراك",
+    "interval": "الفاصل الزمني",
+    "provider": "مزود",
+    "current_period": "الفترة الحالية",
+    "plan": "خطة",
+    "status": "الحالة",
+    "amount": "المبلغ",
+    "created_at": "تم الإنشاء في",
+    "end_time": "وقت النهاية",
+    "action": "العمل"
+  },
+  "view": {
+    "title": "الخطة الحالية",
+    "tip": "سيتم تجديد اشتراكك تلقائيًا في {date}",
+    "end_tip": "سيتم إلغاء اشتراكك تلقائيًا في {date}",
+    "no_subscription": "لا توجد خطة",
+    "buttons": {
+      "adjust": "ضبط الخطة",
+      "subscribe": "اشترك",
+      "manage": "إدارة الاشتراك",
+      "cancel": "إلغاء الاشتراك"
+    }
+  },
+  "list": {
+    "title": "تاريخ الاشتراكات",
+    "tabs": {
+      "all": "الكل",
+      "active": "نشط",
+      "pending_cancel": "في انتظار الإلغاء",
+      "canceled": "تم الإلغاء",
+      "trialing": "محاكمة",
+      "paused": "متوقف مؤقتًا",
+      "expired": "انتهت صلاحيتها"
+    }
+  },
+  "cancel": {
+    "title": "إلغاء الاشتراك",
+    "description": "هل أنت متأكد أنك تريد إلغاء اشتراكك؟",
+    "fields": {
+      "subscription_no": "رقم الاشتراك",
+      "subscription_amount": "مبلغ الاشتراك",
+      "interval_cycle": "دورة الفاصل",
+      "subscription_created_at": "تم إنشاء الاشتراك في",
+      "current_period": "الفترة الحالية",
+      "start_at": "ابدأ عند",
+      "end_at": "نهاية عند"
+    },
+    "crumbs": {
+      "settings": "الإعدادات",
+      "billing": "الفواتير",
+      "cancel": "إلغاء الاشتراك"
+    },
+    "buttons": {
+      "confirm_cancel": "تأكيد الإلغاء"
+    }
+  }
+}

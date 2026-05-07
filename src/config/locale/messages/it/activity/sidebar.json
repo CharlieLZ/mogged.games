@@ -1,0 +1,31 @@
+{
+  "title": "Attività",
+  "nav": {
+    "items": [
+      {
+        "title": "Compiti dell'intelligenza artificiale",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "Notifiche",
+        "url": "/activity/notifications",
+        "icon": "Bell"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "Attività",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "Impostazioni",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

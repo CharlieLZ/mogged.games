@@ -1,0 +1,110 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+/test-results
+/playwright-report
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env
+.env.*
+.env-*
+env.txt
+.dev.vars
+.envrc
+.env.example
+.env-ref
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+data*
+*debug*
+
+*.db
+
+.open-next
+wrangler.toml
+.wrangler
+src/shared/types/cloudflare.d.ts
+
+.debug 
+.test
+
+*.sql
+!src/config/db/migrations/**/*.sql
+.source
+.bak
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.tmp
+*~
+*.swp
+*.swo
+*.zip
+*_archive/
+*副本/
+*.pyc
+__pycache__/
+backup/
+backups/
+
+.chats
+
+# exclude source template directory
+shipany-template-modified
+.env*.local
+
+# AI agent skills
+.claude/skills/
+.cursor/skills/
+.codex/skills/
+.agent/skills/
+
+# Large video files (use R2 instead)
+public/videos/
+.gstack/
+.worktrees/
+
+# Local docs, planning sheets, R2 manifests, and upload helpers stay off git.
+# Keep the reusable migration matrix and execution skills in version control.
+docs/*
+!docs/page-api-credit-cost-matrix.md
+!docs/矩阵/
+!docs/矩阵/**
+!docs/skills/
+!docs/skills/**

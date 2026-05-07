@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "title": "AI 图片生成器｜mogged 在线图片工作台",
+    "description": "在 {{app_domain}} 使用 mogged，把 AI 图片生成器和在线图片编辑器放进同一个托管工作台里完成文生图、图生图、AI 修图和图片细化。",
+    "keywords": "image, image editor, image editor ai, ai image generator, ai image editor, AI 图片编辑器, 在线图片编辑器, 文生图, 图生图, {{app_domain}}"
+  },
+  "page": {
+    "title": "免费在线 AI 图片生成器",
+    "description": "mogged 把在线 AI 图片生成器和图片编辑器放进同一个工作台里，覆盖文生图、图生图、AI 修图和快速图片导出。"
+  },
+  "generator": {
+    "title": "免费在线 AI 图片生成器",
+    "description": "在 mogged 在线图片编辑器工作台里完成文生图、图生图和基于源图的 AI 修图。",
+    "tabs": {
+      "text-to-image": "文生图",
+      "image-to-image": "图生图"
+    },
+    "tabs_short": {
+      "text-to-image": "文本",
+      "image-to-image": "图片"
+    },
+    "form": {
+      "panel_title": "AI 图片编辑器",
+      "prompt": "提示词",
+      "try_example": "试试示例",
+      "translate": "翻译",
+      "translating": "翻译中...",
+      "prompt_placeholder": "示例：一瓶高端护肤精华放在带水珠的黑色石面上，柔和轮廓光，反光克制，材质细节清晰，整体像高级商业主视觉。",
+      "prompt_too_long": "提示词太长了，请删除一部分内容",
+      "example_loaded": "已载入示例提示词。",
+      "translation_success": "提示词已翻译成英文。",
+      "translation_no_change": "提示词看起来已经适合直接用英文生成。",
+      "translation_stale": "你在翻译过程中修改了提示词，所以保留了你的最新内容。",
+      "translation_failed": "翻译失败，请重试。",
+      "copy_prompt": "复制提示词",
+      "copy_failed": "复制失败，请手动复制。",
+      "paste_prompt": "粘贴提示词",
+      "paste_failed": "当前无法访问剪贴板，请使用键盘快捷键粘贴。",
+      "clear_prompt": "清空提示词",
+      "expand_prompt": "展开提示词编辑器",
+      "collapse_prompt": "收起提示词编辑器",
+      "prompt_copied": "提示词已复制。",
+      "prompt_pasted": "已将剪贴板内容粘贴到提示词。",
+      "prompt_cleared": "提示词已清空。",
+      "advanced": "生成控制",
+      "advanced_count": "{count} 个选项",
+      "workflow_runtime_hint": "这些是两种图片工作流共用的控制项。",
+      "model": "模型",
+      "quick_select": "快速选择",
+      "generation_mode": "生成模式",
+      "single_edit": "Single Edit",
+      "multi_fusion": "Multi Fusion",
+      "multi_fusion_hint": "最多混合 10 张源图，适合参考融合、风格迁移和产品变体。",
+      "resolution": "分辨率",
+      "aspect_ratio": "画幅比例",
+      "output_format": "输出格式",
+      "web_search": "联网搜索",
+      "web_search_hint": "当上游支持时，允许模型调用联网搜索获取当前信息。",
+      "web_search_guest_hint": "登录后可使用账号积分开启联网搜索。",
+      "source_image": "源图片 URL",
+      "source_images": "源图片 URL",
+      "source_image_placeholder": "填写一个公开可访问的源图片 URL",
+      "source_images_placeholder": "最多 {count} 个公开图片 URL，每行一个",
+      "source_image_hint": "支持 JPEG、PNG 或 WEBP 格式，最大 10MB。",
+      "source_images_hint": "最多 {count} 张图片。支持 JPEG、PNG 或 WEBP 格式，每张最大 10MB。",
+      "source_image_required": "图生图必须先提供一张源图片。",
+      "upload_media": "上传",
+      "upload_media_with_limit": "上传（最多 {count} 张）",
+      "optional": "可选",
+      "media_upload_success": "素材上传成功，已自动填入链接",
+      "media_upload_failed": "上传失败，请重试",
+      "image_url_invalid": "图片 URL 无效，请使用直链 https:// 图片地址。",
+      "image_url_video": "这个链接不是可用的图片文件，请换成直链图片地址，不要用视频页或下载页。",
+      "image_url_cloud_drive": "这里不支持网盘和社交分享链接。请上传图片或改用公开图片直链。",
+      "image_url_private": "这个图片 URL 看起来是私有的或本地的，请换成公开图片直链。",
+      "image_url_too_many": "这里只允许填写一个源图片 URL。",
+      "image_url_too_many_single": "Single Edit 只接受 1 个源图片 URL。",
+      "image_url_too_many_multi": "Multi Fusion 最多接受 10 个源图片 URL。",
+      "notifications": "任务通知",
+      "notifications_hint": "当队列较长时很有用。当前任务的开关与未来默认值是分开的。",
+      "notify_on_completion": "任务完成后给我发邮件",
+      "notify_on_completion_hint": "图片生成完成后，我们会发送提示词、任务页面链接和直接下载入口。",
+      "notify_on_completion_by_default": "以后默认也这样",
+      "notify_on_completion_by_default_hint": "保存成你的默认设置，这样以后新任务会默认开启通知。"
+    },
+    "models": {
+      "badges": {
+        "new": "New",
+        "vip": "VIP",
+        "upgrade": "Upgrade"
+      },
+      "credits_fixed": "{credits} 积分",
+      "credits_by_resolution": "{credits} 积分",
+      "options": {
+        "nano_banana": {
+          "name": "Nano Banana",
+          "description": "Google Nano Banana 图片模型，适合快速文生图和单图编辑。",
+          "details": "1K 5 积分，2K 10 积分，4K 15 积分。"
+        },
+        "nano_banana_2": {
+          "name": "Nano Banana 2",
+          "description": "更新的 Nano Banana 路由，覆盖提示词生图和源图细修。",
+          "details": "1K 5 积分，2K 10 积分，4K 15 积分。"
+        },
+        "gpt_image_2": {
+          "name": "GPT Image 2",
+          "description": "OpenAI 图片模型路由，适合精确跟随提示词和干净编辑。",
+          "details": "1K、2K、4K 均为 8 积分。"
+        },
+        "nano_banana_pro": {
+          "name": "Nano Banana Pro",
+          "description": "VIP Nano Banana 路由，适合更高保真度的图生图生成。",
+          "details": "1K 10 积分，2K 18 积分，4K 30 积分。"
+        },
+        "seedream_4": {
+          "name": "SeeDream 4.0",
+          "description": "高性价比 SeeDream 路由，适合快速草图和简单编辑。",
+          "details": "1K、2K、4K 均为 3 积分。"
+        },
+        "seedream_45": {
+          "name": "SeeDream 4.5",
+          "description": "更新的 SeeDream 路由，在速度、成本和质量之间更均衡。",
+          "details": "1K、2K、4K 均为 4 积分。"
+        },
+        "seedream_5": {
+          "name": "SeeDream 5.0",
+          "description": "SeeDream 5.0 Lite 路由，适合托管生图和图片编辑。",
+          "details": "1K、2K、4K 均为 4 积分。"
+        },
+        "flux_2_pro": {
+          "name": "Flux 2 Pro",
+          "description": "旗舰级 Flux 2 Pro 路由，适合高保真度图片和文字渲染。",
+          "details": "1K、2K、4K 均为 12 积分。"
+        },
+        "flux_2_flex": {
+          "name": "Flux 2 Flex",
+          "description": "高性价比 Flux 2 路由，适合快速低成本的图片生成。",
+          "details": "1K、2K、4K 均为 6 积分。"
+        },
+        "grok_imagine": {
+          "name": "Grok Imagine",
+          "description": "Grok Imagine 创意图片生成路由。",
+          "details": "1K、2K、4K 均为 5 积分。"
+        },
+        "ideogram_v3": {
+          "name": "Ideogram V3",
+          "description": "Ideogram 路由，适合高质量图文排版和文字渲染。",
+          "details": "1K、2K、4K 均为 10 积分。"
+        },
+        "ideogram_character": {
+          "name": "Ideogram Character",
+          "description": "Ideogram 路由，适合一致性角色和肖像生成。",
+          "details": "1K、2K、4K 均为 8 积分。"
+        },
+        "qwen_image": {
+          "name": "Qwen Image",
+          "description": "Qwen 图片模型路由，适合多语言文生图和图片编辑。",
+          "details": "1K、2K、4K 均为 5 积分。"
+        },
+        "z_image": {
+          "name": "Z Image",
+          "description": "Z-Image 路由，适合快速低成本图片草稿和编辑。",
+          "details": "1K、2K、4K 均为 4 积分。"
+        }
+      }
+    },
+    "generate": "生成图片",
+    "checking_account": "正在检查账号...",
+    "loading": "加载中...",
+    "generating": "生成中...",
+    "sign_in_to_generate": "登录后生成",
+    "credits_cost": "消耗 {credits} 积分",
+    "credits_remaining": "剩余 {credits} 积分",
+    "free_generations_today": "今日免费生成：{remaining}/{limit}",
+    "guest_quota_used": "已用 {used}/{limit}",
+    "buy_credits": "购买积分",
+    "queue_notice_free": "免费图片任务会根据负载排队 {min}-{max} 分钟，付费用户可跳过这段免费排队。",
+    "queue_notice_paid": "付费图片任务会跳过免费排队，等上游容量就绪后立即开始。",
+    "progress": "进度",
+    "generated_results": "预览",
+    "sample_preview": "示例",
+    "sample_preview_title": "示例 mogged 静帧",
+    "sample_preview_description": "在你第一次真正生成之前，这里会显示一张示例图。",
+    "ready_to_generate": "可以开始生成",
+    "ready_for_generating": "已准备好生成",
+    "no_results": "暂时还没有生成结果",
+    "error_nsfw_blocked": "这个请求被安全过滤拦截了，请换一个更安全的提示词。",
+    "error_input_validation": "生成失败：上游拒绝了这次请求参数。请简化提示词或调整输入。",
+    "error_image_url_access": "源图片加载失败。请确认 URL 公开可访问、直链有效且没有过期。",
+    "error_generic": "生成失败：{reason}",
+    "error_unknown": "生成失败，可能是临时网络或服务波动，请稍后再试。",
+    "guest_generation_unavailable": "游客免费图片生成暂时不可用，请稍后再试，或登录后使用账号积分。",
+    "guest_web_search_unavailable": "联网搜索是登录账号专属功能。请登录后使用账号积分开启。",
+    "error_no_result": "上游没有返回结果，请换一个提示词再试一次。",
+    "task_submitted_eta": "任务已提交，预计耗时：{eta}。",
+    "task_submitted_detail": "结果就绪后会自动刷新。高分辨率图片任务可能排队更久。",
+    "task_completion_notification_scheduled": "结果就绪后，我们会把这次任务的提示词、任务页面链接和首个下载入口发到你的邮箱。",
+    "activity_link_hint": "你也可以随时去",
+    "activity_link_text": "任务记录页",
+    "status": {
+      "pending": "等待任务开始",
+      "processing": "正在生成你的图片...",
+      "success": "图片生成完成",
+      "failed": "生成失败",
+      "canceled": "任务已取消"
+    },
+    "task_still_processing": "服务端仍在处理中。我们会继续轮询，你可以先离开，稍后再回来查看。",
+    "task_completed": "任务已成功完成",
+    "image_generated": "图片生成成功",
+    "video_generated": "图片生成成功",
+    "create_task_failed": "创建图片任务失败",
+    "insufficient_credits": "积分不足，请先充值后再继续生成。",
+    "guest_quota_exhausted": "今天的免费访客积分已用完。",
+    "guest_quota_exhausted_hint": "登录后可继续使用账号积分生成。",
+    "prompt_required": "请先输入提示词再开始生成。",
+    "download_fetch_failed": "获取媒体文件失败",
+    "download_success": "图片已下载",
+    "download_failed": "图片下载失败",
+    "sample_preview_poster": "示例预览图封面",
+    "sample_preview_item": "显示第 {index} 个示例预览",
+    "sample_generated_image": "示例生成图片",
+    "generated_image": "生成图片",
+    "recent_tasks_title": "最近任务",
+    "recent_tasks_count": "（{shown}/{total}）",
+    "recent_tasks_empty": "你最近生成的图片会显示在这里。",
+    "recent_tasks_guest_empty": "这个浏览器里的匿名生成图片会显示在这里。",
+    "recent_tasks_loading": "正在加载最近任务...",
+    "recent_tasks_copy_prompt": "复制提示词",
+    "recent_tasks_copy_prompt_success": "提示词已复制。",
+    "recent_tasks_copy_prompt_failed": "复制提示词失败。",
+    "recent_tasks_download": "下载",
+    "recent_tasks_preview": "放大查看",
+    "recent_tasks_reprompt": "再次编辑",
+    "recent_tasks_regenerate": "重新生成",
+    "recent_tasks_upscale": "放大增强",
+    "recent_tasks_delete": "删除",
+    "recent_tasks_deleted": "任务已移除。",
+    "recent_tasks_delete_failed": "删除任务失败。",
+    "recent_tasks_delete_confirm": "确定删除这个任务吗？",
+    "recent_tasks_prompt_empty": "未命名提示词",
+    "guest_history_title": "匿名本地记录",
+    "guest_history_notice": "匿名生成结果只保存在当前浏览器。登录后不会自动同步到账号，清缓存或换设备可能丢失，重要图片请及时下载。",
+    "guest_history_empty": "这个浏览器里的匿名生成图片会显示在这里。",
+    "guest_history_clear": "清空匿名本地记录",
+    "guest_history_cleared": "匿名本地记录已清空",
+    "guest_history_download": "下载匿名本地图片",
+    "error_provider_unavailable": "当前生成器暂时不可用，请过几分钟再试。",
+    "error_invalid_request": "这次请求暂时无法提交，请检查提示词和输入内容后重试。",
+    "error_rate_limited": "短时间内尝试次数过多，请稍等片刻再试。",
+    "error_request_failed": "这次生成未能完成，请稍后再试。",
+    "error_request_processing": "相同请求正在处理中，请稍等后再试。",
+    "error_reference_unsupported": "当前工作流暂不支持这份源素材，请替换后重试。"
+  }
+}

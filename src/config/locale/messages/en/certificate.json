@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "title": "Business Certificate | {{app_name}}",
+    "description": "Download your business certificate for commercial-use access on {{app_domain}}.",
+    "keywords": "mogged business certificate, commercial license certificate, yearly plan, commercial use"
+  },
+  "page": {
+    "title": "Business Certificate",
+    "description": "Download your business certificate for mogged generated video copyright.",
+    "support_text": "Need help with your certificate or access? Email:",
+    "badges": {
+      "required": "Yearly Plan Required",
+      "active": "Certificate Ready",
+      "unavailable": "Verification Unavailable"
+    },
+    "states": {
+      "locked": "Business certificates are exclusively available for yearly subscription members.",
+      "eligible": "Your yearly subscription is active. Download the PDF certificate or open its public verification URL.",
+      "unavailable": "We could not build your certificate proof right now. Please try again shortly."
+    },
+    "overview": {
+      "title": "Commercial License Certificate",
+      "description": "Download a formal PDF certificate with a stable certificate ID, subscription window, and a public verification URL for mogged-generated commercial-use access.",
+      "yearly_plan_required": "Yearly Plan Required",
+      "current_plan": "Current Plan",
+      "status": "Status",
+      "valid_until": "Valid Until",
+      "subscription_no": "Subscription No",
+      "certificate_id": "Certificate ID",
+      "issued_on": "Issued On",
+      "verification_url": "Verification URL"
+    },
+    "details": {
+      "title": "Certificate Details",
+      "verification_hint": "Anyone with this URL can validate the certificate status and key facts without signing in."
+    },
+    "benefits": {
+      "title": "Yearly Plan Benefits",
+      "items": [
+        "Commercial Use License",
+        "50% discount on all plans",
+        "Annual credits allocation"
+      ]
+    },
+    "actions": {
+      "upgrade": "Upgrade to Annual Plan",
+      "download": "Download PDF Certificate",
+      "verify": "Open Verification URL"
+    },
+    "statuses": {
+      "active": "Active",
+      "pending_cancel": "Scheduled to Cancel",
+      "trialing": "Trialing",
+      "canceled": "Canceled",
+      "cancelled": "Canceled",
+      "expired": "Expired",
+      "paused": "Paused",
+      "unknown": "Unavailable"
+    }
+  },
+  "verify": {
+    "metadata": {
+      "title": "Certificate Verification | {{app_name}}",
+      "description": "Validate an mogged business certificate issued for yearly commercial-use access.",
+      "keywords": "mogged certificate verification, business certificate verification"
+    },
+    "title": "Certificate Verification",
+    "description": "Validate an mogged business certificate issued for yearly commercial-use access.",
+    "support_text": "Need help checking a certificate? Email:",
+    "badges": {
+      "valid": "Verified Certificate",
+      "expired": "Expired Certificate",
+      "invalid": "Verification Failed"
+    },
+    "states": {
+      "valid": "This certificate token is valid and was issued by {{app_name}}.",
+      "expired": "This certificate was issued by {{app_name}}, but its yearly subscription window has ended.",
+      "invalid": "This verification link is invalid, incomplete, or has been tampered with."
+    },
+    "fields": {
+      "certificate_id": "Certificate ID",
+      "holder": "Certificate Holder",
+      "plan": "Plan",
+      "email": "Account Email",
+      "subscription_reference": "Subscription Reference",
+      "issued_on": "Issued On",
+      "valid_from": "Valid From",
+      "valid_until": "Valid Until",
+      "issuer": "Issued By"
+    },
+    "actions": {
+      "pricing": "View Pricing",
+      "support": "Contact Support"
+    }
+  }
+}

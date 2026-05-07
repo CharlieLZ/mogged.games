@@ -1,0 +1,150 @@
+{
+  "header": {
+    "brand": {
+      "title": "{{app_name}} Administrateur",
+      "logo": {
+        "src": "{{brand_mark_src}}",
+        "alt": "{{app_name}} Administrateur"
+      },
+      "url": "/admin"
+    },
+    "show_trigger": false
+  },
+  "main_navs": [
+    {
+      "title": "Système",
+      "items": [
+        {
+          "title": "Utilisateurs et autorisations",
+          "icon": "User",
+          "is_expand": true,
+          "children": [
+            {
+              "title": "Utilisateurs",
+              "url": "/admin/users",
+              "icon": "User"
+            },
+            {
+              "title": "Rôles",
+              "url": "/admin/roles",
+              "icon": "Users"
+            },
+            {
+              "title": "Autorisations",
+              "url": "/admin/permissions",
+              "icon": "ShieldCheck"
+            }
+          ]
+        },
+        {
+          "title": "Paiements et crédits",
+          "icon": "DollarSign",
+          "children": [
+            {
+              "title": "Paiements",
+              "url": "/admin/payments",
+              "icon": "DollarSign"
+            },
+            {
+              "title": "Abonnements",
+              "url": "/admin/subscriptions",
+              "icon": "CreditCard"
+            },
+            {
+              "title": "Crédits",
+              "url": "/admin/credits",
+              "icon": "Coins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Affaires",
+      "items": [
+        {
+          "title": "Tableau de bord",
+          "url": "/admin",
+          "icon": "LayoutDashboard"
+        },
+        {
+          "title": "Statistiques quotidiennes",
+          "url": "/admin/daily",
+          "icon": "CalendarDays"
+        },
+        {
+          "title": "Statistiques hebdomadaires",
+          "url": "/admin/weekly",
+          "icon": "CalendarRange"
+        },
+        {
+          "title": "Statistiques mensuelles",
+          "url": "/admin/monthly",
+          "icon": "Calendar"
+        },
+        {
+          "title": "Tâches d'IA",
+          "url": "/admin/ai-tasks",
+          "icon": "Brain"
+        }
+      ]
+    }
+  ],
+  "bottom_nav": {
+    "items": [
+      {
+        "title": "Paramètres",
+        "url": "/admin/settings",
+        "icon": "Settings"
+      }
+    ]
+  },
+  "user": {
+    "nav": {
+      "items": [
+        {
+          "title": "Profil",
+          "url": "/settings/profile",
+          "icon": "User",
+          "target": "_vierge"
+        },
+        {
+          "title": "Certificat d'entreprise",
+          "url": "/certificate",
+          "icon": "ShieldCheck",
+          "target": "_vierge"
+        }
+      ]
+    },
+    "show_email": false,
+    "show_signout": true,
+    "signout_callback": "/"
+  },
+  "footer": {
+    "nav": {
+      "items": [
+        {
+          "title": "Accueil",
+          "url": "/",
+          "icon": "Home",
+          "target": "_vierge"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/CharlieLZ/mogged.games",
+          "icon": "Github",
+          "target": "_vierge"
+        },
+        {
+          "title": "Courriel",
+          "url": "mailto:{{support_email}}",
+          "icon": "Mail",
+          "target": "_vierge"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  },
+  "variant": "barre latérale"
+}

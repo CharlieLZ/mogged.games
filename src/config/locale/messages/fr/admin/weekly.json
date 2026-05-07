@@ -1,0 +1,21 @@
+{
+  "title": "Statistiques hebdomadaires",
+  "description": "Afficher les modifications hebdomadaires des données commerciales pour les utilisateurs, les crédits et les commandes",
+  "refresh": "Actualiser",
+  "crumbs": {
+    "admin": "Administrateur",
+    "weekly": "Statistiques hebdomadaires"
+  },
+  "table": {
+    "week": "Semaine",
+    "period": "Période",
+    "users": "Nouveaux utilisateurs",
+    "orders": "Commandes",
+    "payments": "Paiements",
+    "subscriptions": "Abonnements",
+    "credits_consumed": "Crédits utilisés",
+    "credits_granted": "Crédits accordés",
+    "total": "Total (12 semaines)",
+    "guest_credits_consumed": "Cout invite"
+  }
+}

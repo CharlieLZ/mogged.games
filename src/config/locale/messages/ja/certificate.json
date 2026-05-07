@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "title": "商用利用証明書 | {{app_name}}",
+    "description": "{{app_domain}}での商用利用アクセスのための商用利用証明書をダウンロードしてください。",
+    "keywords": "mogged 商用証明書, 商用ライセンス証明書, 年間プラン, 商用利用"
+  },
+  "page": {
+    "title": "商用利用証明書",
+    "description": "moggedが生成した動画の商用利用に関する証明書をダウンロードできます。",
+    "support_text": "証明書やアクセスに関するサポートが必要ですか？メール：",
+    "badges": {
+      "required": "年間プラン必須",
+      "active": "証明書準備完了",
+      "unavailable": "検証不可"
+    },
+    "states": {
+      "locked": "商用証明書は年間プランの加入者限定です。",
+      "eligible": "年間プランの契約は有効です。PDF証明書をダウンロードするか、公開検証URLを開いてください。",
+      "unavailable": "現在、証明書を生成できませんでした。しばらくしてから再試行してください。"
+    },
+    "overview": {
+      "title": "商用ライセンス証明書",
+      "description": "moggedが生成した商用利用向けの正式なPDF証明書をダウンロードできます。証明書ID、有効期間、公開検証用URLが記載されています。",
+      "yearly_plan_required": "年間プラン必須",
+      "current_plan": "現在のプラン",
+      "status": "ステータス",
+      "valid_until": "有効期限",
+      "subscription_no": "サブスクリプション番号",
+      "certificate_id": "証明書ID",
+      "issued_on": "発行日",
+      "verification_url": "検証URL"
+    },
+    "details": {
+      "title": "証明書の詳細",
+      "verification_hint": "このURLを開くことで、サインイン不要で証明書の状態と主要情報を確認できます。"
+    },
+    "benefits": {
+      "title": "年間プランの特典",
+      "items": [
+        "商用利用ライセンス",
+        "全プラン50%割引",
+        "年間クレジットの付与"
+      ]
+    },
+    "actions": {
+      "upgrade": "年間プランにアップグレード",
+      "download": "PDF証明書をダウンロード",
+      "verify": "検証URLを開く"
+    },
+    "statuses": {
+      "active": "有効",
+      "pending_cancel": "解約予定",
+      "trialing": "トライアル中",
+      "canceled": "キャンセル済み",
+      "cancelled": "キャンセル済み",
+      "expired": "期限切れ",
+      "paused": "停止中",
+      "unknown": "利用不可"
+    }
+  },
+  "verify": {
+    "metadata": {
+      "title": "証明書の検証 | {{app_name}}",
+      "description": "年間商用利用向けに発行されたmoggedの証明書を検証します。",
+      "keywords": "mogged 証明書検証, 商用証明書検証"
+    },
+    "title": "証明書の検証",
+    "description": "年間商用利用向けに発行されたmoggedの証明書を検証します。",
+    "support_text": "証明書の確認でお困りですか？メールでお問い合わせください：",
+    "badges": {
+      "valid": "検証済みの証明書",
+      "expired": "期限切れの証明書",
+      "invalid": "検証失敗"
+    },
+    "states": {
+      "valid": "{{app_name}}によって発行された有効な証明書トークンです。",
+      "expired": "この証明書は{{app_name}}によって発行されましたが、年間サブスクリプションの有効期間は終了しています。",
+      "invalid": "この検証リンクは無効、情報不足、または改ざんされている可能性があります。"
+    },
+    "fields": {
+      "certificate_id": "証明書ID",
+      "holder": "証明書名義",
+      "plan": "プラン",
+      "email": "メールアドレス",
+      "subscription_reference": "サブスクリプション参照",
+      "issued_on": "発行日",
+      "valid_from": "有効開始日",
+      "valid_until": "有効期限",
+      "issuer": "発行元"
+    },
+    "actions": {
+      "pricing": "料金を見る",
+      "support": "サポートに連絡"
+    }
+  }
+}

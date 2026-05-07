@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "이름",
+    "avatar": "아바타",
+    "email": "이메일",
+    "email_verified": "이메일 확인됨",
+    "remaining_credits": "남은 학점",
+    "locale_geo": "로캘/지역",
+    "device_ip": "장치/IP",
+    "last_seen_at": "마지막으로 본",
+    "last_sign_in_at": "마지막 로그인",
+    "event_type": "이벤트 유형",
+    "path": "경로",
+    "referer": "추천인",
+    "metadata": "메타데이터",
+    "provider": "공급자",
+    "source": "소스",
+    "event_id": "이벤트 ID",
+    "status": "상태",
+    "delivery_count": "배달",
+    "replay_count": "리플레이",
+    "received_at": "수신 시간",
+    "first_received_at": "처음 받은",
+    "last_received_at": "마지막 수신",
+    "processed_at": "처리 시간",
+    "processing_started_at": "마지막 처리가 시작되었습니다",
+    "processing_finished_at": "마지막 처리 완료",
+    "processing_duration": "처리 기간",
+    "delivery_status": "배송상태",
+    "processing_status": "처리상태",
+    "order_no": "주문 번호",
+    "subscription_id": "구독 ID",
+    "error_message": "오류",
+    "error_stack": "오류 스택",
+    "payload": "페이로드",
+    "user_agent": "사용자 에이전트",
+    "created_at": "생성 날짜",
+    "actions": "작업",
+    "roles": "역할",
+    "utm_campaign": "UTM Campaign",
+    "utm_term": "UTM Term",
+    "funnel_stage": "Funnel Stage",
+    "first_successful_generation_at": "First Successful Generation",
+    "checkout_started_at": "Checkout Started",
+    "paid_at": "Paid At",
+    "product_name": "Product",
+    "utm_batch": "UTM Batch",
+    "utm_objective": "UTM Objective",
+    "utm_adgroup": "UTM Ad Group",
+    "utm_match": "UTM Match",
+    "utm_lang": "UTM Lang",
+    "utm_device": "UTM Device",
+    "utm_workflow": "UTM Workflow"
+  },
+  "list": {
+    "title": "사용자",
+    "crumbs": {
+      "admin": "관리자",
+      "users": "사용자"
+    },
+    "buttons": {
+      "add": "사용자 추가",
+      "edit": "사용자 편집",
+      "view": "사용자 보기",
+      "delete": "사용자 삭제",
+      "edit_roles": "역할 편집"
+    },
+    "search": {
+      "email": {
+        "title": "이메일",
+        "placeholder": "이메일"
+      }
+    }
+  },
+  "edit": {
+    "title": "사용자 편집",
+    "crumbs": {
+      "admin": "관리자",
+      "users": "사용자",
+      "edit": "편집"
+    },
+    "buttons": {
+      "submit": "업데이트"
+    }
+  },
+  "detail": {
+    "title": "사용자 컨텍스트",
+    "crumbs": {
+      "admin": "관리자",
+      "users": "사용자",
+      "detail": "맥락"
+    },
+    "actions": {
+      "open_avatar": "아바타 열기"
+    },
+    "cards": {
+      "profile": {
+        "title": "프로필 스냅샷",
+        "description": "이 사용자의 최신 계정 요약입니다."
+      },
+      "context": {
+        "title": "기기 및 활동",
+        "description": "마지막으로 알려진 로케일, 장치, IP 및 브라우저 지문."
+      },
+      "funnel": {
+        "title": "Four-Stage Funnel",
+        "description": "Connect this user from signup to first successful generation, checkout started, and paid."
+      }
+    },
+    "sections": {
+      "context_events": {
+        "title": "최근 컨텍스트 이벤트",
+        "description": "최신 {limit} 인증, 결제, AI 요청 이벤트를 표시합니다."
+      },
+      "webhook_events": {
+        "title": "최근 결제 웹훅",
+        "description": "이 사용자와 연결된 최신 {limit} 결제 웹훅 감사 기록을 표시합니다. 전체 추적을 검사하려면 이벤트 ID를 클릭하세요."
+      }
+    },
+    "funnel": {
+      "stage": {
+        "signup": "Signed Up",
+        "first_success": "First Success",
+        "checkout": "Checkout Started",
+        "paid": "Paid"
+      }
+    }
+  },
+  "webhook_detail": {
+    "title": "웹훅 이벤트 세부정보",
+    "crumbs": {
+      "detail": "웹훅 세부정보"
+    },
+    "actions": {
+      "back_to_user": "사용자 컨텍스트로 돌아가기"
+    },
+    "attempt_label": "#{number} 시도",
+    "replay_note": "재생 노트",
+    "replay_detected": "이 이벤트는 {replays} 재생 전송을 포함하여 {deliveries}번 수신되었습니다.",
+    "replay_clean": "지금까지 이 이벤트에 대한 전달은 단 한 번만 기록되었습니다.",
+    "timeline_empty": "아직 이 웹훅에 대한 시도 타임라인이 없습니다.",
+    "timeline_partial": "기록 데이터는 최신 스냅샷만 재구성했습니다. {missing} 이전의 전달 시도는 이전 요약 전용 스키마에서 복구할 수 없습니다.",
+    "cards": {
+      "event": {
+        "title": "이벤트 스냅샷",
+        "description": "이 웹훅 이벤트의 핵심 ID와 최신 전달 상태입니다."
+      },
+      "timeline": {
+        "title": "배송 일정",
+        "description": "이 웹훅에 대해 기록된 전달 시도 {count}개를 표시합니다."
+      },
+      "replay": {
+        "title": "스냅샷 재생",
+        "description": "이 이벤트가 도착한 횟수와 마지막 중복이 표시된 시간입니다."
+      },
+      "processing": {
+        "title": "스냅샷 처리 중",
+        "description": "최근 처리 기간, 완료 시간, 측정된 기간입니다."
+      },
+      "request": {
+        "title": "스냅샷 요청",
+        "description": "엣지에서 캡처된 최신 요청 수준 IP, 경로 및 브라우저 지문입니다."
+      },
+      "binding": {
+        "title": "바인딩 스냅샷",
+        "description": "현재 이 웹훅에 연결된 사용자, 주문 및 구독 참조입니다."
+      },
+      "error": {
+        "title": "오류 세부정보",
+        "description": "문제 해결을 위해 최신 오류 메시지 및 스택 추적이 유지됩니다."
+      },
+      "payload": {
+        "title": "원시 페이로드",
+        "description": "확인 및 정규화 후 저장된 웹훅 페이로드입니다."
+      }
+    }
+  },
+  "edit_roles": {
+    "title": "역할 편집",
+    "crumbs": {
+      "admin": "관리자",
+      "users": "사용자",
+      "edit_roles": "역할 편집"
+    },
+    "buttons": {
+      "submit": "업데이트"
+    }
+  }
+}

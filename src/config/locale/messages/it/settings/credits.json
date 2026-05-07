@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "transaction_no": "Transazione n",
+    "description": "Descrizione",
+    "type": "Digitare",
+    "scene": "Scena",
+    "credits": "Crediti",
+    "expires_at": "Scade alle",
+    "created_at": "Creato a",
+    "action": "Azione"
+  },
+  "list": {
+    "title": "Record di crediti",
+    "tabs": {
+      "all": "Tutto",
+      "grant": "Concedere",
+      "consume": "Consumare"
+    }
+  },
+  "view": {
+    "title": "Saldo crediti",
+    "buttons": {
+      "purchase": "Acquistare crediti"
+    }
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "metadata": {
+    "title": "mogged | 1v1 Face Rating Battles - Get Mogged or Get Moggin'",
+    "description": "mogged is the ultimate 1v1 face rating arena. Jump into live mog battles, get AI-rated on facial symmetry and biometrics, climb the leaderboard from Molecule to Slayer.",
+    "keywords": "mogged, mog battle, face rating, 1v1 mog, mogged game, mogging, mog battle website, face rating game, mogged app, mogged.games"
+  },
+  "promo_banner": {
+    "eyebrow": "mogged launch",
+    "highlight": "Join the Arena",
+    "detail": "Climb from Molecule to Slayer",
+    "mobile_eyebrow": "",
+    "mobile_highlight": "Join the Arena",
+    "mobile_detail": "Climb the ranks",
+    "action": "Start Mogging"
+  },
+  "skip_to_content": "Skip to main content",
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "{{app_name}}",
+      "logo": {
+        "src": "{{brand_mark_src}}",
+        "alt": "{{app_name}}"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Home",
+          "url": "/",
+          "icon": "Home"
+        },
+        {
+          "title": "Leaderboard",
+          "url": "/leaderboard",
+          "icon": "Trophy"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing",
+          "icon": "DollarSign"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "support_email": "{{support_email}}",
+      "items": [
+        {
+          "title": "Billing",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Activity",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "id": "hero",
+    "title": "Mogged — The Ultimate 1v1 Face Rating Arena",
+    "highlight_text": "1v1 Face Rating Arena",
+    "description": "Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?",
+    "tip": "Use {{app_name}} on {{app_domain}} to jump into 1v1 face rating battles, earn ELO, and climb the competitive leaderboard.",
+    "announcement": {
+      "badge": "mogged",
+      "title": "1v1 face rating battles with AI scoring. Camera on, face scanned, mogger crowned in seconds.",
+      "url": "/leaderboard"
+    },
+    "comparison_video": {
+      "label": "mogged preview video"
+    },
+    "show_award": false,
+    "image": {
+      "src": "imageeditorai-media:hero4k",
+      "alt": "mogged 1v1 face rating arena"
+    },
+    "image_invert": {
+      "src": "imageeditorai-media:hero4k",
+      "alt": "mogged 1v1 mog battle"
+    }
+  },
+  "nano_banana_cases": {
+    "id": "nano-banana-cases",
+    "title": "How mogged Works",
+    "description": "Your path from first camera check to Slayer rank.",
+    "labels": {
+      "prompt": "Step",
+      "previous": "Previous step",
+      "next": "Next step",
+      "copyPrompt": "Copy",
+      "openImage": "Preview",
+      "closeImage": "Close",
+      "imageUnavailable": "Preview unavailable",
+      "enlargedImage": "Enlarged view"
+    },
+    "items": [
+      {
+        "id": "camera-check",
+        "title": "Camera Check",
+        "description": "Turn on your camera. Our face detection verifies your presence before every battle. Quick, private, and required for fair play.",
+        "prompt": "Complete the webcam check so the AI can detect your face and prepare for the mog battle.",
+        "image": {
+          "src": "/images/landing/nano-banana-cases/ecommerce-product-promotional-image.webp",
+          "alt": "mogged camera check"
+        },
+        "button": {
+          "title": "Start Now",
+          "url": "/"
+        }
+      },
+      {
+        "id": "face-scan",
+        "title": "Face Scan & Rating",
+        "description": "Our AI scans facial symmetry, canthal tilt, jawline definition, and other biometrics. You get a 0-10 rating — your baseline for every battle.",
+        "prompt": "AI analyzes your face for symmetry, proportions, and key biometric markers to assign your battle rating.",
+        "image": {
+          "src": "/images/landing/nano-banana-cases/movie-storyboard-generation.webp",
+          "alt": "mogged AI face scan"
+        },
+        "button": {
+          "title": "Get Rated",
+          "url": "/"
+        }
+      },
+      {
+        "id": "mog-battle",
+        "title": "1v1 Mog Battle",
+        "description": "Face a random opponent. Both faces are scanned simultaneously. The higher-rated face wins the battle. Winner takes ELO — loser drops.",
+        "prompt": "Two faces enter. One mogger leaves. Real-time AI comparison determines the stronger face in seconds.",
+        "image": {
+          "src": "/images/landing/nano-banana-cases/sticker-generation.webp",
+          "alt": "mogged 1v1 battle"
+        },
+        "button": {
+          "title": "Enter the Arena",
+          "url": "/"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "label": "Player Testimonials",
+    "title": "The Arena Speaks for Itself",
+    "description": "See what players are saying about their mog battle experience on mogged.",
+    "className": "bg-muted/20",
+    "items": [
+      {
+        "title": "xQc Fan",
+        "role": "Twitch Streamer",
+        "quote": "Bro I've been mogging kids all day. This AI is ruthless — it called out my canthal tilt in the first battle. I've climbed from LTN to Chadlite in two days. This is peak content.",
+        "image": {
+          "src": "https://pub-08cd42c8c170417f9a6b61ed628eed2e.r2.dev/review1.webp",
+          "alt": "Player avatar"
+        },
+        "video": {
+          "src": "https://pub-08cd42c8c170417f9a6b61ed628eed2e.r2.dev/review1.webm",
+          "alt": "mog battle clip"
+        },
+        "rating": 5
+      },
+      {
+        "title": "Looksmaxxer99",
+        "role": "Looksmaxxing Enthusiast",
+        "quote": "Finally a platform that gives me real data. I can see my symmetry score, compare against past scans, and track progress. The ELO system actually rewards consistency over luck.",
+        "image": {
+          "src": "https://pub-08cd42c8c170417f9a6b61ed628eed2e.r2.dev/review2.webp",
+          "alt": "Player avatar"
+        },
+        "video": {
+          "src": "https://pub-08cd42c8c170417f9a6b61ed628eed2e.r2.dev/review2.webm",
+          "alt": "mog battle clip"
+        },
+        "rating": 5
+      },
+      {
+        "title": "CasualMogger",
+        "role": "Daily Player",
+        "quote": "I jump on for 10 minutes during lunch. Quick camera check, a few battles, check my rank. It's surprisingly addictive seeing your ELO go up after a clean mog.",
+        "image": {
+          "src": "https://pub-08cd42c8c170417f9a6b61ed628eed2e.r2.dev/review3.webp",
+          "alt": "Player avatar"
+        },
+        "video": {
+          "src": "https://pub-08cd42c8c170417f9a6b61ed628eed2e.r2.dev/review3.webm",
+          "alt": "mog battle clip"
+        },
+        "rating": 5
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "How to Play mogged in 4 Steps",
+    "description": "From camera check to leaderboard climb — your quickstart guide.",
+    "className": "bg-muted/20",
+    "image": {
+      "src": "imageeditorai-media:hero4k",
+      "alt": "mogged gameplay steps"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Enable Your Camera",
+        "description": "Allow webcam access. The camera check verifies your face is visible and ready for battle.",
+        "image": {
+          "src": "imageeditorai-media:marketing",
+          "alt": "Enable camera on mogged"
+        }
+      },
+      {
+        "title": "Get Your Face Scanned",
+        "description": "AI scans your facial biometrics — symmetry, canthal tilt, jawline, proportions. Your baseline rating is set.",
+        "image": {
+          "src": "imageeditorai-media:motionControl",
+          "alt": "Face scan on mogged"
+        }
+      },
+      {
+        "title": "Enter a Mog Battle",
+        "description": "Get matched with a random opponent. Both faces rated simultaneously. The mogger wins.",
+        "image": {
+          "src": "imageeditorai-media:styleControl",
+          "alt": "Mog battle on mogged"
+        }
+      },
+      {
+        "title": "Climb the Leaderboard",
+        "description": "Win battles, earn ELO, rank up. Track your progress from Molecule through to Slayer.",
+        "image": {
+          "src": "imageeditorai-media:socialMedia",
+          "alt": "mogged leaderboard"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "Everything You Need to Win Your Mog Battle",
+    "description": "mogged gives you the full competitive face rating experience. AI scoring, ELO ranking, real-time leaderboard, and tier progression from Molecule to Slayer.",
+    "className": "bg-muted/20",
+    "items": [
+      {
+        "title": "AI Face Rating",
+        "description": "Real-time facial analysis scores symmetry, canthal tilt, jawline, and proportions. Every battle uses the same unbiased AI.",
+        "icon": "RiMovieLine"
+      },
+      {
+        "title": "1v1 Mog Battles",
+        "description": "Face a random opponent in a head-to-head battle. The AI compares both faces and crowns the mogger in seconds.",
+        "icon": "Pencil"
+      },
+      {
+        "title": "ELO Ranking System",
+        "description": "Every win earns ELO. Beat higher-ranked opponents for bigger gains. Your rank reflects your true mog power.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "Leaderboard Tiers",
+        "description": "Climb from Molecule → Sub3 → LTN → MTN → HTN → Chadlite → Chad → Slayer. Can you reach the top?",
+        "icon": "Zap"
+      },
+      {
+        "title": "Live Matchmaking",
+        "description": "Get paired in seconds. No waiting in long queues. Jump in, face off, and move on to the next battle.",
+        "icon": "RiCameraLensLine"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor your ELO history, win rate, and battle stats. See exactly how close you are to the next tier.",
+        "icon": "RiLockPasswordLine"
+      }
+    ]
+  },
+  "gallery": {
+    "id": "gallery",
+    "label": "mogged Arena Highlights",
+    "title": "See the Arena in Action",
+    "description": "Preview mog battle screens, face scans, and leaderboard action before you jump in."
+  },
+  "use_cases": {
+    "id": "use-cases",
+    "title": "Ways to Play mogged",
+    "description": "From casual mogging to ranked grinds, see how different players use the arena.",
+    "items": [
+      {
+        "badge": "Use Case",
+        "title": "Ranked 1v1 Battles",
+        "description": "Jump into the main arena for competitive face rating. Every battle affects your ELO. Climb the global leaderboard.",
+        "video_url": "imageeditorai-media:useCaseDrama",
+        "media_fit": "cover",
+        "button": {
+          "title": "Start Battling",
+          "url": "/"
+        }
+      },
+      {
+        "badge": "Use Case",
+        "title": "Stream & Entertain",
+        "description": "Mog battles make incredible streaming content. Face off against viewers, react to AI ratings, and build your channel.",
+        "video_url": "imageeditorai-media:useCaseLifestyle",
+        "media_fit": "contain",
+        "button": {
+          "title": "Go Live",
+          "url": "/"
+        }
+      },
+      {
+        "badge": "Use Case",
+        "title": "Track Your Looksmaxxing Journey",
+        "description": "Use mogged to track your facial improvements over time. Compare past scans, monitor symmetry gains, and see your progress.",
+        "video_url": "imageeditorai-media:useCaseAds",
+        "media_fit": "contain",
+        "button": {
+          "title": "Track Progress",
+          "url": "/"
+        }
+      },
+      {
+        "badge": "Use Case",
+        "title": "Friend vs Friend Duels",
+        "description": "Challenge friends to private mog battles. Settle who's the mogger in your group once and for all.",
+        "video_url": "imageeditorai-media:useCaseSocial",
+        "media_fit": "contain",
+        "button": {
+          "title": "Challenge a Friend",
+          "url": "/"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "mogged FAQ",
+    "description": "Quick answers about how mog battles work, AI face rating, ELO ranking, privacy, and more on {{app_domain}}.",
+    "tip": "Need help? Email <a href='mailto:{{support_email}}' class='text-primary font-medium hover:underline'>{{support_email}}</a>",
+    "categories": [
+      {
+        "title": "Getting Started",
+        "items": [
+          {
+            "question": "What is mogged?",
+            "answer": "mogged is a 1v1 face rating arena. You enable your camera, the AI scans your face, and you get matched against a random opponent. The AI compares both faces and declares a winner based on facial symmetry, canthal tilt, jawline definition, and other biometric traits."
+          },
+          {
+            "question": "Do I need an account to play?",
+            "answer": "You can try a guest battle without an account. Sign up to save your ELO, track progress, climb the leaderboard, and access premium features."
+          },
+          {
+            "question": "How does the AI rating work?",
+            "answer": "Our AI uses computer vision to analyze key facial biometrics: symmetry, canthal tilt (eye angle), jawline definition, facial thirds (forehead/midface/lower face proportions), and overall facial harmony. These combine into a 0-10 score."
+          },
+          {
+            "question": "How do rank tiers work?",
+            "answer": "Ranks are based on ELO: Molecule (0-800) → Sub3 (800-1000) → Low Tier Normie (1000-1200) → Mid Tier Normie (1200-1400) → High Tier Normie (1400-1600) → Chadlite (1600-1800) → Chad (1800-2000) → Slayer (2000+)."
+          }
+        ]
+      },
+      {
+        "title": "Privacy & Fair Play",
+        "items": [
+          {
+            "question": "Is my face data stored?",
+            "answer": "Face scans are used for real-time battle scoring only. We do not store raw camera footage. Only your ELO rating and battle stats are saved to your account."
+          },
+          {
+            "question": "Can the AI be tricked?",
+            "answer": "The AI detects face presence and orientation. Covering the camera, extreme angles, or props may result in a failed scan. Fair play is enforced."
+          },
+          {
+            "question": "How is matchmaking fair?",
+            "answer": "Players are paired randomly. The ELO system ensures you gain more points for beating higher-ranked players and lose fewer points against stronger opponents."
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "items": [
+          {
+            "question": "How do I report an issue?",
+            "answer": "Email {{support_email}} for account help, battle issues, billing questions, or anything else you need."
+          }
+        ]
+      }
+    ]
+  },
+  "free_tools": {
+    "common": {
+      "badge": "Browser-only, private",
+      "select_file": "Select file",
+      "change_file": "Replace file",
+      "download": "Download result",
+      "reset": "Reset",
+      "processing": "Processing...",
+      "ready": "Ready to download",
+      "file_empty": "Add a file to start.",
+      "local_notice": "Private browser processing. No uploads.",
+      "original_size": "Original",
+      "output_size": "Output",
+      "saving": "Saved",
+      "drop_hint": "Drop a file or click to browse",
+      "status_waiting": "Waiting for a file",
+      "invalid_image": "Please choose an image file.",
+      "invalid_video": "Please choose a video file.",
+      "generic_error": "Something went wrong. Try again.",
+      "tips_title": "Quick tips",
+      "input_preview": "Input preview",
+      "original_preview": "Original preview",
+      "converted_preview": "Converted preview",
+      "compressed_preview": "Compressed preview",
+      "thumbnail_preview": "Thumbnail preview",
+      "gif_preview": "GIF preview",
+      "image_too_large": "This image is too large for safe browser processing. Try a smaller file.",
+      "invalid_dimensions": "The output dimensions are too large for this browser. Lower the size or scale.",
+      "output_format_label": "Output format",
+      "quality_label": "Quality",
+      "edited_preview": "Edited preview"
+    },
+    "image_converter": {
+      "metadata": {
+        "title": "Free Image Converter | PNG, JPG, WEBP - mogged",
+        "description": "Convert PNG, JPG, and WEBP images in your browser for mogged uploads, profile setup, and avatar prep.",
+        "keywords": "free image converter, PNG to JPG, WEBP converter, browser image converter, {{app_domain}}"
+      },
+      "title": "Free Image Converter",
+      "description": "Convert PNG, JPG, or WEBP files for mogged profile setup, avatars, or sharing.",
+      "target_format_label": "Target format",
+      "action": "Convert & download",
+      "formats": {
+        "png": "PNG (transparent)",
+        "jpeg": "JPG (balanced)",
+        "webp": "WEBP (smallest)"
+      },
+      "tips": [
+        "Use WEBP when you want smaller web assets.",
+        "Keep PNG for transparent overlays and design mockups."
+      ]
+    },
+    "image_compressor": {
+      "metadata": {
+        "title": "Free Image Compressor | Reduce Image Size - mogged",
+        "description": "Reduce image size in your browser for mogged profile pics, screenshots, and shared assets.",
+        "keywords": "free image compressor, reduce image size, browser image compression, mogged"
+      },
+      "title": "Free Image Compressor",
+      "description": "Reduce image size for mogged profile pics, screenshots, and shared assets.",
+      "quality_label": "Quality",
+      "max_width_label": "Max width (px, optional)",
+      "action": "Compress image",
+      "tips": [
+        "Quality 70-80 is usually enough for review links and docs.",
+        "Set a max width to slim down oversized screenshots.",
+        "Everything stays inside your browser."
+      ]
+    },
+    "video_converter": {
+      "metadata": {
+        "title": "Free Video Converter | MP4, WEBM, MOV - mogged",
+        "description": "Convert MP4, WEBM, and MOV videos in your browser for mog battle clips and content sharing.",
+        "keywords": "free video converter, MP4 to WEBM, MOV to MP4, browser video converter, {{app_domain}}"
+      },
+      "title": "Free Video Converter",
+      "description": "Transcode MP4, WEBM, and MOV files locally for mogged battle clip sharing.",
+      "target_format_label": "Output format",
+      "action": "Convert video",
+      "formats": {
+        "mp4": "MP4 (universal)",
+        "webm": "WEBM (lightweight)",
+        "mov": "MOV (editing-friendly)"
+      },
+      "tips": [
+        "Shorter clips finish faster - keep files under ~200MB.",
+        "Use MP4 for maximum compatibility; pick WEBM for smaller embeds.",
+        "Powered by ffmpeg.wasm in your browser, so nothing leaves your device."
+      ]
+    },
+    "video_to_gif": {
+      "metadata": {
+        "title": "Free Video to GIF Converter Online | mogged",
+        "description": "Turn mog battle clips into looping GIFs in your browser for sharing, chat, and social posts.",
+        "keywords": "free video to gif converter, GIF maker, browser GIF tool, mogged"
+      },
+      "title": "Free Video to GIF Converter",
+      "description": "Turn a mogged battle clip into a lightweight looping GIF for docs, chat, or social posts.",
+      "action": "Create GIF",
+      "length_label": "Clip length (seconds)",
+      "fps_label": "Frame rate (FPS)",
+      "tips": [
+        "Keep clips 2-8 seconds for snappy GIF previews.",
+        "Lower FPS for smaller files; higher FPS for smoother motion.",
+        "Audio is removed automatically to keep GIFs light."
+      ]
+    },
+    "video_thumbnail": {
+      "metadata": {
+        "title": "Free Video Thumbnail Maker | Frame Capture - mogged",
+        "description": "Capture a clean frame from battle clips for thumbnails, covers, and preview cards.",
+        "keywords": "video thumbnail maker, free frame capture, video screenshot, thumbnail generator, {{app_domain}}"
+      },
+      "title": "Free Video Thumbnail Maker",
+      "description": "Grab a still frame from mogged battle clips for covers or preview cards.",
+      "action": "Create thumbnail",
+      "timestamp_label": "Capture at (seconds)",
+      "tips": [
+        "Choose a second where the subject is steady for a sharper frame.",
+        "For intros, 1-3 seconds often works best for thumbnails.",
+        "Outputs stay in your browser for privacy."
+      ]
+    },
+    "index": {
+      "metadata": {
+        "title": "Free Browser Image and Video Tools | mogged",
+        "description": "Use free browser-only tools for image conversion, palette extraction, compression, cropping, resizing, trimming, and video prep on mogged.",
+        "keywords": "free browser image tools, image color extractor, video trimmer, image cropper, image resizer, local image tools, mogged, {{app_domain}}"
+      },
+      "title": "Free Browser Image and Video Tools",
+      "description": "Find every local browser tool for image cleanup, palette extraction, file preparation, and video prep.",
+      "sections": [
+        {
+          "title": "Local image tools",
+          "description": "Convert, compress, crop, resize, enlarge, rotate, and clean visual files directly in your browser.",
+          "items": [
+            {
+              "title": "Free Browser Tools",
+              "description": "Find every local browser tool for image cleanup, file preparation, and video prep.",
+              "url": "/free-tools"
+            },
+            {
+              "title": "Image Converter",
+              "description": "Convert PNG, JPG, or WEBP files for mogged profile setup, avatars, or sharing.",
+              "url": "/free-tools/image-converter"
+            },
+            {
+              "title": "Image Compressor",
+              "description": "Reduce image size for mogged profile pics, screenshots, and shared assets.",
+              "url": "/free-tools/image-compressor"
+            },
+            {
+              "title": "Image Cropper",
+              "description": "Crop local images in the browser for mogged profile pics and avatars.",
+              "url": "/free-tools/image-cropper"
+            },
+            {
+              "title": "Image Resizer",
+              "description": "Resize width and height locally for profile setup and sharing.",
+              "url": "/free-tools/image-resizer"
+            },
+            {
+              "title": "Image Upscaler",
+              "description": "Enlarge local images with high-quality browser canvas smoothing.",
+              "url": "/free-tools/image-upscaler"
+            },
+            {
+              "title": "Image Rotator",
+              "description": "Rotate and flip local images in the browser when orientation is wrong.",
+              "url": "/free-tools/image-rotator"
+            },
+            {
+              "title": "Image Metadata Remover",
+              "description": "Redraw images through browser canvas to create a clean copy without embedded metadata.",
+              "url": "/free-tools/image-metadata-remover"
+            }
+          ]
+        },
+        {
+          "title": "Local video tools",
+          "description": "Prepare short clips, thumbnails, and GIFs without a hosted media job.",
+          "items": [
+            {
+              "title": "Video Converter",
+              "description": "Transcode MP4, WEBM, and MOV files locally for mogged battle clip sharing.",
+              "url": "/free-tools/video-converter"
+            },
+            {
+              "title": "Video Thumbnail Maker",
+              "description": "Grab a still frame from mogged battle clips for covers or preview cards.",
+              "url": "/free-tools/video-thumbnail"
+            },
+            {
+              "title": "Video to GIF",
+              "description": "Turn a mogged battle clip into a lightweight looping GIF.",
+              "url": "/free-tools/video-to-gif"
+            }
+          ]
+        }
+      ]
+    },
+    "image_cropper": {
+      "metadata": {
+        "title": "Free Image Cropper | Browser Crop Tool | mogged",
+        "description": "Crop images locally in your browser for mogged profile pics, avatars, and sharing.",
+        "keywords": "free image cropper, browser image crop tool, local image cropper, mogged cropper, {{app_domain}}"
+      },
+      "title": "Free Image Cropper",
+      "description": "Crop local images in the browser for mogged profile pics and avatars.",
+      "action": "Run Image Cropper",
+      "tips": [
+        "Start with the full image, then tighten the crop box by pixel values.",
+        "Use PNG for sharp UI screenshots and WEBP for lighter web handoff."
+      ],
+      "crop_x_label": "X",
+      "crop_y_label": "Y",
+      "crop_width_label": "Crop width",
+      "crop_height_label": "Crop height"
+    },
+    "image_resizer": {
+      "metadata": {
+        "title": "Free Image Resizer | Resize Images Locally | mogged",
+        "description": "Resize image width and height in your browser for mogged profile setup and sharing.",
+        "keywords": "free image resizer, resize image online, browser image resize, local image resizer, {{app_domain}}"
+      },
+      "title": "Free Image Resizer",
+      "description": "Resize width and height locally for profile setup and sharing.",
+      "action": "Run Image Resizer",
+      "tips": [
+        "Keep aspect ratio on for most profile and social images.",
+        "Resize before compressing when the source file is oversized."
+      ],
+      "width_label": "Width",
+      "height_label": "Height",
+      "lock_aspect_label": "Keep aspect ratio"
+    },
+    "image_upscaler": {
+      "metadata": {
+        "title": "Free Image Upscaler | Local Enlarger | mogged",
+        "description": "Upscale local images 2x, 3x, or 4x in your browser with high-quality canvas smoothing.",
+        "keywords": "free image upscaler, enlarge image, browser image upscaler, local image enlargement, {{app_domain}}"
+      },
+      "title": "Free Image Upscaler",
+      "description": "Enlarge local images with high-quality browser canvas smoothing.",
+      "action": "Run Image Upscaler",
+      "tips": [
+        "2x is safest for quality and browser memory.",
+        "For very large sources, resize down first or choose a smaller scale."
+      ],
+      "scale_label": "Scale",
+      "scales": {
+        "2": "2x",
+        "3": "3x",
+        "4": "4x"
+      }
+    },
+    "image_rotator": {
+      "metadata": {
+        "title": "Free Image Rotator | Rotate and Flip | mogged",
+        "description": "Rotate and flip images locally in your browser before upload, publishing, or sharing.",
+        "keywords": "free image rotator, rotate image, flip image, browser image tool, {{app_domain}}"
+      },
+      "title": "Free Image Rotator",
+      "description": "Rotate and flip local images in the browser when orientation is wrong.",
+      "action": "Run Image Rotator",
+      "tips": [
+        "Use 90-degree steps for phone photos with wrong orientation.",
+        "Flip only when the subject or text is mirrored."
+      ],
+      "angle_label": "Rotation",
+      "angles": {
+        "90": "90°",
+        "180": "180°",
+        "270": "270°"
+      },
+      "flip_horizontal_label": "Flip horizontal",
+      "flip_vertical_label": "Flip vertical"
+    },
+    "image_metadata_remover": {
+      "metadata": {
+        "title": "Free Metadata Remover | Clean Images | mogged",
+        "description": "Create a clean browser-rendered image copy that removes common embedded metadata before sharing.",
+        "keywords": "image metadata remover, remove exif, local image privacy tool, browser metadata cleanup, {{app_domain}}"
+      },
+      "title": "Free Image Metadata Remover",
+      "description": "Redraw images through browser canvas to create a clean copy without common embedded metadata.",
+      "action": "Run Image Metadata Remover",
+      "tips": [
+        "Canvas export creates a fresh image file and does not preserve most embedded metadata.",
+        "Keep the original if you need camera, color, or authorship metadata later."
+      ]
+    },
+    "image_color_extractor": {
+      "metadata": {
+        "title": "Free Image Color Extractor | Palette & HEX - mogged",
+        "description": "Extract dominant colors, HEX codes, and reusable palette tokens from images directly in your browser.",
+        "keywords": "image color extractor, color palette extractor, hex palette generator, browser color picker, {{app_domain}}"
+      },
+      "title": "Free Image Color Extractor",
+      "description": "Extract dominant colors, HEX codes, and reusable palette tokens from local images.",
+      "action": "Extract palette",
+      "palette_size_label": "Palette size",
+      "palette_size_options": {
+        "4": "4 colors",
+        "6": "6 colors",
+        "8": "8 colors"
+      },
+      "dominant_color_label": "Dominant color",
+      "palette_label": "Extracted palette",
+      "colors_found_label": "Colors found",
+      "css_variables_label": "CSS variables",
+      "json_label": "Palette JSON",
+      "tips": [
+        "Use 4-6 colors for UI token handoff and 8 colors for richer moodboards.",
+        "The palette is sampled locally from a downscaled preview so large files stay fast."
+      ]
+    },
+    "video_trimmer": {
+      "metadata": {
+        "title": "Free Video Trimmer | Cut Clips in Browser - mogged",
+        "description": "Trim MP4, WEBM, and MOV clips locally in your browser for battle clip highlights.",
+        "keywords": "free video trimmer, cut video online, browser clip cutter, local video trim, {{app_domain}}"
+      },
+      "title": "Free Video Trimmer",
+      "description": "Trim MP4, WEBM, and MOV clips locally for battle clip highlights.",
+      "action": "Trim clip",
+      "start_time_label": "Start time (seconds)",
+      "end_time_label": "End time (seconds)",
+      "duration_label": "Source duration",
+      "invalid_range_error": "Choose an end time that is at least 0.1 seconds after the start.",
+      "formats": {
+        "mp4": "MP4 (universal)",
+        "webm": "WEBM (lightweight)"
+      },
+      "tips": [
+        "Trim the shortest useful segment first, then convert or GIF it if you need a lighter share format.",
+        "If the source is very long, rough-cut it in smaller passes to keep browser processing responsive."
+      ]
+    }
+  },
+  "cta": {
+    "id": "cta",
+    "title": "Ready to Get Mogged?",
+    "description": "Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.",
+    "buttons": [
+      {
+        "title": "Enter the Arena — Free",
+        "url": "/",
+        "target": "_self",
+        "icon": "Zap"
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "{{app_name}}",
+      "description": "1v1 face rating arena. Mog battles, AI scoring, ELO leaderboard on {{app_domain}}.",
+      "logo": {
+        "src": "{{brand_mark_src}}",
+        "alt": "{{app_name}}"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Arena",
+          "children": [
+            {
+              "title": "Mog Battle",
+              "url": "/",
+              "target": "_self"
+            },
+            {
+              "title": "Leaderboard",
+              "url": "/leaderboard",
+              "target": "_self"
+            },
+            {
+              "title": "Pricing",
+              "url": "/pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Free Tools",
+          "children": [
+            {
+              "title": "Image Converter",
+              "url": "/free-tools/image-converter",
+              "target": "_self"
+            },
+            {
+              "title": "Image Compressor",
+              "url": "/free-tools/image-compressor",
+              "target": "_self"
+            },
+            {
+              "title": "Video Converter",
+              "url": "/free-tools/video-converter",
+              "target": "_self"
+            },
+            {
+              "title": "Video to GIF",
+              "url": "/free-tools/video-to-gif",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Our Mission",
+              "url": "/mission",
+              "target": "_self"
+            },
+            {
+              "title": "Support",
+              "url": "mailto:{{support_email}}",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:{{support_email}}",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Refund Policy",
+          "url": "/refund-policy"
+        },
+        {
+          "title": "Acceptable Use Policy",
+          "url": "/acceptable-use-policy"
+        },
+        {
+          "title": "Content Moderation Policy",
+          "url": "/content-moderation-policy"
+        },
+        {
+          "title": "AI Wrapper Disclaimer",
+          "url": "/ai-wrapper-disclaimer"
+        }
+      ]
+    },
+    "disclaimer": "{{app_name}} is an independent product operated on {{app_domain}} and is not affiliated with, endorsed by, or sponsored by any third-party service. Third-party names and trademarks belong to their respective owners.",
+    "show_theme": true,
+    "show_locale": true
+  },
+  "seo_sections": {
+    "structured_data": {
+      "feature_list": [
+        "1v1 face rating mog battles",
+        "AI-powered facial biometric analysis",
+        "ELO ranking and leaderboard system",
+        "Rank tiers from Molecule to Slayer",
+        "Real-time matchmaking and battle results"
+      ],
+      "alternate_names": [
+        "mogged",
+        "mog battle",
+        "face rating game",
+        "1v1 mog",
+        "{{app_domain}}"
+      ],
+      "about": [
+        "mogged",
+        "mog battle",
+        "face rating",
+        "1v1 arena",
+        "mogging"
+      ]
+    }
+  }
+}

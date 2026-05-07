@@ -1,0 +1,190 @@
+{
+  "fields": {
+    "id": "ID",
+    "name": "الاسم",
+    "avatar": "الصورة الرمزية",
+    "email": "البريد الإلكتروني",
+    "email_verified": "تم التحقق من البريد الإلكتروني",
+    "remaining_credits": "الاعتمادات المتبقية",
+    "locale_geo": "المنطقة / الجغرافية",
+    "device_ip": "الجهاز / الملكية الفكرية",
+    "last_seen_at": "شوهد آخر مرة",
+    "last_sign_in_at": "آخر تسجيل دخول",
+    "event_type": "نوع الحدث",
+    "path": "المسار",
+    "referer": "المرجع",
+    "metadata": "البيانات الوصفية",
+    "provider": "مزود",
+    "source": "المصدر",
+    "event_id": "معرف الحدث",
+    "status": "الحالة",
+    "delivery_count": "التسليم",
+    "replay_count": "الاعادة",
+    "received_at": "تلقى في",
+    "first_received_at": "تم الاستلام لأول مرة",
+    "last_received_at": "آخر استلام",
+    "processed_at": "تمت معالجتها في",
+    "processing_started_at": "بدأت المعالجة الأخيرة",
+    "processing_finished_at": "انتهت المعالجة الأخيرة",
+    "processing_duration": "مدة المعالجة",
+    "delivery_status": "حالة التسليم",
+    "processing_status": "حالة المعالجة",
+    "order_no": "رقم الطلب",
+    "subscription_id": "معرف الاشتراك",
+    "error_message": "خطأ",
+    "error_stack": "مكدس الأخطاء",
+    "payload": "الحمولة",
+    "user_agent": "وكيل المستخدم",
+    "created_at": "تم الإنشاء في",
+    "actions": "الإجراءات",
+    "roles": "الأدوار",
+    "utm_campaign": "UTM Campaign",
+    "utm_term": "UTM Term",
+    "funnel_stage": "Funnel Stage",
+    "first_successful_generation_at": "First Successful Generation",
+    "checkout_started_at": "Checkout Started",
+    "paid_at": "Paid At",
+    "product_name": "Product",
+    "utm_batch": "UTM Batch",
+    "utm_objective": "UTM Objective",
+    "utm_adgroup": "UTM Ad Group",
+    "utm_match": "UTM Match",
+    "utm_lang": "UTM Lang",
+    "utm_device": "UTM Device",
+    "utm_workflow": "UTM Workflow"
+  },
+  "list": {
+    "title": "المستخدمين",
+    "crumbs": {
+      "admin": "المشرف",
+      "users": "المستخدمين"
+    },
+    "buttons": {
+      "add": "إضافة مستخدم",
+      "edit": "تحرير المستخدم",
+      "view": "عرض المستخدم",
+      "delete": "حذف المستخدم",
+      "edit_roles": "تحرير الأدوار"
+    },
+    "search": {
+      "email": {
+        "title": "البريد الإلكتروني",
+        "placeholder": "البريد الإلكتروني"
+      }
+    }
+  },
+  "edit": {
+    "title": "تحرير المستخدم",
+    "crumbs": {
+      "admin": "المشرف",
+      "users": "المستخدمين",
+      "edit": "تحرير"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  },
+  "detail": {
+    "title": "سياق المستخدم",
+    "crumbs": {
+      "admin": "المشرف",
+      "users": "المستخدمين",
+      "detail": "السياق"
+    },
+    "actions": {
+      "open_avatar": "افتح الصورة الرمزية"
+    },
+    "cards": {
+      "profile": {
+        "title": "لقطة الملف الشخصي",
+        "description": "أحدث ملخص حساب لهذا المستخدم."
+      },
+      "context": {
+        "title": "الجهاز والنشاط",
+        "description": "آخر لغة معروفة وجهاز وIP وبصمة متصفح."
+      },
+      "funnel": {
+        "title": "Four-Stage Funnel",
+        "description": "Connect this user from signup to first successful generation, checkout started, and paid."
+      }
+    },
+    "sections": {
+      "context_events": {
+        "title": "أحداث السياق الأخيرة",
+        "description": "عرض أحدث أحداث {limit} للمصادقة والخروج وطلب الذكاء الاصطناعي."
+      },
+      "webhook_events": {
+        "title": "خطافات الدفع الإلكترونية الأخيرة",
+        "description": "عرض أحدث سجلات تدقيق الرد التلقائي على الويب للدفع {limit} المرتبطة بهذا المستخدم. انقر فوق معرف الحدث لفحص المسار الكامل."
+      }
+    },
+    "funnel": {
+      "stage": {
+        "signup": "Signed Up",
+        "first_success": "First Success",
+        "checkout": "Checkout Started",
+        "paid": "Paid"
+      }
+    }
+  },
+  "webhook_detail": {
+    "title": "تفاصيل حدث Webhook",
+    "crumbs": {
+      "detail": "تفاصيل خطاف الويب"
+    },
+    "actions": {
+      "back_to_user": "العودة إلى سياق المستخدم"
+    },
+    "attempt_label": "المحاولة رقم{number}",
+    "replay_note": "إعادة ملاحظة",
+    "replay_detected": "تم استقبال هذا الحدث {deliveries} مرات، بما في ذلك {replays} عمليات إعادة العرض.",
+    "replay_clean": "تم تسجيل تسليم واحد فقط لهذا الحدث حتى الآن.",
+    "timeline_empty": "لا يوجد مخطط زمني متاح لخطاف الويب هذا حتى الآن.",
+    "timeline_partial": "أعادت البيانات التاريخية بناء أحدث لقطة فقط. {missing} لا يمكن استرداد محاولات التسليم السابقة من مخطط الملخص فقط القديم.",
+    "cards": {
+      "event": {
+        "title": "لقطة الحدث",
+        "description": "الهوية الأساسية لحدث الرد التلقائي على الويب هذا وأحدث حالة تسليم له."
+      },
+      "timeline": {
+        "title": "الجدول الزمني للتسليم",
+        "description": "عرض {count} محاولات التسليم المسجلة لخطاف الويب هذا."
+      },
+      "replay": {
+        "title": "إعادة تشغيل اللقطة",
+        "description": "كم مرة وصل هذا الحدث ومتى تمت رؤية آخر نسخة مكررة."
+      },
+      "processing": {
+        "title": "معالجة لقطة",
+        "description": "أحدث نافذة معالجة ووقت الانتهاء والمدة المقاسة."
+      },
+      "request": {
+        "title": "طلب لقطة",
+        "description": "تم التقاط أحدث عنوان IP والمسار وبصمة المتصفح على مستوى الطلب عند الحافة."
+      },
+      "binding": {
+        "title": "لقطة ملزمة",
+        "description": "مراجع المستخدم والطلب والاشتراك المرتبطة حاليًا بخطاف الويب هذا."
+      },
+      "error": {
+        "title": "تفاصيل الخطأ",
+        "description": "تم الاحتفاظ بأحدث رسالة خطأ وتتبع المكدس لاستكشاف الأخطاء وإصلاحها."
+      },
+      "payload": {
+        "title": "الحمولة الخام",
+        "description": "حمولة خطاف الويب المخزنة بعد التحقق والتطبيع."
+      }
+    }
+  },
+  "edit_roles": {
+    "title": "تحرير الأدوار",
+    "crumbs": {
+      "admin": "المشرف",
+      "users": "المستخدمين",
+      "edit_roles": "تحرير الأدوار"
+    },
+    "buttons": {
+      "submit": "تحديث"
+    }
+  }
+}

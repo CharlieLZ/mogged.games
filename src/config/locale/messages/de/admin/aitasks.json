@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "task_id": "Aufgaben-ID",
+    "user": "Benutzer",
+    "status": "Status",
+    "cost_credits": "Kostengutschriften",
+    "media_type": "Medientyp",
+    "scene": "Szene",
+    "provider": "Anbieter",
+    "model": "Modell",
+    "trace": "Fallback-Trace",
+    "prompt": "Prompt",
+    "options": "Optionen",
+    "result": "Ergebnis",
+    "created_at": "Erstellt am",
+    "preview": "Vorschau"
+  },
+  "list": {
+    "title": "KI-Aufgaben",
+    "crumbs": {
+      "admin": "Admin",
+      "ai-tasks": "KI-Aufgaben"
+    },
+    "tabs": {
+      "all": "Alle",
+      "image": "Bild",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Text"
+    },
+    "search": {
+      "email": {
+        "title": "Suche per E-Mail",
+        "placeholder": "Geben Sie die E-Mail-Adresse des Benutzers ein, um zu suchen..."
+      }
+    },
+    "error_nsfw": "Blockiert durch Sicherheitsfilter (NSFW oder sensible Inhalte)",
+    "error_image_url_access": "Das Laden des Bildes ist fehlgeschlagen. Stellen Sie sicher, dass die URL öffentlich zugänglich ist (für Cloud-Laufwerke/soziale Links sind Freigabeberechtigungen erforderlich)."
+  },
+  "refresh": {
+    "pending_tasks": "{count} Aufgaben werden noch verarbeitet, automatische Aktualisierung alle {interval}s",
+    "completed_count": "{count} abgeschlossen",
+    "all_completed": "Alle Aufgaben erledigt",
+    "last_check": ", letzte Prüfung: {time}",
+    "refresh_now": "Jetzt aktualisieren",
+    "refreshing": "Erfrischend..."
+  },
+  "trace": {
+    "title": "Anbieter-Fallback-Trace",
+    "description": "Überprüfen Sie für diese Aufgabe die Anbieterkette, Fallbackversuche und das letzte aktive Modell.",
+    "view": "Trace anzeigen",
+    "summary": "{attempts} Versuche, {fallbacks} Fallback(s)",
+    "requested": "Gewünschte Route",
+    "active": "Aktive Route",
+    "scene": "Szene",
+    "updated_at": "Zuletzt aktualisiert",
+    "attempt_chain": "Versuchskette",
+    "attempt_index": "Versuch #{index}",
+    "provider": "Anbieter",
+    "model": "Modell",
+    "label": "Etikett",
+    "error": "Fehler",
+    "status": {
+      "success": "Erfolg",
+      "failed": "Fehlgeschlagen",
+      "skipped": "Übersprungen"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "subscription_no": "Numéro d'abonnement",
+    "interval": "Intervalle",
+    "provider": "Fournisseur",
+    "current_period": "Période actuelle",
+    "plan": "Planifier",
+    "status": "Statut",
+    "amount": "Montant",
+    "created_at": "Créé à",
+    "end_time": "Heure de fin",
+    "action": "Action"
+  },
+  "view": {
+    "title": "Forfait actuel",
+    "tip": "Votre abonnement sera renouvelé automatiquement le {date}",
+    "end_tip": "Votre abonnement sera automatiquement annulé le {date}",
+    "no_subscription": "Aucun plan",
+    "buttons": {
+      "adjust": "Ajuster le plan",
+      "subscribe": "Abonnez-vous",
+      "manage": "Gérer l'abonnement",
+      "cancel": "Annuler l'abonnement"
+    }
+  },
+  "list": {
+    "title": "Historique des abonnements",
+    "tabs": {
+      "all": "Tout",
+      "active": "Actif",
+      "pending_cancel": "En attente d'annulation",
+      "canceled": "Annulé",
+      "trialing": "Essai",
+      "paused": "En pause",
+      "expired": "Expiré"
+    }
+  },
+  "cancel": {
+    "title": "Annuler l'abonnement",
+    "description": "Etes-vous sûr de vouloir annuler votre abonnement ?",
+    "fields": {
+      "subscription_no": "Numéro d'abonnement",
+      "subscription_amount": "Montant de l'abonnement",
+      "interval_cycle": "Cycle d'intervalle",
+      "subscription_created_at": "Abonnement créé à",
+      "current_period": "Période actuelle",
+      "start_at": "Commencer à",
+      "end_at": "Fin à"
+    },
+    "crumbs": {
+      "settings": "Paramètres",
+      "billing": "Facturation",
+      "cancel": "Annuler l'abonnement"
+    },
+    "buttons": {
+      "confirm_cancel": "Confirmer Annuler"
+    }
+  }
+}

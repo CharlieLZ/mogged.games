@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "Titolo",
+    "media_type": "Tipo di supporto",
+    "provider": "Fornitore",
+    "model": "Modello",
+    "prompt": "Richiedi",
+    "options": "Opzioni",
+    "status": "Stato",
+    "result": "Risultato",
+    "cost_credits": "Crediti di costo",
+    "created_at": "Creato a",
+    "action": "Azione",
+    "preview": "Anteprima"
+  },
+  "list": {
+    "title": "Compiti dell'intelligenza artificiale",
+    "tabs": {
+      "all": "Tutto",
+      "image": "Immagine",
+      "video": "Video",
+      "audio": "Audio",
+      "text": "Testo"
+    },
+    "buttons": {
+      "view": "Visualizza attività",
+      "refresh": "Aggiorna attività",
+      "preview": "Anteprima",
+      "download": "Scarica"
+    },
+    "download": {
+      "image": "Scarica l'immagine {index}",
+      "audio": "Scarica l'audio {index}",
+      "video": "Scarica il video {index}",
+      "file": "Scarica il file {index}"
+    },
+    "processing": "Elaborazione in corso... (stato: {status})",
+    "failed_with_reason": "Non riuscito: {reason}",
+    "failed_nsfw": "Bloccato da filtri di sicurezza (possibile NSFW o contenuto sensibile). Prova con un messaggio più sicuro.",
+    "failed_image_url_access": "Il collegamento all'immagine è privato o bloccato. I collegamenti al cloud drive/social necessitano di autorizzazioni di condivisione. Utilizza un URL di immagine diretta pubblica o carica l'immagine.",
+    "failed": "Fallito",
+    "canceled": "Annullato",
+    "no_result": "Nessun file scaricabile ancora",
+    "result_ready": "{count} file pronti",
+    "parse_error": "Dati sui risultati non disponibili",
+    "empty_message": "Nessuna attività trovata"
+  },
+  "detail": {
+    "title": "Dettaglio task",
+    "description": "Apri il risultato, scarica l'output oppure torna alla cronologia completa dei task.",
+    "back": "Torna alla cronologia",
+    "open_activity": "Apri cronologia task",
+    "refresh": "Aggiorna task ora",
+    "open_result": "Apri risultato",
+    "empty_result": "Questo task non ha ancora un risultato scaricabile.",
+    "prompt_empty": "Nessun prompt salvato per questo task.",
+    "not_found": "Task non trovato"
+  }
+}

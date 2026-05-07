@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "transaction_no": "거래번호",
+    "user": "사용자",
+    "amount": "금액",
+    "remaining": "남은",
+    "type": "유형",
+    "scene": "장면",
+    "description": "설명",
+    "created_at": "생성 날짜",
+    "expires_at": "만료 날짜",
+    "metadata": "메타데이터",
+    "action": "액션"
+  },
+  "list": {
+    "title": "크레딧",
+    "crumbs": {
+      "admin": "관리자",
+      "credits": "크레딧"
+    },
+    "tabs": {
+      "all": "모두",
+      "grant": "그랜트",
+      "consume": "소비하다",
+      "paid": "유료"
+    },
+    "search": {
+      "email": {
+        "title": "사용자 이메일",
+        "placeholder": "이메일로 검색"
+      }
+    }
+  }
+}

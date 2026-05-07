@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "title": "タイトル",
+    "media_type": "メディアの種類",
+    "provider": "プロバイダー",
+    "model": "モデル",
+    "prompt": "プロンプト",
+    "options": "オプション",
+    "status": "ステータス",
+    "result": "結果",
+    "cost_credits": "コストクレジット",
+    "created_at": "作成日",
+    "action": "アクション",
+    "preview": "プレビュー"
+  },
+  "list": {
+    "title": "AIタスク",
+    "tabs": {
+      "all": "すべて",
+      "image": "画像",
+      "video": "ビデオ",
+      "audio": "オーディオ",
+      "text": "テキスト"
+    },
+    "buttons": {
+      "view": "タスクの表示",
+      "refresh": "タスクの更新",
+      "preview": "プレビュー",
+      "download": "ダウンロード"
+    },
+    "download": {
+      "image": "画像をダウンロード {index}",
+      "audio": "音声をダウンロード {index}",
+      "video": "ビデオをダウンロード {index}",
+      "file": "ファイルをダウンロード {index}"
+    },
+    "processing": "処理中... (ステータス: {status})",
+    "failed_with_reason": "失敗しました: {reason}",
+    "failed_nsfw": "安全フィルターによってブロックされています (NSFW または機密コンテンツの可能性があります)。より安全なプロンプトを試してください。",
+    "failed_image_url_access": "画像リンクは非公開またはブロックされています。クラウドドライブ/ソーシャルリンクには共有権限が必要です。パブリックの直接画像 URL を使用するか、画像をアップロードします。",
+    "failed": "失敗しました",
+    "canceled": "キャンセルされました",
+    "no_result": "ダウンロード可能なファイルはまだありません",
+    "result_ready": "{count} ファイルの準備ができました",
+    "parse_error": "結果データが利用できない",
+    "empty_message": "タスクが見つかりません"
+  },
+  "detail": {
+    "title": "タスク詳細",
+    "description": "結果を開く、出力をダウンロードする、またはタスク履歴に戻ることができます。",
+    "back": "タスク履歴に戻る",
+    "open_activity": "タスク履歴を開く",
+    "refresh": "今すぐ更新",
+    "open_result": "結果を開く",
+    "empty_result": "このタスクにはまだダウンロード可能な結果がありません。",
+    "prompt_empty": "このタスクには保存されたプロンプトがありません。",
+    "not_found": "タスクが見つかりません"
+  }
+}

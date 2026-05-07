@@ -1,0 +1,77 @@
+{
+  "title": "セキュリティ",
+  "description": "パスワード変更、リセットメール送信、取り消せないアカウント操作を一か所で管理します。",
+  "fields": {
+    "email": "メールアドレス",
+    "current_password": "現在のパスワード",
+    "new_password": "新しいパスワード",
+    "confirm_password": "新しいパスワードの確認"
+  },
+  "change_password": {
+    "title": "パスワードを変更",
+    "description": "現在のセッションを維持したままパスワードを更新します。",
+    "buttons": {
+      "submit": "パスワードを保存",
+      "submitting": "保存中..."
+    },
+    "messages": {
+      "currentPasswordRequired": "まず現在のパスワードを入力してください。",
+      "newPasswordRequired": "新しいパスワードを入力してください。",
+      "confirmPasswordRequired": "新しいパスワードを確認してください。",
+      "passwordMismatch": "2つの新しいパスワードが一致しません。",
+      "updated": "パスワードを更新しました。",
+      "updateFailed": "パスワードを更新できませんでした。もう一度お試しください。"
+    }
+  },
+  "reset_password_request": {
+    "title": "メールでパスワードをリセット",
+    "description": "アカウントに紐づくメールアドレスへリセットメールを送信します。",
+    "tip": "この場でパスワードを変更する代わりに、署名付きメールリンクを使いたい場合はこちらを利用してください。",
+    "sent_hint": "アドレスが有効であれば、リセットメールはすでに送信されています。",
+    "email_placeholder": "you@example.com",
+    "buttons": {
+      "submit": "リセットメールを送信",
+      "submitting": "送信中...",
+      "back_to_sign_in": "ログインに戻る"
+    },
+    "messages": {
+      "emailRequired": "まずメールアドレスを入力してください。",
+      "sent": "そのメールアドレスが存在する場合、リセットリンクを送信しました。",
+      "sendFailed": "リセットメールを送信できませんでした。もう一度お試しください。"
+    }
+  },
+  "reset_password_confirm": {
+    "title": "新しいパスワードを設定",
+    "description": "アカウント用の新しいパスワードを設定し、ワークスペースに戻ります。",
+    "buttons": {
+      "submit": "パスワードを更新",
+      "submitting": "更新中...",
+      "back_to_sign_in": "ログインに戻る",
+      "request_new_link": "新しいリンクを申請"
+    },
+    "messages": {
+      "tokenMissing": "このリセットリンクは不完全です。新しいリンクを再発行してください。",
+      "newPasswordRequired": "新しいパスワードを入力してください。",
+      "confirmPasswordRequired": "新しいパスワードを確認してください。",
+      "passwordMismatch": "2つの新しいパスワードが一致しません。",
+      "updated": "パスワードのリセットに成功しました。これからリダイレクトします。",
+      "updateFailed": "パスワードをリセットできませんでした。新しいメールを再取得してもう一度お試しください。",
+      "invalidOrExpiredLink": "この再設定リンクは無効か有効期限切れです。続けるには新しいメールを申請してください。"
+    }
+  },
+  "danger_zone": {
+    "title": "危険地帯",
+    "description": "取り消し不能で破壊的な行為",
+    "deleteAccount": "アカウントの削除",
+    "deleteAccountDescription": "アカウントとすべての関連データを完全に削除します",
+    "deleteButton": "アカウントの削除",
+    "confirmTitle": "アカウントの削除",
+    "confirmDescription": "アカウントを削除してもよろしいですか?この操作は元に戻すことができません。",
+    "warningMessage": "すべてのクレジット、支払い履歴、生成されたコンテンツ、および個人データは完全に削除されます。この操作は元に戻すことはできず、元に戻すことはできません。",
+    "confirmLabel": "{keyword} と入力して確認します",
+    "cancelButton": "キャンセル",
+    "confirmDeleteButton": "アカウントの削除",
+    "deletingButton": "削除中...",
+    "deleteError": "アカウントの削除に失敗しました。もう一度試してください。"
+  }
+}

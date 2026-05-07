@@ -1,0 +1,31 @@
+{
+  "title": "アクティビティ",
+  "nav": {
+    "items": [
+      {
+        "title": "AIタスク",
+        "url": "/activity/ai-tasks",
+        "icon": "RiTaskLine"
+      },
+      {
+        "title": "通知",
+        "url": "/activity/notifications",
+        "icon": "Bell"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "アクティビティ",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "設定",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}

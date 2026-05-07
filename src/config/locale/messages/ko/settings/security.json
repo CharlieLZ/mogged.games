@@ -1,0 +1,77 @@
+{
+  "title": "보안",
+  "description": "비밀번호 변경, 재설정 메일 발송, 되돌릴 수 없는 계정 작업을 한곳에서 관리합니다.",
+  "fields": {
+    "email": "이메일",
+    "current_password": "현재 비밀번호",
+    "new_password": "새 비밀번호",
+    "confirm_password": "새 비밀번호 확인"
+  },
+  "change_password": {
+    "title": "비밀번호 변경",
+    "description": "현재 세션을 유지한 채 비밀번호를 업데이트합니다.",
+    "buttons": {
+      "submit": "비밀번호 저장",
+      "submitting": "저장 중..."
+    },
+    "messages": {
+      "currentPasswordRequired": "먼저 현재 비밀번호를 입력하세요.",
+      "newPasswordRequired": "새 비밀번호를 입력하세요.",
+      "confirmPasswordRequired": "새 비밀번호를 다시 확인하세요.",
+      "passwordMismatch": "두 개의 새 비밀번호가 일치하지 않습니다.",
+      "updated": "비밀번호가 업데이트되었습니다.",
+      "updateFailed": "비밀번호를 업데이트하지 못했습니다. 다시 시도하세요."
+    }
+  },
+  "reset_password_request": {
+    "title": "이메일로 비밀번호 재설정",
+    "description": "계정에 연결된 주소로 비밀번호 재설정 메일을 보냅니다.",
+    "tip": "여기서 바로 비밀번호를 바꾸는 대신, 서명된 이메일 링크를 받고 싶을 때 사용하세요.",
+    "sent_hint": "주소가 유효하다면 재설정 메일이 이미 발송 중입니다.",
+    "email_placeholder": "you@example.com",
+    "buttons": {
+      "submit": "재설정 메일 보내기",
+      "submitting": "보내는 중...",
+      "back_to_sign_in": "로그인으로 돌아가기"
+    },
+    "messages": {
+      "emailRequired": "먼저 이메일 주소를 입력하세요.",
+      "sent": "해당 이메일이 존재하면 재설정 링크가 전송되었습니다.",
+      "sendFailed": "재설정 메일을 보내지 못했습니다. 다시 시도하세요."
+    }
+  },
+  "reset_password_confirm": {
+    "title": "새 비밀번호 설정",
+    "description": "계정용 새 비밀번호를 설정하고 작업 공간으로 돌아갑니다.",
+    "buttons": {
+      "submit": "비밀번호 업데이트",
+      "submitting": "업데이트 중...",
+      "back_to_sign_in": "로그인으로 돌아가기",
+      "request_new_link": "새 링크 요청"
+    },
+    "messages": {
+      "tokenMissing": "이 재설정 링크는 불완전합니다. 새 링크를 요청하세요.",
+      "newPasswordRequired": "새 비밀번호를 입력하세요.",
+      "confirmPasswordRequired": "새 비밀번호를 다시 확인하세요.",
+      "passwordMismatch": "두 개의 새 비밀번호가 일치하지 않습니다.",
+      "updated": "비밀번호가 성공적으로 재설정되었습니다. 지금 이동합니다.",
+      "updateFailed": "비밀번호를 재설정하지 못했습니다. 새 메일을 요청한 뒤 다시 시도하세요.",
+      "invalidOrExpiredLink": "이 재설정 링크는 유효하지 않거나 만료되었습니다. 계속하려면 새 이메일을 요청하세요."
+    }
+  },
+  "danger_zone": {
+    "title": "위험지대",
+    "description": "되돌릴 수 없고 파괴적인 행위",
+    "deleteAccount": "계정 삭제",
+    "deleteAccountDescription": "귀하의 계정 및 모든 관련 데이터를 영구적으로 삭제하십시오.",
+    "deleteButton": "계정 삭제",
+    "confirmTitle": "계정 삭제",
+    "confirmDescription": "계정을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "warningMessage": "모든 크레딧, 결제 내역, 생성된 콘텐츠 및 개인 데이터가 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없으며 복구할 수 없습니다.",
+    "confirmLabel": "{keyword}를 입력하여 확인하세요.",
+    "cancelButton": "취소",
+    "confirmDeleteButton": "계정 삭제",
+    "deletingButton": "삭제 중...",
+    "deleteError": "계정을 삭제하지 못했습니다. 다시 시도해 주세요."
+  }
+}

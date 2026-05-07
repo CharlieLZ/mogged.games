@@ -1,0 +1,53 @@
+{
+  "title": "設定",
+  "support_text": "請求、返金、アクセスに関してサポートが必要ですか?電子メール:",
+  "support_email": "{{support_email}}",
+  "nav": {
+    "items": [
+      {
+        "title": "プロフィール",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "セキュリティ",
+        "url": "/settings/security",
+        "icon": "Shield"
+      },
+      {
+        "title": "請求",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "ビジネス証明書",
+        "url": "/certificate",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "支払い",
+        "url": "/settings/payments",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "クレジット",
+        "url": "/settings/credits",
+        "icon": "Coins"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "アクティビティ",
+        "url": "/activity",
+        "icon": "Activity"
+      },
+      {
+        "title": "設定",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}
