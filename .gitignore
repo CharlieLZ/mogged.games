@@ -100,11 +100,5 @@ public/videos/
 .gstack/
 .worktrees/
 
-# Local docs, planning sheets, R2 manifests, and upload helpers stay off git.
-# Keep the reusable migration matrix and execution skills in version control.
-docs/*
-!docs/page-api-credit-cost-matrix.md
-!docs/矩阵/
-!docs/矩阵/**
-!docs/skills/
-!docs/skills/**
+# Local docs, planning sheets — stay off git.
+docs/
