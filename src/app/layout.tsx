@@ -99,6 +99,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={dir} suppressHydrationWarning>
       <head>
+        <script defer data-domain="mogged.games" src="https://click.pageview.click/js/script.js"></script>
         {/* inject analytics head scripts as early as possible for tag diagnostics */}
         {analyticsHeadScripts}
         {/* inject analytics meta tags */}
