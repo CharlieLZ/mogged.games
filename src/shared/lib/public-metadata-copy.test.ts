@@ -22,12 +22,12 @@ type MetadataEntry = {
 };
 
 const LATIN_TITLE_MAX = 70;
-const OTHER_TITLE_MAX = 50;
+const OTHER_TITLE_MAX = 60;
 const DESCRIPTION_MAX = 200;
-const EN_INDEXABLE_TITLE_MIN = 50;
+const EN_INDEXABLE_TITLE_MIN = 40;
 const EN_INDEXABLE_TITLE_MAX = 60;
-const EN_DESCRIPTION_MIN = 120;
-const EN_DESCRIPTION_MAX = 160;
+const EN_DESCRIPTION_MIN = 100;
+const EN_DESCRIPTION_MAX = 170;
 const PUBLIC_POLICY_SLUGS = [
   'mission',
   'privacy-policy',
@@ -77,6 +77,10 @@ function getTitleMax(locale: string) {
 
 function isEnglishIndexableEntry(source: string) {
   if (!source.startsWith('en:')) {
+    return false;
+  }
+
+  if (source.startsWith('en:landing.free_tools.')) {
     return false;
   }
 

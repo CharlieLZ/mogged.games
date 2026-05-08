@@ -79,48 +79,57 @@ const landingFaq = {
   title: 'mogged FAQ',
   categories: [
     {
-      title: 'About mogged',
+      title: 'Getting Started',
       items: [
         {
           question: 'What is mogged?',
-          answer: 'The public product homepage.',
-        },
-        {
-          question: 'What can I do with mogged?',
           answer:
-            'Open the hosted AI image editor workspace and browser tools.',
+            'mogged is a 1v1 face rating arena. You enable your camera, the AI scans your face, and you get matched against a random opponent. The AI compares both faces and declares a winner based on facial symmetry, canthal tilt, jawline definition, and other biometric traits.',
+        },
+        {
+          question: 'Do I need an account to play?',
+          answer:
+            'You can try a guest battle without an account. Sign up to save your ELO, track progress, climb the leaderboard, and access premium features.',
+        },
+        {
+          question: 'How does the AI rating work?',
+          answer:
+            'Our AI uses computer vision to analyze key facial biometrics: symmetry, canthal tilt (eye angle), jawline definition, facial thirds (forehead/midface/lower face proportions), and overall facial harmony. These combine into a 0-10 score.',
+        },
+        {
+          question: 'How do rank tiers work?',
+          answer:
+            'Ranks are based on ELO: Molecule (0-800) to Sub3 (800-1000) to Low Tier Normie (1000-1200) to Mid Tier Normie (1200-1400) to High Tier Normie (1400-1600) to Chadlite (1600-1800) to Chad (1800-2000) to Slayer (2000+).',
         },
       ],
     },
     {
-      title: 'Workflow Modes & Tools',
+      title: 'Privacy & Fair Play',
       items: [
         {
-          question:
-            'Does mogged support more than one image workflow?',
-          answer: 'Yes. Text-to-image and image-to-image.',
+          question: 'Is my face data stored?',
+          answer:
+            'Face scans are used for real-time battle scoring only. We do not store raw camera footage. Only your ELO rating and battle stats are saved to your account.',
         },
         {
-          question:
-            'When should I use the studio instead of the browser tools?',
-          answer: 'Use the studio for generation and edits.',
+          question: 'Can the AI be tricked?',
+          answer:
+            'The AI detects face presence and orientation. Covering the camera, extreme angles, or props may result in a failed scan. Fair play is enforced.',
         },
         {
-          question: 'What browser tools ship with mogged?',
-          answer: 'Conversion, compression, GIF export, and thumbnails.',
-        },
-        {
-          question: 'Is mogged available in multiple languages?',
-          answer: 'Yes. Nine public languages are available.',
+          question: 'How is matchmaking fair?',
+          answer:
+            'Players are paired randomly. The ELO system ensures you gain more points for beating higher-ranked players and lose fewer points against stronger opponents.',
         },
       ],
     },
     {
-      title: 'Pricing, Trust & Support',
+      title: 'Support',
       items: [
         {
-          question: 'How do I contact support?',
-          answer: 'Email support@mogged.games.',
+          question: 'How do I report an issue?',
+          answer:
+            'Email {{support_email}} for account help, battle issues, billing questions, or anything else you need.',
         },
       ],
     },
@@ -184,15 +193,21 @@ vi.mock('@/shared/lib/faq', () => ({
 vi.mock('@/shared/lib/landing-page-content', () => ({
   buildLandingPageContent: () => ({
     metadata: {
-      title: 'mogged | AI Image Editor & Photo Editor AI',
+      title: "mogged | 1v1 Face Rating Battles - Get Mogged or Get Moggin'",
       description: 'Home description',
-      keywords: 'image editor ai, ai image editor',
+      keywords: 'mogged, mog battle, face rating, 1v1 mog, mogged game, mogging',
     },
     seoSections: {
       structured_data: {
-        alternate_names: ['mogged'],
-        about: ['AI image editor'],
-        feature_list: ['ai image editor', 'text-to-image', 'image-to-image'],
+        alternate_names: ['mogged', 'mog battle', 'face rating game', '1v1 mog'],
+        about: ['mogged', 'mog battle', 'face rating', '1v1 arena', 'mogging'],
+        feature_list: [
+          '1v1 face rating mog battles',
+          'AI-powered facial biometric analysis',
+          'ELO ranking and leaderboard system',
+          'Rank tiers from Molecule to Slayer',
+          'Real-time matchmaking and battle results',
+        ],
       },
     },
     page: {
@@ -248,7 +263,6 @@ describe('Landing route page', () => {
     ).IS_REACT_ACT_ENVIRONMENT = true;
     getFAQPageSchema.mockClear();
     getFaqSchemaQuestions.mockClear();
-    getGeneratorPricingPayload.mockClear();
     landingPageSpy.mockClear();
   });
 
@@ -268,20 +282,9 @@ describe('Landing route page', () => {
           common: {
             loaded: 'common',
           },
-          ai: {
-            image: {
-              loaded: 'ai/image',
-            },
-          },
         },
-        pricingPayload: expect.objectContaining({
-          pricing: expect.objectContaining({
-            title: 'Pricing',
-          }),
-        }),
       })
     );
-    expect(getGeneratorPricingPayload).toHaveBeenCalledWith('en');
     expect(getFaqSchemaQuestions).toHaveBeenCalledWith(landingFaq, {
       groupIndexes: [0, 1],
       maxItems: 5,
@@ -290,26 +293,28 @@ describe('Landing route page', () => {
       questions: [
         {
           question: 'What is mogged?',
-          answer: 'The public product homepage.',
-        },
-        {
-          question: 'What can I do with mogged?',
           answer:
-            'Open the hosted AI image editor workspace and browser tools.',
+            'mogged is a 1v1 face rating arena. You enable your camera, the AI scans your face, and you get matched against a random opponent. The AI compares both faces and declares a winner based on facial symmetry, canthal tilt, jawline definition, and other biometric traits.',
         },
         {
-          question:
-            'Does mogged support more than one image workflow?',
-          answer: 'Yes. Text-to-image and image-to-image.',
+          question: 'Do I need an account to play?',
+          answer:
+            'You can try a guest battle without an account. Sign up to save your ELO, track progress, climb the leaderboard, and access premium features.',
         },
         {
-          question:
-            'When should I use the studio instead of the browser tools?',
-          answer: 'Use the studio for generation and edits.',
+          question: 'How does the AI rating work?',
+          answer:
+            'Our AI uses computer vision to analyze key facial biometrics: symmetry, canthal tilt (eye angle), jawline definition, facial thirds (forehead/midface/lower face proportions), and overall facial harmony. These combine into a 0-10 score.',
         },
         {
-          question: 'What browser tools ship with mogged?',
-          answer: 'Conversion, compression, GIF export, and thumbnails.',
+          question: 'How do rank tiers work?',
+          answer:
+            'Ranks are based on ELO: Molecule (0-800) to Sub3 (800-1000) to Low Tier Normie (1000-1200) to Mid Tier Normie (1200-1400) to High Tier Normie (1400-1600) to Chadlite (1600-1800) to Chad (1800-2000) to Slayer (2000+).',
+        },
+        {
+          question: 'Is my face data stored?',
+          answer:
+            'Face scans are used for real-time battle scoring only. We do not store raw camera footage. Only your ELO rating and battle stats are saved to your account.',
         },
       ],
     });

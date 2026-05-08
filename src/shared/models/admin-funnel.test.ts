@@ -61,9 +61,9 @@ describe('admin funnel model', () => {
       sql`select * from ${order} where ${buildPaidOrderOccurredOnOrAfterFilter(startDate)}`
     );
 
-    expect(compiled.sql).toContain('"imageeditorai_net"."order"."paid_at" >= $1');
+    expect(compiled.sql).toContain('"mogged_games"."order"."paid_at" >= $1');
     expect(compiled.sql).toContain(
-      '"imageeditorai_net"."order"."created_at" >= $2'
+      '"mogged_games"."order"."created_at" >= $2'
     );
     expect(compiled.sql).not.toContain('COALESCE');
     expect(compiled.params).toEqual([

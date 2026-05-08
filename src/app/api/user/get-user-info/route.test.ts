@@ -75,7 +75,7 @@ describe('/api/user/get-user-info', () => {
 
   it('keeps admin data available when notification preferences fail to load', async () => {
     mocks.findUserNotificationPreferenceByUserId.mockRejectedValue(
-      new Error('relation "imageeditorai_net.user_notification_preference" does not exist')
+      new Error('relation "mogged_games.user_notification_preference" does not exist')
     );
 
     const response = await POST(

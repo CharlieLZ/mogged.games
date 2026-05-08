@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "title": "mogged | AI Image Editor & Photo Editor AI",
-    "description": "mogged is an online AI image editor for text-to-image, image-to-image, photo refinement, and browser-based image tools on {{app_domain}}.",
-    "keywords": "image editor ai, ai image editor, photo editor ai, ai photo editor, online image editor, image to image, text to image, {{app_domain}}"
+    "title": "mogged | 1v1 Face Rating Arena",
+    "description": "mogged is the 1v1 face rating arena on {{app_domain}}. Jump into mog battles, get AI-rated on facial biometrics, climb the ELO leaderboard from Molecule to Slayer.",
+    "keywords": "mogged, mog battle, face rating, 1v1 mog, mogging, ELO ranking, leaderboard, looksmaxxing, {{app_domain}}"
   },
   "sign": {
     "sign_in_title": "Sign In",
     "sign_in_description": "Sign in to your account",
-    "sign_in_modal_title": "Welcome to PhotoEditorAI",
+    "sign_in_modal_title": "Welcome to mogged",
     "sign_in_modal_description": "Log in to receive 10 free Credits every day",
-    "sign_in_modal_kicker": "Welcome to PhotoEditorAI",
+    "sign_in_modal_kicker": "Welcome to mogged",
     "sign_in_modal_benefit_1": "🎁 Completely Free! Sign in to get free 60 credits",
-    "sign_in_modal_benefit_2": "💾 Auto Save your edits and generation history",
-    "sign_in_modal_benefit_3": "✨ AI-powered photo editing, generation, and enhancement",
+    "sign_in_modal_benefit_2": "💾 Auto Save your battle history and progress",
+    "sign_in_modal_benefit_3": "✨ AI-powered face rating, mog battles, and leaderboard",
     "sign_in_modal_security_note": "By continuing, you agree to our Terms of Service and Privacy Policy.",
     "sign_up_title": "Sign Up",
     "sign_up_description": "Create an account",
-    "sign_up_modal_title": "Welcome to PhotoEditorAI",
+    "sign_up_modal_title": "Welcome to mogged",
     "sign_up_modal_description": "Create an account to unlock free daily credits",
-    "sign_up_modal_kicker": "Welcome to PhotoEditorAI",
+    "sign_up_modal_kicker": "Welcome to mogged",
     "sign_up_modal_benefit_1": "🎁 Completely Free! Sign in to get free 60 credits",
-    "sign_up_modal_benefit_2": "💾 Auto Save your edits and generation history",
-    "sign_up_modal_benefit_3": "✨ AI-powered photo editing, generation, and enhancement",
+    "sign_up_modal_benefit_2": "💾 Auto Save your battle history and progress",
+    "sign_up_modal_benefit_3": "✨ AI-powered face rating, mog battles, and leaderboard",
     "sign_up_modal_security_note": "By continuing, you agree to our Terms of Service and Privacy Policy.",
     "email_title": "Email",
     "email_placeholder": "Input your email here",
@@ -71,7 +71,7 @@
     "embedded_checkout_finalizing": "Finalizing payment...",
     "embedded_checkout_load_error": "Unable to load secure checkout. Please try again.",
     "selected_plan_fallback": "this plan",
-    "choose_payment_method_description_image": "Use a secure payment provider to continue checkout for {plan} and unlock more AI image generation and image editing credits.",
+    "choose_payment_method_description_image": "Use a secure payment provider to continue checkout for {plan} and unlock more credits for face rating battles and premium features.",
     "choose_payment_method_description_generic": "Use a secure payment provider to continue checkout for {plan}."
   },
   "locale_detector": {

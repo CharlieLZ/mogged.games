@@ -11,16 +11,15 @@ function getPage(path: string) {
 describe('discoverable page seo copy', () => {
   it('keeps core page titles and descriptions aligned with search intent', () => {
     expect(getPage('/').title).toBe('mogged');
-    expect(getPage('/').description).toContain('free online image editor');
+    expect(getPage('/').description).toContain('1v1 face rating');
     expect(getPage('/pricing').title).toContain('Pricing');
     expect(getPage('/pricing').description).toContain('Pricing');
     expect(getPage('/pricing').description).toContain('credits');
-    expect(getPage('/ai-video-generator').title).toContain(
-      'AI Video Generator'
-    );
-    expect(getPage('/ai-video-generator').description).toContain(
-      'text-to-video'
-    );
+    expect(getPage('/leaderboard').title).toContain('Leaderboard');
+    expect(getPage('/leaderboard').description).toContain('ELO');
+    expect(
+      DISCOVERABLE_PAGES.some((entry) => entry.path === '/ai-video-generator')
+    ).toBe(false);
     expect(
       DISCOVERABLE_PAGES.some(
         (entry) => entry.path === '/ai-video-generator/text-to-video'
@@ -36,18 +35,9 @@ describe('discoverable page seo copy', () => {
         (entry) => entry.path === '/ai-video-generator/reference-to-video'
       )
     ).toBe(false);
-    expect(getPage('/ai-image-generator').title).toContain(
-      'AI Image Generator'
-    );
-    expect(getPage('/ai-image-generator').description).toContain(
-      'AI image generator'
-    );
-    expect(getPage('/ai-image-generator').description).toContain(
-      'text-to-image'
-    );
     expect(
       DISCOVERABLE_PAGES.some((entry) => entry.path === '/ai-image-generator')
-    ).toBe(true);
+    ).toBe(false);
     expect(
       DISCOVERABLE_PAGES.some((entry) =>
         entry.path.startsWith('/ai-image-generator/')

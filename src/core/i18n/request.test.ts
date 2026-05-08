@@ -57,7 +57,7 @@ describe('loadMessages', () => {
       ])
     );
     expect(getLocaleMessagePathsForPathname('/ai-video-generator')).toEqual(
-      expect.arrayContaining(['common', 'landing', 'ai/video'])
+      expect.arrayContaining(['common', 'landing'])
     );
     expect(getLocaleMessagePathsForPathname('/ai-video-generator')).not.toEqual(
       expect.arrayContaining([
@@ -65,10 +65,11 @@ describe('loadMessages', () => {
         'admin/settings',
         'activity/aitasks',
         'ai/image',
+        'ai/video',
       ])
     );
     expect(getLocaleMessagePathsForPathname('/ai-image-generator')).toEqual(
-      expect.arrayContaining(['common', 'landing', 'ai/image'])
+      expect.arrayContaining(['common', 'landing'])
     );
     expect(getLocaleMessagePathsForPathname('/ai-image-generator')).not.toEqual(
       expect.arrayContaining([
@@ -76,6 +77,7 @@ describe('loadMessages', () => {
         'admin/settings',
         'activity/aitasks',
         'ai/video',
+        'ai/image',
       ])
     );
     expect(getLocaleMessagePathsForPathname('/pricing')).toEqual(
@@ -163,7 +165,7 @@ describe('loadMessages', () => {
     );
   });
 
-  it('keeps generator namespaces available on nested ai-video-generator routes', async () => {
+  it('keeps public core namespaces available on nested ai-video-generator routes', async () => {
     mocks.getPathname.mockResolvedValue(
       '/ai-video-generator/reference-to-video?mode=reference-to-video'
     );
@@ -172,15 +174,17 @@ describe('loadMessages', () => {
       requestLocale: Promise.resolve('en'),
     });
 
-    expect(config.messages).toHaveProperty(
+    expect(config.messages).toHaveProperty('common.daily_claim.title');
+    expect(config.messages).toHaveProperty('landing.header');
+    expect(config.messages).not.toHaveProperty(
       'ai.video.generator.form.panel_title'
     );
-    expect(config.messages).toHaveProperty(
+    expect(config.messages).not.toHaveProperty(
       'ai.video.generator.sample_preview_title'
     );
   });
 
-  it('keeps image generator namespaces available on ai-image-generator routes', async () => {
+  it('keeps public core namespaces available on ai-image-generator routes', async () => {
     mocks.getPathname.mockResolvedValue(
       '/ai-image-generator?mode=image-to-image'
     );
@@ -189,7 +193,9 @@ describe('loadMessages', () => {
       requestLocale: Promise.resolve('en'),
     });
 
-    expect(config.messages).toHaveProperty(
+    expect(config.messages).toHaveProperty('common.daily_claim.title');
+    expect(config.messages).toHaveProperty('landing.header');
+    expect(config.messages).not.toHaveProperty(
       'ai.image.generator.form.panel_title'
     );
     expect(config.messages).not.toHaveProperty('ai.video.generator.form.panel_title');

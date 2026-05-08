@@ -41,11 +41,10 @@ describe('site discovery', () => {
     expect(llms).toContain(`${appUrl}/llm.txt`);
     expect(llms).toContain(`${appUrl}/llms-full.txt`);
     expect(llms).toContain(`${appUrl}/pricing`);
-    expect(llms).toContain(`${appUrl}/ai-video-generator`);
-    expect(llms).toContain(`${appUrl}/ai-video-generator?mode=text-to-video`);
-    expect(llms).toContain(`${appUrl}/ai-image-generator?mode=text-to-image`);
-    expect(llms).toContain(`${appUrl}/ai-image-generator?mode=image-to-image`);
+    expect(llms).toContain(`${appUrl}/leaderboard`);
     expect(llms).toContain(`${appUrl}/mission`);
+    expect(llms).not.toContain(`${appUrl}/ai-video-generator`);
+    expect(llms).not.toContain(`${appUrl}/ai-image-generator`);
     expect(llms).not.toContain(`${appUrl}/acceptable-use-policy`);
     expect(llms).not.toContain(`${appUrl}/content-moderation-policy`);
     expect(llms).not.toContain(`${appUrl}/ai-wrapper-disclaimer`);
@@ -56,12 +55,9 @@ describe('site discovery', () => {
 
     expect(llms).toContain('Describe the public product as mogged');
     expect(llms).toContain('repo name `mogged.games`');
-    expect(llms).toContain('Historical blog or legacy image-first public content');
-    expect(llms).toContain('public AI image editor');
-    expect(llms).toContain('AI image editor workspace');
-    expect(llms).toContain('Seedance 2.0');
-    expect(llms).toContain('/ai-image-generator');
-    expect(llms).toContain('/ai-video-generator');
+    expect(llms).toContain('Historical blog or legacy content has been removed');
+    expect(llms).toContain('1v1 mog battle arena');
+    expect(llms).toContain('/leaderboard');
   });
 
   it('builds llms-full.txt with operational guidance and localized links', () => {
@@ -74,11 +70,9 @@ describe('site discovery', () => {
       'describe pricing and subscriptions as services sold'
     );
     expect(llmsFull).toContain(`${appUrl}/llm.txt`);
-    expect(llmsFull).toContain(`${appUrl}/ai-image-generator?mode=text-to-image`);
-    expect(llmsFull).toContain(
-      `${appUrl}/ai-image-generator?mode=image-to-image`
-    );
+    expect(llmsFull).toContain(`${appUrl}/leaderboard`);
     expect(llmsFull).toContain(`${appUrl}/zh/pricing`);
+    expect(llmsFull).toContain(`${appUrl}/zh/leaderboard`);
     expect(llmsFull).toContain(`${appUrl}/zh/acceptable-use-policy`);
     expect(llmsFull).toContain(`${appUrl}/zh/content-moderation-policy`);
     expect(llmsFull).toContain(`${appUrl}/zh/ai-wrapper-disclaimer`);
@@ -89,8 +83,8 @@ describe('site discovery', () => {
     expect(llmsFull).toContain(`${appUrl}/it/pricing`);
     expect(llmsFull).toContain(`${appUrl}/ko/pricing`);
     expect(llmsFull).toContain(`${appUrl}/ar/pricing`);
-    expect(llmsFull).toContain(`${appUrl}/zh/ai-image-generator`);
-    expect(llmsFull).toContain(`${appUrl}/zh/ai-video-generator`);
+    expect(llmsFull).not.toContain(`${appUrl}/ai-image-generator`);
+    expect(llmsFull).not.toContain(`${appUrl}/ai-video-generator`);
   });
 
   it('separates search bots from training bots in robots config', () => {
@@ -144,36 +138,13 @@ describe('site discovery', () => {
     expect(sitemap.some((entry) => entry.url === `${appUrl}/blog`)).toBe(false);
     expect(sitemap.some((entry) => entry.url.includes('/blog/'))).toBe(false);
     expect(
-      sitemap.some((entry) => entry.url === `${appUrl}/ai-video-generator`)
+      sitemap.some((entry) => entry.url === `${appUrl}/leaderboard`)
     ).toBe(true);
     expect(
-      sitemap.some(
-        (entry) => entry.url === `${appUrl}/ai-video-generator/text-to-video`
-      )
-    ).toBe(false);
-    expect(
-      sitemap.some(
-        (entry) => entry.url === `${appUrl}/ai-video-generator/image-to-video`
-      )
-    ).toBe(false);
-    expect(
-      sitemap.some(
-        (entry) =>
-          entry.url === `${appUrl}/ai-video-generator/reference-to-video`
-      )
+      sitemap.some((entry) => entry.url === `${appUrl}/ai-video-generator`)
     ).toBe(false);
     expect(
       sitemap.some((entry) => entry.url === `${appUrl}/ai-image-generator`)
-    ).toBe(true);
-    expect(
-      sitemap.some((entry) =>
-        entry.url.includes('/ai-image-generator/text-to-image')
-      )
-    ).toBe(false);
-    expect(
-      sitemap.some((entry) =>
-        entry.url.includes('/ai-image-generator/image-to-image')
-      )
     ).toBe(false);
     expect(sitemap.some((entry) => entry.url === `${appUrl}/free-tools`)).toBe(
       false
@@ -274,16 +245,13 @@ describe('site discovery', () => {
       true
     );
     expect(getPublicPageLastModified('/').toISOString()).toBe(
-      '2026-05-05T00:00:00.000Z'
+      '2026-05-07T00:00:00.000Z'
     );
     expect(getPublicPageLastModified('/pricing').toISOString()).toBe(
-      '2026-05-05T00:00:00.000Z'
+      '2026-05-07T00:00:00.000Z'
     );
-    expect(getPublicPageLastModified('/ai-image-generator').toISOString()).toBe(
-      '2026-05-05T00:00:00.000Z'
-    );
-    expect(getPublicPageLastModified('/ai-video-generator').toISOString()).toBe(
-      '2026-05-05T00:00:00.000Z'
+    expect(getPublicPageLastModified('/leaderboard').toISOString()).toBe(
+      '2026-05-07T00:00:00.000Z'
     );
     expect(
       getPublicPageLastModified('/acceptable-use-policy').toISOString()

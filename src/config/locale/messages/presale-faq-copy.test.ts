@@ -71,13 +71,14 @@ describe('presale faq copy', () => {
   it('keeps the English landing faq focused on first-visit user decisions', () => {
     expect(getFaqQuestions(enLanding.faq)).toEqual(
       expect.arrayContaining([
-        'What can I do on mogged?',
-        'Do I need an account or paid plan before I start?',
-        'Should I use the AI image generator or AI video generator?',
-        'Are the browser tools free and private?',
-        'Can I use generated images or videos commercially?',
-        'How is my uploaded content handled?',
-        'How do I contact support?',
+        'What is mogged?',
+        'Do I need an account to play?',
+        'How does the AI rating work?',
+        'How do rank tiers work?',
+        'Is my face data stored?',
+        'Can the AI be tricked?',
+        'How is matchmaking fair?',
+        'How do I report an issue?',
       ])
     );
   });

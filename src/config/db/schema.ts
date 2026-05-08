@@ -10,7 +10,7 @@ import {
   uniqueIndex,
 } from 'drizzle-orm/pg-core';
 
-export const siteSchema = pgSchema('imageeditorai_net');
+export const siteSchema = pgSchema('mogged_games');
 
 export const user = siteSchema.table(
   'user',

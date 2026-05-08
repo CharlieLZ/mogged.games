@@ -10,7 +10,7 @@ describe('db push wrapper', () => {
     const exitCode = await runDbPush({
       databaseProvider: 'postgresql',
       databaseUrl: 'postgres://example',
-      schemaFilter: ['imageeditorai_net'],
+      schemaFilter: ['mogged_games'],
       ensureSchemaExists,
       spawnPush,
     });
@@ -18,7 +18,7 @@ describe('db push wrapper', () => {
     expect(exitCode).toBe(0);
     expect(ensureSchemaExists).toHaveBeenCalledWith({
       databaseUrl: 'postgres://example',
-      schema: 'imageeditorai_net',
+      schema: 'mogged_games',
     });
     expect(spawnPush).toHaveBeenCalledOnce();
   });
@@ -30,7 +30,7 @@ describe('db push wrapper', () => {
     const exitCode = await runDbPush({
       databaseProvider: 'sqlite',
       databaseUrl: 'file:dev.db',
-      schemaFilter: ['imageeditorai_net'],
+      schemaFilter: ['mogged_games'],
       ensureSchemaExists,
       spawnPush,
     });

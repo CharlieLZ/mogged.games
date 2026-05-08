@@ -18,26 +18,26 @@ vi.mock('next-intl', () => ({
   useTranslations: () => (key: string) =>
     (
       ({
-        sign_in_modal_title: 'Welcome to PhotoEditorAI',
+        sign_in_modal_title: 'Welcome to mogged',
         sign_in_modal_description: 'Log in to receive 10 free Credits every day',
-        sign_in_modal_kicker: 'Welcome to PhotoEditorAI',
+        sign_in_modal_kicker: 'Welcome to mogged',
         sign_in_modal_benefit_1:
           '🎁 Completely Free! Sign in to get free 60 credits',
         sign_in_modal_benefit_2:
-          '💾 Auto Save your edits and generation history',
+          '💾 Auto Save your battle history and progress',
         sign_in_modal_benefit_3:
-          '✨ AI-powered photo editing, generation, and enhancement',
+          '✨ AI-powered face rating, mog battles, and leaderboard',
         sign_in_modal_security_note:
           'By continuing, you agree to our Terms of Service and Privacy Policy.',
-        sign_up_modal_title: 'Welcome to PhotoEditorAI',
+        sign_up_modal_title: 'Welcome to mogged',
         sign_up_modal_description: 'Create an account to unlock free daily credits',
-        sign_up_modal_kicker: 'Welcome to PhotoEditorAI',
+        sign_up_modal_kicker: 'Welcome to mogged',
         sign_up_modal_benefit_1:
           '🎁 Completely Free! Sign in to get free 60 credits',
         sign_up_modal_benefit_2:
-          '💾 Auto Save your edits and generation history',
+          '💾 Auto Save your battle history and progress',
         sign_up_modal_benefit_3:
-          '✨ AI-powered photo editing, generation, and enhancement',
+          '✨ AI-powered face rating, mog battles, and leaderboard',
         sign_up_modal_security_note:
           'By continuing, you agree to our Terms of Service and Privacy Policy.',
         cancel_title: 'Cancel',
@@ -167,8 +167,8 @@ describe('SignModal', () => {
   it('renders the shared sign-in form by default', async () => {
     const rendered = await renderSignModal();
 
-    expect(rendered.container.textContent).toContain('Welcome to PhotoEditorAI');
-    expect(rendered.container.textContent).toContain('Welcome to PhotoEditorAI');
+    expect(rendered.container.textContent).toContain('Welcome to mogged');
+    expect(rendered.container.textContent).toContain('Welcome to mogged');
     expect(rendered.container.textContent).toContain(
       '🎁 Completely Free! Sign in to get free 60 credits'
     );
@@ -190,10 +190,10 @@ describe('SignModal', () => {
 
     const rendered = await renderSignModal();
 
-    expect(rendered.container.textContent).toContain('Welcome to PhotoEditorAI');
-    expect(rendered.container.textContent).toContain('Welcome to PhotoEditorAI');
+    expect(rendered.container.textContent).toContain('Welcome to mogged');
+    expect(rendered.container.textContent).toContain('Welcome to mogged');
     expect(rendered.container.textContent).toContain(
-      '💾 Auto Save your edits and generation history'
+      '💾 Auto Save your battle history and progress'
     );
     expect(
       rendered.container.querySelector('[data-slot="sign-up-form"]')

@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "title": "mogged | تحرير الصور بالذكاء الاصطناعي و image-to-image وأدوات عبر الويب",
-    "description": "استخدم mogged على {{app_domain}} لتحرير الصور بالذكاء الاصطناعي و text-to-image و image-to-image وتحسين الصور وأدوات الصور السريعة في المتصفح.",
-    "keywords": "image editor ai, محرر صور بالذكاء الاصطناعي, تحرير الصور بالذكاء الاصطناعي, image-to-image, text-to-image, محرر صور عبر الإنترنت, تحسين الصور, {{app_domain}}"
+    "title": "mogged | ساحة تقييم الوجوه 1v1",
+    "description": "mogged هي ساحة تقييم الوجوه 1v1 على {{app_domain}}. انضم إلى معارك mog، واحصل على تقييم AI لملامح وجهك، وتسلق لوحة المتصدرين ELO من Molecule إلى Slayer.",
+    "keywords": "mogged, mog battle, تقييم الوجوه, 1v1 mog, mogging, تصنيف ELO, لوحة المتصدرين, looksmaxxing, {{app_domain}}"
   },
   "sign": {
     "sign_in_title": "تسجيل الدخول",
     "sign_in_description": "تسجيل الدخول إلى حسابك",
-    "sign_in_modal_title": "مرحبًا بك في PhotoEditorAI",
+    "sign_in_modal_title": "مرحبًا بك في mogged",
     "sign_in_modal_description": "سجل الدخول لتحصل على 10 أرصدة مجانية كل يوم",
-    "sign_in_modal_kicker": "مرحبًا بك في PhotoEditorAI",
+    "sign_in_modal_kicker": "مرحبًا بك في mogged",
     "sign_in_modal_benefit_1": "🎁 مجاني تمامًا! سجل الدخول لتحصل على 60 رصيد مجاني",
-    "sign_in_modal_benefit_2": "💾 حفظ تلقائي لتعديلاتك وسجل التوليد",
-    "sign_in_modal_benefit_3": "✨ تحرير وتوليد وتحسين الصور بالذكاء الاصطناعي",
+    "sign_in_modal_benefit_2": "💾 حفظ تلقائي لسجل معاركك وتقدمك",
+    "sign_in_modal_benefit_3": "✨ تقييم الوجوه بالذكاء الاصطناعي ومعارك mog ولوحة المتصدرين",
     "sign_in_modal_security_note": "بالمتابعة، أنت توافق على شروط الخدمة وسياسة الخصوصية.",
     "sign_up_title": "إنشاء حساب",
     "sign_up_description": "أنشئ حسابًا",
-    "sign_up_modal_title": "مرحبًا بك في PhotoEditorAI",
+    "sign_up_modal_title": "مرحبًا بك في mogged",
     "sign_up_modal_description": "أنشئ حسابًا لفتح الأرصدة المجانية اليومية",
-    "sign_up_modal_kicker": "مرحبًا بك في PhotoEditorAI",
+    "sign_up_modal_kicker": "مرحبًا بك في mogged",
     "sign_up_modal_benefit_1": "🎁 مجاني تمامًا! سجل الدخول لتحصل على 60 رصيد مجاني",
-    "sign_up_modal_benefit_2": "💾 حفظ تلقائي لتعديلاتك وسجل التوليد",
-    "sign_up_modal_benefit_3": "✨ تحرير وتوليد وتحسين الصور بالذكاء الاصطناعي",
+    "sign_up_modal_benefit_2": "💾 حفظ تلقائي لسجل معاركك وتقدمك",
+    "sign_up_modal_benefit_3": "✨ تقييم الوجوه بالذكاء الاصطناعي ومعارك mog ولوحة المتصدرين",
     "sign_up_modal_security_note": "بالمتابعة، أنت توافق على شروط الخدمة وسياسة الخصوصية.",
     "email_title": "البريد الإلكتروني",
     "email_placeholder": "أدخل بريدك الإلكتروني هنا",
@@ -71,7 +71,7 @@
     "embedded_checkout_finalizing": "جارٍ إنهاء الدفع...",
     "embedded_checkout_load_error": "تعذر تحميل صفحة الدفع الآمنة. حاول مرة أخرى.",
     "selected_plan_fallback": "هذه الخطة",
-    "choose_payment_method_description_image": "استخدم موفر دفع آمنًا لمتابعة إتمام شراء {plan} وفتح المزيد من الأرصدة لتوليد الصور وتحريرها بالذكاء الاصطناعي.",
+    "choose_payment_method_description_image": "استخدم موفر دفع آمنًا لمتابعة إتمام شراء {plan} وفتح المزيد من الأرصدة لمعارك تقييم الوجوه والميزات المميزة.",
     "choose_payment_method_description_generic": "استخدم موفر دفع آمنًا لمتابعة إتمام شراء {plan}."
   },
   "locale_detector": {

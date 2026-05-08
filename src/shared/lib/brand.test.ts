@@ -12,9 +12,9 @@ import { SITE_BRAND_LOGO_PATH, SITE_BRAND_MARK_PATH } from './site-visuals';
 
 describe('brand helpers', () => {
   it('normalizes placeholder app names to mogged', () => {
-    expect(normalizeAppName('mogged.games')).toBe(DEFAULT_APP_NAME);
+    expect(normalizeAppName('nte ai')).toBe(DEFAULT_APP_NAME);
+    expect(normalizeAppName('NTE AI')).toBe(DEFAULT_APP_NAME);
     expect(normalizeAppName('mogged')).toBe(DEFAULT_APP_NAME);
-    expect(normalizeAppName('www.mogged.games')).toBe(DEFAULT_APP_NAME);
   });
 
   it('normalizes the canonical public domain to the canonical site url', () => {

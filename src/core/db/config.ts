@@ -13,7 +13,7 @@ export default defineConfig({
     | 'gel',
   ...(envConfigs.database_provider === 'postgresql'
     ? {
-        schemaFilter: ['imageeditorai_net'],
+        schemaFilter: ['mogged_games'],
       }
     : {}),
   dbCredentials: {

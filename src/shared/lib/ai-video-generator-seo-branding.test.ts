@@ -3,8 +3,8 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 function replaceBrandTokensDeepForTest<T>(input: T): T {
   if (typeof input === 'string') {
     return input
-      .replaceAll('mogged', 'ExampleMotion 2.0')
-      .replaceAll('mogged.games', 'examplemotion.ai') as T;
+      .replaceAll('mogged.games', 'examplemotion.ai')
+      .replaceAll('mogged', 'ExampleMotion 2.0') as T;
   }
 
   if (Array.isArray(input)) {

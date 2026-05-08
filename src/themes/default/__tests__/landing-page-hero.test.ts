@@ -98,7 +98,7 @@ vi.mock('@/themes/default/blocks/nano-banana-cases', () => ({
     return createElement(
       'section',
       { 'data-slot': 'nano-banana-cases' },
-      'Typical use cases of Nano Banana'
+      'How mogged Works'
     );
   },
 }));
@@ -213,36 +213,37 @@ async function renderLandingHero() {
     hero: replaceBrandTokensDeep({
       ...enLanding.hero,
       comparison_video: {
-        label: 'mogged comparison video',
+        label: 'mogged preview video',
       },
     }),
     benefits: {
       id: 'benefits',
-      title: 'Real creations. Real feedback.',
+      title: 'The Arena Speaks for Itself',
       items: [
         {
-          title: 'James Carter',
-          quote: 'Our team is small.',
+          title: 'xQc Fan',
+          role: 'Twitch Streamer',
+          quote: 'Bro I\'ve been mogging kids all day.',
         },
       ],
     },
     usage: {
       id: 'usage',
-      title: 'Why it works',
+      title: 'How to Play mogged in 4 Steps',
       items: [],
     },
     features: {
       id: 'features',
-      title: 'An AI image editor built for fast, usable changes',
+      title: 'Everything You Need to Win Your Mog Battle',
       items: [],
     },
     nano_banana_cases: {
       id: 'nano-banana-cases',
-      title: 'Typical use cases of Nano Banana',
+      title: 'How mogged Works',
       items: [
         {
-          id: 'ecommerce-product-promotional-image',
-          title: 'E-commerce product promotional image',
+          id: 'camera-check',
+          title: 'Camera Check',
         },
       ],
     },
@@ -311,13 +312,15 @@ describe('Landing page hero', () => {
     const comparisonVideo = rendered.container.querySelector('video');
 
     expect(header?.getAttribute('data-size')).toBe('compact');
-    expect(header?.textContent).toContain('Free AI Image Editor Online');
     expect(header?.textContent).toContain(
-      'Edit images, refine photos, create text-to-image concepts, and run image-to-image changes with mogged in one online image editor.'
+      'Mogged — The Ultimate 1v1 Face Rating Arena'
+    );
+    expect(header?.textContent).toContain(
+      'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?'
     );
     expect(workspace?.closest('.max-w-6xl')).toBeNull();
     expect(rendered.container.textContent).toContain(
-      'Edit images, refine photos, create text-to-image concepts, and run image-to-image changes with mogged in one online image editor.'
+      'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?'
     );
     expect(imageBackdrop).toBeNull();
     expect(heroBackgroundVideos).toHaveLength(0);
@@ -332,15 +335,15 @@ describe('Landing page hero', () => {
             title: 'Pricing',
           }),
         }),
-        srOnlyTitle: 'Free AI Image Editor Online',
+        srOnlyTitle: 'Mogged — The Ultimate 1v1 Face Rating Arena',
       })
     );
     expect(pageHeaderSpy).toHaveBeenCalledTimes(1);
     expect(pageHeaderSpy).toHaveBeenCalledWith(
       expect.objectContaining({
-        title: 'Free AI Image Editor Online',
+        title: 'Mogged — The Ultimate 1v1 Face Rating Arena',
         description:
-          'Edit images, refine photos, create text-to-image concepts, and run image-to-image changes with mogged in one online image editor.',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
         size: 'compact',
       })
     );
@@ -379,7 +382,7 @@ describe('Landing page hero', () => {
       'See What mogged Can Generate'
     );
     expect(rendered.container.textContent).toContain(
-      'An AI image editor built for fast, usable changes'
+      'Everything You Need to Win Your Mog Battle'
     );
     expect(rendered.container.textContent).toContain(
       'What mogged Can Edit Fast'
@@ -391,16 +394,16 @@ describe('Landing page hero', () => {
       'GPT Image 2 vs Nano Banana Pro'
     );
     expect(rendered.container.textContent).toContain(
-      'Typical use cases of Nano Banana'
+      'How mogged Works'
     );
     expect(rendered.container.textContent).not.toContain(
-      'Real creations. Real feedback.'
+      'The Arena Speaks for Itself'
     );
     expect(rendered.container.textContent).not.toContain(
       'Use mogged on mogged.games'
     );
     expect(rendered.container.textContent).not.toContain(
-      'mogged comparison video'
+      'mogged preview video'
     );
     expect(rendered.container.textContent).not.toContain(
       'See what mogged can create'
@@ -414,7 +417,7 @@ describe('Landing page hero', () => {
       ) ?? -1;
     const featuresIndex =
       rendered.container.textContent?.indexOf(
-        'An AI image editor built for fast, usable changes'
+        'Everything You Need to Win Your Mog Battle'
       ) ?? -1;
     const useCasesIndex =
       rendered.container.textContent?.indexOf(
@@ -426,14 +429,14 @@ describe('Landing page hero', () => {
       ) ??
       -1;
     const usageIndex =
-      rendered.container.textContent?.indexOf('Why it works') ?? -1;
+      rendered.container.textContent?.indexOf('How to Play mogged in 4 Steps') ?? -1;
     const gptIndex =
       rendered.container.textContent?.indexOf(
         'GPT Image 2 vs Nano Banana Pro'
       ) ?? -1;
     const nanoBananaIndex =
       rendered.container.textContent?.indexOf(
-        'Typical use cases of Nano Banana'
+        'How mogged Works'
       ) ?? -1;
     const faqIndex = rendered.container.textContent?.indexOf('FAQ') ?? -1;
 

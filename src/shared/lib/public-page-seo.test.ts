@@ -42,7 +42,7 @@ describe('public page seo frontmatter', () => {
 
   it('keeps mission copy explicitly search-oriented in every live public locale', () => {
     const expectedMissionSignals = {
-      en: ['Mission', /AI image editing, text-to-image, image-to-image/i],
+      en: ['Mission', /1v1 mog battles, face rating, and competitive looksmaxxing/i],
       zh: ['使命', /AI 图片编辑产品方向/],
       de: ['Mission', /KI-Bildeditor-Produktstrategie/i],
       fr: ['Mission', /orientation produit d'éditeur d'image IA/i],

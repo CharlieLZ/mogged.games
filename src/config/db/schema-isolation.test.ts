@@ -18,26 +18,26 @@ function readTableSchema(table: object) {
 }
 
 describe('database schema isolation', () => {
-  it('maps existing tables into imageeditorai_net', () => {
-    expect(readTableSchema(user)).toBe('imageeditorai_net');
-    expect(readTableSchema(order)).toBe('imageeditorai_net');
-    expect(readTableSchema(webhookEvent)).toBe('imageeditorai_net');
+  it('maps existing tables into mogged_games', () => {
+    expect(readTableSchema(user)).toBe('mogged_games');
+    expect(readTableSchema(order)).toBe('mogged_games');
+    expect(readTableSchema(webhookEvent)).toBe('mogged_games');
   });
 
   it('exports the custom schema for drizzle-kit push snapshots', () => {
     const snapshot = generateDrizzleJson(schemaModule);
 
-    expect(siteSchema.schemaName).toBe('imageeditorai_net');
+    expect(siteSchema.schemaName).toBe('mogged_games');
     expect(snapshot.schemas).toHaveProperty(
-      'imageeditorai_net',
-      'imageeditorai_net'
+      'mogged_games',
+      'mogged_games'
     );
   });
 
-  it('limits drizzle-kit to the imageeditorai_net schema', () => {
+  it('limits drizzle-kit to the mogged_games schema', () => {
     expect(dbConfig).toMatchObject({
       schema: './src/config/db/schema.ts',
-      schemaFilter: ['imageeditorai_net'],
+      schemaFilter: ['mogged_games'],
     });
     expect(dbConfig).not.toHaveProperty('migrations');
     expect(dbConfig).not.toHaveProperty('out');

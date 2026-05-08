@@ -10,17 +10,13 @@ const publicRoot = path.resolve(process.cwd(), 'public');
 
 describe('landing nano banana cases copy', () => {
   it('ships English homepage Nano Banana cases with first-party images and prompt copy labels', () => {
-    expect(enLanding.nano_banana_cases.title).toBe(
-      'Typical use cases of Nano Banana'
-    );
+    expect(enLanding.nano_banana_cases.title).toBe('How mogged Works');
     expect(enLanding.nano_banana_cases.description).toContain(
-      'design efficiency'
+      'Your path from first camera check to Slayer rank'
     );
-    expect(enLanding.nano_banana_cases.labels.copyPrompt).toBe('Copy prompt');
+    expect(enLanding.nano_banana_cases.labels.copyPrompt).toBe('Copy');
     expect(enLanding.nano_banana_cases.items).toHaveLength(3);
-    expect(enLanding.nano_banana_cases.items[0]?.title).toBe(
-      'E-commerce product promotional image'
-    );
+    expect(enLanding.nano_banana_cases.items[0]?.title).toBe('Camera Check');
     expect(enLanding.nano_banana_cases.items[0]?.image.src).toBe(
       '/images/landing/nano-banana-cases/ecommerce-product-promotional-image.webp'
     );
@@ -38,8 +34,8 @@ describe('landing nano banana cases copy', () => {
   });
 
   it('keeps Chinese homepage Nano Banana cases synchronized with the English structure', () => {
-    expect(zhLanding.nano_banana_cases.title).toBe('Nano Banana 典型使用场景');
-    expect(zhLanding.nano_banana_cases.labels.copyPrompt).toBe('复制提示词');
+    expect(zhLanding.nano_banana_cases.title).toBe('How mogged Works');
+    expect(zhLanding.nano_banana_cases.labels.copyPrompt).toBe('Copy');
     expect(zhLanding.nano_banana_cases.items).toHaveLength(
       enLanding.nano_banana_cases.items.length
     );

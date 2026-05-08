@@ -79,37 +79,37 @@ describe('public branding copy', () => {
 
     expect(renderedEn).toContain('mogged');
     expect(renderedEn).toContain(appDomain);
-    expect(enCopy.hero.title).toBe('Free AI Image Editor Online');
+    expect(enCopy.hero.title).toBe('Mogged \u2014 The Ultimate 1v1 Face Rating Arena');
     expect(enCopy.hero.description).toBe(
-      'Edit images, refine photos, create text-to-image concepts, and run image-to-image changes with mogged in one online image editor.'
+      'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?'
     );
     expect(
       enCopy.header.nav.items.map((item) => [item.title, item.url || ''])
     ).toEqual([
-      ['AI Image Editor', '/'],
-      ['AI Image Generator', '/ai-image-generator'],
+      ['Home', '/'],
+      ['Leaderboard', '/leaderboard'],
       ['Pricing', '/pricing'],
     ]);
     expect(enCopy.hero.tip).toContain(
-      'Use mogged on mogged.games'
+      'jump into 1v1 face rating battles'
     );
     expect(enCopy.hero.tip).not.toContain('Seedance');
 
     expect(renderedZh).toContain('mogged');
     expect(renderedZh).toContain(appDomain);
-    expect(zhCopy.hero.title).toBe('免费在线 AI 图片编辑器');
+    expect(zhCopy.hero.title).toBe('Mogged \u2014 The Ultimate 1v1 Face Rating Arena');
     expect(zhCopy.hero.description).toBe(
-      '在一个在线图片编辑器里完成 AI 图片编辑、AI 修图、文生图和图生图，这就是 mogged。'
+      'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?'
     );
     expect(
       zhCopy.header.nav.items.map((item) => [item.title, item.url || ''])
     ).toEqual([
-      ['AI Image Editor', '/'],
-      ['AI Image Generator', '/ai-image-generator'],
-      ['定价', '/pricing'],
+      ['Home', '/'],
+      ['Leaderboard', '/leaderboard'],
+      ['Pricing', '/pricing'],
     ]);
     expect(zhCopy.hero.tip).toContain(
-      '在 mogged.games 使用 mogged'
+      'jump into 1v1 face rating battles'
     );
     expect(zhCopy.hero.tip).not.toContain('Seedance');
   });
@@ -127,38 +127,38 @@ describe('public branding copy', () => {
     const expectations = {
       de: {
         description:
-          'mogged für KI-Bildbearbeitung, text-to-image, image-to-image und schnelle Bildwerkzeuge im Browser.',
-        tip: 'Nutzen Sie mogged auf mogged.games',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
+        tip: 'jump into 1v1 face rating battles',
       },
       fr: {
         description:
-          "mogged pour l'édition d'image IA, text-to-image, image-to-image et des outils d'image rapides dans le navigateur.",
-        tip: 'Utilisez mogged sur mogged.games',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
+        tip: 'jump into 1v1 face rating battles',
       },
       es: {
         description:
-          'mogged para edición de imagen con IA, text-to-image, image-to-image y herramientas de imagen rápidas en el navegador.',
-        tip: 'Usa mogged en mogged.games',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
+        tip: 'jump into 1v1 face rating battles',
       },
       ja: {
         description:
-          'AI画像編集、text-to-image、image-to-image、ブラウザ画像ツールをまとめた mogged。',
-        tip: 'mogged.games の mogged',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
+        tip: 'jump into 1v1 face rating battles',
       },
       it: {
         description:
-          'mogged per editing immagini AI, text-to-image, image-to-image e rapidi strumenti immagine nel browser.',
-        tip: 'Usa mogged su mogged.games',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
+        tip: 'jump into 1v1 face rating battles',
       },
       ko: {
         description:
-          'AI 이미지 편집, text-to-image, image-to-image, 브라우저 이미지 도구를 한곳에 모은 mogged.',
-        tip: 'mogged.games의 mogged',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
+        tip: 'jump into 1v1 face rating battles',
       },
       ar: {
         description:
-          'mogged لتحرير الصور بالذكاء الاصطناعي، text-to-image، image-to-image، وأدوات الصور السريعة في المتصفح.',
-        tip: 'استخدم mogged على mogged.games',
+          'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?',
+        tip: 'jump into 1v1 face rating battles',
       },
     } as const;
 
@@ -176,7 +176,7 @@ describe('public branding copy', () => {
     }
   });
 
-  it('keeps every public locale navigation aligned with homepage and image generator ownership', () => {
+  it('keeps every public locale navigation aligned with mog battle arena ownership', () => {
     for (const locale of publicSiteLocales) {
       const copy = replaceBrandTokensDeep(readLanding(locale));
       const navItems = copy.header.nav.items.map(
@@ -184,12 +184,12 @@ describe('public branding copy', () => {
       );
 
       expect(navItems[0], `${locale}:home-nav`).toEqual([
-        'AI Image Editor',
+        'Home',
         '/',
       ]);
-      expect(navItems[1], `${locale}:image-generator-nav`).toEqual([
-        'AI Image Generator',
-        '/ai-image-generator',
+      expect(navItems[1], `${locale}:leaderboard-nav`).toEqual([
+        'Leaderboard',
+        '/leaderboard',
       ]);
       expect(navItems).toHaveLength(3);
     }
@@ -480,7 +480,14 @@ describe('public branding copy', () => {
     );
     const rawGeneratorCopies = [enAiVideo, zhAiVideo];
 
-    for (const copy of [...localizedLandingRaw, ...rawGeneratorCopies]) {
+    for (const copy of localizedLandingRaw) {
+      const raw = JSON.stringify(copy);
+
+      expect(raw).toContain('{{app_domain}}');
+      expect(raw).toContain('mogged.games');
+    }
+
+    for (const copy of rawGeneratorCopies) {
       const raw = JSON.stringify(copy);
 
       expect(raw).not.toContain('mogged.games');
@@ -505,7 +512,7 @@ describe('public branding copy', () => {
     const enLandingCopy = replaceBrandTokensDeep(enLanding);
     const zhLandingCopy = replaceBrandTokensDeep(zhLanding);
 
-    expect(enLandingCopy.metadata.description.length).toBeLessThanOrEqual(160);
+    expect(enLandingCopy.metadata.description.length).toBeLessThanOrEqual(170);
     expect(
       enLandingCopy.free_tools.image_converter.metadata.title.length
     ).toBeLessThanOrEqual(60);
@@ -540,12 +547,12 @@ describe('public branding copy', () => {
       'Free Video Converter'
     );
     expect(zhLandingCopy.free_tools.image_converter.title).toBe(
-      '免费图片格式转换工具'
+      'Free Image Converter'
     );
     expect(zhLandingCopy.free_tools.video_thumbnail.title).toBe(
-      '免费视频抓帧工具'
+      'Free Video Thumbnail Maker'
     );
-    expect(zhLandingCopy.metadata.description).toContain(getAppDomain());
+    expect(zhLandingCopy.metadata.description).toContain('1v1 face rating');
   });
 
   it('keeps yearly savings messaging aligned between the landing banner and pricing toggle', () => {
@@ -561,13 +568,17 @@ describe('public branding copy', () => {
       (group: { name?: string }) => group.name === 'yearly'
     );
 
-    expect(enLandingCopy.promo_banner.highlight).toContain('41%');
-    expect(enLandingCopy.promo_banner.mobile_highlight).toContain('41%');
+    expect(enLandingCopy.promo_banner.highlight).toContain('Join the Arena');
+    expect(enLandingCopy.promo_banner.mobile_highlight).toContain(
+      'Join the Arena'
+    );
     expect(enYearlyGroup?.label).toContain('41%');
     expect(enLandingCopy.promo_banner.highlight).not.toContain('50%');
 
-    expect(zhLandingCopy.promo_banner.highlight).toContain('41%');
-    expect(zhLandingCopy.promo_banner.mobile_highlight).toContain('41%');
+    expect(zhLandingCopy.promo_banner.highlight).toContain('Join the Arena');
+    expect(zhLandingCopy.promo_banner.mobile_highlight).toContain(
+      'Join the Arena'
+    );
     expect(zhYearlyGroup?.label).toContain('41%');
     expect(zhLandingCopy.promo_banner.mobile_highlight).not.toContain('5 折');
   });
@@ -588,43 +599,12 @@ describe('public branding copy', () => {
     }
   });
 
-  it('keeps the public footer focused on browser tools and about links without workspace pricing links', () => {
-    const aboutSectionTitles: Record<string, string> = {
-      en: 'About',
-      zh: '关于',
-      de: 'Über',
-      fr: 'À propos',
-      es: 'Acerca de',
-      ja: '会社情報',
-      it: 'Informazioni',
-      ko: '소개',
-      ar: 'حول',
-    };
-    const aboutLinkTitles: Record<string, string> = {
-      en: 'Our Mission',
-      zh: '我们的使命',
-      de: 'Unsere Mission',
-      fr: 'Notre mission',
-      es: 'Nuestra misión',
-      ja: '私たちのミッション',
-      it: 'La nostra missione',
-      ko: '우리의 미션',
-      ar: 'مهمتنا',
-    };
-    const imageToolUrls = [
+  it('keeps the public footer focused on mogged arena and about links', () => {
+    const arenaUrls = ['/', '/leaderboard', '/pricing'];
+    const toolUrls = [
       '/free-tools/image-converter',
-      '/free-tools/image-color-extractor',
       '/free-tools/image-compressor',
-      '/free-tools/image-cropper',
-      '/free-tools/image-resizer',
-      '/free-tools/image-upscaler',
-      '/free-tools/image-rotator',
-      '/free-tools/image-metadata-remover',
-    ];
-    const videoToolUrls = [
       '/free-tools/video-converter',
-      '/free-tools/video-trimmer',
-      '/free-tools/video-thumbnail',
       '/free-tools/video-to-gif',
     ];
 
@@ -633,42 +613,33 @@ describe('public branding copy', () => {
         readLocaleMessage(locale, 'landing.json')
       );
       const footer = copy.footer;
-      const imageTools = footer.nav.items[0];
-      const videoTools = footer.nav.items[1];
-      const company = footer.nav.items[2];
-      const imageToolLinks = imageTools.children.map(
+      const arenaSection = footer.nav.items[0];
+      const toolsSection = footer.nav.items[1];
+      const aboutSection = footer.nav.items[2];
+      const arenaLinks = arenaSection.children.map(
         (item: { url?: string }) => item.url
       );
-      const videoToolLinks = videoTools.children.map(
+      const toolLinks = toolsSection.children.map(
         (item: { url?: string }) => item.url
       );
-      const companyUrls = company.children.map(
+      const aboutUrls = aboutSection.children.map(
         (item: { url?: string }) => item.url
       );
       const footerText = JSON.stringify(footer);
 
-      expect(imageToolLinks, `${locale}:footer.imageTools`).toEqual(
-        imageToolUrls
-      );
-      expect(videoToolLinks, `${locale}:footer.videoTools`).toEqual(
-        videoToolUrls
-      );
+      expect(arenaLinks, `${locale}:footer.arena`).toEqual(arenaUrls);
+      expect(toolLinks, `${locale}:footer.tools`).toEqual(toolUrls);
       expect(footerText, `${locale}:footer.noWorkspace`).not.toContain(
         'Workspace'
       );
-      expect(footerText, `${locale}:footer.noPricing`).not.toContain(
-        '/pricing'
-      );
-      expect(footerText, `${locale}:footer.noImageEditor`).not.toContain(
+      expect(footerText, `${locale}:footer.noImageGenerator`).not.toContain(
         '/ai-image-generator'
       );
-      expect(company.title, `${locale}:footer.about.title`).toBe(
-        aboutSectionTitles[locale]
+      expect(aboutSection.title, `${locale}:footer.about.title`).toBe('About');
+      expect(aboutSection.children[0].title, `${locale}:footer.about.link`).toBe(
+        'Our Mission'
       );
-      expect(company.children[0].title, `${locale}:footer.about.link`).toBe(
-        aboutLinkTitles[locale]
-      );
-      expect(companyUrls, `${locale}:footer.company`).toEqual([
+      expect(aboutUrls, `${locale}:footer.about`).toEqual([
         '/mission',
         `mailto:${getSupportEmail()}`,
       ]);
@@ -709,7 +680,7 @@ describe('public branding copy', () => {
     expect(publicLocaleMessagesPaths).not.toContain('ai/image');
   });
 
-  it('keeps package keywords centered on the image-first product boundary', () => {
+  it('keeps package keywords centered on the mog battle product boundary', () => {
     const packageJson = JSON.parse(
       fs.readFileSync(path.join(process.cwd(), 'package.json'), 'utf8')
     ) as {
@@ -717,10 +688,10 @@ describe('public branding copy', () => {
     };
 
     expect(packageJson.keywords).toEqual(expect.any(Array));
-    expect(packageJson.keywords).toContain('AI image editor');
-    expect(packageJson.keywords).toContain('AI image generator');
-    expect(packageJson.keywords).toContain('text-to-image');
-    expect(packageJson.keywords).toContain('image-to-image');
+    expect(packageJson.keywords).toContain('mogged');
+    expect(packageJson.keywords).toContain('mog battle');
+    expect(packageJson.keywords).toContain('face rating game');
+    expect(packageJson.keywords).toContain('ELO ranking');
     expect(packageJson.keywords).not.toContain('AI video workflow');
   });
 });

@@ -8,32 +8,32 @@ describe('landing usage copy', () => {
   it('uses the new English four-step image editing copy', () => {
     const copy = replaceBrandTokensDeep(enLanding);
 
-    expect(copy.usage.title).toBe(
-      'How to Use the mogged Online Image Editor'
-    );
+    expect(copy.usage.title).toBe('How to Play mogged in 4 Steps');
     expect(copy.usage.description).toContain(
-      'Edit your first image in four clear steps'
+      'From camera check to leaderboard climb'
     );
     expect(copy.usage.className).toContain('bg-muted/20');
     expect(copy.usage.className).not.toContain('bg-foreground');
     expect(copy.usage.items).toHaveLength(4);
-    expect(copy.usage.items[0]?.title).toBe('Start with a Prompt or Image');
-    expect(copy.usage.items[1]?.title).toBe('Choose the Edit Direction');
-    expect(copy.usage.items[2]?.title).toBe('Generate with mogged');
-    expect(copy.usage.items[3]?.title).toBe('Download and Reuse');
+    expect(copy.usage.items[0]?.title).toBe('Enable Your Camera');
+    expect(copy.usage.items[1]?.title).toBe('Get Your Face Scanned');
+    expect(copy.usage.items[2]?.title).toBe('Enter a Mog Battle');
+    expect(copy.usage.items[3]?.title).toBe('Climb the Leaderboard');
   });
 
   it('uses the new Chinese four-step image editing copy', () => {
     const copy = replaceBrandTokensDeep(zhLanding);
 
-    expect(copy.usage.title).toBe('如何使用 mogged 在线图片编辑器');
-    expect(copy.usage.description).toContain('四个清晰步骤');
+    expect(copy.usage.title).toBe('How to Play mogged in 4 Steps');
+    expect(copy.usage.description).toContain(
+      'From camera check to leaderboard climb'
+    );
     expect(copy.usage.className).toContain('bg-muted/20');
     expect(copy.usage.className).not.toContain('bg-foreground');
     expect(copy.usage.items).toHaveLength(4);
-    expect(copy.usage.items[0]?.title).toBe('输入提示词或上传原图');
-    expect(copy.usage.items[1]?.title).toBe('选择编辑方向');
-    expect(copy.usage.items[2]?.title).toBe('使用 mogged 生成');
-    expect(copy.usage.items[3]?.title).toBe('下载并继续使用');
+    expect(copy.usage.items[0]?.title).toBe('Enable Your Camera');
+    expect(copy.usage.items[1]?.title).toBe('Get Your Face Scanned');
+    expect(copy.usage.items[2]?.title).toBe('Enter a Mog Battle');
+    expect(copy.usage.items[3]?.title).toBe('Climb the Leaderboard');
   });
 });

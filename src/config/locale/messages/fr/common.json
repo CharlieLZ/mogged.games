@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "title": "mogged | Édition d'image IA, image-to-image et outils web",
-    "description": "Utilisez mogged sur {{app_domain}} pour l'édition d'image IA, text-to-image, image-to-image, l'amélioration d'image et des outils d'image web.",
-    "keywords": "image editor ai, éditeur d'image IA, retouche photo IA, image-to-image, text-to-image, éditeur d'image en ligne, amélioration d'image, {{app_domain}}"
+    "title": "mogged | Arène de Face Rating 1v1",
+    "description": "mogged est l'arène de face rating 1v1 sur {{app_domain}}. Participez aux mog battles, faites-vous évaluer par IA et grimpez dans le classement ELO de Molecule à Slayer.",
+    "keywords": "mogged, mog battle, face rating, 1v1 mog, mogging, classement ELO, leaderboard, looksmaxxing, {{app_domain}}"
   },
   "sign": {
     "sign_in_title": "Se connecter",
     "sign_in_description": "Connectez-vous à votre compte",
-    "sign_in_modal_title": "Bienvenue sur PhotoEditorAI",
+    "sign_in_modal_title": "Bienvenue sur mogged",
     "sign_in_modal_description": "Connectez-vous pour recevoir 10 crédits gratuits chaque jour",
-    "sign_in_modal_kicker": "Bienvenue sur PhotoEditorAI",
+    "sign_in_modal_kicker": "Bienvenue sur mogged",
     "sign_in_modal_benefit_1": "🎁 Entièrement gratuit ! Connectez-vous pour obtenir 60 crédits gratuits",
-    "sign_in_modal_benefit_2": "💾 Sauvegarde automatique de vos modifications et de votre historique",
-    "sign_in_modal_benefit_3": "✨ Retouche photo, génération et amélioration assistées par IA",
+    "sign_in_modal_benefit_2": "💾 Sauvegarde automatique de votre historique de batailles et progression",
+    "sign_in_modal_benefit_3": "✨ Face rating par IA, mog battles et classement",
     "sign_in_modal_security_note": "En continuant, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité.",
     "sign_up_title": "S'inscrire",
     "sign_up_description": "Créer un compte",
-    "sign_up_modal_title": "Bienvenue sur PhotoEditorAI",
+    "sign_up_modal_title": "Bienvenue sur mogged",
     "sign_up_modal_description": "Créez un compte pour débloquer des crédits gratuits quotidiens",
-    "sign_up_modal_kicker": "Bienvenue sur PhotoEditorAI",
+    "sign_up_modal_kicker": "Bienvenue sur mogged",
     "sign_up_modal_benefit_1": "🎁 Entièrement gratuit ! Connectez-vous pour obtenir 60 crédits gratuits",
-    "sign_up_modal_benefit_2": "💾 Sauvegarde automatique de vos modifications et de votre historique",
-    "sign_up_modal_benefit_3": "✨ Retouche photo, génération et amélioration assistées par IA",
+    "sign_up_modal_benefit_2": "💾 Sauvegarde automatique de votre historique de batailles et progression",
+    "sign_up_modal_benefit_3": "✨ Face rating par IA, mog battles et classement",
     "sign_up_modal_security_note": "En continuant, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité.",
     "email_title": "E-mail",
     "email_placeholder": "Entrez votre e-mail",
@@ -71,7 +71,7 @@
     "embedded_checkout_finalizing": "Finalisation du paiement...",
     "embedded_checkout_load_error": "Impossible de charger le paiement sécurisé. Veuillez réessayer.",
     "selected_plan_fallback": "ce forfait",
-    "choose_payment_method_description_image": "Utilisez un moyen de paiement sécurisé pour poursuivre le checkout de {plan} et débloquer plus de crédits pour la génération et la retouche d'images IA.",
+    "choose_payment_method_description_image": "Utilisez un moyen de paiement sécurisé pour poursuivre le checkout de {plan} et débloquer plus de crédits pour les batailles de face rating et les fonctionnalités premium.",
     "choose_payment_method_description_generic": "Utilisez un moyen de paiement sécurisé pour poursuivre le checkout de {plan}."
   },
   "locale_detector": {

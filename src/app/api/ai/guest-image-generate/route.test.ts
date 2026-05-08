@@ -105,9 +105,9 @@ let guestRequestCounter = 0;
 function clearRateLimitStore() {
   (
     globalThis as typeof globalThis & {
-      __imageeditoraiRateLimitStore?: { clear: () => void };
+      __mogged_gamesRateLimitStore?: { clear: () => void };
     }
-  ).__imageeditoraiRateLimitStore?.clear();
+  ).__mogged_gamesRateLimitStore?.clear();
 }
 
 describe('/api/ai/guest-image-generate', () => {
@@ -200,7 +200,7 @@ describe('/api/ai/guest-image-generate', () => {
         headers: {
           'Content-Type': 'application/json',
           Cookie:
-            'better-auth.session_token=session-token; imageeditorai_guest_id=signed-guest-token',
+            'better-auth.session_token=session-token; mogged_games_guest_id=signed-guest-token',
         },
         body: JSON.stringify({
           scene: 'text-to-image',
@@ -578,7 +578,7 @@ describe('/api/ai/guest-image-generate', () => {
   it('returns a sanitized 503 when guest quota storage is unavailable', async () => {
     const missingTableError = Object.assign(
       new Error(
-        'Failed query: insert into "imageeditorai_net"."guest_daily_quota"'
+        'Failed query: insert into "mogged_games"."guest_daily_quota"'
       ),
       {
         cause: {
@@ -628,7 +628,7 @@ describe('/api/ai/guest-image-generate', () => {
   it('returns a sanitized 503 and releases quota when guest task storage is unavailable', async () => {
     const missingTableError = Object.assign(
       new Error(
-        'Failed query: insert into "imageeditorai_net"."guest_ai_task"'
+        'Failed query: insert into "mogged_games"."guest_ai_task"'
       ),
       {
         cause: {

@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "title": "mogged | AI 이미지 편집, image-to-image, 온라인 도구",
-    "description": "{{app_domain}}에서 mogged를 사용해 AI 이미지 편집, text-to-image, image-to-image, 이미지 개선, 브라우저 이미지 도구를 한곳에서 진행할 수 있습니다.",
-    "keywords": "image editor ai, AI 이미지 편집기, AI 사진 편집, image-to-image, text-to-image, 온라인 이미지 편집, 이미지 개선, {{app_domain}}"
+    "title": "mogged | 1v1 얼굴 평가 배틀 아레나",
+    "description": "mogged는 {{app_domain}}의 1v1 얼굴 평가 배틀 아레나입니다. mog 배틀에 참여하고 AI 얼굴 평가를 받고 ELO 리더보드를 Molecule에서 Slayer까지 올라가세요.",
+    "keywords": "mogged, mog battle, 얼굴 평가, 1v1 mog, mogging, ELO 랭킹, 리더보드, looksmaxxing, {{app_domain}}"
   },
   "sign": {
     "sign_in_title": "로그인",
     "sign_in_description": "계정으로 로그인하세요",
-    "sign_in_modal_title": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_in_modal_title": "mogged에 오신 것을 환영합니다",
     "sign_in_modal_description": "로그인하고 매일 10 크레딧을 무료로 받으세요",
-    "sign_in_modal_kicker": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_in_modal_kicker": "mogged에 오신 것을 환영합니다",
     "sign_in_modal_benefit_1": "🎁 완전 무료! 로그인하고 60 크레딧을 무료로 받으세요",
-    "sign_in_modal_benefit_2": "💾 편집 내용과 생성 기록 자동 저장",
-    "sign_in_modal_benefit_3": "✨ AI 기반 사진 편집, 생성 및 향상",
+    "sign_in_modal_benefit_2": "💾 배틀 기록과 진행 상황 자동 저장",
+    "sign_in_modal_benefit_3": "✨ AI 얼굴 평가, mog 배틀, 리더보드",
     "sign_in_modal_security_note": "계속 진행하면 서비스 약관 및 개인정보처리방침에 동의하게 됩니다.",
     "sign_up_title": "회원가입",
     "sign_up_description": "계정 만들기",
-    "sign_up_modal_title": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_up_modal_title": "mogged에 오신 것을 환영합니다",
     "sign_up_modal_description": "계정을 만들고 매일 무료 크레딧을 받으세요",
-    "sign_up_modal_kicker": "PhotoEditorAI에 오신 것을 환영합니다",
+    "sign_up_modal_kicker": "mogged에 오신 것을 환영합니다",
     "sign_up_modal_benefit_1": "🎁 완전 무료! 로그인하고 60 크레딧을 무료로 받으세요",
-    "sign_up_modal_benefit_2": "💾 편집 내용과 생성 기록 자동 저장",
-    "sign_up_modal_benefit_3": "✨ AI 기반 사진 편집, 생성 및 향상",
+    "sign_up_modal_benefit_2": "💾 배틀 기록과 진행 상황 자동 저장",
+    "sign_up_modal_benefit_3": "✨ AI 얼굴 평가, mog 배틀, 리더보드",
     "sign_up_modal_security_note": "계속 진행하면 서비스 약관 및 개인정보처리방침에 동의하게 됩니다.",
     "email_title": "이메일",
     "email_placeholder": "이메일을 입력하세요",
@@ -71,7 +71,7 @@
     "embedded_checkout_finalizing": "결제를 마무리하는 중...",
     "embedded_checkout_load_error": "안전 결제를 불러오지 못했습니다. 다시 시도해 주세요.",
     "selected_plan_fallback": "이 플랜",
-    "choose_payment_method_description_image": "안전한 결제 수단으로 {plan} 체크아웃을 계속하고 AI 이미지 생성과 이미지 편집용 크레딧을 더 확보하세요.",
+    "choose_payment_method_description_image": "안전한 결제 수단으로 {plan} 체크아웃을 계속하고 얼굴 평가 배틀과 프리미엄 기능용 크레딧을 더 확보하세요.",
     "choose_payment_method_description_generic": "안전한 결제 수단으로 {plan} 체크아웃을 계속하세요."
   },
   "locale_detector": {

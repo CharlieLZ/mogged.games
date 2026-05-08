@@ -41,9 +41,9 @@ vi.mock('@/shared/services/kie-image', () => ({
 function clearRateLimitStore() {
   (
     globalThis as typeof globalThis & {
-      __imageeditoraiRateLimitStore?: { clear: () => void };
+      __mogged_gamesRateLimitStore?: { clear: () => void };
     }
-  ).__imageeditoraiRateLimitStore?.clear();
+  ).__mogged_gamesRateLimitStore?.clear();
 }
 
 describe('/api/ai/guest-image-query', () => {
@@ -182,7 +182,7 @@ describe('/api/ai/guest-image-query', () => {
   it('returns a sanitized 503 when guest task storage is unavailable', async () => {
     const missingTableError = Object.assign(
       new Error(
-        'Failed query: select from "imageeditorai_net"."guest_ai_task"'
+        'Failed query: select from "mogged_games"."guest_ai_task"'
       ),
       {
         cause: {

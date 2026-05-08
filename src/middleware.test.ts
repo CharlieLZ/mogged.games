@@ -102,32 +102,28 @@ describe('middleware locale canonicalization', () => {
     expect(intlMiddlewareSpy).toHaveBeenCalledTimes(1);
   });
 
-  it('redirects image workflow paths to the root image workspace mode query', async () => {
+  it('keeps image workflow paths live as nested routes', async () => {
     const response = await middleware(
       new NextRequest(
         'https://mogged.games/ai-image-generator/text-to-image?ref=seo'
       )
     );
 
-    expect(response.status).toBe(308);
-    expect(response.headers.get('location')).toBe(
-      'https://mogged.games/ai-image-generator?ref=seo&mode=text-to-image'
-    );
-    expect(intlMiddlewareSpy).not.toHaveBeenCalled();
+    expect(response.status).toBe(200);
+    expect(response.headers.get('location')).toBeNull();
+    expect(intlMiddlewareSpy).toHaveBeenCalledTimes(1);
   });
 
-  it('redirects localized image workflow paths to the localized root image workspace', async () => {
+  it('keeps localized image workflow paths live as nested routes', async () => {
     const response = await middleware(
       new NextRequest(
         'https://mogged.games/zh/ai-image-generator/image-to-image?ref=seo'
       )
     );
 
-    expect(response.status).toBe(308);
-    expect(response.headers.get('location')).toBe(
-      'https://mogged.games/zh/ai-image-generator?ref=seo&mode=image-to-image'
-    );
-    expect(intlMiddlewareSpy).not.toHaveBeenCalled();
+    expect(response.status).toBe(200);
+    expect(response.headers.get('location')).toBeNull();
+    expect(intlMiddlewareSpy).toHaveBeenCalledTimes(1);
   });
 
   it('keeps the root video generator route live', async () => {
@@ -142,18 +138,16 @@ describe('middleware locale canonicalization', () => {
     expect(intlMiddlewareSpy).toHaveBeenCalledTimes(1);
   });
 
-  it('redirects localized video workflow routes to the localized root video workspace state url', async () => {
+  it('keeps localized video workflow routes live as nested routes', async () => {
     const response = await middleware(
       new NextRequest(
         'https://mogged.games/zh/ai-video-generator/reference-to-video?ref=seo'
       )
     );
 
-    expect(response.status).toBe(308);
-    expect(response.headers.get('location')).toBe(
-      'https://mogged.games/zh/ai-video-generator?ref=seo&mode=reference-to-video'
-    );
-    expect(intlMiddlewareSpy).not.toHaveBeenCalled();
+    expect(response.status).toBe(200);
+    expect(response.headers.get('location')).toBeNull();
+    expect(intlMiddlewareSpy).toHaveBeenCalledTimes(1);
   });
 
   it('keeps dotted static asset paths outside middleware matching', () => {

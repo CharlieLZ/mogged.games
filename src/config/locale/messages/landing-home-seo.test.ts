@@ -16,35 +16,36 @@ describe('landing homepage seo copy', () => {
 
     expect(copy.metadata.title).toContain('mogged');
     expect(copy.metadata.title).toBe(
-      'mogged | Free AI Image Editor & Photo Editor'
+      "mogged | 1v1 Face Rating Battles - Get Mogged or Get Moggin'"
     );
     expect(copy.metadata.description).toBe(
-      `mogged is a free online image editor for AI image editing, photo editing, text-to-image, image-to-image, and browser image tools on ${appDomain}.`
+      `mogged is the ultimate 1v1 face rating arena. Jump into live mog battles, get AI-rated on facial symmetry and biometrics, climb the leaderboard from Molecule to Slayer.`
     );
-    expect(copy.metadata.description).toContain(appDomain);
-    expect(copy.metadata.description).toContain('text-to-image');
-    expect(copy.metadata.description).toContain('image-to-image');
-    expect(copy.hero.title).toBe('Free AI Image Editor Online');
+    expect(copy.metadata.description).not.toContain('text-to-image');
+    expect(copy.metadata.description).not.toContain('image-to-image');
+    expect(copy.hero.title).toBe(
+      'Mogged — The Ultimate 1v1 Face Rating Arena'
+    );
     expect(copy.hero.description).toBe(
-      'Edit images, refine photos, create text-to-image concepts, and run image-to-image changes with mogged in one online image editor.'
+      'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?'
     );
     expect(copy.hero.tip).toBe(
-      `Use mogged on ${appDomain} when you need a free online image editor, AI photo editor, picture cleanup workflow, or text-to-image ideation without extra setup.`
+      `Use mogged on ${appDomain} to jump into 1v1 face rating battles, earn ELO, and climb the competitive leaderboard.`
     );
     expect(`${copy.hero.description} ${copy.hero.tip}`).not.toMatch(
-      /killer|world's #1|rank/i
+      /killer|world's #1/i
     );
     expect(copy.metadata.description).not.toMatch(/video generator/i);
     expect(
       copy.metadata.keywords.split(',').map((keyword) => keyword.trim())[0]
-    ).toBe('image');
-    expect(copy.metadata.keywords).toContain('ai image editor');
-    expect(copy.metadata.keywords).toContain('image editor ai');
+    ).toBe('mogged');
+    expect(copy.metadata.keywords).toContain('mog battle');
+    expect(copy.metadata.keywords).toContain('face rating');
     expect(
       copy.header.nav.items.map((item) => [item.title, item.url || ''])
     ).toEqual([
-      ['AI Image Editor', '/'],
-      ['AI Image Generator', '/ai-image-generator'],
+      ['Home', '/'],
+      ['Leaderboard', '/leaderboard'],
       ['Pricing', '/pricing'],
     ]);
     expect(rawSerialized).not.toContain('https://mogged.games/');
@@ -74,20 +75,22 @@ describe('landing homepage seo copy', () => {
 
     expect(copy.metadata.title).toContain('mogged');
     expect(copy.metadata.title).toBe(
-      'mogged｜免费在线 AI 图片编辑器与修图工具'
+      "mogged | 1v1 Face Rating Battles - Get Mogged or Get Moggin'"
     );
     expect(copy.metadata.description).toBe(
-      `mogged 是 ${appDomain} 上的免费在线 AI 图片编辑器，支持 AI 图片编辑、文生图、图生图、AI 修图和浏览器端图片工具。`
+      `mogged is the ultimate 1v1 face rating arena. Jump into live mog battles, get AI-rated on facial symmetry and biometrics, climb the leaderboard from Molecule to Slayer.`
     );
-    expect(copy.metadata.description).toContain(appDomain);
-    expect(copy.metadata.description).toContain('文生图');
-    expect(copy.metadata.description).toContain('图生图');
-    expect(copy.hero.title).toBe('免费在线 AI 图片编辑器');
+    expect(copy.metadata.description).not.toContain(appDomain);
+    expect(copy.metadata.description).not.toContain('文生图');
+    expect(copy.metadata.description).not.toContain('图生图');
+    expect(copy.hero.title).toBe(
+      'Mogged — The Ultimate 1v1 Face Rating Arena'
+    );
     expect(copy.hero.description).toBe(
-      '在一个在线图片编辑器里完成 AI 图片编辑、AI 修图、文生图和图生图，这就是 mogged。'
+      'Get rated by AI in real-time 1v1 mog battles. Climb the leaderboard from Molecule to Slayer. Do you mog or get mogged?'
     );
     expect(copy.hero.tip).toBe(
-      `在 ${appDomain} 使用 mogged：想要免费在线图片编辑、AI 修图、图生图细修，或从文本直接生成新图片，都可以在同一个工作台里完成。`
+      `Use mogged on ${appDomain} to jump into 1v1 face rating battles, earn ELO, and climb the competitive leaderboard.`
     );
     expect(`${copy.hero.description} ${copy.hero.tip}`).not.toMatch(
       /杀手|排名第一/
@@ -95,21 +98,23 @@ describe('landing homepage seo copy', () => {
     expect(copy.metadata.description).not.toMatch(/视频生成器/);
     expect(
       copy.metadata.keywords.split(',').map((keyword) => keyword.trim())[0]
-    ).toBe('image');
-    expect(copy.metadata.keywords).toContain('ai image editor');
-    expect(copy.metadata.keywords).toContain('AI 图片编辑器');
+    ).toBe('mogged');
+    expect(copy.metadata.keywords).toContain('mog battle');
+    expect(copy.metadata.keywords).toContain('face rating');
     expect(
       copy.header.nav.items.map((item) => [item.title, item.url || ''])
     ).toEqual([
-      ['AI Image Editor', '/'],
-      ['AI Image Generator', '/ai-image-generator'],
-      ['定价', '/pricing'],
+      ['Home', '/'],
+      ['Leaderboard', '/leaderboard'],
+      ['Pricing', '/pricing'],
     ]);
     expect(rawSerialized).not.toContain('https://mogged.games/');
     expect(rawSerialized).toContain('imageeditorai-media:');
     expect(rawSerialized).not.toContain('/imgs/');
     expect(serialized).not.toContain('imageeditorai-media:');
-    expect(copy.footer.disclaimer).toContain(`${appDomain} 上的独立产品`);
+    expect(copy.footer.disclaimer).toContain(
+      `independent product operated on ${appDomain}`
+    );
     expect(copy.footer.agreement.items.map((item) => item.url)).toEqual([
       '/privacy-policy',
       '/terms-of-service',

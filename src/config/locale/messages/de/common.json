@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "title": "mogged | KI-Bildeditor, Bild-zu-Bild und Online-Tools",
-    "description": "Nutzen Sie mogged auf {{app_domain}} für KI-Bildbearbeitung, text-to-image, image-to-image, Bildoptimierung und Bildwerkzeuge im Browser.",
-    "keywords": "image editor ai, KI-Bildeditor, KI-Fotobearbeitung, image-to-image, text-to-image, Online-Bildeditor, Bildoptimierung, {{app_domain}}"
+    "title": "mogged | 1v1 Face-Rating-Arena",
+    "description": "mogged ist die 1v1 Face-Rating-Arena auf {{app_domain}}. Nimm an Mog-Battles teil, lass dich von KI bewerten und erklimme die ELO-Rangliste von Molecule bis Slayer.",
+    "keywords": "mogged, mog battle, Face Rating, 1v1 mog, mogging, ELO-Ranking, Rangliste, looksmaxxing, {{app_domain}}"
   },
   "sign": {
     "sign_in_title": "Anmelden",
     "sign_in_description": "Melden Sie sich in Ihrem Konto an",
-    "sign_in_modal_title": "Willkommen bei PhotoEditorAI",
+    "sign_in_modal_title": "Willkommen bei mogged",
     "sign_in_modal_description": "Melden Sie sich an und erhalten Sie täglich 10 Gratis-Credits",
-    "sign_in_modal_kicker": "Willkommen bei PhotoEditorAI",
+    "sign_in_modal_kicker": "Willkommen bei mogged",
     "sign_in_modal_benefit_1": "🎁 Völlig kostenlos! Anmelden und 60 Gratis-Credits erhalten",
-    "sign_in_modal_benefit_2": "💾 Automatisches Speichern Ihrer Bearbeitungen und Verläufe",
-    "sign_in_modal_benefit_3": "✨ KI-gestützte Fotobearbeitung, Generierung und Verbesserung",
+    "sign_in_modal_benefit_2": "💾 Automatisches Speichern Ihrer Battle-Historie und Fortschritte",
+    "sign_in_modal_benefit_3": "✨ KI-gestütztes Face-Rating, Mog-Battles und Rangliste",
     "sign_in_modal_security_note": "Mit der Nutzung stimmen Sie unseren Nutzungsbedingungen und Datenschutzrichtlinien zu.",
     "sign_up_title": "Registrieren",
     "sign_up_description": "Konto erstellen",
-    "sign_up_modal_title": "Willkommen bei PhotoEditorAI",
+    "sign_up_modal_title": "Willkommen bei mogged",
     "sign_up_modal_description": "Konto erstellen und tägliche Gratis-Credits freischalten",
-    "sign_up_modal_kicker": "Willkommen bei PhotoEditorAI",
+    "sign_up_modal_kicker": "Willkommen bei mogged",
     "sign_up_modal_benefit_1": "🎁 Völlig kostenlos! Anmelden und 60 Gratis-Credits erhalten",
-    "sign_up_modal_benefit_2": "💾 Automatisches Speichern Ihrer Bearbeitungen und Verläufe",
-    "sign_up_modal_benefit_3": "✨ KI-gestützte Fotobearbeitung, Generierung und Verbesserung",
+    "sign_up_modal_benefit_2": "💾 Automatisches Speichern Ihrer Battle-Historie und Fortschritte",
+    "sign_up_modal_benefit_3": "✨ KI-gestütztes Face-Rating, Mog-Battles und Rangliste",
     "sign_up_modal_security_note": "Mit der Nutzung stimmen Sie unseren Nutzungsbedingungen und Datenschutzrichtlinien zu.",
     "email_title": "E-Mail",
     "email_placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
@@ -71,7 +71,7 @@
     "embedded_checkout_finalizing": "Die Zahlung wird finalisiert...",
     "embedded_checkout_load_error": "Der sichere Checkout konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
     "selected_plan_fallback": "diesen Plan",
-    "choose_payment_method_description_image": "Nutze einen sicheren Zahlungsanbieter, um den Checkout für {plan} fortzusetzen und mehr Credits für KI-Bildgenerierung und Bildbearbeitung freizuschalten.",
+    "choose_payment_method_description_image": "Nutze einen sicheren Zahlungsanbieter, um den Checkout für {plan} fortzusetzen und mehr Credits für Face-Rating-Battles und Premium-Features freizuschalten.",
     "choose_payment_method_description_generic": "Nutze einen sicheren Zahlungsanbieter, um den Checkout für {plan} fortzusetzen."
   },
   "locale_detector": {

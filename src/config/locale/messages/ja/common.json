@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "title": "mogged | AI画像編集・image-to-image・オンラインツール",
-    "description": "{{app_domain}} で mogged を使い、AI画像編集、text-to-image、image-to-image、画像改善、ブラウザ画像ツールをまとめて進められます。",
-    "keywords": "image editor ai, AI画像編集, AI写真編集, image-to-image, text-to-image, オンライン画像編集, 画像改善, {{app_domain}}"
+    "title": "mogged | 1v1顔評価バトルアリーナ",
+    "description": "mogged は {{app_domain}} の 1v1 顔評価バトルアリーナです。mogバトルに参加し、AIによる顔の生体分析で評価され、ELOランキングを Molecule から Slayer まで駆け上がりましょう。",
+    "keywords": "mogged, mog battle, 顔評価, 1v1 mog, mogging, ELOランキング, リーダーボード, looksmaxxing, {{app_domain}}"
   },
   "sign": {
     "sign_in_title": "サインイン",
     "sign_in_description": "アカウントにサインインしてください",
-    "sign_in_modal_title": "PhotoEditorAI へようこそ",
+    "sign_in_modal_title": "mogged へようこそ",
     "sign_in_modal_description": "ログインすると毎日10クレジット無料で獲得",
-    "sign_in_modal_kicker": "PhotoEditorAI へようこそ",
+    "sign_in_modal_kicker": "mogged へようこそ",
     "sign_in_modal_benefit_1": "🎁 完全無料！ログインで60クレジットを獲得",
-    "sign_in_modal_benefit_2": "💾 編集内容と生成履歴を自動保存",
-    "sign_in_modal_benefit_3": "✨ AIによる写真編集、生成、強化",
+    "sign_in_modal_benefit_2": "💾 バトル履歴と進捗を自動保存",
+    "sign_in_modal_benefit_3": "✨ AIによる顔評価、mogバトル、リーダーボード",
     "sign_in_modal_security_note": "続行することで、利用規約とプライバシーポリシーに同意したことになります。",
     "sign_up_title": "サインアップ",
     "sign_up_description": "アカウントを作成してください",
-    "sign_up_modal_title": "PhotoEditorAI へようこそ",
+    "sign_up_modal_title": "mogged へようこそ",
     "sign_up_modal_description": "アカウントを作成して毎日の無料クレジットを解除",
-    "sign_up_modal_kicker": "PhotoEditorAI へようこそ",
+    "sign_up_modal_kicker": "mogged へようこそ",
     "sign_up_modal_benefit_1": "🎁 完全無料！ログインで60クレジットを獲得",
-    "sign_up_modal_benefit_2": "💾 編集内容と生成履歴を自動保存",
-    "sign_up_modal_benefit_3": "✨ AIによる写真編集、生成、強化",
+    "sign_up_modal_benefit_2": "💾 バトル履歴と進捗を自動保存",
+    "sign_up_modal_benefit_3": "✨ AIによる顔評価、mogバトル、リーダーボード",
     "sign_up_modal_security_note": "続行することで、利用規約とプライバシーポリシーに同意したことになります。",
     "email_title": "メールアドレス",
     "email_placeholder": "メールアドレスを入力してください",
@@ -71,7 +71,7 @@
     "embedded_checkout_finalizing": "支払いを確定しています...",
     "embedded_checkout_load_error": "安全なチェックアウトを読み込めませんでした。もう一度お試しください。",
     "selected_plan_fallback": "このプラン",
-    "choose_payment_method_description_image": "安全な決済プロバイダーで {plan} のチェックアウトを続行し、AI画像生成と画像編集用のクレジットをさらに解放します。",
+    "choose_payment_method_description_image": "安全な決済プロバイダーで {plan} のチェックアウトを続行し、顔評価バトルとプレミアム機能用のクレジットをさらに解放します。",
     "choose_payment_method_description_generic": "安全な決済プロバイダーで {plan} のチェックアウトを続行します。"
   },
   "locale_detector": {

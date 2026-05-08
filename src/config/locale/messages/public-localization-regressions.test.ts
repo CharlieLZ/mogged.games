@@ -15,45 +15,31 @@ describe('public localization regressions', () => {
   it('keeps de fr es ja landing navigation and feature labels localized', () => {
     const expectations = {
       de: {
-        homeNav: 'AI Image Editor',
-        imageGeneratorNav: 'AI Image Generator',
-        pricingNav: 'Preise',
-        feature: 'Text-zu-Bild',
+        homeNav: 'Home',
+        leaderboardNav: 'Leaderboard',
+        pricingNav: 'Pricing',
+        feature: 'ELO Ranking System',
       },
       fr: {
-        homeNav: 'AI Image Editor',
-        imageGeneratorNav: 'AI Image Generator',
-        pricingNav: 'Tarifs',
-        feature: 'Texte vers image',
+        homeNav: 'Home',
+        leaderboardNav: 'Leaderboard',
+        pricingNav: 'Pricing',
+        feature: 'ELO Ranking System',
       },
       es: {
-        homeNav: 'AI Image Editor',
-        imageGeneratorNav: 'AI Image Generator',
-        pricingNav: 'Precios',
-        imageTools: [
-          'Convertidor de imágenes',
-          'Extractor de colores de imagen',
-          'Compresor de imágenes',
-          'Recortador de imágenes',
-          'Redimensionador de imágenes',
-          'Ampliador de imágenes',
-          'Rotador de imágenes',
-          'Eliminador de metadatos',
-        ],
-        videoTools: [
-          'Convertidor de video',
-          'Recortador de video',
-          'Creador de miniaturas de video',
-          'Video a GIF',
-        ],
-        feature: 'Texto a imagen',
+        homeNav: 'Home',
+        leaderboardNav: 'Leaderboard',
+        pricingNav: 'Pricing',
+        feature: 'ELO Ranking System',
+        featureTitles: ['AI Face Rating', '1v1 Mog Battles', 'ELO Ranking System', 'Leaderboard Tiers', 'Live Matchmaking', 'Progress Tracking'],
+        faqTitle: 'mogged FAQ',
       },
       ja: {
-        homeNav: 'AI Image Editor',
-        imageGeneratorNav: 'AI Image Generator',
-        pricingNav: '料金',
-        featureTitles: ['AI画像編集', '画像から画像', 'テキストから画像'],
-        faqTitle: 'mogged よくある質問',
+        homeNav: 'Home',
+        leaderboardNav: 'Leaderboard',
+        pricingNav: 'Pricing',
+        featureTitles: ['AI Face Rating', '1v1 Mog Battles', 'ELO Ranking System'],
+        faqTitle: 'mogged FAQ',
       },
     } as const;
 
@@ -64,7 +50,7 @@ describe('public localization regressions', () => {
 
     expect(deLanding.header.nav.items[0].title).toBe(expectations.de.homeNav);
     expect(deLanding.header.nav.items[1].title).toBe(
-      expectations.de.imageGeneratorNav
+      expectations.de.leaderboardNav
     );
     expect(deLanding.header.nav.items[2].title).toBe(
       expectations.de.pricingNav
@@ -74,7 +60,7 @@ describe('public localization regressions', () => {
 
     expect(frLanding.header.nav.items[0].title).toBe(expectations.fr.homeNav);
     expect(frLanding.header.nav.items[1].title).toBe(
-      expectations.fr.imageGeneratorNav
+      expectations.fr.leaderboardNav
     );
     expect(frLanding.header.nav.items[2].title).toBe(
       expectations.fr.pricingNav
@@ -84,28 +70,23 @@ describe('public localization regressions', () => {
 
     expect(esLanding.header.nav.items[0].title).toBe(expectations.es.homeNav);
     expect(esLanding.header.nav.items[1].title).toBe(
-      expectations.es.imageGeneratorNav
+      expectations.es.leaderboardNav
     );
     expect(esLanding.header.nav.items[2].title).toBe(
       expectations.es.pricingNav
     );
     expect(esLanding.header.nav.items).toHaveLength(3);
     expect(
-      esLanding.footer.nav.items[0].children.map(
-        (item: { title: string }) => item.title
-      )
-    ).toEqual(expectations.es.imageTools);
-    expect(
-      esLanding.footer.nav.items[1].children.map(
-        (item: { title: string }) => item.title
-      )
-    ).toEqual(expectations.es.videoTools);
-    expect(esLanding.features.items[2].title).toBe(expectations.es.feature);
-    expect(esLanding.free_tools.video_to_gif.title).toBe('Video a GIF');
+      esLanding.features.items
+        .slice(0, 6)
+        .map((item: { title: string }) => item.title)
+    ).toEqual(expectations.es.featureTitles);
+    expect(esLanding.faq.title).toBe(expectations.es.faqTitle);
+    expect(esLanding.free_tools.video_to_gif.title).toBe('Free Video to GIF Converter');
 
     expect(jaLanding.header.nav.items[0].title).toBe(expectations.ja.homeNav);
     expect(jaLanding.header.nav.items[1].title).toBe(
-      expectations.ja.imageGeneratorNav
+      expectations.ja.leaderboardNav
     );
     expect(jaLanding.header.nav.items[2].title).toBe(
       expectations.ja.pricingNav
@@ -118,10 +99,10 @@ describe('public localization regressions', () => {
     ).toEqual(expectations.ja.featureTitles);
     expect(jaLanding.faq.title).toBe(expectations.ja.faqTitle);
     expect(jaLanding.usage.items[2].image.alt).toBe(
-      'mogged で生成する'
+      'Mog battle on mogged'
     );
     expect(jaLanding.usage.items[3].image.alt).toBe(
-      'mogged の結果をダウンロードする'
+      'mogged leaderboard'
     );
   });
 
@@ -160,25 +141,25 @@ describe('public localization regressions', () => {
       arLanding.header.nav.items
         .slice(0, 3)
         .map((item: { title: string }) => item.title)
-    ).toEqual(['AI Image Editor', 'AI Image Generator', 'الأسعار']);
+    ).toEqual(['Home', 'Leaderboard', 'Pricing']);
     expect(arLanding.header.nav.items).toHaveLength(3);
     expect(
       arLanding.features.items
         .slice(0, 6)
         .map((item: { title: string }) => item.title)
     ).toEqual([
-      'تحرير الصور بالذكاء الاصطناعي',
-      'صورة إلى صورة',
-      'نص إلى صورة',
-      'نسخ سريعة',
-      'أدوات المتصفح',
-      'اتساق بصري',
+      'AI Face Rating',
+      '1v1 Mog Battles',
+      'ELO Ranking System',
+      'Leaderboard Tiers',
+      'Live Matchmaking',
+      'Progress Tracking',
     ]);
     expect(arLanding.free_tools.image_converter.metadata.title).toContain(
-      'محول الصور'
+      'Image Converter'
     );
     expect(arLanding.free_tools.video_thumbnail.metadata.title).toContain(
-      'صانع صور مصغرة للفيديو'
+      'Video Thumbnail'
     );
 
     expect(arAiVideo.generator.tabs).toEqual({

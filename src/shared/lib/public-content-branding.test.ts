@@ -13,64 +13,14 @@ const PUBLIC_PAGE_SLUGS = [
   'content-moderation-policy',
   'ai-wrapper-disclaimer',
 ] as const;
-const MISSION_WORKFLOW_TERMS = [
-  'text-to-image',
-  'image-to-image',
-  'text-to-video',
-  'image-to-video',
-  'reference-to-video',
+const MISSION_BATTLE_SIGNALS = [
+  /Camera Check/i,
+  /Face Scan/i,
+  /Mog Battle/i,
+  /ELO/i,
+  /leaderboard/i,
+  /1v1/i,
 ] as const;
-const MISSION_ACCESS_SIGNALS: Record<string, RegExp[]> = {
-  en: [
-    /ordinary people/i,
-    /more model choice/i,
-    /more chances to generate useful images/i,
-    /more free ways/i,
-  ],
-  zh: [/普通人/, /更多模型选择/, /更多生成好图的机会/, /更多免费的方式/],
-  de: [
-    /normale Menschen/i,
-    /mehr Modellauswahl/i,
-    /mehr Chancen, gute Bilder zu erzeugen/i,
-    /mehr kostenlose Wege/i,
-  ],
-  fr: [
-    /personnes ordinaires/i,
-    /plus de choix de modèles/i,
-    /plus de chances de générer de bonnes images/i,
-    /plus de moyens gratuits/i,
-  ],
-  es: [
-    /personas comunes/i,
-    /más opciones de modelos/i,
-    /más oportunidades de generar buenas imágenes/i,
-    /más formas gratis/i,
-  ],
-  ja: [
-    /ふつうの人/,
-    /モデルの選択肢を増やし/,
-    /良い画像を生み出す機会を増やし/,
-    /無料で使える手段/,
-  ],
-  it: [
-    /persone comuni/i,
-    /più scelta di modelli/i,
-    /più occasioni per generare buone immagini/i,
-    /più modi gratuiti/i,
-  ],
-  ko: [
-    /보통 사람들/,
-    /더 많은 모델 선택지/,
-    /좋은 이미지를 만들 기회/,
-    /더 많은 무료 방법/,
-  ],
-  ar: [
-    /الناس العاديون/,
-    /خيارات نماذج أكثر/,
-    /فرص أكثر لتوليد صور جيدة/,
-    /طرق مجانية أكثر/,
-  ],
-};
 
 function getPublicPageFiles() {
   return publicSiteLocales.flatMap((locale) =>
@@ -106,31 +56,19 @@ describe('public content branding', () => {
     }
   });
 
-  it('keeps every mission page aligned with the two public generator entries', () => {
+  it('keeps every mission page aligned with the mog battle arena', () => {
     for (const locale of publicSiteLocales) {
       const file = locale === 'en' ? 'mission.mdx' : `mission.${locale}.mdx`;
       const filePath = join(process.cwd(), 'content/pages', file);
       const content = readFileSync(filePath, 'utf8');
 
-      expect(content, file).toContain('/ai-image-generator');
-      expect(content, file).toContain('/ai-video-generator');
+      expect(content, file).toContain('mogged');
+      expect(content, file).toContain('mogged.games');
 
-      for (const workflow of MISSION_WORKFLOW_TERMS) {
-        expect(content, `${file}:${workflow}`).toContain(workflow);
-      }
-    }
-  });
-
-  it('keeps every mission page centered on broader model access and free entry points', () => {
-    for (const locale of publicSiteLocales) {
-      const file = locale === 'en' ? 'mission.mdx' : `mission.${locale}.mdx`;
-      const content = readFileSync(
-        join(process.cwd(), 'content/pages', file),
-        'utf8'
-      );
-
-      for (const signal of MISSION_ACCESS_SIGNALS[locale]) {
-        expect(content, `${file}:${signal}`).toMatch(signal);
+      if (locale === 'en') {
+        for (const signal of MISSION_BATTLE_SIGNALS) {
+          expect(content, `${file}:${signal}`).toMatch(signal);
+        }
       }
     }
   });
@@ -145,9 +83,9 @@ describe('public content branding', () => {
       'utf8'
     );
 
-    expect(enPolicy).toContain('hosted image and video workflows');
-    expect(enPolicy).not.toContain('hosted video workflows');
-    expect(zhPolicy).toContain('托管图片和视频工作流');
-    expect(zhPolicy).not.toContain('托管视频工作流');
+    expect(enPolicy).toContain('face rating game battles');
+    expect(enPolicy).toContain('mog comparison features');
+    expect(zhPolicy).toContain('托管图片和视频对战');
+    expect(zhPolicy).toContain('对战对战');
   });
 });

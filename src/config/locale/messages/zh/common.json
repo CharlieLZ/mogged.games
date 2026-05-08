@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "title": "mogged｜AI 图片编辑、图生图与在线工具",
-    "description": "在 {{app_domain}} 使用 mogged，统一完成 AI 图片编辑、文生图、图生图、图片优化和浏览器端图片工具。",
-    "keywords": "image editor ai, AI 图片编辑, AI 修图, 图生图, 文生图, 在线图片编辑, 图片优化, {{app_domain}}"
+    "title": "mogged | 1v1 颜值评分竞技场",
+    "description": "mogged 是 {{app_domain}} 上的 1v1 颜值评分竞技场。加入 mog 对战，AI 对面部生物特征进行评分，在 ELO 排行榜上从 Molecule 晋升到 Slayer。",
+    "keywords": "mogged, mog battle, 颜值评分, 1v1 mog, mogging, ELO 排名, 排行榜, looksmaxxing, {{app_domain}}"
   },
   "sign": {
     "sign_in_title": "登录",
     "sign_in_description": "登录到您的账户",
-    "sign_in_modal_title": "欢迎来到 PhotoEditorAI",
+    "sign_in_modal_title": "欢迎来到 mogged",
     "sign_in_modal_description": "登录即可每天获得 10 个免费积分",
-    "sign_in_modal_kicker": "欢迎来到 PhotoEditorAI",
+    "sign_in_modal_kicker": "欢迎来到 mogged",
     "sign_in_modal_benefit_1": "🎁 完全免费！登录即可获得 60 个免费积分",
-    "sign_in_modal_benefit_2": "💾 自动保存您的编辑和生成历史",
-    "sign_in_modal_benefit_3": "✨ AI 驱动的照片编辑、生成和增强",
+    "sign_in_modal_benefit_2": "💾 自动保存您的对战记录和进度",
+    "sign_in_modal_benefit_3": "✨ AI 颜值评分、mog 对战和排行榜",
     "sign_in_modal_security_note": "继续即表示您同意我们的服务条款和隐私政策。",
     "sign_up_title": "注册",
     "sign_up_description": "创建一个新账户",
-    "sign_up_modal_title": "欢迎来到 PhotoEditorAI",
+    "sign_up_modal_title": "欢迎来到 mogged",
     "sign_up_modal_description": "创建账户以解锁每日免费积分",
-    "sign_up_modal_kicker": "欢迎来到 PhotoEditorAI",
+    "sign_up_modal_kicker": "欢迎来到 mogged",
     "sign_up_modal_benefit_1": "🎁 完全免费！登录即可获得 60 个免费积分",
-    "sign_up_modal_benefit_2": "💾 自动保存您的编辑和生成历史",
-    "sign_up_modal_benefit_3": "✨ AI 驱动的照片编辑、生成和增强",
+    "sign_up_modal_benefit_2": "💾 自动保存您的对战记录和进度",
+    "sign_up_modal_benefit_3": "✨ AI 颜值评分、mog 对战和排行榜",
     "sign_up_modal_security_note": "继续即表示您同意我们的服务条款和隐私政策。",
     "email_title": "邮箱",
     "email_placeholder": "请输入您的邮箱",
@@ -71,7 +71,7 @@
     "embedded_checkout_finalizing": "正在确认支付...",
     "embedded_checkout_load_error": "安全结账加载失败，请重试。",
     "selected_plan_fallback": "当前方案",
-    "choose_payment_method_description_image": "使用安全支付方式继续结算 {plan}，解锁更多 AI 图片生成和图片编辑积分。",
+    "choose_payment_method_description_image": "使用安全支付方式继续结算 {plan}，解锁更多颜值对战和高级功能积分。",
     "choose_payment_method_description_generic": "使用安全支付方式继续结算 {plan}。"
   },
   "locale_detector": {

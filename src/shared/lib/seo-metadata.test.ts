@@ -87,9 +87,6 @@ describe('seo metadata builder', () => {
       '/free-tools/video-trimmer',
       '/free-tools/video-to-gif',
       '/free-tools/video-thumbnail',
-      '/ai-video-generator/text-to-video',
-      '/ai-video-generator/image-to-video',
-      '/ai-video-generator/reference-to-video',
     ] as const;
 
     for (const canonicalUrl of noIndexPaths) {

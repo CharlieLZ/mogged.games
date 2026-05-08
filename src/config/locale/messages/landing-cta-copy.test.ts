@@ -25,58 +25,58 @@ const localizedLandings = {
 
 const localizedCtaExpectations = {
   ar: {
-    title: 'ابدأ الإنشاء باستخدام مولد الصور بالذكاء الاصطناعي المجاني',
+    title: 'Ready to Get Mogged?',
     description:
-      'جرّبه مجانًا عند توفر رصيد الضيف. لا حاجة لبطاقة ائتمان. أنشئ خلال ثوانٍ باستخدام GPT Image 2 وNano Banana Pro والمزيد من أفضل نماذج الصور بالذكاء الاصطناعي.',
-    primaryButton: 'أنشئ صورتي الأولى مجاناً',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   de: {
-    title: 'Mit dem kostenlosen KI-Bildgenerator direkt loslegen',
+    title: 'Ready to Get Mogged?',
     description:
-      'Kostenlos testbar, wenn Gast-Credits verfügbar sind. Keine Kreditkarte. Generiere in Sekunden mit GPT Image 2, Nano Banana Pro und weiteren Top-KI-Bildmodellen.',
-    primaryButton: 'Mein erstes Bild kostenlos erstellen',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   en: {
-    title: 'Start generating with the free AI image generator',
+    title: 'Ready to Get Mogged?',
     description:
-      'Free to try when guest credits are available. No credit card. Generate in seconds with GPT Image 2, Nano Banana Pro, and more top AI image models.',
-    primaryButton: 'Generate My First Image for Free',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   es: {
-    title: 'Empieza a generar con el generador de imágenes IA gratis',
+    title: 'Ready to Get Mogged?',
     description:
-      'Pruébalo gratis cuando haya créditos de invitado disponibles. Sin tarjeta. Genera en segundos con GPT Image 2, Nano Banana Pro y más modelos top de imágenes con IA.',
-    primaryButton: 'Generar mi primera imagen gratis',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   fr: {
-    title: 'Commencez avec le générateur d’images IA gratuit',
+    title: 'Ready to Get Mogged?',
     description:
-      'À essayer gratuitement quand des crédits invité sont disponibles. Sans carte bancaire. Générez en quelques secondes avec GPT Image 2, Nano Banana Pro et d’autres grands modèles d’images IA.',
-    primaryButton: 'Générer ma première image gratuitement',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   it: {
-    title: 'Inizia a generare con il generatore di immagini AI gratuito',
+    title: 'Ready to Get Mogged?',
     description:
-      'Provalo gratis quando sono disponibili crediti ospite. Nessuna carta di credito. Genera in pochi secondi con GPT Image 2, Nano Banana Pro e altri top modelli immagini AI.',
-    primaryButton: 'Genera la mia prima immagine gratis',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   ja: {
-    title: '無料のAI画像生成ツールで生成を始める',
+    title: 'Ready to Get Mogged?',
     description:
-      'ゲストクレジットが使えるときは無料で試せます。クレジットカード不要。GPT Image 2、Nano Banana Pro など主要なAI画像モデルで数秒生成。',
-    primaryButton: '最初の1枚を無料で生成',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   ko: {
-    title: '무료 AI 이미지 생성기로 바로 생성 시작',
+    title: 'Ready to Get Mogged?',
     description:
-      '게스트 크레딧이 있을 때 무료로 체험할 수 있습니다. 카드 필요 없음. GPT Image 2, Nano Banana Pro 등 주요 AI 이미지 모델로 몇 초 안에 생성하세요.',
-    primaryButton: '첫 이미지를 무료로 생성',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
   zh: {
-    title: '开始用免费 AI 图像生成器生成图片',
+    title: 'Ready to Get Mogged?',
     description:
-      '访客额度可用时可免费试用，无需信用卡。用 GPT Image 2、Nano Banana Pro 等热门 AI 图像模型，几秒内开始生成。',
-    primaryButton: '免费生成我的第一张图',
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.',
+    primaryButton: 'Enter the Arena — Free',
   },
 } as const;
 
@@ -85,17 +85,15 @@ describe('landing cta copy', () => {
     const copy = replaceBrandTokensDeep(enLanding);
 
     expect(copy.cta).not.toHaveProperty('label');
-    expect(copy.cta.title).toBe(
-      'Start generating with the free AI image generator'
-    );
+    expect(copy.cta.title).toBe('Ready to Get Mogged?');
     expect(copy.cta.description).toBe(
-      'Free to try when guest credits are available. No credit card. Generate in seconds with GPT Image 2, Nano Banana Pro, and more top AI image models.'
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.'
     );
     expect(copy.cta.description).not.toContain('hosted video workspace');
     expect(copy.cta).not.toHaveProperty('items');
     expect(copy.cta.buttons).toHaveLength(1);
-    expect(copy.cta.buttons[0]?.title).toBe('Generate My First Image for Free');
-    expect(copy.cta.buttons[0]?.url).toBe('/ai-image-generator');
+    expect(copy.cta.buttons[0]?.title).toBe('Enter the Arena — Free');
+    expect(copy.cta.buttons[0]?.url).toBe('/');
     expect(copy.cta.buttons[1]).toBeUndefined();
   });
 
@@ -103,15 +101,15 @@ describe('landing cta copy', () => {
     const copy = replaceBrandTokensDeep(zhLanding);
 
     expect(copy.cta).not.toHaveProperty('label');
-    expect(copy.cta.title).toBe('开始用免费 AI 图像生成器生成图片');
+    expect(copy.cta.title).toBe('Ready to Get Mogged?');
     expect(copy.cta.description).toBe(
-      '访客额度可用时可免费试用，无需信用卡。用 GPT Image 2、Nano Banana Pro 等热门 AI 图像模型，几秒内开始生成。'
+      'Turn on your camera, face the AI, and climb the leaderboard. Free to try — no credit card needed.'
     );
     expect(copy.cta.description).not.toContain('托管视频工作台');
     expect(copy.cta).not.toHaveProperty('items');
     expect(copy.cta.buttons).toHaveLength(1);
-    expect(copy.cta.buttons[0]?.title).toBe('免费生成我的第一张图');
-    expect(copy.cta.buttons[0]?.url).toBe('/ai-image-generator');
+    expect(copy.cta.buttons[0]?.title).toBe('Enter the Arena — Free');
+    expect(copy.cta.buttons[0]?.url).toBe('/');
     expect(copy.cta.buttons[1]).toBeUndefined();
   });
 
@@ -136,7 +134,7 @@ describe('landing cta copy', () => {
       expect(copy.cta.buttons[0]?.title, locale).toBe(
         expectation.primaryButton
       );
-      expect(copy.cta.buttons[0]?.url, locale).toBe('/ai-image-generator');
+      expect(copy.cta.buttons[0]?.url, locale).toBe('/');
       expect(copy.cta.buttons[0]?.target, locale).toBe('_self');
       expect(copy.cta.buttons[0]?.icon, locale).toBe('Zap');
       expect(copy.cta.buttons[1], locale).toBeUndefined();

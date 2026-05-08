@@ -24,7 +24,7 @@ const localizedLandingPages = {
 } as const;
 
 describe('localized landing image-editor positioning', () => {
-  it('keeps every homepage high-intent section focused on image editing without removing live generator workflows', () => {
+  it('keeps every homepage high-intent section focused on mog battle content without extraneous legacy references', () => {
     for (const [locale, landing] of Object.entries(localizedLandingPages)) {
       const copy = replaceBrandTokensDeep(landing);
       const highIntentSections = JSON.stringify({
@@ -49,27 +49,27 @@ describe('localized landing image-editor positioning', () => {
       ).not.toContain('deleted video');
       expect(
         highIntentSections,
-        `${locale} should keep the homepage tied to the surviving image workspace`
-      ).toContain('/ai-image-generator');
+        `${locale} should keep the homepage tied to the mog battle arena`
+      ).toContain('leaderboard');
     }
   });
 
-  it('keeps homepage FAQ concise while covering image and video entry points', () => {
+  it('keeps homepage FAQ concise while covering mog battle and face rating entry points', () => {
     for (const [locale, landing] of Object.entries(localizedLandingPages)) {
       const faqItems =
         landing.faq.categories?.flatMap((category) => category.items ?? []) ??
         [];
       const faqText = JSON.stringify(landing.faq).toLowerCase();
 
-      expect(faqItems, `${locale} homepage FAQ count`).toHaveLength(7);
+      expect(faqItems, `${locale} homepage FAQ count`).toHaveLength(8);
       expect(
         faqText,
-        `${locale} homepage FAQ should point to image page`
-      ).toContain('ai-image-generator');
+        `${locale} homepage FAQ should cover mog battle basics`
+      ).toContain('face rating');
       expect(
         faqText,
-        `${locale} homepage FAQ should point to video page`
-      ).toContain('ai-video-generator');
+        `${locale} homepage FAQ should cover privacy & fair play`
+      ).toContain('face data');
     }
   });
 });

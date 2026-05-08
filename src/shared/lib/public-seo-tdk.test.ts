@@ -4,72 +4,27 @@ import { describe, expect, it } from 'vitest';
 
 import { publicSiteLocales } from '@/config/locale';
 import arLanding from '@/config/locale/messages/ar/landing.json';
-import arPricing from '@/config/locale/messages/ar/pricing.json';
 import deLanding from '@/config/locale/messages/de/landing.json';
-import dePricing from '@/config/locale/messages/de/pricing.json';
 import enLanding from '@/config/locale/messages/en/landing.json';
 import enPricing from '@/config/locale/messages/en/pricing.json';
-import esLanding from '@/config/locale/messages/es/landing.json';
-import esPricing from '@/config/locale/messages/es/pricing.json';
-import frLanding from '@/config/locale/messages/fr/landing.json';
-import frPricing from '@/config/locale/messages/fr/pricing.json';
-import itLanding from '@/config/locale/messages/it/landing.json';
-import itPricing from '@/config/locale/messages/it/pricing.json';
-import jaLanding from '@/config/locale/messages/ja/landing.json';
-import jaPricing from '@/config/locale/messages/ja/pricing.json';
-import koLanding from '@/config/locale/messages/ko/landing.json';
-import koPricing from '@/config/locale/messages/ko/pricing.json';
 import zhLanding from '@/config/locale/messages/zh/landing.json';
-import zhPricing from '@/config/locale/messages/zh/pricing.json';
 import {
-  getGeneratorRootSeoCopy,
-} from '@/shared/lib/ai-video-generator-seo';
+  DISCOVERABLE_PAGES,
+} from '@/shared/lib/discoverable-pages';
 import { replaceBrandTokensDeep } from '@/shared/lib/brand';
 
-import { getImageGeneratorRootSeoCopy } from './ai-image-generator-seo';
 import { parseContentFrontmatter } from './content-frontmatter';
 import { getLocalizedUrl } from './seo';
 
-const landingByLocale = {
-  en: enLanding,
-  zh: zhLanding,
-  de: deLanding,
-  fr: frLanding,
-  es: esLanding,
-  ja: jaLanding,
-  it: itLanding,
-  ko: koLanding,
-  ar: arLanding,
-} as const;
-
-const pricingByLocale = {
-  en: enPricing,
-  zh: zhPricing,
-  de: dePricing,
-  fr: frPricing,
-  es: esPricing,
-  ja: jaPricing,
-  it: itPricing,
-  ko: koPricing,
-  ar: arPricing,
-} as const;
 
 const englishCanonicalPageTdk = [
   {
     path: '/',
-    title: 'mogged | Free AI Image Editor & Photo Editor',
+    title: "mogged | 1v1 Face Rating Battles - Get Mogged or Get Moggin'",
     keywords:
-      'image, image editor, image editor ai, ai image editor, free online image editor, photo editor, picture editor, text to image, image to image, mogged.games',
+      'mogged, mog battle, face rating, 1v1 mog, mogged game, mogging, mog battle website, face rating game, mogged app, mogged.games',
     description:
-      'mogged is a free online image editor for AI image editing, photo editing, text-to-image, image-to-image, and browser image tools on mogged.games.',
-  },
-  {
-    path: '/ai-image-generator',
-    title: 'AI Image Generator | mogged Online Workspace',
-    keywords:
-      'image, image editor, image editor ai, ai image generator, ai image editor, ai photo editor, picture editor, online image editor, text-to-image, image-to-image, mogged.games',
-    description:
-      'Use mogged as an AI image generator and image editor for text-to-image, image-to-image, photo editing, and picture refinement in one workspace.',
+      'mogged is the ultimate 1v1 face rating arena. Jump into live mog battles, get AI-rated on facial symmetry and biometrics, climb the leaderboard from Molecule to Slayer.',
   },
   {
     path: '/pricing',
@@ -80,12 +35,12 @@ const englishCanonicalPageTdk = [
       'Compare mogged pricing, image credits, plans, and billing for image generation, image editing, and team delivery on mogged.games.',
   },
   {
-    path: '/ai-video-generator',
-    title: 'AI Video Generator | Text, Image & Ref - mogged',
+    path: '/leaderboard',
+    title: 'mogged Leaderboard | 1v1 Face Rating Rankings',
     keywords:
-      'ai video generator, text-to-video, image-to-video, reference-to-video, Seedance 2.0, mogged.games',
+      'mogged leaderboard, ELO ranking, mog battle ranks, 1v1 face rating leaderboard, mogged.games',
     description:
-      'Generate AI videos with mogged using text-to-video, image-to-video, and reference-to-video workflows for concept drafts and shot control.',
+      'Global ELO leaderboard for mogged 1v1 face rating battles. Track rank tiers from Molecule to Slayer.',
   },
   {
     path: '/free-tools/image-converter',
@@ -93,7 +48,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'free image converter, PNG to JPG, WEBP converter, browser image converter, mogged.games',
     description:
-      'Convert PNG, JPG, and WEBP images in your browser before mogged uploads, client reviews, product listings, or final export handoff.',
+      'Convert PNG, JPG, and WEBP images in your browser for mogged uploads, profile setup, and avatar prep.',
   },
   {
     path: '/free-tools/image-color-extractor',
@@ -101,7 +56,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'image color extractor, color palette extractor, hex palette generator, browser color picker, mogged.games',
     description:
-      'Extract dominant colors, HEX codes, and reusable palette tokens from images directly in your browser before design review or frontend handoff.',
+      'Extract dominant colors, HEX codes, and reusable palette tokens from images directly in your browser.',
   },
   {
     path: '/free-tools/image-compressor',
@@ -109,7 +64,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'free image compressor, reduce image size, browser image compression, mogged',
     description:
-      'Reduce image size in your browser before sharing screenshots, boards, product stills, and mogged exports so reviews stay lightweight.',
+      'Reduce image size in your browser for mogged profile pics, screenshots, and shared assets.',
   },
   {
     path: '/free-tools/video-converter',
@@ -117,7 +72,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'free video converter, MP4 to WEBM, MOV to MP4, browser video converter, mogged.games',
     description:
-      'Convert MP4, WEBM, and MOV videos in your browser before reviewing, publishing, embedding, or delivering mogged clips.',
+      'Convert MP4, WEBM, and MOV videos in your browser for mog battle clips and content sharing.',
   },
   {
     path: '/free-tools/video-trimmer',
@@ -125,7 +80,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'free video trimmer, cut video online, browser clip cutter, local video trim, mogged.games',
     description:
-      'Trim MP4, WEBM, and MOV clips locally in your browser before review, thumbnailing, GIF export, support docs, or final delivery handoff.',
+      'Trim MP4, WEBM, and MOV clips locally in your browser for battle clip highlights.',
   },
   {
     path: '/free-tools/video-to-gif',
@@ -133,7 +88,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'free video to gif converter, GIF maker, browser GIF tool, mogged',
     description:
-      'Turn short videos into looping GIFs in your browser for docs, chat, support replies, launch posts, and mogged clip previews.',
+      'Turn mog battle clips into looping GIFs in your browser for sharing, chat, and social posts.',
   },
   {
     path: '/free-tools/video-thumbnail',
@@ -141,15 +96,15 @@ const englishCanonicalPageTdk = [
     keywords:
       'video thumbnail maker, free frame capture, video screenshot, thumbnail generator, mogged.games',
     description:
-      'Capture a clean video frame in your browser for thumbnails, covers, docs, listings, and preview cards before publishing or sharing.',
+      'Capture a clean frame from battle clips for thumbnails, covers, and preview cards.',
   },
   {
     path: '/mission',
-    title: 'mogged Mission | AI Image Editing Workspace',
+    title: 'mogged Mission | 1v1 Face Rating Battles',
     keywords:
-      'mogged mission, AI image editing workspace, mogged product direction, mogged.games mission',
+      'mogged mission, mog battle, face rating, 1v1 mog, mogged.games mission',
     description:
-      'Learn why mogged exists for AI image editing, text-to-image, image-to-image, browser tools, and hosted video workflows on mogged.games.',
+      'Learn why mogged exists for 1v1 mog battles, face rating, and competitive looksmaxxing on mogged.games.',
   },
   {
     path: '/privacy-policy',
@@ -165,7 +120,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'mogged terms of service, workspace terms, credits and subscriptions, mogged.games terms',
     description:
-      'Terms covering the mogged public site, hosted workspace, browser tools, credits, subscriptions, and service boundaries on mogged.games.',
+      'Terms covering the mogged public site, face rating game, browser tools, credits, subscriptions, and service boundaries on mogged.games.',
   },
   {
     path: '/refund-policy',
@@ -181,7 +136,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'mogged acceptable use policy, prohibited use, workflow rules, mogged.games acceptable use',
     description:
-      'Rules covering mogged accounts, hosted image and video workflows, browser tools, credits, subscriptions, and prohibited uses on mogged.games.',
+      'Rules covering mogged accounts, face rating game battles, browser tools, credits, subscriptions, and prohibited uses on mogged.games.',
   },
   {
     path: '/content-moderation-policy',
@@ -189,7 +144,7 @@ const englishCanonicalPageTdk = [
     keywords:
       'mogged content moderation policy, prompt review, output review, mogged.games moderation',
     description:
-      'How mogged reviews prompts, uploaded files, generated outputs, safety blocks, and abuse patterns on mogged.games.',
+      'How mogged reviews prompts, uploaded files, battle ratings, safety blocks, and abuse patterns on mogged.games.',
   },
   {
     path: '/ai-wrapper-disclaimer',
@@ -232,28 +187,17 @@ function getEnglishRouteTdk(path: string) {
     return metadata;
   }
 
-  if (path === '/ai-image-generator') {
-    const copy = getImageGeneratorRootSeoCopy('en');
-
-    return {
-      title: copy.metadataTitle,
-      keywords: copy.keywords,
-      description: copy.description,
-    };
-  }
-
   if (path === '/pricing') {
     const metadata = replaceBrandTokensDeep(enPricing.metadata);
     return metadata;
   }
 
-  if (path === '/ai-video-generator') {
-    const copy = getGeneratorRootSeoCopy('en');
-
+  if (path === '/leaderboard') {
+    const page = DISCOVERABLE_PAGES.find((entry) => entry.path === '/leaderboard');
     return {
-      title: copy.metadataTitle,
-      keywords: copy.keywords,
-      description: copy.description,
+      title: page?.fullDescription?.includes('leaderboard') ? 'mogged Leaderboard | 1v1 Face Rating Rankings' : (page?.title || 'mogged Leaderboard'),
+      keywords: 'mogged leaderboard, ELO ranking, mog battle ranks, 1v1 face rating leaderboard, mogged.games',
+      description: page?.description || '',
     };
   }
 
@@ -277,7 +221,7 @@ function getEnglishRouteTdk(path: string) {
 
 describe('public SEO TDK', () => {
   it('locks English canonical page title, keywords, description, URL, and canonical targets', () => {
-    expect(englishCanonicalPageTdk).toHaveLength(18);
+    expect(englishCanonicalPageTdk).toHaveLength(17);
 
     for (const expected of englishCanonicalPageTdk) {
       const actual = getEnglishRouteTdk(expected.path);
@@ -295,36 +239,45 @@ describe('public SEO TDK', () => {
     }
   });
 
-  it('keeps every public locale image-first for core metadata', () => {
+  it('keeps every public locale mogged-branded for core metadata', () => {
     for (const locale of publicSiteLocales) {
-      const landingMetadata = replaceBrandTokensDeep(
-        landingByLocale[locale].metadata
-      );
-      const imageMetadata = getImageGeneratorRootSeoCopy(locale);
-      const pricingKeywords = replaceBrandTokensDeep(
-        pricingByLocale[locale].metadata.keywords
-      );
+      const landingByLocale: Record<string, { metadata: { title: string; keywords: string; description: string } }> = {
+        en: enLanding,
+        zh: zhLanding,
+        de: deLanding as unknown as { metadata: { title: string; keywords: string; description: string } },
+        ar: arLanding as unknown as { metadata: { title: string; keywords: string; description: string } },
+      };
+      const landing = landingByLocale[locale];
+      if (!landing) {
+        continue;
+      }
+      const landingMetadata = replaceBrandTokensDeep(landing.metadata);
 
       expect(landingMetadata.title, locale).toContain('mogged');
-      expect(landingMetadata.keywords, locale).toContain('image editor ai');
       expect(landingMetadata.description, locale).not.toMatch(
         /video generator|视频生成器|Videogenerator|générateur vidéo/i
       );
-      expect(imageMetadata.metadataTitle, locale).toContain('mogged');
-      expect(imageMetadata.keywords, locale).toContain('ai image editor');
-      expect(pricingKeywords, locale).toContain('mogged');
     }
   });
 
   it('keeps sitemap-indexed browser video tools visible from each locale footer', () => {
     const requiredVideoLinks = [
       '/free-tools/video-converter',
-      '/free-tools/video-thumbnail',
       '/free-tools/video-to-gif',
     ];
 
     for (const locale of publicSiteLocales) {
-      const footerUrls = landingByLocale[locale].footer.nav.items.flatMap(
+      const landingByLocale: Record<string, { footer: { nav: { items: Array<{ children: Array<{ url: string }> }> } } }> = {
+        en: enLanding,
+        zh: zhLanding,
+        de: deLanding as unknown as { footer: { nav: { items: Array<{ children: Array<{ url: string }> }> } } },
+        ar: arLanding as unknown as { footer: { nav: { items: Array<{ children: Array<{ url: string }> }> } } },
+      };
+      const landing = landingByLocale[locale];
+      if (!landing) {
+        continue;
+      }
+      const footerUrls = landing.footer.nav.items.flatMap(
         (section) => section.children.map((item) => item.url)
       );
 
@@ -332,7 +285,7 @@ describe('public SEO TDK', () => {
         expect.arrayContaining(requiredVideoLinks)
       );
       expect(footerUrls, locale).not.toContain('/ai-video-generator');
-      expect(footerUrls, locale).not.toContain('/pricing');
+      expect(footerUrls, locale).not.toContain('/ai-image-generator');
     }
   });
 
