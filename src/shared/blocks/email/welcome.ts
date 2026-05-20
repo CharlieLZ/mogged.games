@@ -68,7 +68,7 @@ const WELCOME_COPY: Record<
   Omit<WelcomeEmailCopy, 'locale' | 'localeTag' | 'dir'>
 > = {
   en: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `Welcome to ${appName}, ${firstName} - your account credits are ready`,
     title: (appName) => `Welcome to ${appName}`,
     subtitle: 'Your hosted video workspace and account credits are ready',
@@ -113,7 +113,7 @@ const WELCOME_COPY: Record<
       `This welcome email was sent because you created a ${appName} account at ${domain}.`,
   },
   zh: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `欢迎来到 ${appName}，${firstName}，你的账户积分已就绪`,
     title: (appName) => `欢迎来到 ${appName}`,
     subtitle: '你的托管视频工作台和账户积分已经准备好了',
@@ -155,7 +155,7 @@ const WELCOME_COPY: Record<
       `这封欢迎邮件发送给你，是因为你刚刚在 ${domain} 创建了 ${appName} 账户。`,
   },
   de: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `Willkommen bei ${appName}, ${firstName} - deine Kontocredits sind bereit`,
     title: (appName) => `Willkommen bei ${appName}`,
     subtitle:
@@ -201,7 +201,7 @@ const WELCOME_COPY: Record<
       `Diese Willkommens-E-Mail wurde gesendet, weil du bei ${domain} ein ${appName}-Konto erstellt hast.`,
   },
   fr: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `Bienvenue sur ${appName}, ${firstName} - vos credits de compte sont prets`,
     title: (appName) => `Bienvenue sur ${appName}`,
     subtitle:
@@ -247,7 +247,7 @@ const WELCOME_COPY: Record<
       `Cet e-mail de bienvenue vous a ete envoye parce que vous avez cree un compte ${appName} sur ${domain}.`,
   },
   es: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `Bienvenido a ${appName}, ${firstName} - tus creditos de cuenta ya estan listos`,
     title: (appName) => `Bienvenido a ${appName}`,
     subtitle:
@@ -293,7 +293,7 @@ const WELCOME_COPY: Record<
       `Este correo de bienvenida se envio porque creaste una cuenta de ${appName} en ${domain}.`,
   },
   ja: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `${appName} へようこそ、${firstName}さん。アカウントクレジットの準備ができました`,
     title: (appName) => `${appName} へようこそ`,
     subtitle:
@@ -339,7 +339,7 @@ const WELCOME_COPY: Record<
       `このウェルカムメールは、${domain} で ${appName} のアカウントが作成されたため送信されています。`,
   },
   it: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `Benvenuto su ${appName}, ${firstName} - i crediti del tuo account sono pronti`,
     title: (appName) => `Benvenuto su ${appName}`,
     subtitle:
@@ -385,7 +385,7 @@ const WELCOME_COPY: Record<
       `Questa email di benvenuto e stata inviata perche hai creato un account ${appName} su ${domain}.`,
   },
   ko: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `${appName}에 오신 것을 환영합니다, ${firstName}님. 계정 크레딧이 준비되었습니다`,
     title: (appName) => `${appName}에 오신 것을 환영합니다`,
     subtitle:
@@ -430,7 +430,7 @@ const WELCOME_COPY: Record<
       `이 환영 메일은 ${domain}에서 ${appName} 계정을 생성했기 때문에 발송되었습니다.`,
   },
   ar: {
-    subject: (appName, firstName, initialCreditsAmount) =>
+    subject: (appName, firstName, _initialCreditsAmount) =>
       `مرحباً بك في ${appName}، ${firstName} - رصيد حسابك جاهز`,
     title: (appName) => `مرحباً بك في ${appName}`,
     subtitle: 'مساحة العمل المستضافة للفيديو ورصيد حسابك جاهزان',
