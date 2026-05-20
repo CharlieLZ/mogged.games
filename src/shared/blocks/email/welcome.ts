@@ -69,12 +69,12 @@ const WELCOME_COPY: Record<
 > = {
   en: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `Welcome to ${appName}, ${firstName} - your ${initialCreditsAmount} free credits are ready`,
+      `Welcome to ${appName}, ${firstName} - your account credits are ready`,
     title: (appName) => `Welcome to ${appName}`,
-    subtitle: 'Your hosted video workspace and free credits are ready',
+    subtitle: 'Your hosted video workspace and account credits are ready',
     greeting: (firstName) => `Hi ${firstName},`,
     intro: (initialCreditsAmount) =>
-      `Thanks for signing up. Your account already includes ${initialCreditsAmount} free credits, so you can start with the workflow that best matches your first goal right away.`,
+      `Thanks for signing up. Your account credit balance already includes ${initialCreditsAmount} credits, so you can start with the workflow that best matches your first goal right away.`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} credits are ready now. Pick the clearest starting point for your first successful run.`,
     workflowTitle: 'Pick your first workflow',
@@ -114,12 +114,12 @@ const WELCOME_COPY: Record<
   },
   zh: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `欢迎来到 ${appName}，${firstName}，你的 ${initialCreditsAmount} 个免费积分已就绪`,
+      `欢迎来到 ${appName}，${firstName}，你的账户积分已就绪`,
     title: (appName) => `欢迎来到 ${appName}`,
-    subtitle: '你的托管视频工作台和免费积分已经准备好了',
+    subtitle: '你的托管视频工作台和账户积分已经准备好了',
     greeting: (firstName) => `${firstName}，你好：`,
     intro: (initialCreditsAmount) =>
-      `感谢注册。你的账户已经包含 ${initialCreditsAmount} 个免费积分，可以先从最适合当前目标的工作流开始，尽快拿到第一次成功生成。`,
+      `感谢注册。你的账户积分余额已经包含 ${initialCreditsAmount} 个积分，可以先从最适合当前目标的工作流开始，尽快拿到第一次成功生成。`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} 个积分已经到账。先选一个最适合起步的工作流，马上开始。`,
     workflowTitle: '选择你的第一个工作流',
@@ -156,13 +156,13 @@ const WELCOME_COPY: Record<
   },
   de: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `Willkommen bei ${appName}, ${firstName} - deine ${initialCreditsAmount} Gratis-Credits sind bereit`,
+      `Willkommen bei ${appName}, ${firstName} - deine Kontocredits sind bereit`,
     title: (appName) => `Willkommen bei ${appName}`,
     subtitle:
-      'Dein gehosteter Video-Workspace und deine Gratis-Credits sind bereit',
+      'Dein gehosteter Video-Workspace und deine Kontocredits sind bereit',
     greeting: (firstName) => `Hallo ${firstName},`,
     intro: (initialCreditsAmount) =>
-      `Danke fuer deine Anmeldung. Dein Konto enthaelt bereits ${initialCreditsAmount} Gratis-Credits, damit du direkt mit dem Workflow starten kannst, der am besten zu deinem ersten Ziel passt.`,
+      `Danke fuer deine Anmeldung. Dein Kontocredit-Saldo enthaelt bereits ${initialCreditsAmount} Credits, damit du direkt mit dem Workflow starten kannst, der am besten zu deinem ersten Ziel passt.`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} Credits sind bereit. Waehle den klarsten Einstieg fuer deinen ersten erfolgreichen Run.`,
     workflowTitle: 'Waehle deinen ersten Workflow',
@@ -202,13 +202,13 @@ const WELCOME_COPY: Record<
   },
   fr: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `Bienvenue sur ${appName}, ${firstName} - vos ${initialCreditsAmount} credits gratuits sont prets`,
+      `Bienvenue sur ${appName}, ${firstName} - vos credits de compte sont prets`,
     title: (appName) => `Bienvenue sur ${appName}`,
     subtitle:
-      'Votre espace video heberge et vos credits gratuits sont prets',
+      'Votre espace video heberge et vos credits de compte sont prets',
     greeting: (firstName) => `Bonjour ${firstName},`,
     intro: (initialCreditsAmount) =>
-      `Merci pour votre inscription. Votre compte inclut deja ${initialCreditsAmount} credits gratuits pour demarrer tout de suite avec le workflow le plus adapte a votre premier objectif.`,
+      `Merci pour votre inscription. Le solde de votre compte inclut deja ${initialCreditsAmount} credits pour demarrer tout de suite avec le workflow le plus adapte a votre premier objectif.`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} credits sont deja disponibles. Choisissez le point d'entree le plus clair pour votre premiere generation reussie.`,
     workflowTitle: 'Choisissez votre premier workflow',
@@ -248,13 +248,13 @@ const WELCOME_COPY: Record<
   },
   es: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `Bienvenido a ${appName}, ${firstName} - tus ${initialCreditsAmount} creditos gratis ya estan listos`,
+      `Bienvenido a ${appName}, ${firstName} - tus creditos de cuenta ya estan listos`,
     title: (appName) => `Bienvenido a ${appName}`,
     subtitle:
-      'Tu espacio de video alojado y tus creditos gratis ya estan listos',
+      'Tu espacio de video alojado y tus creditos de cuenta ya estan listos',
     greeting: (firstName) => `Hola ${firstName},`,
     intro: (initialCreditsAmount) =>
-      `Gracias por registrarte. Tu cuenta ya incluye ${initialCreditsAmount} creditos gratis para que empieces de inmediato con el workflow que mejor encaje con tu primer objetivo.`,
+      `Gracias por registrarte. El saldo de tu cuenta ya incluye ${initialCreditsAmount} creditos para que empieces de inmediato con el workflow que mejor encaje con tu primer objetivo.`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} creditos ya estan disponibles. Elige el punto de entrada mas claro para lograr tu primera generacion con exito.`,
     workflowTitle: 'Elige tu primer workflow',
@@ -294,13 +294,13 @@ const WELCOME_COPY: Record<
   },
   ja: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `${appName} へようこそ、${firstName}さん。${initialCreditsAmount} 個の無料クレジットをすぐ使えます`,
+      `${appName} へようこそ、${firstName}さん。アカウントクレジットの準備ができました`,
     title: (appName) => `${appName} へようこそ`,
     subtitle:
-      'ホスト型の動画ワークスペースと無料クレジットの準備ができました',
+      'ホスト型の動画ワークスペースとアカウントクレジットの準備ができました',
     greeting: (firstName) => `${firstName}さん、こんにちは。`,
     intro: (initialCreditsAmount) =>
-      `登録ありがとうございます。アカウントにはすでに ${initialCreditsAmount} 個の無料クレジットが入っているので、最初の目的に合う workflow からすぐ始められます。`,
+      `登録ありがとうございます。アカウント残高にはすでに ${initialCreditsAmount} 個のクレジットが入っているので、最初の目的に合う workflow からすぐ始められます。`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} クレジットをすぐ使えます。最初の成功につながる workflow を選んで始めてください。`,
     workflowTitle: '最初の workflow を選んでください',
@@ -340,13 +340,13 @@ const WELCOME_COPY: Record<
   },
   it: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `Benvenuto su ${appName}, ${firstName} - i tuoi ${initialCreditsAmount} crediti gratuiti sono pronti`,
+      `Benvenuto su ${appName}, ${firstName} - i crediti del tuo account sono pronti`,
     title: (appName) => `Benvenuto su ${appName}`,
     subtitle:
-      'Il tuo workspace video ospitato e i crediti gratuiti sono pronti',
+      'Il tuo workspace video ospitato e i crediti del tuo account sono pronti',
     greeting: (firstName) => `Ciao ${firstName},`,
     intro: (initialCreditsAmount) =>
-      `Grazie per esserti registrato. Il tuo account include gia ${initialCreditsAmount} crediti gratuiti, cosi puoi iniziare subito dal workflow piu adatto al tuo primo obiettivo.`,
+      `Grazie per esserti registrato. Il saldo del tuo account include gia ${initialCreditsAmount} crediti, cosi puoi iniziare subito dal workflow piu adatto al tuo primo obiettivo.`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} crediti sono gia disponibili. Scegli il punto di partenza piu chiaro per ottenere la tua prima generazione riuscita.`,
     workflowTitle: 'Scegli il tuo primo workflow',
@@ -386,13 +386,13 @@ const WELCOME_COPY: Record<
   },
   ko: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `${appName}에 오신 것을 환영합니다, ${firstName}님. 무료 크레딧 ${initialCreditsAmount}개가 준비되었습니다`,
+      `${appName}에 오신 것을 환영합니다, ${firstName}님. 계정 크레딧이 준비되었습니다`,
     title: (appName) => `${appName}에 오신 것을 환영합니다`,
     subtitle:
-      '호스팅형 비디오 워크스페이스와 무료 크레딧이 준비되었습니다',
+      '호스팅형 비디오 워크스페이스와 계정 크레딧이 준비되었습니다',
     greeting: (firstName) => `${firstName}님, 안녕하세요.`,
     intro: (initialCreditsAmount) =>
-      `가입해 주셔서 감사합니다. 계정에 이미 무료 크레딧 ${initialCreditsAmount}개가 들어 있으니, 첫 목표에 가장 잘 맞는 workflow부터 바로 시작할 수 있습니다.`,
+      `가입해 주셔서 감사합니다. 계정 잔액에 이미 ${initialCreditsAmount}개 크레딧이 들어 있으니, 첫 목표에 가장 잘 맞는 workflow부터 바로 시작할 수 있습니다.`,
     credits: (initialCreditsAmount) =>
       `지금 바로 크레딧 ${initialCreditsAmount}개를 사용할 수 있습니다. 첫 성공으로 이어질 workflow를 골라 시작해 보세요.`,
     workflowTitle: '첫 workflow를 선택하세요',
@@ -431,12 +431,12 @@ const WELCOME_COPY: Record<
   },
   ar: {
     subject: (appName, firstName, initialCreditsAmount) =>
-      `مرحباً بك في ${appName}، ${firstName} - رصيدك المجاني ${initialCreditsAmount} جاهز`,
+      `مرحباً بك في ${appName}، ${firstName} - رصيد حسابك جاهز`,
     title: (appName) => `مرحباً بك في ${appName}`,
-    subtitle: 'مساحة العمل المستضافة للفيديو ورصيدك المجاني جاهزان',
+    subtitle: 'مساحة العمل المستضافة للفيديو ورصيد حسابك جاهزان',
     greeting: (firstName) => `مرحباً ${firstName}،`,
     intro: (initialCreditsAmount) =>
-      `شكراً على التسجيل. يحتوي حسابك بالفعل على ${initialCreditsAmount} رصيداً مجانياً، لذلك يمكنك البدء فوراً من workflow الأنسب لهدفك الأول.`,
+      `شكراً على التسجيل. يحتوي حسابك بالفعل على ${initialCreditsAmount} رصيداً في حسابك، لذلك يمكنك البدء فوراً من workflow الأنسب لهدفك الأول.`,
     credits: (initialCreditsAmount) =>
       `${initialCreditsAmount} رصيداً جاهز الآن. اختر نقطة البداية الأوضح لأول نتيجة ناجحة لك.`,
     workflowTitle: 'اختر أول workflow لك',

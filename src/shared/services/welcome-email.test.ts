@@ -46,11 +46,14 @@ describe('sendWelcomeEmail', () => {
       },
     ];
 
-    expect(message.subject).toContain('45 free credits are ready');
+    expect(message.subject).toContain('account credits are ready');
+    expect(message.subject).not.toContain('free credits');
     expect(message.html).toContain(
-      'Your account already includes 45 free credits'
+      'Your account credit balance already includes 45 credits'
     );
-    expect(message.text).toContain('45 free credits');
+    expect(message.text).toContain('45 credits');
+    expect(message.html).not.toContain('free credits');
+    expect(message.text).not.toContain('free credits');
     expect(message.html).toContain('mogged runs, browser tools, and task history live in the same flow.');
     expect(message.html).not.toContain('Seedance');
     expect(message.text).not.toContain('Seedance');

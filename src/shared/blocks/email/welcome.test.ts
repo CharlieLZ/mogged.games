@@ -13,10 +13,11 @@ describe('welcome email copy', () => {
     const initialCreditsAmount = getInitialCreditsAmount();
 
     expect(getWelcomeEmailSubject('Casey')).toContain(
-      `${initialCreditsAmount} free credits are ready`
+      `account credits are ready`
     );
+    expect(getWelcomeEmailSubject('Casey')).not.toContain('free credits');
     expect(getWelcomeEmailHtml('Casey')).toContain(
-      `Your account already includes ${initialCreditsAmount} free credits`
+      `Your account credit balance already includes ${initialCreditsAmount} credits`
     );
     expect(getWelcomeEmailHtml('Casey')).toContain(
       `${initialCreditsAmount} credits are ready now.`
@@ -26,8 +27,10 @@ describe('welcome email copy', () => {
     );
     expect(getWelcomeEmailHtml('Casey')).not.toContain('Seedance');
     expect(getWelcomeEmailText('Casey')).toContain(
-      `Your account already includes ${initialCreditsAmount} free credits`
+      `Your account credit balance already includes ${initialCreditsAmount} credits`
     );
+    expect(getWelcomeEmailHtml('Casey')).not.toContain('free credits');
+    expect(getWelcomeEmailText('Casey')).not.toContain('free credits');
     expect(getWelcomeEmailText('Casey')).not.toContain('Seedance');
   });
 
