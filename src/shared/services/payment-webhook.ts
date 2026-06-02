@@ -840,7 +840,11 @@ export async function handlePaymentWebhookEvent({
         }));
 
       if (!existingSubscription) {
-        throw new Error('subscription not found');
+        return {
+          ...associations,
+          subscriptionId: session.subscriptionId,
+          note: 'subscription not found, skipped (may belong to a different site)',
+        };
       }
 
       const result = await handleSubscriptionRenewal({
