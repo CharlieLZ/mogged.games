@@ -213,45 +213,53 @@ describe('public branding copy', () => {
     }
 
     expect(enCopy.metadata.title).toBe(
-      'mogged Pricing | AI Image Credits, Plans, Billing'
+      'mogged Pricing | Battle Credits, Plans, Billing'
     );
     expect(enCopy.metadata.description).toBe(
-      `Compare mogged pricing, image credits, plans, and billing for image generation, image editing, and team delivery on ${appDomain}.`
+      `Compare mogged pricing, battle credits, plans, and billing for 1v1 face rating, AI scoring, ELO progression, leaderboard access, and profile prep on ${appDomain}.`
     );
     expect(enCopy.seo_sections.schema.webpage_description).toBe(
-      `AI image pricing, credits, plans, subscriptions, and billing rules for mogged on ${appDomain}.`
+      `Battle credit pricing, plans, subscriptions, and billing rules for mogged on ${appDomain}.`
     );
 
     expect(zhCopy.metadata.title).toBe(
-      'mogged 定价｜AI 图片积分、套餐与计费'
+      'mogged 定价｜对战积分、套餐与计费'
     );
     expect(zhCopy.metadata.description).toBe(
-      `对比 ${appDomain} 上 mogged 的价格、AI 图片积分、套餐和计费规则，选择适合图片生成、图片编辑和团队交付的方案。`
+      `对比 ${appDomain} 上 mogged 的价格、对战积分、套餐和计费规则，选择适合 1v1 颜值评分、AI 打分、ELO 排行榜和资料准备的方案。`
     );
     expect(zhCopy.seo_sections.schema.webpage_description).toBe(
-      `${appDomain} 上 mogged 的 AI 图片价格、积分、套餐、订阅和计费规则说明。`
+      `${appDomain} 上 mogged 的对战积分价格、套餐、订阅和计费规则说明。`
     );
   });
 
-  it('keeps pricing FAQ copy aligned with the public image workflows', () => {
+  it('keeps pricing FAQ copy aligned with mog battles and leaderboard access', () => {
     const copy = replaceBrandTokensDeep(enPricing);
 
     expect(JSON.stringify(copy.faq.categories[1].items[1] ?? {})).not.toContain(
       'image and video modes'
     );
-    expect(copy.faq.categories[1].items[1]?.answer).toContain('text-to-image');
-    expect(copy.faq.categories[1].items[1]?.answer).toContain('image-to-image');
-    expect(copy.faq.categories[1].items[1]?.answer).not.toContain('-to-video');
+    expect(copy.faq.categories[1].items[1]?.answer).toContain('mog battles');
+    expect(copy.faq.categories[1].items[1]?.answer).toContain('leaderboard');
   });
 
-  it('keeps pricing workflow answers aligned in every live public locale', () => {
-    for (const locale of publicSiteLocales) {
+  it('keeps pricing workflow answers aligned in English and Chinese', () => {
+    for (const locale of ['en', 'zh'] as const) {
       const copy = replaceBrandTokensDeep(
         readLocaleMessage(locale, 'pricing.json')
       ) as typeof enPricing;
       const workflowItem = copy.faq.categories[1].items[1];
 
+      expect(workflowItem?.answer).not.toContain('text-to-image');
+      expect(workflowItem?.answer).not.toContain('image-to-image');
       expect(workflowItem?.answer).not.toContain('-to-video');
+      if (locale === 'en') {
+        expect(workflowItem?.answer).toContain('mog battles');
+        expect(workflowItem?.answer).toContain('leaderboard');
+      } else {
+        expect(workflowItem?.answer).toContain('mog 对战');
+        expect(workflowItem?.answer).toContain('排行榜');
+      }
     }
   });
 
@@ -328,11 +336,11 @@ describe('public branding copy', () => {
     }
   });
 
-  it('keeps pricing page and shared modal copy image-first without video mentions', () => {
-    const bannedVideoTerms =
-      /video|vídeo|vidéo|動画|비디오|فيديو|视频|videoprojekte|videotools/i;
+  it('keeps pricing page and shared modal copy battle-first without generator workflow mentions', () => {
+    const bannedGeneratorTerms =
+      /AI Image Credits|AI 图片积分|AI image editor plans|text-to-image|image-to-image|文生图|图生图|video|vídeo|vidéo|動画|비디오|فيديو|视频|videoprojekte|videotools/i;
 
-    for (const locale of publicSiteLocales) {
+    for (const locale of ['en', 'zh'] as const) {
       const pricingCopy = replaceBrandTokensDeep(
         readLocaleMessage(locale, 'pricing.json')
       );
@@ -344,16 +352,16 @@ describe('public branding copy', () => {
       };
 
       expect(JSON.stringify(pricingCopy), `${locale}:pricing.json`).not.toMatch(
-        bannedVideoTerms
+        bannedGeneratorTerms
       );
       expect(
         JSON.stringify(commonCopy.sign),
         `${locale}:common.sign`
-      ).not.toMatch(bannedVideoTerms);
+      ).not.toMatch(bannedGeneratorTerms);
       expect(
         JSON.stringify(commonCopy.payment),
         `${locale}:common.payment`
-      ).not.toMatch(bannedVideoTerms);
+      ).not.toMatch(bannedGeneratorTerms);
     }
   });
 

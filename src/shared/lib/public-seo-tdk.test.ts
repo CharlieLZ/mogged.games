@@ -28,11 +28,11 @@ const englishCanonicalPageTdk = [
   },
   {
     path: '/pricing',
-    title: 'mogged Pricing | AI Image Credits, Plans, Billing',
+    title: 'mogged Pricing | Battle Credits, Plans, Billing',
     keywords:
-      'mogged pricing, AI image credits, AI image editor plans, image generation pricing, mogged.games',
+      'mogged pricing, battle credits, face rating plans, ELO leaderboard pricing, mogged.games',
     description:
-      'Compare mogged pricing, image credits, plans, and billing for image generation, image editing, and team delivery on mogged.games.',
+      'Compare mogged pricing, battle credits, plans, and billing for 1v1 face rating, AI scoring, ELO progression, leaderboard access, and profile prep on mogged.games.',
   },
   {
     path: '/leaderboard',

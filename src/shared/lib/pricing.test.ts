@@ -222,9 +222,9 @@ describe('pricing merge', () => {
       [
         'en',
         enPricingMessages.pricing,
-        'Skip the free queue on hosted image jobs',
+        'Skip the free queue on hosted battle jobs',
       ],
-      ['zh', zhPricingMessages.pricing, '托管图片任务跳过免费排队'],
+      ['zh', zhPricingMessages.pricing, '托管对战任务跳过免费排队'],
       [
         'de',
         dePricingMessages.pricing,

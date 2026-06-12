@@ -70,6 +70,27 @@ describe('public content branding', () => {
           expect(content, `${file}:${signal}`).toMatch(signal);
         }
       }
+
+      if (locale === 'zh') {
+        expect(content, file).toContain('1v1 颜值评分');
+        expect(content, file).toContain('ELO 排行榜');
+        expect(content, file).not.toMatch(
+          /AI 图片编辑产品方向|文生图|图生图|reference-to-video|免费浏览器游戏工具/
+        );
+      }
+    }
+  });
+
+  it('has real content pages for leaderboard routes exposed in navigation and metadata', () => {
+    for (const file of ['leaderboard.mdx', 'leaderboard.zh.mdx'] as const) {
+      const filePath = join(process.cwd(), 'content/pages', file);
+
+      expect(existsSync(filePath), file).toBe(true);
+
+      const content = readFileSync(filePath, 'utf8');
+      expect(content, file).toContain('mogged');
+      expect(content, file).toContain('mogged.games');
+      expect(content, file).toMatch(/leaderboard|排行榜/i);
     }
   });
 

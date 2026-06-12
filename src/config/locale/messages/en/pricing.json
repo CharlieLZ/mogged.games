@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "mogged Pricing | AI Image Credits, Plans, Billing",
-    "description": "Compare mogged pricing, image credits, plans, and billing for image generation, image editing, and team delivery on {{app_domain}}.",
-    "keywords": "mogged pricing, AI image credits, AI image editor plans, image generation pricing, {{app_domain}}"
+    "title": "mogged Pricing | Battle Credits, Plans, Billing",
+    "description": "Compare mogged pricing, battle credits, plans, and billing for 1v1 face rating, AI scoring, ELO progression, leaderboard access, and profile prep on {{app_domain}}.",
+    "keywords": "mogged pricing, battle credits, face rating plans, ELO leaderboard pricing, {{app_domain}}"
   },
   "pricing": {
     "id": "pricing",
     "sr_only_title": "{{app_name}} Pricing",
     "title": "{{app_name}} Pricing",
-    "description": "Start free with {{initial_credits_amount}} credits. Low-cost plans cover hosted generation, image edits, and lightweight prompt tools like Translate to English or Auto-optimize. Refunds follow the published Refund Policy.",
+    "description": "Start free with {{initial_credits_amount}} credits. Low-cost plans cover hosted mog battles, saved rating history, leaderboard progression, profile prep, and lightweight prompt tools. Refunds follow the published Refund Policy.",
     "groups": [
       {
         "name": "one-time",
@@ -32,11 +32,11 @@
         "description": "Pay once.",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Standard generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Customer support"
         ],
@@ -57,11 +57,11 @@
         "description": "Pay once.",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Fastest generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Expert team support"
         ],
@@ -82,11 +82,11 @@
         "description": "Pay once.",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Priority generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Priority customer support"
         ],
@@ -107,11 +107,11 @@
         "description": "Monthly, cancel anytime",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Standard generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Customer support"
         ],
@@ -133,11 +133,11 @@
         "description": "Monthly, cancel anytime",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Fastest generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Expert team support"
         ],
@@ -159,11 +159,11 @@
         "description": "Monthly, cancel anytime",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Priority generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Priority customer support"
         ],
@@ -185,11 +185,11 @@
         "description": "Billed {{billing_total_price}} yearly",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Standard generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Commercial use license + Business Certificate",
           "Customer support"
@@ -212,11 +212,11 @@
         "description": "Billed {{billing_total_price}} yearly",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Fastest generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Commercial use license + Business Certificate",
           "Expert team support"
@@ -239,11 +239,11 @@
         "description": "Billed {{billing_total_price}} yearly",
         "features_title": "",
         "features": [
-          "Text-to-image and image-to-image workflows",
-          "Prompt-led generation and source-image edits",
-          "Skip the free queue on hosted image jobs",
+          "1v1 mog battles and ELO progression",
+          "Profile prep and saved battle history",
+          "Skip the free queue on hosted battle jobs",
           "Priority generation speed",
-          "High-resolution image exports",
+          "Battle-ready profile asset exports",
           "No watermark",
           "Commercial use license + Business Certificate",
           "Priority customer support"
@@ -279,8 +279,8 @@
     "speed_standard": "Standard",
     "speed_priority": "Priority",
     "speed_fastest": "Fastest",
-    "snapshot_text_to_image": "1K image generation",
-    "snapshot_image_edit": "2K image edit"
+    "snapshot_text_to_image": "Battle entry",
+    "snapshot_image_edit": "Profile prep"
   },
   "faq": {
     "title": "Pricing FAQ",
@@ -312,16 +312,16 @@
             "answer": "No. The browser tools run separately and do not use hosted generation credits."
           },
           {
-            "question": "Do the same credits work across text-to-image and image-to-image?",
-            "answer": "Yes. The same balance can be used across text-to-image and image-to-image. Exact usage depends on model, resolution, edit mode, and settings."
+            "question": "Do credits pay for mog battles and leaderboard features?",
+            "answer": "Yes. The same balance can be used for hosted mog battles, saved rating history, leaderboard progression, and profile prep. Exact usage depends on the battle mode, scoring route, and settings."
           },
           {
             "question": "When do credits expire, and what happens if a failed task is refunded after that window?",
             "answer": "Credit expiry depends on the source: paid plan credits follow the validity shown on the plan, while free signup or daily claim credits can use shorter reward windows. If a task fails, we restore usable credits, and when the original credits had an expiry window the refund keeps the remaining validity that was left when those credits were spent."
           },
           {
-            "question": "How do image credit costs change?",
-            "answer": "The task cost is shown before generation. It changes with the selected model and, for some routes, the resolution or edit settings you choose."
+            "question": "How do battle credit costs change?",
+            "answer": "The task cost is shown before a paid action. It can change with the battle mode, scoring route, profile prep settings, or leaderboard-related feature you choose."
           },
           {
             "question": "Do prompt translation and auto-optimize consume credits?",
@@ -349,13 +349,13 @@
       "product_disclaimer": "This price describes a {{app_domain}}-hosted service, not official upstream vendor billing.",
       "product_keywords": [
         "mogged pricing",
-        "mogged image pricing",
-        "mogged credits",
-        "AI image editor plans",
+        "mogged battle credits",
+        "mogged plans",
+        "face rating plans",
         "{{app_domain}}"
       ],
       "webpage_name": "{{app_name}} Pricing",
-      "webpage_description": "AI image pricing, credits, plans, subscriptions, and billing rules for mogged on {{app_domain}}."
+      "webpage_description": "Battle credit pricing, plans, subscriptions, and billing rules for mogged on {{app_domain}}."
     }
   }
 }
